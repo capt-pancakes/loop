@@ -1,0 +1,52 @@
+{
+  "id": "08fd25077236",
+  "words": [
+    "AIR",
+    "BAG",
+    "BOOK",
+    "CASE",
+    "SHOW",
+    "MAIL"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AIR|BAG": [
+      "comp",
+      "AIRBAG"
+    ],
+    "AIR|MAIL": [
+      "comp",
+      "AIRMAIL"
+    ],
+    "BAG|BOOK": [
+      "shar",
+      "HAND"
+    ],
+    "BAG|MAIL": [
+      "comp",
+      "MAILBAG"
+    ],
+    "BOOK|CASE": [
+      "comp",
+      "BOOKCASE"
+    ],
+    "BOOK|SHOW": [
+      "shar",
+      "CASE"
+    ],
+    "CASE|SHOW": [
+      "comp",
+      "SHOWCASE"
+    ],
+    "MAIL|SHOW": [
+      "shar",
+      "MAN"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

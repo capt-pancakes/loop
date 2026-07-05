@@ -1,0 +1,52 @@
+{
+  "id": "1ecb177d4e11",
+  "words": [
+    "BRIDGE",
+    "DRAW",
+    "CUT",
+    "WOOD",
+    "LAND",
+    "FOOT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BRIDGE|DRAW": [
+      "comp",
+      "DRAWBRIDGE"
+    ],
+    "BRIDGE|FOOT": [
+      "comp",
+      "FOOTBRIDGE"
+    ],
+    "CUT|DRAW": [
+      "shar",
+      "BACK"
+    ],
+    "DRAW|FOOT": [
+      "shar",
+      "BRIDGE"
+    ],
+    "CUT|WOOD": [
+      "comp",
+      "WOODCUT"
+    ],
+    "CUT|LAND": [
+      "shar",
+      "WOOD"
+    ],
+    "LAND|WOOD": [
+      "comp",
+      "WOODLAND"
+    ],
+    "FOOT|LAND": [
+      "shar",
+      "FALL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

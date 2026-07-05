@@ -1,0 +1,52 @@
+{
+  "id": "1942f14af499",
+  "words": [
+    "CAR",
+    "HOLE",
+    "POT",
+    "TEA",
+    "LINE",
+    "SIDE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAR|HOLE": [
+      "shar",
+      "PORT"
+    ],
+    "CAR|LINE": [
+      "shar",
+      "SIDE"
+    ],
+    "CAR|SIDE": [
+      "comp",
+      "SIDECAR"
+    ],
+    "HOLE|POT": [
+      "comp",
+      "POTHOLE"
+    ],
+    "HOLE|TEA": [
+      "shar",
+      "POT"
+    ],
+    "POT|TEA": [
+      "comp",
+      "TEAPOT"
+    ],
+    "LINE|TEA": [
+      "shar",
+      "TIME"
+    ],
+    "LINE|SIDE": [
+      "comp",
+      "SIDELINE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

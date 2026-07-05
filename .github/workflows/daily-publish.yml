@@ -1,0 +1,66 @@
+# Publishes the daily puzzle: promotes the next pool puzzle to site/puzzles/,
+# tops the pool back up, commits to main, and deploys the site to GitHub Pages.
+#
+# Deploy happens here (not via deploy-pages.yml) because pushes made with
+# GITHUB_TOKEN do not trigger other workflows.
+name: Daily puzzle
+
+on:
+  schedule:
+    - cron: '15 5 * * *' # 05:15 UTC, shortly after midnight in US timezones
+  workflow_dispatch:
+
+concurrency:
+  group: daily-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run tests
+        run: npm test
+      - name: Publish today's puzzle
+        run: node scripts/publish.mjs
+      - name: Top up the pool (3 weeks of buffer)
+        run: node engine/generate.mjs --refill 21
+      - name: Commit and push
+        run: |
+          git config user.name "loop-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "Publish daily puzzle $(date -u +%F)"
+            git push origin main
+          fi
+
+  deploy:
+    needs: publish
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

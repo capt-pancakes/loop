@@ -1,0 +1,52 @@
+{
+  "id": "091399d89552",
+  "words": [
+    "CLIP",
+    "HEAD",
+    "HOT",
+    "DOG",
+    "FLY",
+    "PAPER"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CLIP|HEAD": [
+      "shar",
+      "BOARD"
+    ],
+    "CLIP|FLY": [
+      "shar",
+      "PAPER"
+    ],
+    "CLIP|PAPER": [
+      "comp",
+      "PAPERCLIP"
+    ],
+    "HEAD|HOT": [
+      "comp",
+      "HOTHEAD"
+    ],
+    "DOG|HEAD": [
+      "shar",
+      "HOT"
+    ],
+    "DOG|HOT": [
+      "comp",
+      "HOTDOG"
+    ],
+    "DOG|FLY": [
+      "shar",
+      "HOUSE"
+    ],
+    "FLY|PAPER": [
+      "comp",
+      "FLYPAPER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

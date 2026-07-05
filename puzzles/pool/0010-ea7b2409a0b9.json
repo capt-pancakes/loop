@@ -1,0 +1,52 @@
+{
+  "id": "ea7b2409a0b9",
+  "words": [
+    "DUST",
+    "PAN",
+    "LINE",
+    "HAIR",
+    "NET",
+    "STAR"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "DUST|PAN": [
+      "comp",
+      "DUSTPAN"
+    ],
+    "DUST|STAR": [
+      "comp",
+      "STARDUST"
+    ],
+    "LINE|PAN": [
+      "shar",
+      "DEAD"
+    ],
+    "PAN|STAR": [
+      "shar",
+      "DUST"
+    ],
+    "HAIR|LINE": [
+      "comp",
+      "HAIRLINE"
+    ],
+    "LINE|NET": [
+      "shar",
+      "HAIR"
+    ],
+    "HAIR|NET": [
+      "comp",
+      "HAIRNET"
+    ],
+    "NET|STAR": [
+      "shar",
+      "FISH"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

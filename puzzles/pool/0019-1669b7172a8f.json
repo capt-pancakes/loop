@@ -1,0 +1,52 @@
+{
+  "id": "1669b7172a8f",
+  "words": [
+    "CAP",
+    "ICE",
+    "SHOE",
+    "HORSE",
+    "POWER",
+    "NIGHT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAP|ICE": [
+      "comp",
+      "ICECAP"
+    ],
+    "CAP|NIGHT": [
+      "comp",
+      "NIGHTCAP"
+    ],
+    "ICE|SHOE": [
+      "shar",
+      "BOX"
+    ],
+    "ICE|NIGHT": [
+      "shar",
+      "CAP"
+    ],
+    "HORSE|SHOE": [
+      "comp",
+      "HORSESHOE"
+    ],
+    "POWER|SHOE": [
+      "shar",
+      "HORSE"
+    ],
+    "HORSE|POWER": [
+      "comp",
+      "HORSEPOWER"
+    ],
+    "NIGHT|POWER": [
+      "shar",
+      "OVER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

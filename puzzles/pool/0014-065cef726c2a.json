@@ -1,0 +1,52 @@
+{
+  "id": "065cef726c2a",
+  "words": [
+    "COUNT",
+    "FALL",
+    "SNOW",
+    "DRIFT",
+    "RED",
+    "HEAD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "COUNT|FALL": [
+      "shar",
+      "DOWN"
+    ],
+    "COUNT|RED": [
+      "shar",
+      "HEAD"
+    ],
+    "COUNT|HEAD": [
+      "comp",
+      "HEADCOUNT"
+    ],
+    "FALL|SNOW": [
+      "comp",
+      "SNOWFALL"
+    ],
+    "DRIFT|FALL": [
+      "shar",
+      "SNOW"
+    ],
+    "DRIFT|SNOW": [
+      "comp",
+      "SNOWDRIFT"
+    ],
+    "DRIFT|RED": [
+      "shar",
+      "WOOD"
+    ],
+    "HEAD|RED": [
+      "comp",
+      "REDHEAD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

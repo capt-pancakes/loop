@@ -1,0 +1,52 @@
+{
+  "id": "2e55d6945673",
+  "words": [
+    "BULL",
+    "DOG",
+    "CAKE",
+    "WALK",
+    "MOON",
+    "PEN"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BULL|DOG": [
+      "comp",
+      "BULLDOG"
+    ],
+    "BULL|PEN": [
+      "comp",
+      "BULLPEN"
+    ],
+    "CAKE|DOG": [
+      "shar",
+      "HOT"
+    ],
+    "DOG|PEN": [
+      "shar",
+      "BULL"
+    ],
+    "CAKE|WALK": [
+      "comp",
+      "CAKEWALK"
+    ],
+    "CAKE|MOON": [
+      "shar",
+      "WALK"
+    ],
+    "MOON|WALK": [
+      "comp",
+      "MOONWALK"
+    ],
+    "MOON|PEN": [
+      "shar",
+      "LIGHT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

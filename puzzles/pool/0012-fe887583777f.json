@@ -1,0 +1,52 @@
+{
+  "id": "fe887583777f",
+  "words": [
+    "BONE",
+    "CUT",
+    "WOOD",
+    "RED",
+    "LOCK",
+    "JAW"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BONE|CUT": [
+      "shar",
+      "BACK"
+    ],
+    "BONE|LOCK": [
+      "shar",
+      "JAW"
+    ],
+    "BONE|JAW": [
+      "comp",
+      "JAWBONE"
+    ],
+    "CUT|WOOD": [
+      "comp",
+      "WOODCUT"
+    ],
+    "CUT|RED": [
+      "shar",
+      "WOOD"
+    ],
+    "RED|WOOD": [
+      "comp",
+      "REDWOOD"
+    ],
+    "LOCK|RED": [
+      "shar",
+      "HEAD"
+    ],
+    "JAW|LOCK": [
+      "comp",
+      "LOCKJAW"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

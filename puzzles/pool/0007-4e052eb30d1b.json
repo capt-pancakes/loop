@@ -1,0 +1,52 @@
+{
+  "id": "4e052eb30d1b",
+  "words": [
+    "JACK",
+    "POT",
+    "TEA",
+    "WAR",
+    "SHIP",
+    "YARD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "JACK|POT": [
+      "comp",
+      "JACKPOT"
+    ],
+    "JACK|TEA": [
+      "shar",
+      "POT"
+    ],
+    "JACK|YARD": [
+      "shar",
+      "LUMBER"
+    ],
+    "POT|TEA": [
+      "comp",
+      "TEAPOT"
+    ],
+    "TEA|WAR": [
+      "shar",
+      "TIME"
+    ],
+    "SHIP|WAR": [
+      "comp",
+      "WARSHIP"
+    ],
+    "WAR|YARD": [
+      "shar",
+      "SHIP"
+    ],
+    "SHIP|YARD": [
+      "comp",
+      "SHIPYARD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}
