@@ -1,0 +1,52 @@
+{
+  "id": "1807e88c3207",
+  "words": [
+    "EAR",
+    "GUN",
+    "FIRE",
+    "WALL",
+    "KEY",
+    "RING"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "EAR|GUN": [
+      "shar",
+      "SHOT"
+    ],
+    "EAR|KEY": [
+      "shar",
+      "RING"
+    ],
+    "EAR|RING": [
+      "comp",
+      "EARRING"
+    ],
+    "FIRE|GUN": [
+      "comp",
+      "GUNFIRE"
+    ],
+    "GUN|WALL": [
+      "shar",
+      "FIRE"
+    ],
+    "FIRE|WALL": [
+      "comp",
+      "FIREWALL"
+    ],
+    "KEY|WALL": [
+      "shar",
+      "STONE"
+    ],
+    "KEY|RING": [
+      "comp",
+      "KEYRING"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "041ce392aea3",
+  "words": [
+    "FREE",
+    "GATE",
+    "TAIL",
+    "WIND",
+    "SHORT",
+    "HAND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "FREE|GATE": [
+      "shar",
+      "WAY"
+    ],
+    "FREE|WIND": [
+      "shar",
+      "FALL"
+    ],
+    "FREE|SHORT": [
+      "shar",
+      "FALL"
+    ],
+    "FREE|HAND": [
+      "comp",
+      "FREEHAND"
+    ],
+    "GATE|TAIL": [
+      "comp",
+      "TAILGATE"
+    ],
+    "GATE|WIND": [
+      "shar",
+      "TAIL"
+    ],
+    "TAIL|WIND": [
+      "comp",
+      "TAILWIND"
+    ],
+    "SHORT|WIND": [
+      "shar",
+      "FALL"
+    ],
+    "HAND|SHORT": [
+      "comp",
+      "SHORTHAND"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

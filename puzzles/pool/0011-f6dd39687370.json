@@ -1,0 +1,56 @@
+{
+  "id": "f6dd39687370",
+  "words": [
+    "ARM",
+    "BALL",
+    "EYE",
+    "LASH",
+    "FALL",
+    "PIT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "ARM|BALL": [
+      "shar",
+      "FIRE"
+    ],
+    "ARM|FALL": [
+      "shar",
+      "PIT"
+    ],
+    "ARM|PIT": [
+      "comp",
+      "ARMPIT"
+    ],
+    "BALL|EYE": [
+      "comp",
+      "EYEBALL"
+    ],
+    "BALL|LASH": [
+      "shar",
+      "EYE"
+    ],
+    "BALL|FALL": [
+      "shar",
+      "FOOT"
+    ],
+    "EYE|LASH": [
+      "comp",
+      "EYELASH"
+    ],
+    "FALL|LASH": [
+      "shar",
+      "BACK"
+    ],
+    "FALL|PIT": [
+      "comp",
+      "PITFALL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

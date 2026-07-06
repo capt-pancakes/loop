@@ -1,0 +1,56 @@
+{
+  "id": "73a5127e88c9",
+  "words": [
+    "BOY",
+    "COW",
+    "GIRL",
+    "WORK",
+    "TEAM",
+    "MATE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOY|COW": [
+      "comp",
+      "COWBOY"
+    ],
+    "BOY|GIRL": [
+      "shar",
+      "FRIEND"
+    ],
+    "BOY|WORK": [
+      "shar",
+      "SCHOOL"
+    ],
+    "BOY|MATE": [
+      "shar",
+      "PLAY"
+    ],
+    "COW|GIRL": [
+      "comp",
+      "COWGIRL"
+    ],
+    "GIRL|WORK": [
+      "shar",
+      "SCHOOL"
+    ],
+    "TEAM|WORK": [
+      "comp",
+      "TEAMWORK"
+    ],
+    "MATE|WORK": [
+      "shar",
+      "TEAM"
+    ],
+    "MATE|TEAM": [
+      "comp",
+      "TEAMMATE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

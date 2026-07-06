@@ -1,0 +1,52 @@
+{
+  "id": "066e29234e76",
+  "words": [
+    "CHECK",
+    "DAY",
+    "LIGHT",
+    "MOON",
+    "GUN",
+    "POINT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CHECK|DAY": [
+      "shar",
+      "PAY"
+    ],
+    "CHECK|GUN": [
+      "shar",
+      "POINT"
+    ],
+    "CHECK|POINT": [
+      "comp",
+      "CHECKPOINT"
+    ],
+    "DAY|LIGHT": [
+      "comp",
+      "DAYLIGHT"
+    ],
+    "DAY|MOON": [
+      "shar",
+      "LIGHT"
+    ],
+    "LIGHT|MOON": [
+      "comp",
+      "MOONLIGHT"
+    ],
+    "GUN|MOON": [
+      "shar",
+      "SHOT"
+    ],
+    "GUN|POINT": [
+      "comp",
+      "GUNPOINT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

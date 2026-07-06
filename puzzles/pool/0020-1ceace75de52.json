@@ -1,0 +1,52 @@
+{
+  "id": "1ceace75de52",
+  "words": [
+    "CAR",
+    "HILL",
+    "TOP",
+    "LAP",
+    "PASS",
+    "PORT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAR|HILL": [
+      "shar",
+      "SIDE"
+    ],
+    "CAR|PASS": [
+      "shar",
+      "PORT"
+    ],
+    "CAR|PORT": [
+      "comp",
+      "CARPORT"
+    ],
+    "HILL|TOP": [
+      "comp",
+      "HILLTOP"
+    ],
+    "HILL|LAP": [
+      "shar",
+      "TOP"
+    ],
+    "LAP|TOP": [
+      "comp",
+      "LAPTOP"
+    ],
+    "LAP|PASS": [
+      "shar",
+      "OVER"
+    ],
+    "PASS|PORT": [
+      "comp",
+      "PASSPORT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

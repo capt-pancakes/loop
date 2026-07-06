@@ -1,0 +1,52 @@
+{
+  "id": "3921711414ec",
+  "words": [
+    "BEAT",
+    "DRUM",
+    "EAR",
+    "KEY",
+    "WORD",
+    "PLAY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BEAT|DRUM": [
+      "comp",
+      "DRUMBEAT"
+    ],
+    "BEAT|EAR": [
+      "shar",
+      "DRUM"
+    ],
+    "BEAT|PLAY": [
+      "shar",
+      "OFF"
+    ],
+    "DRUM|EAR": [
+      "comp",
+      "EARDRUM"
+    ],
+    "EAR|KEY": [
+      "shar",
+      "RING"
+    ],
+    "KEY|WORD": [
+      "comp",
+      "KEYWORD"
+    ],
+    "KEY|PLAY": [
+      "shar",
+      "WORD"
+    ],
+    "PLAY|WORD": [
+      "comp",
+      "WORDPLAY"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

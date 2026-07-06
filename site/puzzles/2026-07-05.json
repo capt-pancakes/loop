@@ -1,0 +1,54 @@
+{
+  "number": 1,
+  "date": "2026-07-05",
+  "id": "0be8d5fcbfee",
+  "words": [
+    "HALL",
+    "MARK",
+    "NOTE",
+    "PAD",
+    "LOCK",
+    "WAY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "HALL|MARK": [
+      "comp",
+      "HALLMARK"
+    ],
+    "HALL|WAY": [
+      "comp",
+      "HALLWAY"
+    ],
+    "MARK|NOTE": [
+      "shar",
+      "BOOK"
+    ],
+    "MARK|WAY": [
+      "shar",
+      "WATER"
+    ],
+    "NOTE|PAD": [
+      "comp",
+      "NOTEPAD"
+    ],
+    "LOCK|NOTE": [
+      "shar",
+      "PAD"
+    ],
+    "LOCK|PAD": [
+      "comp",
+      "PADLOCK"
+    ],
+    "LOCK|WAY": [
+      "shar",
+      "AIR"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

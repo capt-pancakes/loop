@@ -1,0 +1,52 @@
+{
+  "id": "a79ed007a2a3",
+  "words": [
+    "BROW",
+    "EYE",
+    "LASH",
+    "HAND",
+    "RAIL",
+    "WAY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BROW|EYE": [
+      "comp",
+      "EYEBROW"
+    ],
+    "BROW|LASH": [
+      "shar",
+      "EYE"
+    ],
+    "BROW|WAY": [
+      "shar",
+      "HIGH"
+    ],
+    "EYE|LASH": [
+      "comp",
+      "EYELASH"
+    ],
+    "HAND|LASH": [
+      "shar",
+      "BACK"
+    ],
+    "HAND|RAIL": [
+      "comp",
+      "HANDRAIL"
+    ],
+    "HAND|WAY": [
+      "shar",
+      "FREE"
+    ],
+    "RAIL|WAY": [
+      "comp",
+      "RAILWAY"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

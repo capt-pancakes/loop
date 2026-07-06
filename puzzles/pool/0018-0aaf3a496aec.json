@@ -1,0 +1,52 @@
+{
+  "id": "0aaf3a496aec",
+  "words": [
+    "BOAT",
+    "CASE",
+    "SUIT",
+    "WET",
+    "LOW",
+    "LIFE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOAT|CASE": [
+      "shar",
+      "SHOW"
+    ],
+    "BOAT|LOW": [
+      "shar",
+      "LIFE"
+    ],
+    "BOAT|LIFE": [
+      "comp",
+      "LIFEBOAT"
+    ],
+    "CASE|SUIT": [
+      "comp",
+      "SUITCASE"
+    ],
+    "CASE|WET": [
+      "shar",
+      "SUIT"
+    ],
+    "SUIT|WET": [
+      "comp",
+      "WETSUIT"
+    ],
+    "LOW|WET": [
+      "shar",
+      "LAND"
+    ],
+    "LIFE|LOW": [
+      "comp",
+      "LOWLIFE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "341e01f285b0",
+  "words": [
+    "BOY",
+    "COW",
+    "DOOR",
+    "MAN",
+    "FIRE",
+    "PLAY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOY|COW": [
+      "comp",
+      "COWBOY"
+    ],
+    "BOY|PLAY": [
+      "comp",
+      "PLAYBOY"
+    ],
+    "COW|DOOR": [
+      "shar",
+      "BELL"
+    ],
+    "COW|PLAY": [
+      "shar",
+      "BOY"
+    ],
+    "DOOR|MAN": [
+      "comp",
+      "DOORMAN"
+    ],
+    "DOOR|FIRE": [
+      "shar",
+      "BACK"
+    ],
+    "FIRE|MAN": [
+      "comp",
+      "FIREMAN"
+    ],
+    "FIRE|PLAY": [
+      "shar",
+      "HOUSE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

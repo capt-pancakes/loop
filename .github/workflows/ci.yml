@@ -1,0 +1,27 @@
+# Tests + validation for every push and PR.
+name: CI
+
+on:
+  push:
+    branches-ignore: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run tests
+        run: npm test
+      - name: Validate pool and published puzzles
+        run: |
+          shopt -s nullglob
+          files=(puzzles/pool/*.json site/puzzles/????-??-??.json)
+          if [ ${#files[@]} -gt 0 ]; then
+            node engine/validate.mjs "${files[@]}"
+          else
+            echo "no puzzles to validate"
+          fi
