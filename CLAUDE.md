@@ -142,6 +142,15 @@ npm run serve                         # python http.server on :8080 serving site
   because the key is the puzzle id; entries are pruned oldest-first past 12.
   The practice loop (number 0) is never persisted and keeps "Play again".
   "Reset" only reshuffles open tiles — it must NOT refund lives or hints.
+- **Tutorial (first visit + "?" button)**: the client has no explainer text —
+  onboarding is a guided board (`opts.tutorial` in `initGame`) using the
+  embedded DEFAULT practice loop set up one swap from solved, with only the
+  two out-of-place tiles unlocked. Steps live in `TUTSTEPS`; completion sets
+  flag `loop:tut:v1` (NOT under the `loop:v1:` prefix — the pruner JSON-parses
+  those). Games are created via `startGame()`, which calls the previous
+  game's `destroy()` — new board-level DOM/listeners/timers must be cleaned
+  up there or replaying the tutorial duplicates them. The coach bubble is
+  `pointer-events:none` except its buttons so it can never block a drag.
 - **`site/` must stay a self-contained static dir** — it is uploaded verbatim
   as the Pages artifact. No bundler, no server code, relative fetch paths only
   (the site is served from a subpath: `https://<user>.github.io/loop/`).
