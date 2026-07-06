@@ -1,48 +1,48 @@
 {
-  "number": 1,
-  "date": "2026-07-05",
-  "id": "0be8d5fcbfee",
+  "number": 2,
+  "date": "2026-07-06",
+  "id": "1807e88c3207",
   "words": [
-    "HALL",
-    "MARK",
-    "NOTE",
-    "PAD",
-    "LOCK",
-    "WAY"
+    "EAR",
+    "GUN",
+    "FIRE",
+    "WALL",
+    "KEY",
+    "RING"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "HALL|MARK": [
-      "comp",
-      "HALLMARK"
-    ],
-    "HALL|WAY": [
-      "comp",
-      "HALLWAY"
-    ],
-    "MARK|NOTE": [
+    "EAR|GUN": [
       "shar",
-      "BOOK"
+      "SHOT"
     ],
-    "MARK|WAY": [
+    "EAR|KEY": [
       "shar",
-      "WATER"
+      "RING"
     ],
-    "NOTE|PAD": [
+    "EAR|RING": [
       "comp",
-      "NOTEPAD"
+      "EARRING"
     ],
-    "LOCK|NOTE": [
-      "shar",
-      "PAD"
-    ],
-    "LOCK|PAD": [
+    "FIRE|GUN": [
       "comp",
-      "PADLOCK"
+      "GUNFIRE"
     ],
-    "LOCK|WAY": [
+    "GUN|WALL": [
       "shar",
-      "AIR"
+      "FIRE"
+    ],
+    "FIRE|WALL": [
+      "comp",
+      "FIREWALL"
+    ],
+    "KEY|WALL": [
+      "shar",
+      "STONE"
+    ],
+    "KEY|RING": [
+      "comp",
+      "KEYRING"
     ]
   },
   "meta": {
