@@ -131,6 +131,17 @@ npm run serve                         # python http.server on :8080 serving site
   `.className` on an SVG element is silently ignored (`SVGAnimatedString`).
   This bug shipped in the original prototype; the edges never lit until it
   was fixed. HTML elements (labels, tiles) are fine with `.className`.
+- **One shot a day (localStorage)**: game state persists per puzzle under
+  key `loop:v1:<puzzle id>` — `{slots, locked, lives, hints, shuffles,
+  status: playing|won|lost, savedAt}` — saved after every swap/hint/life
+  loss/win. On load: `playing` resumes the board, `won` replays a fast
+  reveal cascade + result modal, `lost` re-shows the lose modal; in both
+  done states Hint/Reset are disabled and Submit relabels to "Result"
+  (reopens the modal, which shows a "Next loop in Xh Ym" countdown and
+  reloads at local midnight). Archive days (`?d=`) persist independently
+  because the key is the puzzle id; entries are pruned oldest-first past 12.
+  The practice loop (number 0) is never persisted and keeps "Play again".
+  "Reset" only reshuffles open tiles — it must NOT refund lives or hints.
 - **`site/` must stay a self-contained static dir** — it is uploaded verbatim
   as the Pages artifact. No bundler, no server code, relative fetch paths only
   (the site is served from a subpath: `https://<user>.github.io/loop/`).

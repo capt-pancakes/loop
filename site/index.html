@@ -91,7 +91,7 @@
   .btn{background:transparent;color:var(--bone);border:1px solid var(--line);font-family:inherit;font-size:13px;
     font-weight:500;letter-spacing:.04em;padding:10px 16px;border-radius:10px;cursor:pointer;transition:.15s}
   .btn:hover{border-color:var(--amber);color:var(--amber)}.btn:active{transform:translateY(1px)}
-  .btn:disabled{opacity:.4;cursor:default}
+  .btn:disabled{opacity:.4;cursor:default;pointer-events:none}
   .btn.primary{background:var(--amber);color:#1a1205;border-color:var(--amber);font-weight:700;padding:10px 22px}
   .btn.primary:hover{color:#1a1205;filter:brightness(1.05)}
 
@@ -106,6 +106,8 @@
   .card p{color:var(--muted);font-size:13px;margin:6px 0 0;line-height:1.5}
   .card .chain{font-size:12px;letter-spacing:.03em;margin-top:14px;line-height:1.85;text-align:left}
   .card .chain .c{color:var(--amber)}.card .chain .s{color:var(--teal)}
+  .card .next{color:var(--amber);font-size:12px;letter-spacing:.08em;margin-top:12px}
+  .card .next:empty{display:none}
   .card .row{display:flex;gap:10px;margin-top:18px}.card .row .btn{flex:1;text-align:center}
   .toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--bone);
     color:var(--ink-text);font-size:13px;font-weight:600;padding:9px 16px;border-radius:999px;opacity:0;transition:.3s;z-index:30}
@@ -117,7 +119,7 @@
   <header>
     <p class="eyebrow" id="eyebrow">Daily</p>
     <h1>The Loop <span class="ring">&#10227;</span></h1>
-    <p class="goal">Drag the words around the ring &mdash; no clues. When you're sure, submit &mdash; it lights up link by link.</p>
+    <p class="goal">Drag the words around the ring &mdash; no clues. When you're sure, submit &mdash; it lights up link by link. One loop a day.</p>
   </header>
 
   <div class="status">
@@ -145,6 +147,7 @@
     <div class="ringline" id="ringline"></div>
     <p id="msub"></p>
     <div class="chain" id="chain"></div>
+    <p class="next" id="mnext"></p>
     <div class="row" id="mrow"></div>
   </div></div>
   <div class="toast" id="toast"></div>
@@ -206,9 +209,48 @@
   const pct=v=>`${v/360*100}%`;
 
   let slots=SOL.slice(),locked=new Set([LOCK0]),sel=-1,lives=3,hints=0,busy=false,target=null,shuffles=0;
+  let done=null; // null | 'won' | 'lost' — daily one-shot state
   const svg=document.getElementById('svg'),board=document.getElementById('board'),glow=document.getElementById('glow');
+  const hintBtn=document.getElementById('hint'),submitBtn=document.getElementById('submit'),shuffleBtn=document.getElementById('shuffle');
   const edgeEls=[],labelEls=[],labelPos=[],tileEls=[];
   const slotOf=w=>slots.indexOf(w);
+
+  // ----- one shot a day: persistence in localStorage ---------------------
+  // One entry per puzzle id, so archive days (?d=...) track independently
+  // of today. The practice loop (number 0) is never persisted.
+  const PID=PUZ.id||('p'+NUM);
+  const STORE_KEY='loop:v1:'+PID;
+  let persistent=NUM>0;
+  try{localStorage.setItem('loop:probe','1');localStorage.removeItem('loop:probe');}catch(e){persistent=false;}
+  function saveState(){
+    if(!persistent)return;
+    try{
+      localStorage.setItem(STORE_KEY,JSON.stringify({
+        v:1,id:PID,number:NUM,slots,locked:[...locked],lives,hints,shuffles,
+        status:done||'playing',savedAt:Date.now(),
+      }));
+      pruneStore();
+    }catch(e){/* storage full/blocked — play on without persistence */}
+  }
+  function loadState(){
+    if(!persistent)return null;
+    try{
+      const s=JSON.parse(localStorage.getItem(STORE_KEY)||'null');
+      if(!s||s.v!==1||s.id!==PID)return null;
+      if(!Array.isArray(s.slots)||s.slots.length!==6)return null;
+      if([...s.slots].sort().join('|')!==[...SOL].sort().join('|'))return null;
+      if(!Array.isArray(s.locked))return null;
+      return s;
+    }catch(e){return null;}
+  }
+  function pruneStore(){
+    const keys=[];
+    for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k&&k.startsWith('loop:v1:'))keys.push(k);}
+    if(keys.length<=12)return;
+    keys.map(k=>{let t=0;try{t=JSON.parse(localStorage.getItem(k)).savedAt||0;}catch(e){}return{k,t};})
+      .sort((a,b)=>a.t-b.t).slice(0,keys.length-12).forEach(({k})=>localStorage.removeItem(k));
+  }
+
   for(let i=0;i<6;i++){
     const a=pos[i],b=pos[(i+1)%6];
     const ln=document.createElementNS('http://www.w3.org/2000/svg','line');
@@ -233,7 +275,7 @@
       onTap(slotOf(w));
     });
     t.addEventListener('pointerdown',e=>{
-      if(busy)return;
+      if(busy||done)return;
       const s=slotOf(w);
       if(locked.has(s))return;
       t.setPointerCapture(e.pointerId);
@@ -263,7 +305,7 @@
     });
     const endDrag=()=>{
       if(dragEl!==t)return;
-      if(dragging){suppressClick=true;t.classList.remove('drag');}
+      if(dragging){suppressClick=true;t.classList.remove('drag');saveState();}
       dragEl=null;dragging=false;render();
     };
     t.addEventListener('pointerup',endDrag);
@@ -322,15 +364,17 @@
   }
 
   function onTap(i){
-    if(busy||locked.has(i))return;
+    if(busy||done||locked.has(i))return;
     if(sel===-1){sel=i;render();return;}
     if(sel===i){sel=-1;render();return;}
-    [slots[sel],slots[i]]=[slots[i],slots[sel]];sel=-1;buzz(8);render();
+    [slots[sel],slots[i]]=[slots[i],slots[sel]];sel=-1;buzz(8);render();saveState();
   }
 
   // reveal: travel the ring from the anchor; build each on-loop link; STOP + back out at first break.
   function submit(){
-    if(busy)return;busy=true;sel=-1;clearEdges();render();
+    if(busy)return;
+    if(done){showResultModal();return;} // day finished — Submit becomes "Result"
+    busy=true;sel=-1;clearEdges();render();
     let i=0;
     (function step(){
       const a=slots[i],b=slots[(i+1)%6],r=bond(a,b),ok=onLoop(a,b);
@@ -354,21 +398,14 @@
   }
   function success(){
     busy=false;
+    if(persistent){done='won';saveState();setDoneHud();}
     glow.classList.remove('on');void glow.offsetWidth;glow.classList.add('on');
     tileEls.forEach(t=>t.classList.add('win'));
     burst(cx,cy,'#F4B740',16,150);
     burst(cx,cy,'#5FD0C5',12,110);
     for(let i=0;i<6;i++)setTimeout(()=>burst(pos[i].x,pos[i].y,i%2?'#5FD0C5':'#F4B740',6,44),90*i);
     buzz([15,30,15,30,40]);
-    let emoji='',parts=[],comp=0,shar=0;
-    for(let i=0;i<6;i++){const a=slots[i],b=slots[(i+1)%6],r=bond(a,b);
-      if(r[0]==='comp'){comp++;emoji+='\u{1F7E1}';parts.push(`<span class="c">${r[1]}</span>`);}
-      else{shar++;emoji+='\u{1F7E6}';parts.push(`<span class="s">${a}&middot;${b} &rarr; +${r[1]}</span>`);}}
-    const heartStr='❤️'.repeat(lives)+'\u{1F90D}'.repeat(3-lives);
-    setTimeout(()=>{
-      showModal('Closed.',emoji,`${heartStr} · ${hints} hint${hints===1?'':'s'}`,parts.join('<br>'),
-        [['Copy result',()=>copy(emoji,heartStr)],['Play again',newGame,true]]);
-    },820);
+    setTimeout(showWinModal,820);
   }
   function fail(){
     lives--;render();
@@ -376,9 +413,64 @@
     const justLost=goneHearts[3-lives-1];
     if(justLost)justLost.classList.add('pop');
     if(lives<=0){
-      setTimeout(()=>{busy=false;loseGame();},300);return;
+      if(persistent){done='lost';setDoneHud();}
+      saveState();
+      setTimeout(()=>{busy=false;showLoseModal();},300);return;
     }
+    saveState();
     setTimeout(()=>{clearEdges();busy=false;toast(`Not closed — ${lives} ${lives===1?'life':'lives'} left.`);},450);
+  }
+
+  // ----- daily done-state chrome -----------------------------------------
+  function setDoneHud(){
+    hintBtn.disabled=true;shuffleBtn.disabled=true;
+    submitBtn.textContent='Result';
+  }
+  let nextTimer=null;
+  const todayStr=localISO();
+  function nextIn(){
+    const now=new Date();
+    const next=new Date(now.getFullYear(),now.getMonth(),now.getDate()+1);
+    const ms=next-now,h=Math.floor(ms/3.6e6),m=Math.floor(ms%3.6e6/6e4);
+    return h?`${h}h ${m}m`:`${m}m`;
+  }
+  function setCountdown(){
+    const el=document.getElementById('mnext');
+    clearInterval(nextTimer);
+    if(!persistent||!done){el.textContent='';return;}
+    const tick=()=>{
+      if(localISO()!==todayStr){location.reload();return;} // midnight: fetch the new loop
+      el.textContent=`Next loop in ${nextIn()}`;
+    };
+    tick();
+    nextTimer=setInterval(tick,30000);
+  }
+  function closeModal(){
+    document.getElementById('modal').classList.remove('on');
+    clearInterval(nextTimer);
+  }
+  function showResultModal(){
+    if(done==='lost')showLoseModal();else showWinModal();
+  }
+  function showWinModal(){
+    let emoji='',parts=[];
+    for(let i=0;i<6;i++){const a=slots[i],b=slots[(i+1)%6],r=bond(a,b);
+      if(!r)continue;
+      if(r[0]==='comp'){emoji+='\u{1F7E1}';parts.push(`<span class="c">${r[1]}</span>`);}
+      else{emoji+='\u{1F7E6}';parts.push(`<span class="s">${a}&middot;${b} &rarr; +${r[1]}</span>`);}}
+    const heartStr='❤️'.repeat(lives)+'\u{1F90D}'.repeat(3-lives);
+    const buttons=persistent
+      ? [['Copy result',()=>copy(emoji,heartStr),true],['Close',closeModal]]
+      : [['Copy result',()=>copy(emoji,heartStr)],['Play again',freshGame,true]];
+    showModal('Closed.',emoji,`${heartStr} · ${hints} hint${hints===1?'':'s'}`,parts.join('<br>'),buttons);
+    setCountdown();
+  }
+  function showLoseModal(){
+    const buttons=persistent
+      ? [['Reveal loop',revealSolution],['Close',closeModal]]
+      : [['Reveal loop',revealSolution],['Play again',freshGame,true]];
+    showModal('Out of lives.','',`${hints} hint${hints===1?'':'s'} used — the loop stays open today`,'',buttons);
+    setCountdown();
   }
 
   function chooseTarget(){
@@ -387,7 +479,7 @@
     target=(s2>s1)?T2:T1;return target;
   }
   function hint(){
-    if(busy)return;
+    if(busy||done)return;
     const unlocked=[];for(let i=0;i<6;i++)if(!locked.has(i))unlocked.push(i);
     if(unlocked.length===0){toast('Every tile is already locked.');return;}
     const tg=chooseTarget();
@@ -397,21 +489,32 @@
       [slots[p],slots[q]]=[slots[q],slots[p]];
     }                                                              // already right? just lock it
     locked.add(p);hints++;sel=-1;render();
-    bumpSlot(p);
+    bumpSlot(p);saveState();
   }
 
-  function loseGame(){
-    showModal('Out of lives.','',`${hints} hint${hints===1?'':'s'} used`,'',
-      [['Reveal loop',revealSolution],['Play again',newGame,true]]);
-  }
   function revealSolution(){
-    document.getElementById('modal').classList.remove('on');
+    closeModal();
     slots=chooseTarget().slice();locked=new Set([0,1,2,3,4,5]);render();
     busy=true;clearEdges();let i=0;
     (function step(){const a=slots[i],b=slots[(i+1)%6],r=bond(a,b),e=edgeEls[i],l=labelEls[i];
       setEdge(e,'edge '+(r[0]==='comp'?'comp':'shar'));
       l.className='lbl show '+(r[0]==='comp'?'comp':'shar');l.textContent=r[0]==='comp'?r[1]:('+'+r[1]);
       i++;if(i<6)setTimeout(step,360);else{busy=false;}})();
+  }
+
+  // fast silent cascade used when restoring a solved board
+  function replayReveal(cb){
+    busy=true;clearEdges();let i=0;
+    (function step(){
+      const a=slots[i],b=slots[(i+1)%6],r=bond(a,b);
+      if(!r){busy=false;cb&&cb();return;}
+      const cls=r[0]==='comp'?'comp':'shar';
+      setEdge(edgeEls[i],'edge '+cls);
+      labelEls[i].className='lbl show '+cls;
+      labelEls[i].textContent=r[0]==='comp'?r[1]:('+'+r[1]);
+      i++;
+      if(i<6)setTimeout(step,150);else{busy=false;tileEls.forEach(t=>t.classList.add('win'));cb&&cb();}
+    })();
   }
 
   function showModal(title,emoji,sub,chain,buttons){
@@ -431,22 +534,53 @@
   }
 
   function loopFull(arr){let c=0;for(let i=0;i<6;i++)if(onLoop(arr[i],arr[(i+1)%6]))c++;return c===6;}
-  function newGame(){
-    document.getElementById('modal').classList.remove('on');
+  function scramble(){
     // seeded by puzzle number + reset count: every player sees the same board
     const rng=mulberry32((NUM*2654435761 ^ shuffles*97+1)>>>0);shuffles++;
-    const mov=SOL.filter((_,i)=>i!==LOCK0);let tries=0;
-    do{for(let i=mov.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[mov[i],mov[j]]=[mov[j],mov[i]];}
-      slots=[];let k=0;for(let i=0;i<6;i++)slots[i]=(i===LOCK0)?SOL[LOCK0]:mov[k++];tries++;
+    const open=[];for(let i=0;i<6;i++)if(!locked.has(i))open.push(i);
+    const mov=open.map(i=>slots[i]);let tries=0;
+    do{
+      for(let i=mov.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[mov[i],mov[j]]=[mov[j],mov[i]];}
+      open.forEach((s,k)=>{slots[s]=mov[k];});tries++;
     }while(loopFull(slots)&&tries<40);
-    locked=new Set([LOCK0]);sel=-1;lives=3;hints=0;busy=false;target=null;
-    tileEls.forEach(t=>t.classList.remove('win'));clearEdges();render();
+  }
+  function freshGame(){
+    closeModal();
+    slots=SOL.slice();locked=new Set([LOCK0]);shuffles=0;
+    sel=-1;lives=3;hints=0;busy=false;target=null;done=null;
+    hintBtn.disabled=false;shuffleBtn.disabled=false;submitBtn.textContent='Submit';
+    scramble();
+    tileEls.forEach(t=>t.classList.remove('win'));clearEdges();render();saveState();
+  }
+  // Reset only reshuffles the open tiles — it does NOT refund lives or hints
+  // (it's one shot a day, not one shot per arrangement).
+  function reshuffle(){
+    if(busy||done)return;
+    sel=-1;scramble();clearEdges();render();saveState();
   }
 
   document.getElementById('submit').addEventListener('click',submit);
   document.getElementById('hint').addEventListener('click',hint);
-  document.getElementById('shuffle').addEventListener('click',newGame);
-  newGame();
+  document.getElementById('shuffle').addEventListener('click',reshuffle);
+
+  // ----- resume today's game, or start fresh -----------------------------
+  const saved=loadState();
+  if(saved){
+    slots=saved.slots.slice();locked=new Set(saved.locked);
+    lives=saved.lives;hints=saved.hints;shuffles=saved.shuffles||0;
+    if(saved.status==='won'){
+      done='won';setDoneHud();render();
+      replayReveal(()=>setTimeout(showWinModal,350));
+    }else if(saved.status==='lost'){
+      done='lost';setDoneHud();render();
+      setTimeout(showLoseModal,400);
+    }else{
+      render();
+      if(lives<3||hints>0)toast('Welcome back — picking up where you left off.');
+    }
+  }else{
+    freshGame();
+  }
   }
 })();
 </script>
