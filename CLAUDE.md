@@ -121,6 +121,16 @@ npm run serve                         # python http.server on :8080 serving site
   `node engine/validate.mjs puzzles/pool/*.json` locally.
 - **The scramble is seeded** by puzzle number (mulberry32) so all players see
   the same board; "Reset" reshuffles deterministically by attempt count.
+- **Tiles are one element per WORD, not per slot** (that's what makes dragging
+  feel physical — the element travels). `render()` positions each tile at
+  `pos[slots.indexOf(word)]`; slot-indexed state (`locked`, `sel`, `anchorIndex`)
+  maps to tiles via `slots`. Tap-to-swap and drag-to-swap coexist: a pointer
+  move under 7px is a click, beyond it a drag (`suppressClick` guards the
+  click that follows a drag).
+- **SVG edge classes must be set via `setAttribute('class', …)`** — assigning
+  `.className` on an SVG element is silently ignored (`SVGAnimatedString`).
+  This bug shipped in the original prototype; the edges never lit until it
+  was fixed. HTML elements (labels, tiles) are fine with `.className`.
 - **`site/` must stay a self-contained static dir** — it is uploaded verbatim
   as the Pages artifact. No bundler, no server code, relative fetch paths only
   (the site is served from a subpath: `https://<user>.github.io/loop/`).
