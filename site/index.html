@@ -467,7 +467,11 @@
       setTimeout(()=>{busy=false;showLoseModal();},300);return;
     }
     saveState();
-    setTimeout(()=>{clearEdges();busy=false;toast(`Not closed — ${lives} ${lives===1?'life':'lives'} left.`);},450);
+    setTimeout(()=>{
+      clearEdges();busy=false;
+      toast(`Not closed — ${lives} ${lives===1?'life':'lives'} left.`);
+      if(TUT)tutOnFail();
+    },450);
   }
 
   // ----- daily done-state chrome -----------------------------------------
@@ -613,10 +617,11 @@
   let coach=null,tutStep=-1,hiEls=[];
   const onReplace=()=>{const s=TUTSTEPS[tutStep];if(s&&coach)placeCoach(s);};
   function tutSetup(){
-    // LIGHT and HOUSE trade places: 4 correct edges light up, one swap fixes it
+    // WATER and FALL (the left side) trade places: four links hold, the two
+    // around the swapped pair are dark, and one swap closes the ring
     slots=SOL.slice();
-    [slots[1],slots[2]]=[slots[2],slots[1]];
-    locked=new Set([0,3,4,5]);
+    [slots[4],slots[5]]=[slots[5],slots[4]];
+    locked=new Set([0,1,2,3]);
     hintBtn.disabled=true;shuffleBtn.disabled=true;submitBtn.disabled=true;
     render();
     tutPreview();
@@ -625,28 +630,32 @@
     setTimeout(tutNext,350);
   }
   function tutPreview(){
-    // light every edge whose two neighbours already sit in their solution slot
+    // light every edge that is a real ring link — same undirected-pair rule
+    // the game itself uses, so the preview never lies about the rules
     clearEdges();
     for(let i=0;i<6;i++){
-      if(slots[i]===SOL[i]&&slots[(i+1)%6]===SOL[(i+1)%6])lightEdge(i);
+      if(onLoop(slots[i],slots[(i+1)%6]))lightEdge(i);
     }
   }
   const boardRect=()=>board.getBoundingClientRect();
   const ptRect=(x,y)=>{const r=boardRect();const px=r.left+x/360*r.width,py=r.top+y/360*r.height;
     return{left:px,right:px,top:py,bottom:py,width:0,height:0};};
   const TUTSTEPS=[
-    {text:`Six words, one ring. Every touching pair must <b>connect</b>. Three links are already made — two tiles traded places.`,
-     anchor:()=>ptRect(cx,cy),next:true},
-    {text:`A solid <b>amber</b> link means the two words fuse into one: WATER + FALL &rarr; <b>WATERFALL</b>.`,
-     anchor:()=>ptRect(labelPos[4].x,labelPos[4].y),next:true},
-    {text:`A dashed <i>teal</i> link means both words pair with the same hidden word: FALL and SUN both make one with <i>DOWN</i>.`,
-     anchor:()=>ptRect(labelPos[5].x,labelPos[5].y),next:true},
-    {text:`Fix the ring: <b>drag LIGHT onto HOUSE</b> to swap them. (Tapping one, then the other, works too.)`,
-     anchor:()=>ptRect(52,300), // bottom-left: clear of the two tiles being dragged
-     hi:()=>[tileOfWord('LIGHT'),tileOfWord('HOUSE')],wait:'swap'},
-    {text:`The ring looks closed. Hit <b>Submit</b> — it checks the loop link by link.`,
+    {text:`Six words, one ring. Every touching pair must <b>connect</b>. Four links already hold &mdash; but the loop isn't closed yet.`,
+     anchor:()=>ptRect(cx,372),next:true}, // below the board so the whole ring stays visible
+    {text:`A solid <b>amber</b> link means the two words fuse into one: SUN + LIGHT &rarr; <b>SUNLIGHT</b>.`,
+     anchor:()=>ptRect(labelPos[0].x,labelPos[0].y),next:true},
+    {text:`A dashed <i>teal</i> link means both words pair with the same hidden word: HOUSE and GROUND both make one with <i>WORK</i>.`,
+     anchor:()=>ptRect(labelPos[2].x,labelPos[2].y),next:true},
+    {text:`Think it's done? Hit <b>Submit</b> &mdash; the ring is checked link by link.`,
      anchor:()=>submitBtn.getBoundingClientRect(),
-     hi:()=>[submitBtn],wait:'submit'},
+     hi:()=>[submitBtn],enableSubmit:true,wait:'submit'},
+    {text:`A broken link costs a <b>life</b> &mdash; you get three a day. These two are swapped: <b>drag WATER onto FALL</b>. (Tapping one, then the other, works too.)`,
+     anchor:()=>ptRect(300,320), // bottom-right: clear of the two tiles being dragged
+     hi:()=>[tileOfWord('WATER'),tileOfWord('FALL')],wait:'swap'},
+    {text:`Closed. Hit <b>Submit</b> again.`,
+     anchor:()=>submitBtn.getBoundingClientRect(),
+     hi:()=>[submitBtn],enableSubmit:true,wait:'submit'},
   ];
   function clearHi(){hiEls.forEach(e=>e&&e.classList.remove('hi'));hiEls=[];}
   function placeCoach(s){
@@ -663,6 +672,7 @@
     tutStep++;
     const s=TUTSTEPS[tutStep];
     if(!s){tutHideBubble();return;}
+    submitBtn.disabled=!s.enableSubmit;
     coach.innerHTML=`${s.text}<div class="crow">
       <button class="skip">Skip tour</button>
       ${s.next?'<button class="btn primary">Next</button>':''}</div>`;
@@ -676,10 +686,13 @@
   function tutOnMove(){
     tutPreview();
     const s=TUTSTEPS[tutStep];
-    if(s&&s.wait==='swap'&&slots.join('|')===SOL.join('|')){
-      submitBtn.disabled=false;
-      tutNext();
-    }
+    if(s&&s.wait==='swap'&&loopFull(slots))tutNext();
+  }
+  function tutOnFail(){
+    // the scripted first Submit just broke: show the rules of failure, then
+    // hand the player the fix
+    tutPreview();
+    tutNext();
   }
   function tutHideBubble(){
     clearHi();
