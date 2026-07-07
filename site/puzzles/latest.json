@@ -1,48 +1,48 @@
 {
-  "number": 2,
-  "date": "2026-07-06",
-  "id": "1807e88c3207",
+  "number": 3,
+  "date": "2026-07-07",
+  "id": "1942f14af499",
   "words": [
-    "EAR",
-    "GUN",
-    "FIRE",
-    "WALL",
-    "KEY",
-    "RING"
+    "CAR",
+    "HOLE",
+    "POT",
+    "TEA",
+    "LINE",
+    "SIDE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "EAR|GUN": [
+    "CAR|HOLE": [
       "shar",
-      "SHOT"
+      "PORT"
     ],
-    "EAR|KEY": [
+    "CAR|LINE": [
       "shar",
-      "RING"
+      "SIDE"
     ],
-    "EAR|RING": [
+    "CAR|SIDE": [
       "comp",
-      "EARRING"
+      "SIDECAR"
     ],
-    "FIRE|GUN": [
+    "HOLE|POT": [
       "comp",
-      "GUNFIRE"
+      "POTHOLE"
     ],
-    "GUN|WALL": [
+    "HOLE|TEA": [
       "shar",
-      "FIRE"
+      "POT"
     ],
-    "FIRE|WALL": [
+    "POT|TEA": [
       "comp",
-      "FIREWALL"
+      "TEAPOT"
     ],
-    "KEY|WALL": [
+    "LINE|TEA": [
       "shar",
-      "STONE"
+      "TIME"
     ],
-    "KEY|RING": [
+    "LINE|SIDE": [
       "comp",
-      "KEYRING"
+      "SIDELINE"
     ]
   },
   "meta": {
