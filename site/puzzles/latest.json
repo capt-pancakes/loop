@@ -1,48 +1,48 @@
 {
-  "number": 3,
-  "date": "2026-07-07",
-  "id": "1942f14af499",
+  "number": 4,
+  "date": "2026-07-08",
+  "id": "2e55d6945673",
   "words": [
-    "CAR",
-    "HOLE",
-    "POT",
-    "TEA",
-    "LINE",
-    "SIDE"
+    "BULL",
+    "DOG",
+    "CAKE",
+    "WALK",
+    "MOON",
+    "PEN"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CAR|HOLE": [
-      "shar",
-      "PORT"
-    ],
-    "CAR|LINE": [
-      "shar",
-      "SIDE"
-    ],
-    "CAR|SIDE": [
+    "BULL|DOG": [
       "comp",
-      "SIDECAR"
+      "BULLDOG"
     ],
-    "HOLE|POT": [
+    "BULL|PEN": [
       "comp",
-      "POTHOLE"
+      "BULLPEN"
     ],
-    "HOLE|TEA": [
+    "CAKE|DOG": [
       "shar",
-      "POT"
+      "HOT"
     ],
-    "POT|TEA": [
-      "comp",
-      "TEAPOT"
-    ],
-    "LINE|TEA": [
+    "DOG|PEN": [
       "shar",
-      "TIME"
+      "BULL"
     ],
-    "LINE|SIDE": [
+    "CAKE|WALK": [
       "comp",
-      "SIDELINE"
+      "CAKEWALK"
+    ],
+    "CAKE|MOON": [
+      "shar",
+      "WALK"
+    ],
+    "MOON|WALK": [
+      "comp",
+      "MOONWALK"
+    ],
+    "MOON|PEN": [
+      "shar",
+      "LIGHT"
     ]
   },
   "meta": {
