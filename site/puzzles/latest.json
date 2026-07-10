@@ -1,48 +1,48 @@
 {
-  "number": 4,
-  "date": "2026-07-08",
-  "id": "2e55d6945673",
+  "number": 5,
+  "date": "2026-07-10",
+  "id": "341e01f285b0",
   "words": [
-    "BULL",
-    "DOG",
-    "CAKE",
-    "WALK",
-    "MOON",
-    "PEN"
+    "BOY",
+    "COW",
+    "DOOR",
+    "MAN",
+    "FIRE",
+    "PLAY"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BULL|DOG": [
+    "BOY|COW": [
       "comp",
-      "BULLDOG"
+      "COWBOY"
     ],
-    "BULL|PEN": [
+    "BOY|PLAY": [
       "comp",
-      "BULLPEN"
+      "PLAYBOY"
     ],
-    "CAKE|DOG": [
+    "COW|DOOR": [
       "shar",
-      "HOT"
+      "BELL"
     ],
-    "DOG|PEN": [
+    "COW|PLAY": [
       "shar",
-      "BULL"
+      "BOY"
     ],
-    "CAKE|WALK": [
+    "DOOR|MAN": [
       "comp",
-      "CAKEWALK"
+      "DOORMAN"
     ],
-    "CAKE|MOON": [
+    "DOOR|FIRE": [
       "shar",
-      "WALK"
+      "BACK"
     ],
-    "MOON|WALK": [
+    "FIRE|MAN": [
       "comp",
-      "MOONWALK"
+      "FIREMAN"
     ],
-    "MOON|PEN": [
+    "FIRE|PLAY": [
       "shar",
-      "LIGHT"
+      "HOUSE"
     ]
   },
   "meta": {

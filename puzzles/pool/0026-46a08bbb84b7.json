@@ -1,0 +1,52 @@
+{
+  "id": "46a08bbb84b7",
+  "words": [
+    "CHAIN",
+    "KEY",
+    "MAN",
+    "FIRE",
+    "WORK",
+    "SAW"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CHAIN|KEY": [
+      "comp",
+      "KEYCHAIN"
+    ],
+    "CHAIN|SAW": [
+      "comp",
+      "CHAINSAW"
+    ],
+    "KEY|MAN": [
+      "shar",
+      "HOLE"
+    ],
+    "KEY|SAW": [
+      "shar",
+      "CHAIN"
+    ],
+    "FIRE|MAN": [
+      "comp",
+      "FIREMAN"
+    ],
+    "MAN|WORK": [
+      "shar",
+      "FIRE"
+    ],
+    "FIRE|WORK": [
+      "comp",
+      "FIREWORK"
+    ],
+    "SAW|WORK": [
+      "shar",
+      "HORSE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}
