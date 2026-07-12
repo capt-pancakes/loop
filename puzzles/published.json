@@ -1,5 +1,5 @@
 {
-  "nextNumber": 7,
+  "nextNumber": 8,
   "puzzles": [
     {
       "number": 1,
@@ -77,6 +77,19 @@
         "KEY",
         "WORD",
         "PLAY"
+      ]
+    },
+    {
+      "number": 7,
+      "date": "2026-07-12",
+      "id": "4e052eb30d1b",
+      "words": [
+        "JACK",
+        "POT",
+        "TEA",
+        "WAR",
+        "SHIP",
+        "YARD"
       ]
     }
   ]
