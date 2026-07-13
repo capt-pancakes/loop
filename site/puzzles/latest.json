@@ -1,48 +1,52 @@
 {
-  "number": 7,
-  "date": "2026-07-12",
-  "id": "4e052eb30d1b",
+  "number": 8,
+  "date": "2026-07-13",
+  "id": "73a5127e88c9",
   "words": [
-    "JACK",
-    "POT",
-    "TEA",
-    "WAR",
-    "SHIP",
-    "YARD"
+    "BOY",
+    "COW",
+    "GIRL",
+    "WORK",
+    "TEAM",
+    "MATE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "JACK|POT": [
+    "BOY|COW": [
       "comp",
-      "JACKPOT"
+      "COWBOY"
     ],
-    "JACK|TEA": [
+    "BOY|GIRL": [
       "shar",
-      "POT"
+      "FRIEND"
     ],
-    "JACK|YARD": [
+    "BOY|WORK": [
       "shar",
-      "LUMBER"
+      "SCHOOL"
     ],
-    "POT|TEA": [
+    "BOY|MATE": [
+      "shar",
+      "PLAY"
+    ],
+    "COW|GIRL": [
       "comp",
-      "TEAPOT"
+      "COWGIRL"
     ],
-    "TEA|WAR": [
+    "GIRL|WORK": [
       "shar",
-      "TIME"
+      "SCHOOL"
     ],
-    "SHIP|WAR": [
+    "TEAM|WORK": [
       "comp",
-      "WARSHIP"
+      "TEAMWORK"
     ],
-    "WAR|YARD": [
+    "MATE|WORK": [
       "shar",
-      "SHIP"
+      "TEAM"
     ],
-    "SHIP|YARD": [
+    "MATE|TEAM": [
       "comp",
-      "SHIPYARD"
+      "TEAMMATE"
     ]
   },
   "meta": {

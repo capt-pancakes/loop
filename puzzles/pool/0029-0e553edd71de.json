@@ -1,0 +1,52 @@
+{
+  "id": "0e553edd71de",
+  "words": [
+    "CRACK",
+    "LOAD",
+    "PAY",
+    "DAY",
+    "TEA",
+    "POT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CRACK|LOAD": [
+      "shar",
+      "DOWN"
+    ],
+    "CRACK|TEA": [
+      "shar",
+      "POT"
+    ],
+    "CRACK|POT": [
+      "comp",
+      "CRACKPOT"
+    ],
+    "LOAD|PAY": [
+      "comp",
+      "PAYLOAD"
+    ],
+    "DAY|LOAD": [
+      "shar",
+      "PAY"
+    ],
+    "DAY|PAY": [
+      "comp",
+      "PAYDAY"
+    ],
+    "DAY|TEA": [
+      "shar",
+      "TIME"
+    ],
+    "POT|TEA": [
+      "comp",
+      "TEAPOT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

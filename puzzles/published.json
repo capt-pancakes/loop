@@ -1,5 +1,5 @@
 {
-  "nextNumber": 8,
+  "nextNumber": 9,
   "puzzles": [
     {
       "number": 1,
@@ -90,6 +90,19 @@
         "WAR",
         "SHIP",
         "YARD"
+      ]
+    },
+    {
+      "number": 8,
+      "date": "2026-07-13",
+      "id": "73a5127e88c9",
+      "words": [
+        "BOY",
+        "COW",
+        "GIRL",
+        "WORK",
+        "TEAM",
+        "MATE"
       ]
     }
   ]
