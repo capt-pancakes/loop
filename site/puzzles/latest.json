@@ -1,52 +1,48 @@
 {
-  "number": 8,
-  "date": "2026-07-13",
-  "id": "73a5127e88c9",
+  "number": 9,
+  "date": "2026-07-14",
+  "id": "a79ed007a2a3",
   "words": [
-    "BOY",
-    "COW",
-    "GIRL",
-    "WORK",
-    "TEAM",
-    "MATE"
+    "BROW",
+    "EYE",
+    "LASH",
+    "HAND",
+    "RAIL",
+    "WAY"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOY|COW": [
+    "BROW|EYE": [
       "comp",
-      "COWBOY"
+      "EYEBROW"
     ],
-    "BOY|GIRL": [
+    "BROW|LASH": [
       "shar",
-      "FRIEND"
+      "EYE"
     ],
-    "BOY|WORK": [
+    "BROW|WAY": [
       "shar",
-      "SCHOOL"
+      "HIGH"
     ],
-    "BOY|MATE": [
-      "shar",
-      "PLAY"
-    ],
-    "COW|GIRL": [
+    "EYE|LASH": [
       "comp",
-      "COWGIRL"
+      "EYELASH"
     ],
-    "GIRL|WORK": [
+    "HAND|LASH": [
       "shar",
-      "SCHOOL"
+      "BACK"
     ],
-    "TEAM|WORK": [
+    "HAND|RAIL": [
       "comp",
-      "TEAMWORK"
+      "HANDRAIL"
     ],
-    "MATE|WORK": [
+    "HAND|WAY": [
       "shar",
-      "TEAM"
+      "FREE"
     ],
-    "MATE|TEAM": [
+    "RAIL|WAY": [
       "comp",
-      "TEAMMATE"
+      "RAILWAY"
     ]
   },
   "meta": {
