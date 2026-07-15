@@ -1,0 +1,56 @@
+{
+  "id": "2aceb7bc061b",
+  "words": [
+    "AIR",
+    "BAG",
+    "BAR",
+    "HANDLE",
+    "PAN",
+    "LINE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AIR|BAG": [
+      "comp",
+      "AIRBAG"
+    ],
+    "AIR|LINE": [
+      "comp",
+      "AIRLINE"
+    ],
+    "BAG|BAR": [
+      "shar",
+      "SAND"
+    ],
+    "BAG|LINE": [
+      "shar",
+      "PIPE"
+    ],
+    "BAR|HANDLE": [
+      "comp",
+      "HANDLEBAR"
+    ],
+    "BAR|PAN": [
+      "shar",
+      "HANDLE"
+    ],
+    "BAR|LINE": [
+      "shar",
+      "SIDE"
+    ],
+    "HANDLE|PAN": [
+      "comp",
+      "PANHANDLE"
+    ],
+    "LINE|PAN": [
+      "shar",
+      "DEAD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

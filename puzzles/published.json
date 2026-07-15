@@ -1,5 +1,5 @@
 {
-  "nextNumber": 10,
+  "nextNumber": 11,
   "puzzles": [
     {
       "number": 1,
@@ -116,6 +116,19 @@
         "HAND",
         "RAIL",
         "WAY"
+      ]
+    },
+    {
+      "number": 10,
+      "date": "2026-07-15",
+      "id": "ea7b2409a0b9",
+      "words": [
+        "DUST",
+        "PAN",
+        "LINE",
+        "HAIR",
+        "NET",
+        "STAR"
       ]
     }
   ]
