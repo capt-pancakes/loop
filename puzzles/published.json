@@ -1,5 +1,5 @@
 {
-  "nextNumber": 11,
+  "nextNumber": 12,
   "puzzles": [
     {
       "number": 1,
@@ -129,6 +129,19 @@
         "HAIR",
         "NET",
         "STAR"
+      ]
+    },
+    {
+      "number": 11,
+      "date": "2026-07-16",
+      "id": "f6dd39687370",
+      "words": [
+        "ARM",
+        "BALL",
+        "EYE",
+        "LASH",
+        "FALL",
+        "PIT"
       ]
     }
   ]
