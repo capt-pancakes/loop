@@ -1,0 +1,56 @@
+{
+  "id": "2e1b93951f4d",
+  "words": [
+    "CRAFT",
+    "LINE",
+    "DEAD",
+    "PAN",
+    "WALK",
+    "SPACE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CRAFT|LINE": [
+      "shar",
+      "AIR"
+    ],
+    "CRAFT|WALK": [
+      "shar",
+      "SPACE"
+    ],
+    "CRAFT|SPACE": [
+      "comp",
+      "SPACECRAFT"
+    ],
+    "DEAD|LINE": [
+      "comp",
+      "DEADLINE"
+    ],
+    "LINE|PAN": [
+      "shar",
+      "DEAD"
+    ],
+    "LINE|WALK": [
+      "shar",
+      "SIDE"
+    ],
+    "DEAD|PAN": [
+      "comp",
+      "DEADPAN"
+    ],
+    "PAN|WALK": [
+      "shar",
+      "CAKE"
+    ],
+    "SPACE|WALK": [
+      "comp",
+      "SPACEWALK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

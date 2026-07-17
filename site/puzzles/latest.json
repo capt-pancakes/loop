@@ -1,52 +1,48 @@
 {
-  "number": 11,
-  "date": "2026-07-16",
-  "id": "f6dd39687370",
+  "number": 12,
+  "date": "2026-07-17",
+  "id": "fe887583777f",
   "words": [
-    "ARM",
-    "BALL",
-    "EYE",
-    "LASH",
-    "FALL",
-    "PIT"
+    "BONE",
+    "CUT",
+    "WOOD",
+    "RED",
+    "LOCK",
+    "JAW"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "ARM|BALL": [
-      "shar",
-      "FIRE"
-    ],
-    "ARM|FALL": [
-      "shar",
-      "PIT"
-    ],
-    "ARM|PIT": [
-      "comp",
-      "ARMPIT"
-    ],
-    "BALL|EYE": [
-      "comp",
-      "EYEBALL"
-    ],
-    "BALL|LASH": [
-      "shar",
-      "EYE"
-    ],
-    "BALL|FALL": [
-      "shar",
-      "FOOT"
-    ],
-    "EYE|LASH": [
-      "comp",
-      "EYELASH"
-    ],
-    "FALL|LASH": [
+    "BONE|CUT": [
       "shar",
       "BACK"
     ],
-    "FALL|PIT": [
+    "BONE|LOCK": [
+      "shar",
+      "JAW"
+    ],
+    "BONE|JAW": [
       "comp",
-      "PITFALL"
+      "JAWBONE"
+    ],
+    "CUT|WOOD": [
+      "comp",
+      "WOODCUT"
+    ],
+    "CUT|RED": [
+      "shar",
+      "WOOD"
+    ],
+    "RED|WOOD": [
+      "comp",
+      "REDWOOD"
+    ],
+    "LOCK|RED": [
+      "shar",
+      "HEAD"
+    ],
+    "JAW|LOCK": [
+      "comp",
+      "LOCKJAW"
     ]
   },
   "meta": {
