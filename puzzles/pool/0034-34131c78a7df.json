@@ -1,0 +1,52 @@
+{
+  "id": "34131c78a7df",
+  "words": [
+    "MARK",
+    "POST",
+    "SIDE",
+    "RING",
+    "TONE",
+    "WATER"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "MARK|POST": [
+      "comp",
+      "POSTMARK"
+    ],
+    "MARK|WATER": [
+      "comp",
+      "WATERMARK"
+    ],
+    "POST|SIDE": [
+      "shar",
+      "OUT"
+    ],
+    "POST|WATER": [
+      "shar",
+      "MARK"
+    ],
+    "RING|SIDE": [
+      "comp",
+      "RINGSIDE"
+    ],
+    "SIDE|TONE": [
+      "shar",
+      "RING"
+    ],
+    "RING|TONE": [
+      "comp",
+      "RINGTONE"
+    ],
+    "TONE|WATER": [
+      "shar",
+      "UNDER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

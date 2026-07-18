@@ -1,5 +1,5 @@
 {
-  "nextNumber": 13,
+  "nextNumber": 14,
   "puzzles": [
     {
       "number": 1,
@@ -155,6 +155,19 @@
         "RED",
         "LOCK",
         "JAW"
+      ]
+    },
+    {
+      "number": 13,
+      "date": "2026-07-18",
+      "id": "041ce392aea3",
+      "words": [
+        "FREE",
+        "GATE",
+        "TAIL",
+        "WIND",
+        "SHORT",
+        "HAND"
       ]
     }
   ]

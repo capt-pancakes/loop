@@ -1,54 +1,58 @@
 {
-  "number": 12,
-  "date": "2026-07-17",
-  "id": "fe887583777f",
+  "number": 13,
+  "date": "2026-07-18",
+  "id": "041ce392aea3",
   "words": [
-    "BONE",
-    "CUT",
-    "WOOD",
-    "RED",
-    "LOCK",
-    "JAW"
+    "FREE",
+    "GATE",
+    "TAIL",
+    "WIND",
+    "SHORT",
+    "HAND"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BONE|CUT": [
+    "FREE|GATE": [
       "shar",
-      "BACK"
+      "WAY"
     ],
-    "BONE|LOCK": [
+    "FREE|WIND": [
       "shar",
-      "JAW"
+      "FALL"
     ],
-    "BONE|JAW": [
-      "comp",
-      "JAWBONE"
-    ],
-    "CUT|WOOD": [
-      "comp",
-      "WOODCUT"
-    ],
-    "CUT|RED": [
+    "FREE|SHORT": [
       "shar",
-      "WOOD"
+      "FALL"
     ],
-    "RED|WOOD": [
+    "FREE|HAND": [
       "comp",
-      "REDWOOD"
+      "FREEHAND"
     ],
-    "LOCK|RED": [
+    "GATE|TAIL": [
+      "comp",
+      "TAILGATE"
+    ],
+    "GATE|WIND": [
       "shar",
-      "HEAD"
+      "TAIL"
     ],
-    "JAW|LOCK": [
+    "TAIL|WIND": [
       "comp",
-      "LOCKJAW"
+      "TAILWIND"
+    ],
+    "SHORT|WIND": [
+      "shar",
+      "FALL"
+    ],
+    "HAND|SHORT": [
+      "comp",
+      "SHORTHAND"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 4,
     "shar": 2,
-    "score": 37
+    "score": 36
   }
 }
