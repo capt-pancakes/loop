@@ -1,0 +1,52 @@
+{
+  "id": "0e46b3d54ec0",
+  "words": [
+    "AFTER",
+    "GLOW",
+    "EAR",
+    "PHONE",
+    "HEAD",
+    "LIFE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AFTER|GLOW": [
+      "comp",
+      "AFTERGLOW"
+    ],
+    "AFTER|LIFE": [
+      "comp",
+      "AFTERLIFE"
+    ],
+    "EAR|GLOW": [
+      "shar",
+      "WORM"
+    ],
+    "GLOW|LIFE": [
+      "shar",
+      "AFTER"
+    ],
+    "EAR|PHONE": [
+      "comp",
+      "EARPHONE"
+    ],
+    "EAR|HEAD": [
+      "shar",
+      "ACHE"
+    ],
+    "HEAD|PHONE": [
+      "comp",
+      "HEADPHONE"
+    ],
+    "HEAD|LIFE": [
+      "shar",
+      "LINE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

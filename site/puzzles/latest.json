@@ -1,52 +1,48 @@
 {
-  "number": 13,
-  "date": "2026-07-18",
-  "id": "041ce392aea3",
+  "number": 14,
+  "date": "2026-07-19",
+  "id": "065cef726c2a",
   "words": [
-    "FREE",
-    "GATE",
-    "TAIL",
-    "WIND",
-    "SHORT",
-    "HAND"
+    "COUNT",
+    "FALL",
+    "SNOW",
+    "DRIFT",
+    "RED",
+    "HEAD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "FREE|GATE": [
+    "COUNT|FALL": [
       "shar",
-      "WAY"
+      "DOWN"
     ],
-    "FREE|WIND": [
+    "COUNT|RED": [
       "shar",
-      "FALL"
+      "HEAD"
     ],
-    "FREE|SHORT": [
-      "shar",
-      "FALL"
-    ],
-    "FREE|HAND": [
+    "COUNT|HEAD": [
       "comp",
-      "FREEHAND"
+      "HEADCOUNT"
     ],
-    "GATE|TAIL": [
+    "FALL|SNOW": [
       "comp",
-      "TAILGATE"
+      "SNOWFALL"
     ],
-    "GATE|WIND": [
+    "DRIFT|FALL": [
       "shar",
-      "TAIL"
+      "SNOW"
     ],
-    "TAIL|WIND": [
+    "DRIFT|SNOW": [
       "comp",
-      "TAILWIND"
+      "SNOWDRIFT"
     ],
-    "SHORT|WIND": [
+    "DRIFT|RED": [
       "shar",
-      "FALL"
+      "WOOD"
     ],
-    "HAND|SHORT": [
+    "HEAD|RED": [
       "comp",
-      "SHORTHAND"
+      "REDHEAD"
     ]
   },
   "meta": {
