@@ -1,0 +1,60 @@
+{
+  "id": "7bd2e848ea25",
+  "words": [
+    "CRACK",
+    "HILL",
+    "TOP",
+    "ROOF",
+    "SUN",
+    "POT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CRACK|HILL": [
+      "shar",
+      "DOWN"
+    ],
+    "CRACK|SUN": [
+      "shar",
+      "DOWN"
+    ],
+    "CRACK|POT": [
+      "comp",
+      "CRACKPOT"
+    ],
+    "HILL|TOP": [
+      "comp",
+      "HILLTOP"
+    ],
+    "HILL|ROOF": [
+      "shar",
+      "TOP"
+    ],
+    "HILL|SUN": [
+      "shar",
+      "DOWN"
+    ],
+    "ROOF|TOP": [
+      "comp",
+      "ROOFTOP"
+    ],
+    "SUN|TOP": [
+      "shar",
+      "ROOF"
+    ],
+    "ROOF|SUN": [
+      "comp",
+      "SUNROOF"
+    ],
+    "POT|SUN": [
+      "shar",
+      "FLOWER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

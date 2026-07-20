@@ -1,0 +1,60 @@
+{
+  "id": "30054e427118",
+  "words": [
+    "CAKE",
+    "FALL",
+    "LAND",
+    "WOOD",
+    "DOG",
+    "HOT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAKE|FALL": [
+      "shar",
+      "SHORT"
+    ],
+    "CAKE|DOG": [
+      "shar",
+      "HOT"
+    ],
+    "CAKE|HOT": [
+      "comp",
+      "HOTCAKE"
+    ],
+    "FALL|LAND": [
+      "comp",
+      "LANDFALL"
+    ],
+    "FALL|WOOD": [
+      "shar",
+      "LAND"
+    ],
+    "LAND|WOOD": [
+      "comp",
+      "WOODLAND"
+    ],
+    "DOG|LAND": [
+      "shar",
+      "WOOD"
+    ],
+    "DOG|WOOD": [
+      "comp",
+      "DOGWOOD"
+    ],
+    "HOT|WOOD": [
+      "shar",
+      "DOG"
+    ],
+    "DOG|HOT": [
+      "comp",
+      "HOTDOG"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}

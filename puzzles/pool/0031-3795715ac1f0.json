@@ -1,0 +1,60 @@
+{
+  "id": "3795715ac1f0",
+  "words": [
+    "CARE",
+    "DAY",
+    "WEEK",
+    "END",
+    "HAND",
+    "FREE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CARE|DAY": [
+      "comp",
+      "DAYCARE"
+    ],
+    "CARE|WEEK": [
+      "shar",
+      "DAY"
+    ],
+    "CARE|HAND": [
+      "shar",
+      "FREE"
+    ],
+    "CARE|FREE": [
+      "comp",
+      "CAREFREE"
+    ],
+    "DAY|WEEK": [
+      "comp",
+      "WEEKDAY"
+    ],
+    "DAY|END": [
+      "shar",
+      "WEEK"
+    ],
+    "DAY|FREE": [
+      "shar",
+      "CARE"
+    ],
+    "END|WEEK": [
+      "comp",
+      "WEEKEND"
+    ],
+    "END|HAND": [
+      "shar",
+      "BOOK"
+    ],
+    "FREE|HAND": [
+      "comp",
+      "FREEHAND"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1a2423ccacdf",
+  "words": [
+    "ARM",
+    "BAND",
+    "HEAD",
+    "WAR",
+    "PATH",
+    "FOOT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "ARM|BAND": [
+      "comp",
+      "ARMBAND"
+    ],
+    "ARM|HEAD": [
+      "shar",
+      "FORE"
+    ],
+    "ARM|FOOT": [
+      "shar",
+      "REST"
+    ],
+    "BAND|HEAD": [
+      "comp",
+      "HEADBAND"
+    ],
+    "BAND|WAR": [
+      "shar",
+      "HEAD"
+    ],
+    "HEAD|WAR": [
+      "comp",
+      "WARHEAD"
+    ],
+    "HEAD|PATH": [
+      "shar",
+      "WAR"
+    ],
+    "FOOT|HEAD": [
+      "shar",
+      "REST"
+    ],
+    "PATH|WAR": [
+      "comp",
+      "WARPATH"
+    ],
+    "FOOT|WAR": [
+      "shar",
+      "PATH"
+    ],
+    "FOOT|PATH": [
+      "comp",
+      "FOOTPATH"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}

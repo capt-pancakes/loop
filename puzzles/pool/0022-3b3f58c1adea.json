@@ -1,0 +1,68 @@
+{
+  "id": "3b3f58c1adea",
+  "words": [
+    "BROW",
+    "EYE",
+    "RED",
+    "WOOD",
+    "LAND",
+    "HIGH"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BROW|EYE": [
+      "comp",
+      "EYEBROW"
+    ],
+    "BROW|RED": [
+      "shar",
+      "EYE"
+    ],
+    "BROW|LAND": [
+      "shar",
+      "HIGH"
+    ],
+    "BROW|HIGH": [
+      "comp",
+      "HIGHBROW"
+    ],
+    "EYE|RED": [
+      "comp",
+      "REDEYE"
+    ],
+    "EYE|WOOD": [
+      "shar",
+      "RED"
+    ],
+    "EYE|HIGH": [
+      "shar",
+      "BROW"
+    ],
+    "RED|WOOD": [
+      "comp",
+      "REDWOOD"
+    ],
+    "LAND|RED": [
+      "shar",
+      "WOOD"
+    ],
+    "LAND|WOOD": [
+      "comp",
+      "WOODLAND"
+    ],
+    "HIGH|WOOD": [
+      "shar",
+      "LAND"
+    ],
+    "HIGH|LAND": [
+      "comp",
+      "HIGHLAND"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 47
+  }
+}

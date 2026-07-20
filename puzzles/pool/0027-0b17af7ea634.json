@@ -1,0 +1,68 @@
+{
+  "id": "0b17af7ea634",
+  "words": [
+    "EAR",
+    "RING",
+    "SIDE",
+    "MAN",
+    "HOLE",
+    "WORM"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "EAR|RING": [
+      "comp",
+      "EARRING"
+    ],
+    "EAR|SIDE": [
+      "shar",
+      "RING"
+    ],
+    "EAR|HOLE": [
+      "shar",
+      "WORM"
+    ],
+    "EAR|WORM": [
+      "comp",
+      "EARWORM"
+    ],
+    "RING|SIDE": [
+      "comp",
+      "RINGSIDE"
+    ],
+    "HOLE|RING": [
+      "shar",
+      "KEY"
+    ],
+    "RING|WORM": [
+      "comp",
+      "RINGWORM"
+    ],
+    "MAN|SIDE": [
+      "shar",
+      "SHOW"
+    ],
+    "SIDE|WORM": [
+      "shar",
+      "RING"
+    ],
+    "HOLE|MAN": [
+      "comp",
+      "MANHOLE"
+    ],
+    "MAN|WORM": [
+      "shar",
+      "HOLE"
+    ],
+    "HOLE|WORM": [
+      "comp",
+      "WORMHOLE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}

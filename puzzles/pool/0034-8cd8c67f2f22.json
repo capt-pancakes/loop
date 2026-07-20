@@ -1,0 +1,60 @@
+{
+  "id": "8cd8c67f2f22",
+  "words": [
+    "DRUM",
+    "EAR",
+    "SHOT",
+    "LOAD",
+    "PAY",
+    "ROLL"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "DRUM|EAR": [
+      "comp",
+      "EARDRUM"
+    ],
+    "DRUM|SHOT": [
+      "shar",
+      "EAR"
+    ],
+    "DRUM|PAY": [
+      "shar",
+      "ROLL"
+    ],
+    "DRUM|ROLL": [
+      "comp",
+      "DRUMROLL"
+    ],
+    "EAR|SHOT": [
+      "comp",
+      "EARSHOT"
+    ],
+    "EAR|ROLL": [
+      "shar",
+      "DRUM"
+    ],
+    "LOAD|SHOT": [
+      "shar",
+      "UP"
+    ],
+    "LOAD|PAY": [
+      "comp",
+      "PAYLOAD"
+    ],
+    "LOAD|ROLL": [
+      "shar",
+      "PAY"
+    ],
+    "PAY|ROLL": [
+      "comp",
+      "PAYROLL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}

@@ -5,7 +5,10 @@
 //   node scripts/publish.mjs --date 2026-07-09
 //
 // Idempotent: if the date already has a puzzle, it only re-syncs the index.
-// The pool is consumed in filename order (the order the generator ranked them).
+// The pool is consumed by difficulty: the date's weekday sets a hidden-link
+// target (WEEKDAY_SHAR), the pool file matching it with the lowest filename
+// (= best generation rank) wins. If the tier is out of stock the nearest
+// tier substitutes (easier on ties) so a publish never fails on mix alone.
 
 import {
   readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, rmSync, renameSync,
@@ -13,6 +16,7 @@ import {
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { validatePuzzle, loadDefaultGraph } from '../engine/validate.mjs';
+import { sharTargetForDate, ringSharCount } from '../engine/lib/puzzle.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const POOL_DIR = join(ROOT, 'puzzles/pool');
@@ -73,14 +77,14 @@ function main() {
     ? readdirSync(POOL_DIR).filter((f) => f.endsWith('.json')).sort()
     : [];
 
-  let chosen = null;
+  const candidates = [];
   for (const f of poolFiles) {
     const path = join(POOL_DIR, f);
     const puzzle = JSON.parse(readFileSync(path, 'utf8'));
     const { ok, errors } = validatePuzzle(puzzle, graph);
     if (ok) {
-      chosen = { file: f, path, puzzle };
-      break;
+      candidates.push({ file: f, path, puzzle, shar: ringSharCount(puzzle) });
+      continue;
     }
     // A pool puzzle can go stale if the dataset changed since generation.
     console.warn(`rejecting pool/${f}:`);
@@ -89,9 +93,24 @@ function main() {
     renameSync(path, join(REJECT_DIR, f));
   }
 
-  if (!chosen) {
+  if (candidates.length === 0) {
     console.error('pool is empty — run: node engine/generate.mjs');
     process.exit(2);
+  }
+
+  const target = sharTargetForDate(date);
+  candidates.sort(
+    (x, y) =>
+      Math.abs(x.shar - target) - Math.abs(y.shar - target) ||
+      x.shar - y.shar ||
+      (x.file < y.file ? -1 : 1),
+  );
+  const chosen = candidates[0];
+  if (chosen.shar !== target) {
+    console.warn(
+      `no shar=${target} puzzle in pool — publishing shar=${chosen.shar} instead; ` +
+      'run: node engine/generate.mjs --refill 21',
+    );
   }
 
   const number = published.nextNumber;
@@ -113,8 +132,8 @@ function main() {
   writeFileSync(PUBLISHED, JSON.stringify(published, null, 2) + '\n');
 
   rebuildIndex();
-  console.log(`published No. ${number} for ${date}: ${out.words.join(' → ')}`);
-  console.log(`pool has ${poolFiles.length - 1} puzzle(s) left`);
+  console.log(`published No. ${number} for ${date} (shar=${chosen.shar}): ${out.words.join(' → ')}`);
+  console.log(`pool has ${candidates.length - 1} puzzle(s) left`);
 }
 
 main();

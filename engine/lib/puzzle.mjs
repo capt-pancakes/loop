@@ -7,6 +7,28 @@ export function puzzleId(words) {
   return createHash('sha1').update(words.join('|')).digest('hex').slice(0, 12);
 }
 
+// Difficulty schedule: how many hidden-link (shar) ring edges the day's
+// puzzle should have, indexed by Date#getUTCDay (0 = Sunday). Hidden links
+// are the difficulty knob — Mon/Tue ease in with none, midweek adds one,
+// the weekend peaks at two. Comp count is always 6 - shar.
+export const WEEKDAY_SHAR = [2, 0, 0, 1, 1, 1, 2];
+
+export function sharTargetForDate(dateStr) {
+  return WEEKDAY_SHAR[new Date(`${dateStr}T00:00:00Z`).getUTCDay()];
+}
+
+// Hidden-link count of a puzzle's ring (chords don't count), straight from
+// the puzzle JSON — pool files predate meta trust, so derive, don't read meta.
+export function ringSharCount(puzzle) {
+  const words = puzzle.words;
+  let n = 0;
+  for (let i = 0; i < words.length; i++) {
+    const entry = puzzle.bonds[pairKey(words[i], words[(i + 1) % words.length])];
+    if (entry && entry[0] === 'shar') n++;
+  }
+  return n;
+}
+
 // Higher is better. Deterministic so generation is reproducible.
 export function scoreCandidate(cand) {
   let score = 0;
