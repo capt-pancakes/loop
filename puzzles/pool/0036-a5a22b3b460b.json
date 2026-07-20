@@ -1,12 +1,12 @@
 {
-  "id": "03736ec399ec",
+  "id": "a5a22b3b460b",
   "words": [
     "AIR",
     "LINE",
-    "TIME",
-    "BED",
-    "SEA",
-    "PORT"
+    "PIPE",
+    "TAIL",
+    "GATE",
+    "WAY"
   ],
   "anchorIndex": 0,
   "bonds": {
@@ -14,53 +14,49 @@
       "comp",
       "AIRLINE"
     ],
-    "AIR|TIME": [
+    "AIR|PIPE": [
       "shar",
-      "LINE"
+      "BAG"
     ],
-    "AIR|SEA": [
+    "AIR|GATE": [
       "shar",
-      "PLANE"
+      "WAY"
     ],
-    "AIR|PORT": [
+    "AIR|WAY": [
       "comp",
-      "AIRPORT"
+      "AIRWAY"
     ],
-    "LINE|TIME": [
+    "LINE|PIPE": [
       "comp",
-      "TIMELINE"
+      "PIPELINE"
     ],
-    "BED|LINE": [
+    "LINE|TAIL": [
       "shar",
-      "SIDE"
+      "PIPE"
     ],
-    "LINE|SEA": [
-      "shar",
-      "SHORE"
-    ],
-    "LINE|PORT": [
+    "LINE|WAY": [
       "shar",
       "AIR"
     ],
-    "BED|TIME": [
+    "PIPE|TAIL": [
       "comp",
-      "BEDTIME"
+      "TAILPIPE"
     ],
-    "SEA|TIME": [
+    "GATE|PIPE": [
       "shar",
-      "BED"
+      "TAIL"
     ],
-    "BED|SEA": [
+    "GATE|TAIL": [
       "comp",
-      "SEABED"
+      "TAILGATE"
     ],
-    "BED|PORT": [
+    "TAIL|WAY": [
       "shar",
-      "SEA"
+      "GATE"
     ],
-    "PORT|SEA": [
+    "GATE|WAY": [
       "comp",
-      "SEAPORT"
+      "GATEWAY"
     ]
   },
   "meta": {
