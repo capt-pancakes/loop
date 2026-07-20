@@ -85,16 +85,25 @@ export function bond(graph, a, b) {
 }
 
 // Count distinct Hamiltonian cycles (as undirected edge sets) over the given
-// six words, using every bond the graph knows about. A fair puzzle admits
-// exactly one — otherwise a player could build a fully-bonded ring the
-// validator would still reject.
+// six words, using every bond the game could present as a ring edge: comp
+// bonds, plus shar bonds with at least one helper OUTSIDE the word set. A
+// shar pair whose helpers all sit among the six words is excluded — its
+// reveal would name a visible tile (banned as a ring edge, see the helper
+// rule in buildCandidate), so no valid ring can ever run through it. This
+// exemption matters: any comp chain A-B-C makes A|C shar through B, so
+// counting in-set-helper chords would make every 5+-comp ring ambiguous and
+// low-shar (easy) puzzles impossible. A fair puzzle admits exactly one cycle
+// — otherwise a player could build a fully-bonded ring the validator would
+// still reject.
 export function countHamiltonianCycles(graph, words, { maxSharHelpers = Infinity } = {}) {
   const n = words.length;
+  const wordSet = new Set(words);
   const adj = Array.from({ length: n }, () => new Array(n).fill(false));
   for (let i = 0; i < n; i++) {
     for (let j = i + 1; j < n; j++) {
       const b = bond(graph, words[i], words[j]);
-      const ok = b && (b[0] === 'comp' || b[1].length <= maxSharHelpers);
+      const ok = b && (b[0] === 'comp' ||
+        (b[1].length <= maxSharHelpers && b[1].some((h) => !wordSet.has(h))));
       adj[i][j] = adj[j][i] = !!ok;
     }
   }

@@ -1,0 +1,72 @@
+{
+  "id": "03736ec399ec",
+  "words": [
+    "AIR",
+    "LINE",
+    "TIME",
+    "BED",
+    "SEA",
+    "PORT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AIR|LINE": [
+      "comp",
+      "AIRLINE"
+    ],
+    "AIR|TIME": [
+      "shar",
+      "LINE"
+    ],
+    "AIR|SEA": [
+      "shar",
+      "PLANE"
+    ],
+    "AIR|PORT": [
+      "comp",
+      "AIRPORT"
+    ],
+    "LINE|TIME": [
+      "comp",
+      "TIMELINE"
+    ],
+    "BED|LINE": [
+      "shar",
+      "SIDE"
+    ],
+    "LINE|SEA": [
+      "shar",
+      "SHORE"
+    ],
+    "LINE|PORT": [
+      "shar",
+      "AIR"
+    ],
+    "BED|TIME": [
+      "comp",
+      "BEDTIME"
+    ],
+    "SEA|TIME": [
+      "shar",
+      "BED"
+    ],
+    "BED|SEA": [
+      "comp",
+      "SEABED"
+    ],
+    "BED|PORT": [
+      "shar",
+      "SEA"
+    ],
+    "PORT|SEA": [
+      "comp",
+      "SEAPORT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 47
+  }
+}

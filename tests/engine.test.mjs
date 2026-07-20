@@ -7,7 +7,9 @@ import {
   parseCompounds, buildGraph, bond, pairKey, enumerateLoops,
   countHamiltonianCycles, buildCandidate, TILE_STOPLIST,
 } from '../engine/lib/graph.mjs';
-import { emitPuzzle, isUnique, puzzleId, overlap } from '../engine/lib/puzzle.mjs';
+import {
+  emitPuzzle, isUnique, puzzleId, overlap, WEEKDAY_SHAR, sharTargetForDate, ringSharCount,
+} from '../engine/lib/puzzle.mjs';
 import { validatePuzzle } from '../engine/validate.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -64,6 +66,49 @@ test('enumerateLoops finds a synthetic ring', () => {
     ids.includes(puzzleId(['AA', 'BB', 'CC', 'DD', 'EE', 'FF'])),
     'the designed ring must be found',
   );
+});
+
+test('a pure comp ring is fair despite its automatic in-ring shar chords', () => {
+  // Any comp chain A-B-C makes A|C shar through B, so every all-comp ring
+  // carries six distance-2 chords whose helpers sit ON the ring. Those can
+  // never be revealed as a ring edge, so they must not count as ambiguity —
+  // otherwise no 0- or 1-hidden-link puzzle could ever exist.
+  const entries = parseCompounds(
+    ['AA+BB', 'BB+CC', 'CC+DD', 'DD+EE', 'EE+FF', 'FF+AA'].join('\n'),
+  );
+  const graph = buildGraph(entries);
+  assert.equal(bond(graph, 'AA', 'CC')[0], 'shar'); // the chord exists...
+  assert.equal(countHamiltonianCycles(graph, ['AA', 'BB', 'CC', 'DD', 'EE', 'FF']), 1);
+});
+
+test('shar chords with off-ring helpers still create ambiguity', () => {
+  // DD~FF via GG and AA~EE via HH (both helpers off-ring) open the alternate
+  // ring AA-BB-CC-DD-FF-EE, which a player could legitimately build.
+  const entries = parseCompounds(
+    ['AA+BB', 'BB+CC', 'CC+DD', 'DD+EE', 'EE+FF', 'FF+AA',
+     'DD+GG', 'FF+GG', 'EE+HH', 'AA+HH'].join('\n'),
+  );
+  const graph = buildGraph(entries);
+  const n = countHamiltonianCycles(graph, ['AA', 'BB', 'CC', 'DD', 'EE', 'FF']);
+  assert.ok(n >= 2, `expected ambiguity, got ${n}`);
+});
+
+test('weekday difficulty schedule', () => {
+  assert.equal(WEEKDAY_SHAR.length, 7);
+  assert.equal(sharTargetForDate('2026-07-19'), 2); // Sunday — hardest
+  assert.equal(sharTargetForDate('2026-07-20'), 0); // Monday
+  assert.equal(sharTargetForDate('2026-07-21'), 0); // Tuesday
+  assert.equal(sharTargetForDate('2026-07-22'), 1); // Wednesday
+  assert.equal(sharTargetForDate('2026-07-23'), 1); // Thursday
+  assert.equal(sharTargetForDate('2026-07-24'), 1); // Friday
+  assert.equal(sharTargetForDate('2026-07-25'), 2); // Saturday
+});
+
+test('ringSharCount reads ring edges, not chords', () => {
+  const graph = buildGraph(parseCompounds(datasetText));
+  const cand = buildCandidate(graph, ['SUN', 'LIGHT', 'HOUSE', 'GROUND', 'WATER', 'FALL']);
+  const puzzle = emitPuzzle(graph, cand);
+  assert.equal(ringSharCount(puzzle), 2);
 });
 
 test('countHamiltonianCycles flags ambiguity', () => {

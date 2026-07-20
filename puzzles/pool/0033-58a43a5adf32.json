@@ -1,0 +1,60 @@
+{
+  "id": "58a43a5adf32",
+  "words": [
+    "BOX",
+    "CAR",
+    "SIDE",
+    "HILL",
+    "TOP",
+    "MAIL"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOX|CAR": [
+      "comp",
+      "BOXCAR"
+    ],
+    "BOX|SIDE": [
+      "shar",
+      "CAR"
+    ],
+    "BOX|MAIL": [
+      "comp",
+      "MAILBOX"
+    ],
+    "CAR|SIDE": [
+      "comp",
+      "SIDECAR"
+    ],
+    "CAR|HILL": [
+      "shar",
+      "SIDE"
+    ],
+    "CAR|MAIL": [
+      "shar",
+      "BOX"
+    ],
+    "HILL|SIDE": [
+      "comp",
+      "HILLSIDE"
+    ],
+    "SIDE|TOP": [
+      "shar",
+      "MOUNTAIN"
+    ],
+    "HILL|TOP": [
+      "comp",
+      "HILLTOP"
+    ],
+    "MAIL|TOP": [
+      "shar",
+      "BLACK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}

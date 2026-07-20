@@ -14,8 +14,13 @@ build step. `npm test` must pass before any push.
   the same hidden **helper** word (FALL·SUN → both take DOWN).
 - **anchor**: the slot locked at game start (`anchorIndex`, always 0 today —
   the canonical first word).
-- **pool**: vetted, unpublished puzzles in `puzzles/pool/`, consumed in
-  filename order (`0001-<id>.json`, seq = generation rank).
+- **pool**: vetted, unpublished puzzles in `puzzles/pool/`, stocked across
+  difficulty tiers (`0001-<id>.json`, seq = generation rank); the publisher
+  picks by the date's difficulty target, then filename order within the tier.
+- **difficulty tier**: a puzzle's hidden-link (shar) ring-edge count — 0 easy,
+  1 medium, 2 hard (comp is always 6 − shar). `WEEKDAY_SHAR` in
+  `engine/lib/puzzle.mjs` maps weekday → tier: Mon/Tue 0, Wed–Fri 1,
+  Sat/Sun 2.
 - **published log**: `puzzles/published.json` — numbering + dedupe history.
 
 ## Data flow
@@ -59,14 +64,23 @@ edges, but the data mirrors the original hand-built prototype.
    (`countHamiltonianCycles(...) === 1`, mirror counts as the same ring).
    The client validates against the intended edge set only, so an ambiguous
    word set means a player can build a real-looking loop that gets rejected.
-   Enforced by the generator (lazily, in `engine/generate.mjs`) and re-checked
-   by `engine/validate.mjs` at publish time.
+   "Bonded" counts comp bonds and shar bonds with ≥1 helper *outside* the six
+   words; a shar pair whose helpers all sit on the ring is excluded — it can
+   never be revealed as a ring edge (invariant 2), and counting it would make
+   every 5+-comp ring ambiguous (any comp chain A-B-C shars A|C through B),
+   i.e. easy puzzles mathematically impossible. Enforced by the generator
+   (lazily, in `engine/generate.mjs`) and re-checked by `engine/validate.mjs`
+   at publish time.
 2. **Ring-edge shar helpers must not be ring words** (revealing "+HOUSE" while
    HOUSE sits on the ring reads as nonsense). Off-ring bonds are exempt.
 3. **Tile stoplist** (`TILE_STOPLIST` in `engine/lib/graph.mjs`): glue words
    (UP, OUT, OFF, OVER, UNDER, DOWN, BACK, FORE…) may be hidden helpers but
    never ring tiles. Rings of prepositions feel cheap.
 4. **Ring quota**: ≥4 comp bonds, ≤2 shar bonds (matches the prototype feel).
+   Within that bound, the day's shar count follows `WEEKDAY_SHAR` — the pool
+   is refilled in the weekly mix (2:3:2 easy:medium:hard per 7) and the
+   publisher substitutes the nearest tier (easier on ties) when a tier runs
+   dry rather than fail.
 5. **Canonical ring order**: `words[0]` is the alphabetically smallest;
    direction chosen so the second word < the last word. `id` hashes this
    canonical order — never reorder words in an existing puzzle file.
@@ -84,10 +98,11 @@ edges, but the data mirrors the original hand-built prototype.
 
 ```bash
 npm test                              # node --test tests/*.test.mjs (~30s, includes enumeration)
-node engine/generate.mjs --stats      # dataset/supply stats (~25s, enumerates)
-node engine/generate.mjs --list 10    # preview top fair candidates, writes nothing
-node engine/generate.mjs --count 25   # append N puzzles to the pool
-node engine/generate.mjs --refill 21  # top pool up to N (no-op if full) — what cron runs
+node engine/generate.mjs --stats      # per-tier supply stats (~60s, enumerates all tiers)
+node engine/generate.mjs --list 5     # preview top fair candidates per tier, writes nothing
+node engine/generate.mjs --count 25   # append N puzzles (weekly difficulty mix)
+node engine/generate.mjs --shar 0 --count 5   # a single tier only
+node engine/generate.mjs --refill 21  # top pool up to N in the mix (no-op if full) — what cron runs
 node engine/validate.mjs <files...>   # exit 1 if any file invalid
 node scripts/publish.mjs [--date YYYY-MM-DD]  # promote next pool puzzle (idempotent per date)
 npm run serve                         # python http.server on :8080 serving site/
@@ -162,6 +177,7 @@ npm run serve                         # python http.server on :8080 serving site
 | Add/curate words                        | `engine/data/compounds.txt` (then run tests + validate pool) |
 | Change ring size / bond quotas          | `enumerateLoops` opts in `engine/lib/graph.mjs`, `engine/generate.mjs` args — client assumes 6 slots |
 | Change candidate quality/ranking        | `scoreCandidate` in `engine/lib/puzzle.mjs` |
+| Change weekday difficulty schedule      | `WEEKDAY_SHAR` in `engine/lib/puzzle.mjs` (generator mix + publisher pick both derive from it) |
 | Change variety across days              | `MAX_OVERLAP` / `MAX_WORD_USES` in `engine/generate.mjs` |
 | Change publish cadence/time             | cron in `.github/workflows/daily-publish.yml` |
 | Change game look/behavior               | `site/index.html` (single file, inline CSS/JS) |

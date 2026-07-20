@@ -1,0 +1,76 @@
+{
+  "id": "53098114148f",
+  "words": [
+    "BOOK",
+    "NOTE",
+    "PAD",
+    "KEY",
+    "RING",
+    "WORM"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOOK|NOTE": [
+      "comp",
+      "NOTEBOOK"
+    ],
+    "BOOK|PAD": [
+      "shar",
+      "NOTE"
+    ],
+    "BOOK|KEY": [
+      "shar",
+      "NOTE"
+    ],
+    "BOOK|RING": [
+      "shar",
+      "WORM"
+    ],
+    "BOOK|WORM": [
+      "comp",
+      "BOOKWORM"
+    ],
+    "NOTE|PAD": [
+      "comp",
+      "NOTEPAD"
+    ],
+    "KEY|NOTE": [
+      "comp",
+      "KEYNOTE"
+    ],
+    "NOTE|RING": [
+      "shar",
+      "KEY"
+    ],
+    "NOTE|WORM": [
+      "shar",
+      "BOOK"
+    ],
+    "KEY|PAD": [
+      "comp",
+      "KEYPAD"
+    ],
+    "PAD|RING": [
+      "shar",
+      "KEY"
+    ],
+    "KEY|RING": [
+      "comp",
+      "KEYRING"
+    ],
+    "KEY|WORM": [
+      "shar",
+      "HOLE"
+    ],
+    "RING|WORM": [
+      "comp",
+      "RINGWORM"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 47
+  }
+}

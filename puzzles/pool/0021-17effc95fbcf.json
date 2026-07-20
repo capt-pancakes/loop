@@ -1,0 +1,76 @@
+{
+  "id": "17effc95fbcf",
+  "words": [
+    "BALL",
+    "FIRE",
+    "WORK",
+    "NET",
+    "HAIR",
+    "PIN"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BALL|FIRE": [
+      "comp",
+      "FIREBALL"
+    ],
+    "BALL|WORK": [
+      "shar",
+      "FIRE"
+    ],
+    "BALL|NET": [
+      "shar",
+      "HAIR"
+    ],
+    "BALL|HAIR": [
+      "comp",
+      "HAIRBALL"
+    ],
+    "BALL|PIN": [
+      "comp",
+      "PINBALL"
+    ],
+    "FIRE|WORK": [
+      "comp",
+      "FIREWORK"
+    ],
+    "FIRE|NET": [
+      "shar",
+      "WORK"
+    ],
+    "FIRE|HAIR": [
+      "shar",
+      "BRUSH"
+    ],
+    "FIRE|PIN": [
+      "shar",
+      "BALL"
+    ],
+    "NET|WORK": [
+      "comp",
+      "NETWORK"
+    ],
+    "HAIR|WORK": [
+      "shar",
+      "NET"
+    ],
+    "HAIR|NET": [
+      "comp",
+      "HAIRNET"
+    ],
+    "NET|PIN": [
+      "shar",
+      "HAIR"
+    ],
+    "HAIR|PIN": [
+      "comp",
+      "HAIRPIN"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 47
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "019b3db89879",
+  "words": [
+    "BAG",
+    "HAND",
+    "GUN",
+    "FIRE",
+    "WORK",
+    "SAND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BAG|HAND": [
+      "comp",
+      "HANDBAG"
+    ],
+    "BAG|GUN": [
+      "shar",
+      "HAND"
+    ],
+    "BAG|SAND": [
+      "comp",
+      "SANDBAG"
+    ],
+    "GUN|HAND": [
+      "comp",
+      "HANDGUN"
+    ],
+    "FIRE|HAND": [
+      "shar",
+      "BACK"
+    ],
+    "HAND|WORK": [
+      "shar",
+      "OUT"
+    ],
+    "HAND|SAND": [
+      "shar",
+      "BAG"
+    ],
+    "FIRE|GUN": [
+      "comp",
+      "GUNFIRE"
+    ],
+    "GUN|WORK": [
+      "shar",
+      "FIRE"
+    ],
+    "FIRE|WORK": [
+      "comp",
+      "FIREWORK"
+    ],
+    "SAND|WORK": [
+      "shar",
+      "PAPER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}

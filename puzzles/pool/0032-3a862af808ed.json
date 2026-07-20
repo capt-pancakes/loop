@@ -1,0 +1,60 @@
+{
+  "id": "3a862af808ed",
+  "words": [
+    "BOX",
+    "ICE",
+    "CAP",
+    "FALL",
+    "PIT",
+    "SAND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOX|ICE": [
+      "comp",
+      "ICEBOX"
+    ],
+    "BOX|CAP": [
+      "shar",
+      "ICE"
+    ],
+    "BOX|PIT": [
+      "shar",
+      "SAND"
+    ],
+    "BOX|SAND": [
+      "comp",
+      "SANDBOX"
+    ],
+    "CAP|ICE": [
+      "comp",
+      "ICECAP"
+    ],
+    "ICE|SAND": [
+      "shar",
+      "BOX"
+    ],
+    "CAP|FALL": [
+      "shar",
+      "NIGHT"
+    ],
+    "FALL|PIT": [
+      "comp",
+      "PITFALL"
+    ],
+    "FALL|SAND": [
+      "shar",
+      "PIT"
+    ],
+    "PIT|SAND": [
+      "comp",
+      "SANDPIT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}
