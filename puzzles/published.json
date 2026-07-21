@@ -1,5 +1,5 @@
 {
-  "nextNumber": 16,
+  "nextNumber": 17,
   "puzzles": [
     {
       "number": 1,
@@ -194,6 +194,19 @@
         "BED",
         "SEA",
         "PORT"
+      ]
+    },
+    {
+      "number": 16,
+      "date": "2026-07-21",
+      "id": "17effc95fbcf",
+      "words": [
+        "BALL",
+        "FIRE",
+        "WORK",
+        "NET",
+        "HAIR",
+        "PIN"
       ]
     }
   ]

@@ -1,68 +1,72 @@
 {
-  "number": 15,
-  "date": "2026-07-20",
-  "id": "03736ec399ec",
+  "number": 16,
+  "date": "2026-07-21",
+  "id": "17effc95fbcf",
   "words": [
-    "AIR",
-    "LINE",
-    "TIME",
-    "BED",
-    "SEA",
-    "PORT"
+    "BALL",
+    "FIRE",
+    "WORK",
+    "NET",
+    "HAIR",
+    "PIN"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "AIR|LINE": [
+    "BALL|FIRE": [
       "comp",
-      "AIRLINE"
+      "FIREBALL"
     ],
-    "AIR|TIME": [
+    "BALL|WORK": [
       "shar",
-      "LINE"
+      "FIRE"
     ],
-    "AIR|SEA": [
+    "BALL|NET": [
       "shar",
-      "PLANE"
+      "HAIR"
     ],
-    "AIR|PORT": [
+    "BALL|HAIR": [
       "comp",
-      "AIRPORT"
+      "HAIRBALL"
     ],
-    "LINE|TIME": [
+    "BALL|PIN": [
       "comp",
-      "TIMELINE"
+      "PINBALL"
     ],
-    "BED|LINE": [
-      "shar",
-      "SIDE"
-    ],
-    "LINE|SEA": [
-      "shar",
-      "SHORE"
-    ],
-    "LINE|PORT": [
-      "shar",
-      "AIR"
-    ],
-    "BED|TIME": [
+    "FIRE|WORK": [
       "comp",
-      "BEDTIME"
+      "FIREWORK"
     ],
-    "SEA|TIME": [
+    "FIRE|NET": [
       "shar",
-      "BED"
+      "WORK"
     ],
-    "BED|SEA": [
-      "comp",
-      "SEABED"
-    ],
-    "BED|PORT": [
+    "FIRE|HAIR": [
       "shar",
-      "SEA"
+      "BRUSH"
     ],
-    "PORT|SEA": [
+    "FIRE|PIN": [
+      "shar",
+      "BALL"
+    ],
+    "NET|WORK": [
       "comp",
-      "SEAPORT"
+      "NETWORK"
+    ],
+    "HAIR|WORK": [
+      "shar",
+      "NET"
+    ],
+    "HAIR|NET": [
+      "comp",
+      "HAIRNET"
+    ],
+    "NET|PIN": [
+      "shar",
+      "HAIR"
+    ],
+    "HAIR|PIN": [
+      "comp",
+      "HAIRPIN"
     ]
   },
   "meta": {

@@ -1,0 +1,68 @@
+{
+  "id": "d6e0d4f49004",
+  "words": [
+    "BED",
+    "ROOM",
+    "LEG",
+    "WORK",
+    "HORSE",
+    "SEA"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BED|ROOM": [
+      "comp",
+      "BEDROOM"
+    ],
+    "BED|LEG": [
+      "shar",
+      "ROOM"
+    ],
+    "BED|HORSE": [
+      "shar",
+      "SEA"
+    ],
+    "BED|SEA": [
+      "comp",
+      "SEABED"
+    ],
+    "LEG|ROOM": [
+      "comp",
+      "LEGROOM"
+    ],
+    "ROOM|WORK": [
+      "shar",
+      "LEG"
+    ],
+    "ROOM|SEA": [
+      "shar",
+      "BED"
+    ],
+    "LEG|WORK": [
+      "comp",
+      "LEGWORK"
+    ],
+    "HORSE|LEG": [
+      "shar",
+      "WORK"
+    ],
+    "HORSE|WORK": [
+      "comp",
+      "WORKHORSE"
+    ],
+    "SEA|WORK": [
+      "shar",
+      "HORSE"
+    ],
+    "HORSE|SEA": [
+      "comp",
+      "SEAHORSE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 47
+  }
+}
