@@ -1,58 +1,54 @@
 {
-  "id": "019b3db89879",
+  "id": "86b64617ce84",
   "words": [
-    "BAG",
+    "FREE",
     "HAND",
     "GUN",
-    "FIRE",
-    "WORK",
-    "SAND"
+    "SHOT",
+    "MOON",
+    "WAY"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BAG|HAND": [
+    "FREE|HAND": [
       "comp",
-      "HANDBAG"
+      "FREEHAND"
     ],
-    "BAG|GUN": [
+    "FREE|GUN": [
       "shar",
       "HAND"
     ],
-    "BAG|SAND": [
+    "FREE|WAY": [
       "comp",
-      "SANDBAG"
+      "FREEWAY"
     ],
     "GUN|HAND": [
       "comp",
       "HANDGUN"
     ],
-    "FIRE|HAND": [
+    "HAND|SHOT": [
       "shar",
-      "BACK"
+      "GUN"
     ],
-    "HAND|WORK": [
+    "HAND|WAY": [
       "shar",
-      "OUT"
+      "RAIL"
     ],
-    "HAND|SAND": [
-      "shar",
-      "BAG"
-    ],
-    "FIRE|GUN": [
+    "GUN|SHOT": [
       "comp",
-      "GUNFIRE"
+      "GUNSHOT"
     ],
-    "GUN|WORK": [
+    "GUN|MOON": [
       "shar",
-      "FIRE"
+      "SHOT"
     ],
-    "FIRE|WORK": [
+    "MOON|SHOT": [
       "comp",
-      "FIREWORK"
+      "MOONSHOT"
     ],
-    "SAND|WORK": [
+    "MOON|WAY": [
       "shar",
-      "PAPER"
+      "WALK"
     ]
   },
   "meta": {
