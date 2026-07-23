@@ -1,60 +1,64 @@
 {
-  "number": 17,
-  "date": "2026-07-22",
-  "id": "019b3db89879",
+  "number": 18,
+  "date": "2026-07-23",
+  "id": "0b17af7ea634",
   "words": [
-    "BAG",
-    "HAND",
-    "GUN",
-    "FIRE",
-    "WORK",
-    "SAND"
+    "EAR",
+    "RING",
+    "SIDE",
+    "MAN",
+    "HOLE",
+    "WORM"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BAG|HAND": [
+    "EAR|RING": [
       "comp",
-      "HANDBAG"
+      "EARRING"
     ],
-    "BAG|GUN": [
+    "EAR|SIDE": [
       "shar",
-      "HAND"
+      "RING"
     ],
-    "BAG|SAND": [
+    "EAR|HOLE": [
+      "shar",
+      "WORM"
+    ],
+    "EAR|WORM": [
       "comp",
-      "SANDBAG"
+      "EARWORM"
     ],
-    "GUN|HAND": [
+    "RING|SIDE": [
       "comp",
-      "HANDGUN"
+      "RINGSIDE"
     ],
-    "FIRE|HAND": [
+    "HOLE|RING": [
       "shar",
-      "BACK"
+      "KEY"
     ],
-    "HAND|WORK": [
-      "shar",
-      "OUT"
-    ],
-    "HAND|SAND": [
-      "shar",
-      "BAG"
-    ],
-    "FIRE|GUN": [
+    "RING|WORM": [
       "comp",
-      "GUNFIRE"
+      "RINGWORM"
     ],
-    "GUN|WORK": [
+    "MAN|SIDE": [
       "shar",
-      "FIRE"
+      "SHOW"
     ],
-    "FIRE|WORK": [
+    "SIDE|WORM": [
+      "shar",
+      "RING"
+    ],
+    "HOLE|MAN": [
       "comp",
-      "FIREWORK"
+      "MANHOLE"
     ],
-    "SAND|WORK": [
+    "MAN|WORM": [
       "shar",
-      "PAPER"
+      "HOLE"
+    ],
+    "HOLE|WORM": [
+      "comp",
+      "WORMHOLE"
     ]
   },
   "meta": {

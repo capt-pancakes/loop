@@ -1,0 +1,60 @@
+{
+  "id": "786873852788",
+  "words": [
+    "CAT",
+    "FISH",
+    "NET",
+    "LINE",
+    "SIDE",
+    "WALK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAT|FISH": [
+      "comp",
+      "CATFISH"
+    ],
+    "CAT|NET": [
+      "shar",
+      "FISH"
+    ],
+    "CAT|SIDE": [
+      "shar",
+      "WALK"
+    ],
+    "CAT|WALK": [
+      "comp",
+      "CATWALK"
+    ],
+    "FISH|NET": [
+      "comp",
+      "FISHNET"
+    ],
+    "FISH|WALK": [
+      "shar",
+      "CAT"
+    ],
+    "LINE|NET": [
+      "shar",
+      "HAIR"
+    ],
+    "LINE|SIDE": [
+      "comp",
+      "SIDELINE"
+    ],
+    "LINE|WALK": [
+      "shar",
+      "SIDE"
+    ],
+    "SIDE|WALK": [
+      "comp",
+      "SIDEWALK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}
