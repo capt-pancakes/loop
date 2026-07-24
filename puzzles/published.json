@@ -1,5 +1,5 @@
 {
-  "nextNumber": 19,
+  "nextNumber": 20,
   "puzzles": [
     {
       "number": 1,
@@ -233,6 +233,19 @@
         "MAN",
         "HOLE",
         "WORM"
+      ]
+    },
+    {
+      "number": 19,
+      "date": "2026-07-24",
+      "id": "1a2423ccacdf",
+      "words": [
+        "ARM",
+        "BAND",
+        "HEAD",
+        "WAR",
+        "PATH",
+        "FOOT"
       ]
     }
   ]

@@ -1,64 +1,60 @@
 {
-  "number": 18,
-  "date": "2026-07-23",
-  "id": "0b17af7ea634",
+  "number": 19,
+  "date": "2026-07-24",
+  "id": "1a2423ccacdf",
   "words": [
-    "EAR",
-    "RING",
-    "SIDE",
-    "MAN",
-    "HOLE",
-    "WORM"
+    "ARM",
+    "BAND",
+    "HEAD",
+    "WAR",
+    "PATH",
+    "FOOT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "EAR|RING": [
+    "ARM|BAND": [
       "comp",
-      "EARRING"
+      "ARMBAND"
     ],
-    "EAR|SIDE": [
+    "ARM|HEAD": [
       "shar",
-      "RING"
+      "FORE"
     ],
-    "EAR|HOLE": [
+    "ARM|FOOT": [
       "shar",
-      "WORM"
+      "REST"
     ],
-    "EAR|WORM": [
+    "BAND|HEAD": [
       "comp",
-      "EARWORM"
+      "HEADBAND"
     ],
-    "RING|SIDE": [
-      "comp",
-      "RINGSIDE"
-    ],
-    "HOLE|RING": [
+    "BAND|WAR": [
       "shar",
-      "KEY"
+      "HEAD"
     ],
-    "RING|WORM": [
+    "HEAD|WAR": [
       "comp",
-      "RINGWORM"
+      "WARHEAD"
     ],
-    "MAN|SIDE": [
+    "HEAD|PATH": [
       "shar",
-      "SHOW"
+      "WAR"
     ],
-    "SIDE|WORM": [
+    "FOOT|HEAD": [
       "shar",
-      "RING"
+      "REST"
     ],
-    "HOLE|MAN": [
+    "PATH|WAR": [
       "comp",
-      "MANHOLE"
+      "WARPATH"
     ],
-    "MAN|WORM": [
+    "FOOT|WAR": [
       "shar",
-      "HOLE"
+      "PATH"
     ],
-    "HOLE|WORM": [
+    "FOOT|PATH": [
       "comp",
-      "WORMHOLE"
+      "FOOTPATH"
     ]
   },
   "meta": {
