@@ -1,66 +1,54 @@
 {
-  "number": 19,
-  "date": "2026-07-24",
-  "id": "1a2423ccacdf",
+  "number": 20,
+  "date": "2026-07-25",
+  "id": "066e29234e76",
   "words": [
-    "ARM",
-    "BAND",
-    "HEAD",
-    "WAR",
-    "PATH",
-    "FOOT"
+    "CHECK",
+    "DAY",
+    "LIGHT",
+    "MOON",
+    "GUN",
+    "POINT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "ARM|BAND": [
+    "CHECK|DAY": [
+      "shar",
+      "PAY"
+    ],
+    "CHECK|GUN": [
+      "shar",
+      "POINT"
+    ],
+    "CHECK|POINT": [
       "comp",
-      "ARMBAND"
+      "CHECKPOINT"
     ],
-    "ARM|HEAD": [
-      "shar",
-      "FORE"
-    ],
-    "ARM|FOOT": [
-      "shar",
-      "REST"
-    ],
-    "BAND|HEAD": [
+    "DAY|LIGHT": [
       "comp",
-      "HEADBAND"
+      "DAYLIGHT"
     ],
-    "BAND|WAR": [
+    "DAY|MOON": [
       "shar",
-      "HEAD"
+      "LIGHT"
     ],
-    "HEAD|WAR": [
+    "LIGHT|MOON": [
       "comp",
-      "WARHEAD"
+      "MOONLIGHT"
     ],
-    "HEAD|PATH": [
+    "GUN|MOON": [
       "shar",
-      "WAR"
+      "SHOT"
     ],
-    "FOOT|HEAD": [
-      "shar",
-      "REST"
-    ],
-    "PATH|WAR": [
+    "GUN|POINT": [
       "comp",
-      "WARPATH"
-    ],
-    "FOOT|WAR": [
-      "shar",
-      "PATH"
-    ],
-    "FOOT|PATH": [
-      "comp",
-      "FOOTPATH"
+      "GUNPOINT"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 42
+    "comp": 4,
+    "shar": 2,
+    "score": 36
   }
 }

@@ -1,0 +1,52 @@
+{
+  "id": "11250f866982",
+  "words": [
+    "CAR",
+    "HOLE",
+    "PIN",
+    "WHEEL",
+    "FLY",
+    "RACE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAR|HOLE": [
+      "shar",
+      "PORT"
+    ],
+    "CAR|RACE": [
+      "comp",
+      "RACECAR"
+    ],
+    "HOLE|PIN": [
+      "comp",
+      "PINHOLE"
+    ],
+    "HOLE|WHEEL": [
+      "shar",
+      "PIN"
+    ],
+    "PIN|WHEEL": [
+      "comp",
+      "PINWHEEL"
+    ],
+    "FLY|PIN": [
+      "shar",
+      "WHEEL"
+    ],
+    "FLY|WHEEL": [
+      "comp",
+      "FLYWHEEL"
+    ],
+    "FLY|RACE": [
+      "shar",
+      "HORSE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}
