@@ -1,0 +1,64 @@
+{
+  "id": "276e0c1e527d",
+  "words": [
+    "ART",
+    "FRAME",
+    "TIME",
+    "DAY",
+    "PAY",
+    "LOAD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "ART|FRAME": [
+      "shar",
+      "WORK"
+    ],
+    "ART|LOAD": [
+      "shar",
+      "WORK"
+    ],
+    "FRAME|TIME": [
+      "comp",
+      "TIMEFRAME"
+    ],
+    "DAY|FRAME": [
+      "shar",
+      "TIME"
+    ],
+    "FRAME|LOAD": [
+      "shar",
+      "WORK"
+    ],
+    "DAY|TIME": [
+      "comp",
+      "DAYTIME"
+    ],
+    "PAY|TIME": [
+      "shar",
+      "DAY"
+    ],
+    "LOAD|TIME": [
+      "shar",
+      "OVER"
+    ],
+    "DAY|PAY": [
+      "comp",
+      "PAYDAY"
+    ],
+    "DAY|LOAD": [
+      "shar",
+      "PAY"
+    ],
+    "LOAD|PAY": [
+      "comp",
+      "PAYLOAD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

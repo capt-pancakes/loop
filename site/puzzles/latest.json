@@ -1,48 +1,48 @@
 {
-  "number": 20,
-  "date": "2026-07-25",
-  "id": "066e29234e76",
+  "number": 21,
+  "date": "2026-07-26",
+  "id": "08fd25077236",
   "words": [
-    "CHECK",
-    "DAY",
-    "LIGHT",
-    "MOON",
-    "GUN",
-    "POINT"
+    "AIR",
+    "BAG",
+    "BOOK",
+    "CASE",
+    "SHOW",
+    "MAIL"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CHECK|DAY": [
-      "shar",
-      "PAY"
-    ],
-    "CHECK|GUN": [
-      "shar",
-      "POINT"
-    ],
-    "CHECK|POINT": [
+    "AIR|BAG": [
       "comp",
-      "CHECKPOINT"
+      "AIRBAG"
     ],
-    "DAY|LIGHT": [
+    "AIR|MAIL": [
       "comp",
-      "DAYLIGHT"
+      "AIRMAIL"
     ],
-    "DAY|MOON": [
+    "BAG|BOOK": [
       "shar",
-      "LIGHT"
+      "HAND"
     ],
-    "LIGHT|MOON": [
+    "BAG|MAIL": [
       "comp",
-      "MOONLIGHT"
+      "MAILBAG"
     ],
-    "GUN|MOON": [
+    "BOOK|CASE": [
+      "comp",
+      "BOOKCASE"
+    ],
+    "BOOK|SHOW": [
       "shar",
-      "SHOT"
+      "CASE"
     ],
-    "GUN|POINT": [
+    "CASE|SHOW": [
       "comp",
-      "GUNPOINT"
+      "SHOWCASE"
+    ],
+    "MAIL|SHOW": [
+      "shar",
+      "MAN"
     ]
   },
   "meta": {
