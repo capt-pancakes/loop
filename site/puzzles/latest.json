@@ -1,54 +1,70 @@
 {
-  "number": 21,
-  "date": "2026-07-26",
-  "id": "08fd25077236",
+  "number": 22,
+  "date": "2026-07-27",
+  "id": "3b3f58c1adea",
   "words": [
-    "AIR",
-    "BAG",
-    "BOOK",
-    "CASE",
-    "SHOW",
-    "MAIL"
+    "BROW",
+    "EYE",
+    "RED",
+    "WOOD",
+    "LAND",
+    "HIGH"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "AIR|BAG": [
+    "BROW|EYE": [
       "comp",
-      "AIRBAG"
+      "EYEBROW"
     ],
-    "AIR|MAIL": [
-      "comp",
-      "AIRMAIL"
-    ],
-    "BAG|BOOK": [
+    "BROW|RED": [
       "shar",
-      "HAND"
+      "EYE"
     ],
-    "BAG|MAIL": [
-      "comp",
-      "MAILBAG"
-    ],
-    "BOOK|CASE": [
-      "comp",
-      "BOOKCASE"
-    ],
-    "BOOK|SHOW": [
+    "BROW|LAND": [
       "shar",
-      "CASE"
+      "HIGH"
     ],
-    "CASE|SHOW": [
+    "BROW|HIGH": [
       "comp",
-      "SHOWCASE"
+      "HIGHBROW"
     ],
-    "MAIL|SHOW": [
+    "EYE|RED": [
+      "comp",
+      "REDEYE"
+    ],
+    "EYE|WOOD": [
       "shar",
-      "MAN"
+      "RED"
+    ],
+    "EYE|HIGH": [
+      "shar",
+      "BROW"
+    ],
+    "RED|WOOD": [
+      "comp",
+      "REDWOOD"
+    ],
+    "LAND|RED": [
+      "shar",
+      "WOOD"
+    ],
+    "LAND|WOOD": [
+      "comp",
+      "WOODLAND"
+    ],
+    "HIGH|WOOD": [
+      "shar",
+      "LAND"
+    ],
+    "HIGH|LAND": [
+      "comp",
+      "HIGHLAND"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 36
+    "comp": 6,
+    "shar": 0,
+    "score": 47
   }
 }

@@ -1,5 +1,5 @@
 {
-  "nextNumber": 22,
+  "nextNumber": 23,
   "puzzles": [
     {
       "number": 1,
@@ -272,6 +272,19 @@
         "CASE",
         "SHOW",
         "MAIL"
+      ]
+    },
+    {
+      "number": 22,
+      "date": "2026-07-27",
+      "id": "3b3f58c1adea",
+      "words": [
+        "BROW",
+        "EYE",
+        "RED",
+        "WOOD",
+        "LAND",
+        "HIGH"
       ]
     }
   ]

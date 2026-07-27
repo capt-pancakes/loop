@@ -1,0 +1,76 @@
+{
+  "id": "010dfc4bdfab",
+  "words": [
+    "DRIFT",
+    "SNOW",
+    "MAN",
+    "POWER",
+    "FIRE",
+    "WOOD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "DRIFT|SNOW": [
+      "comp",
+      "SNOWDRIFT"
+    ],
+    "DRIFT|MAN": [
+      "shar",
+      "SNOW"
+    ],
+    "DRIFT|FIRE": [
+      "shar",
+      "WOOD"
+    ],
+    "DRIFT|WOOD": [
+      "comp",
+      "DRIFTWOOD"
+    ],
+    "MAN|SNOW": [
+      "comp",
+      "SNOWMAN"
+    ],
+    "POWER|SNOW": [
+      "shar",
+      "MAN"
+    ],
+    "FIRE|SNOW": [
+      "shar",
+      "BALL"
+    ],
+    "SNOW|WOOD": [
+      "shar",
+      "DRIFT"
+    ],
+    "MAN|POWER": [
+      "comp",
+      "MANPOWER"
+    ],
+    "FIRE|MAN": [
+      "comp",
+      "FIREMAN"
+    ],
+    "MAN|WOOD": [
+      "shar",
+      "FIRE"
+    ],
+    "FIRE|POWER": [
+      "comp",
+      "FIREPOWER"
+    ],
+    "POWER|WOOD": [
+      "shar",
+      "FIRE"
+    ],
+    "FIRE|WOOD": [
+      "comp",
+      "FIREWOOD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}
