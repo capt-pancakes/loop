@@ -1,64 +1,68 @@
 {
-  "number": 22,
-  "date": "2026-07-27",
-  "id": "3b3f58c1adea",
+  "number": 23,
+  "date": "2026-07-28",
+  "id": "3e236f43f337",
   "words": [
-    "BROW",
-    "EYE",
-    "RED",
-    "WOOD",
-    "LAND",
-    "HIGH"
+    "BED",
+    "ROOM",
+    "MATE",
+    "SHIP",
+    "WAR",
+    "TIME"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BROW|EYE": [
+    "BED|ROOM": [
       "comp",
-      "EYEBROW"
+      "BEDROOM"
     ],
-    "BROW|RED": [
+    "BED|MATE": [
       "shar",
-      "EYE"
+      "ROOM"
     ],
-    "BROW|LAND": [
+    "BED|WAR": [
       "shar",
-      "HIGH"
+      "TIME"
     ],
-    "BROW|HIGH": [
+    "BED|TIME": [
       "comp",
-      "HIGHBROW"
+      "BEDTIME"
     ],
-    "EYE|RED": [
+    "MATE|ROOM": [
       "comp",
-      "REDEYE"
+      "ROOMMATE"
     ],
-    "EYE|WOOD": [
+    "ROOM|SHIP": [
       "shar",
-      "RED"
+      "MATE"
     ],
-    "EYE|HIGH": [
+    "ROOM|TIME": [
       "shar",
-      "BROW"
+      "SHOW"
     ],
-    "RED|WOOD": [
+    "MATE|SHIP": [
       "comp",
-      "REDWOOD"
+      "SHIPMATE"
     ],
-    "LAND|RED": [
+    "MATE|WAR": [
       "shar",
-      "WOOD"
+      "SHIP"
     ],
-    "LAND|WOOD": [
-      "comp",
-      "WOODLAND"
-    ],
-    "HIGH|WOOD": [
+    "MATE|TIME": [
       "shar",
-      "LAND"
+      "PLAY"
     ],
-    "HIGH|LAND": [
+    "SHIP|WAR": [
       "comp",
-      "HIGHLAND"
+      "WARSHIP"
+    ],
+    "SHIP|TIME": [
+      "shar",
+      "WAR"
+    ],
+    "TIME|WAR": [
+      "comp",
+      "WARTIME"
     ]
   },
   "meta": {

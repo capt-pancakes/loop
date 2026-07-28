@@ -1,5 +1,5 @@
 {
-  "nextNumber": 23,
+  "nextNumber": 24,
   "puzzles": [
     {
       "number": 1,
@@ -285,6 +285,19 @@
         "WOOD",
         "LAND",
         "HIGH"
+      ]
+    },
+    {
+      "number": 23,
+      "date": "2026-07-28",
+      "id": "3e236f43f337",
+      "words": [
+        "BED",
+        "ROOM",
+        "MATE",
+        "SHIP",
+        "WAR",
+        "TIME"
       ]
     }
   ]

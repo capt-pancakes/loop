@@ -1,0 +1,68 @@
+{
+  "id": "2d8459456296",
+  "words": [
+    "BOOK",
+    "MATCH",
+    "STICK",
+    "DRUM",
+    "EAR",
+    "WORM"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOOK|MATCH": [
+      "comp",
+      "MATCHBOOK"
+    ],
+    "BOOK|STICK": [
+      "shar",
+      "MATCH"
+    ],
+    "BOOK|EAR": [
+      "shar",
+      "WORM"
+    ],
+    "BOOK|WORM": [
+      "comp",
+      "BOOKWORM"
+    ],
+    "MATCH|STICK": [
+      "comp",
+      "MATCHSTICK"
+    ],
+    "DRUM|MATCH": [
+      "shar",
+      "STICK"
+    ],
+    "MATCH|WORM": [
+      "shar",
+      "BOOK"
+    ],
+    "DRUM|STICK": [
+      "comp",
+      "DRUMSTICK"
+    ],
+    "EAR|STICK": [
+      "shar",
+      "DRUM"
+    ],
+    "DRUM|EAR": [
+      "comp",
+      "EARDRUM"
+    ],
+    "DRUM|WORM": [
+      "shar",
+      "EAR"
+    ],
+    "EAR|WORM": [
+      "comp",
+      "EARWORM"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}
