@@ -1,0 +1,64 @@
+{
+  "id": "4159e74fcd1e",
+  "words": [
+    "BED",
+    "FLOWER",
+    "POT",
+    "TEA",
+    "CAKE",
+    "HOT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BED|FLOWER": [
+      "comp",
+      "FLOWERBED"
+    ],
+    "BED|POT": [
+      "shar",
+      "FLOWER"
+    ],
+    "BED|TEA": [
+      "shar",
+      "TIME"
+    ],
+    "BED|CAKE": [
+      "shar",
+      "HOT"
+    ],
+    "BED|HOT": [
+      "comp",
+      "HOTBED"
+    ],
+    "FLOWER|POT": [
+      "comp",
+      "FLOWERPOT"
+    ],
+    "FLOWER|TEA": [
+      "shar",
+      "POT"
+    ],
+    "FLOWER|HOT": [
+      "shar",
+      "BED"
+    ],
+    "POT|TEA": [
+      "comp",
+      "TEAPOT"
+    ],
+    "CAKE|TEA": [
+      "shar",
+      "CUP"
+    ],
+    "CAKE|HOT": [
+      "comp",
+      "HOTCAKE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}

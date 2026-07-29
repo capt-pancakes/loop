@@ -1,74 +1,62 @@
 {
-  "number": 23,
-  "date": "2026-07-28",
-  "id": "3e236f43f337",
+  "number": 24,
+  "date": "2026-07-29",
+  "id": "30054e427118",
   "words": [
-    "BED",
-    "ROOM",
-    "MATE",
-    "SHIP",
-    "WAR",
-    "TIME"
+    "CAKE",
+    "FALL",
+    "LAND",
+    "WOOD",
+    "DOG",
+    "HOT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BED|ROOM": [
+    "CAKE|FALL": [
+      "shar",
+      "SHORT"
+    ],
+    "CAKE|DOG": [
+      "shar",
+      "HOT"
+    ],
+    "CAKE|HOT": [
       "comp",
-      "BEDROOM"
+      "HOTCAKE"
     ],
-    "BED|MATE": [
-      "shar",
-      "ROOM"
-    ],
-    "BED|WAR": [
-      "shar",
-      "TIME"
-    ],
-    "BED|TIME": [
+    "FALL|LAND": [
       "comp",
-      "BEDTIME"
+      "LANDFALL"
     ],
-    "MATE|ROOM": [
+    "FALL|WOOD": [
+      "shar",
+      "LAND"
+    ],
+    "LAND|WOOD": [
       "comp",
-      "ROOMMATE"
+      "WOODLAND"
     ],
-    "ROOM|SHIP": [
+    "DOG|LAND": [
       "shar",
-      "MATE"
+      "WOOD"
     ],
-    "ROOM|TIME": [
-      "shar",
-      "SHOW"
-    ],
-    "MATE|SHIP": [
+    "DOG|WOOD": [
       "comp",
-      "SHIPMATE"
+      "DOGWOOD"
     ],
-    "MATE|WAR": [
+    "HOT|WOOD": [
       "shar",
-      "SHIP"
+      "DOG"
     ],
-    "MATE|TIME": [
-      "shar",
-      "PLAY"
-    ],
-    "SHIP|WAR": [
+    "DOG|HOT": [
       "comp",
-      "WARSHIP"
-    ],
-    "SHIP|TIME": [
-      "shar",
-      "WAR"
-    ],
-    "TIME|WAR": [
-      "comp",
-      "WARTIME"
+      "HOTDOG"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 47
+    "comp": 5,
+    "shar": 1,
+    "score": 42
   }
 }

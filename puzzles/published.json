@@ -1,5 +1,5 @@
 {
-  "nextNumber": 24,
+  "nextNumber": 25,
   "puzzles": [
     {
       "number": 1,
@@ -298,6 +298,19 @@
         "SHIP",
         "WAR",
         "TIME"
+      ]
+    },
+    {
+      "number": 24,
+      "date": "2026-07-29",
+      "id": "30054e427118",
+      "words": [
+        "CAKE",
+        "FALL",
+        "LAND",
+        "WOOD",
+        "DOG",
+        "HOT"
       ]
     }
   ]
