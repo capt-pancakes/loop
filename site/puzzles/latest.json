@@ -1,56 +1,56 @@
 {
-  "number": 24,
-  "date": "2026-07-29",
-  "id": "30054e427118",
+  "number": 25,
+  "date": "2026-07-30",
+  "id": "3308430ec306",
   "words": [
-    "CAKE",
-    "FALL",
-    "LAND",
-    "WOOD",
-    "DOG",
-    "HOT"
+    "BULL",
+    "FROG",
+    "MAN",
+    "DOOR",
+    "STOP",
+    "PEN"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CAKE|FALL": [
-      "shar",
-      "SHORT"
-    ],
-    "CAKE|DOG": [
-      "shar",
-      "HOT"
-    ],
-    "CAKE|HOT": [
+    "BULL|FROG": [
       "comp",
-      "HOTCAKE"
+      "BULLFROG"
     ],
-    "FALL|LAND": [
-      "comp",
-      "LANDFALL"
-    ],
-    "FALL|WOOD": [
+    "BULL|MAN": [
       "shar",
-      "LAND"
+      "FROG"
     ],
-    "LAND|WOOD": [
+    "BULL|PEN": [
       "comp",
-      "WOODLAND"
+      "BULLPEN"
     ],
-    "DOG|LAND": [
+    "FROG|MAN": [
+      "comp",
+      "FROGMAN"
+    ],
+    "DOOR|FROG": [
       "shar",
-      "WOOD"
+      "MAN"
     ],
-    "DOG|WOOD": [
-      "comp",
-      "DOGWOOD"
-    ],
-    "HOT|WOOD": [
+    "FROG|PEN": [
       "shar",
-      "DOG"
+      "BULL"
     ],
-    "DOG|HOT": [
+    "DOOR|MAN": [
       "comp",
-      "HOTDOG"
+      "DOORMAN"
+    ],
+    "MAN|STOP": [
+      "shar",
+      "WATCH"
+    ],
+    "DOOR|STOP": [
+      "comp",
+      "DOORSTOP"
+    ],
+    "PEN|STOP": [
+      "shar",
+      "LIGHT"
     ]
   },
   "meta": {
