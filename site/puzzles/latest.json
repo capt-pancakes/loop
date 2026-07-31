@@ -1,56 +1,56 @@
 {
-  "number": 25,
-  "date": "2026-07-30",
-  "id": "3308430ec306",
+  "number": 26,
+  "date": "2026-07-31",
+  "id": "3795715ac1f0",
   "words": [
-    "BULL",
-    "FROG",
-    "MAN",
-    "DOOR",
-    "STOP",
-    "PEN"
+    "CARE",
+    "DAY",
+    "WEEK",
+    "END",
+    "HAND",
+    "FREE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BULL|FROG": [
+    "CARE|DAY": [
       "comp",
-      "BULLFROG"
+      "DAYCARE"
     ],
-    "BULL|MAN": [
+    "CARE|WEEK": [
       "shar",
-      "FROG"
+      "DAY"
     ],
-    "BULL|PEN": [
+    "CARE|HAND": [
+      "shar",
+      "FREE"
+    ],
+    "CARE|FREE": [
       "comp",
-      "BULLPEN"
+      "CAREFREE"
     ],
-    "FROG|MAN": [
+    "DAY|WEEK": [
       "comp",
-      "FROGMAN"
+      "WEEKDAY"
     ],
-    "DOOR|FROG": [
+    "DAY|END": [
       "shar",
-      "MAN"
+      "WEEK"
     ],
-    "FROG|PEN": [
+    "DAY|FREE": [
       "shar",
-      "BULL"
+      "CARE"
     ],
-    "DOOR|MAN": [
+    "END|WEEK": [
       "comp",
-      "DOORMAN"
+      "WEEKEND"
     ],
-    "MAN|STOP": [
+    "END|HAND": [
       "shar",
-      "WATCH"
+      "BOOK"
     ],
-    "DOOR|STOP": [
+    "FREE|HAND": [
       "comp",
-      "DOORSTOP"
-    ],
-    "PEN|STOP": [
-      "shar",
-      "LIGHT"
+      "FREEHAND"
     ]
   },
   "meta": {

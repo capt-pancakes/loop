@@ -1,5 +1,5 @@
 {
-  "nextNumber": 26,
+  "nextNumber": 27,
   "puzzles": [
     {
       "number": 1,
@@ -324,6 +324,19 @@
         "DOOR",
         "STOP",
         "PEN"
+      ]
+    },
+    {
+      "number": 26,
+      "date": "2026-07-31",
+      "id": "3795715ac1f0",
+      "words": [
+        "CARE",
+        "DAY",
+        "WEEK",
+        "END",
+        "HAND",
+        "FREE"
       ]
     }
   ]

@@ -1,0 +1,60 @@
+{
+  "id": "88e015a2876d",
+  "words": [
+    "AIR",
+    "BAG",
+    "HAND",
+    "FARM",
+    "LAND",
+    "MINE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AIR|BAG": [
+      "comp",
+      "AIRBAG"
+    ],
+    "AIR|HAND": [
+      "shar",
+      "BAG"
+    ],
+    "AIR|MINE": [
+      "shar",
+      "FIELD"
+    ],
+    "BAG|HAND": [
+      "comp",
+      "HANDBAG"
+    ],
+    "BAG|FARM": [
+      "shar",
+      "HAND"
+    ],
+    "FARM|HAND": [
+      "comp",
+      "FARMHAND"
+    ],
+    "HAND|LAND": [
+      "shar",
+      "FARM"
+    ],
+    "FARM|LAND": [
+      "comp",
+      "FARMLAND"
+    ],
+    "FARM|MINE": [
+      "shar",
+      "LAND"
+    ],
+    "LAND|MINE": [
+      "comp",
+      "LANDMINE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}
