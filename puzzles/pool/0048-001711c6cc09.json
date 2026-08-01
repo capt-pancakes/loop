@@ -1,0 +1,52 @@
+{
+  "id": "001711c6cc09",
+  "words": [
+    "DUST",
+    "PAN",
+    "LOCK",
+    "HEAD",
+    "MILL",
+    "SAW"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "DUST|PAN": [
+      "comp",
+      "DUSTPAN"
+    ],
+    "DUST|MILL": [
+      "shar",
+      "SAW"
+    ],
+    "DUST|SAW": [
+      "comp",
+      "SAWDUST"
+    ],
+    "LOCK|PAN": [
+      "shar",
+      "DEAD"
+    ],
+    "PAN|SAW": [
+      "shar",
+      "DUST"
+    ],
+    "HEAD|LOCK": [
+      "comp",
+      "HEADLOCK"
+    ],
+    "HEAD|MILL": [
+      "shar",
+      "STONE"
+    ],
+    "MILL|SAW": [
+      "comp",
+      "SAWMILL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

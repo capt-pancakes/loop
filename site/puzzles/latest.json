@@ -1,62 +1,54 @@
 {
-  "number": 26,
-  "date": "2026-07-31",
-  "id": "3795715ac1f0",
+  "number": 27,
+  "date": "2026-08-01",
+  "id": "091399d89552",
   "words": [
-    "CARE",
-    "DAY",
-    "WEEK",
-    "END",
-    "HAND",
-    "FREE"
+    "CLIP",
+    "HEAD",
+    "HOT",
+    "DOG",
+    "FLY",
+    "PAPER"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CARE|DAY": [
-      "comp",
-      "DAYCARE"
-    ],
-    "CARE|WEEK": [
+    "CLIP|HEAD": [
       "shar",
-      "DAY"
+      "BOARD"
     ],
-    "CARE|HAND": [
+    "CLIP|FLY": [
       "shar",
-      "FREE"
+      "PAPER"
     ],
-    "CARE|FREE": [
+    "CLIP|PAPER": [
       "comp",
-      "CAREFREE"
+      "PAPERCLIP"
     ],
-    "DAY|WEEK": [
+    "HEAD|HOT": [
       "comp",
-      "WEEKDAY"
+      "HOTHEAD"
     ],
-    "DAY|END": [
+    "DOG|HEAD": [
       "shar",
-      "WEEK"
+      "HOT"
     ],
-    "DAY|FREE": [
-      "shar",
-      "CARE"
-    ],
-    "END|WEEK": [
+    "DOG|HOT": [
       "comp",
-      "WEEKEND"
+      "HOTDOG"
     ],
-    "END|HAND": [
+    "DOG|FLY": [
       "shar",
-      "BOOK"
+      "HOUSE"
     ],
-    "FREE|HAND": [
+    "FLY|PAPER": [
       "comp",
-      "FREEHAND"
+      "FLYPAPER"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 42
+    "comp": 4,
+    "shar": 2,
+    "score": 36
   }
 }

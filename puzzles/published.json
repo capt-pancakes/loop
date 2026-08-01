@@ -1,5 +1,5 @@
 {
-  "nextNumber": 27,
+  "nextNumber": 28,
   "puzzles": [
     {
       "number": 1,
@@ -337,6 +337,19 @@
         "END",
         "HAND",
         "FREE"
+      ]
+    },
+    {
+      "number": 27,
+      "date": "2026-08-01",
+      "id": "091399d89552",
+      "words": [
+        "CLIP",
+        "HEAD",
+        "HOT",
+        "DOG",
+        "FLY",
+        "PAPER"
       ]
     }
   ]
