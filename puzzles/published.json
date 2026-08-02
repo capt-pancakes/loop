@@ -1,5 +1,5 @@
 {
-  "nextNumber": 28,
+  "nextNumber": 29,
   "puzzles": [
     {
       "number": 1,
@@ -350,6 +350,19 @@
         "DOG",
         "FLY",
         "PAPER"
+      ]
+    },
+    {
+      "number": 28,
+      "date": "2026-08-02",
+      "id": "0aaf3a496aec",
+      "words": [
+        "BOAT",
+        "CASE",
+        "SUIT",
+        "WET",
+        "LOW",
+        "LIFE"
       ]
     }
   ]

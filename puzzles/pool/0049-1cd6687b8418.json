@@ -1,0 +1,52 @@
+{
+  "id": "1cd6687b8418",
+  "words": [
+    "CUP",
+    "FLY",
+    "HOUSE",
+    "LIGHT",
+    "DAY",
+    "TEA"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CUP|FLY": [
+      "shar",
+      "BUTTER"
+    ],
+    "CUP|TEA": [
+      "comp",
+      "TEACUP"
+    ],
+    "FLY|HOUSE": [
+      "comp",
+      "HOUSEFLY"
+    ],
+    "FLY|LIGHT": [
+      "shar",
+      "HOUSE"
+    ],
+    "HOUSE|LIGHT": [
+      "comp",
+      "LIGHTHOUSE"
+    ],
+    "DAY|HOUSE": [
+      "shar",
+      "LIGHT"
+    ],
+    "DAY|LIGHT": [
+      "comp",
+      "DAYLIGHT"
+    ],
+    "DAY|TEA": [
+      "shar",
+      "TIME"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

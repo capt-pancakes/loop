@@ -1,48 +1,48 @@
 {
-  "number": 27,
-  "date": "2026-08-01",
-  "id": "091399d89552",
+  "number": 28,
+  "date": "2026-08-02",
+  "id": "0aaf3a496aec",
   "words": [
-    "CLIP",
-    "HEAD",
-    "HOT",
-    "DOG",
-    "FLY",
-    "PAPER"
+    "BOAT",
+    "CASE",
+    "SUIT",
+    "WET",
+    "LOW",
+    "LIFE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CLIP|HEAD": [
+    "BOAT|CASE": [
       "shar",
-      "BOARD"
+      "SHOW"
     ],
-    "CLIP|FLY": [
+    "BOAT|LOW": [
       "shar",
-      "PAPER"
+      "LIFE"
     ],
-    "CLIP|PAPER": [
+    "BOAT|LIFE": [
       "comp",
-      "PAPERCLIP"
+      "LIFEBOAT"
     ],
-    "HEAD|HOT": [
+    "CASE|SUIT": [
       "comp",
-      "HOTHEAD"
+      "SUITCASE"
     ],
-    "DOG|HEAD": [
+    "CASE|WET": [
       "shar",
-      "HOT"
+      "SUIT"
     ],
-    "DOG|HOT": [
+    "SUIT|WET": [
       "comp",
-      "HOTDOG"
+      "WETSUIT"
     ],
-    "DOG|FLY": [
+    "LOW|WET": [
       "shar",
-      "HOUSE"
+      "LAND"
     ],
-    "FLY|PAPER": [
+    "LIFE|LOW": [
       "comp",
-      "FLYPAPER"
+      "LOWLIFE"
     ]
   },
   "meta": {
