@@ -1,0 +1,68 @@
+{
+  "id": "0147c0dd93a6",
+  "words": [
+    "CHAIR",
+    "HIGH",
+    "LAND",
+    "FALL",
+    "SNOW",
+    "MAN"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CHAIR|HIGH": [
+      "comp",
+      "HIGHCHAIR"
+    ],
+    "CHAIR|LAND": [
+      "shar",
+      "HIGH"
+    ],
+    "CHAIR|SNOW": [
+      "shar",
+      "MAN"
+    ],
+    "CHAIR|MAN": [
+      "comp",
+      "CHAIRMAN"
+    ],
+    "HIGH|LAND": [
+      "comp",
+      "HIGHLAND"
+    ],
+    "FALL|HIGH": [
+      "shar",
+      "LAND"
+    ],
+    "HIGH|MAN": [
+      "shar",
+      "CHAIR"
+    ],
+    "FALL|LAND": [
+      "comp",
+      "LANDFALL"
+    ],
+    "LAND|SNOW": [
+      "shar",
+      "FALL"
+    ],
+    "FALL|SNOW": [
+      "comp",
+      "SNOWFALL"
+    ],
+    "FALL|MAN": [
+      "shar",
+      "SNOW"
+    ],
+    "MAN|SNOW": [
+      "comp",
+      "SNOWMAN"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}

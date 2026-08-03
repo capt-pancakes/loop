@@ -1,54 +1,70 @@
 {
-  "number": 28,
-  "date": "2026-08-02",
-  "id": "0aaf3a496aec",
+  "number": 29,
+  "date": "2026-08-03",
+  "id": "430ff1731f56",
   "words": [
-    "BOAT",
-    "CASE",
-    "SUIT",
-    "WET",
-    "LOW",
-    "LIFE"
+    "BALL",
+    "FOOT",
+    "NOTE",
+    "KEY",
+    "HOLE",
+    "PIN"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOAT|CASE": [
-      "shar",
-      "SHOW"
-    ],
-    "BOAT|LOW": [
-      "shar",
-      "LIFE"
-    ],
-    "BOAT|LIFE": [
+    "BALL|FOOT": [
       "comp",
-      "LIFEBOAT"
+      "FOOTBALL"
     ],
-    "CASE|SUIT": [
-      "comp",
-      "SUITCASE"
-    ],
-    "CASE|WET": [
+    "BALL|NOTE": [
       "shar",
-      "SUIT"
+      "FOOT"
     ],
-    "SUIT|WET": [
-      "comp",
-      "WETSUIT"
-    ],
-    "LOW|WET": [
+    "BALL|HOLE": [
       "shar",
-      "LAND"
+      "PIN"
     ],
-    "LIFE|LOW": [
+    "BALL|PIN": [
       "comp",
-      "LOWLIFE"
+      "PINBALL"
+    ],
+    "FOOT|NOTE": [
+      "comp",
+      "FOOTNOTE"
+    ],
+    "FOOT|KEY": [
+      "shar",
+      "NOTE"
+    ],
+    "FOOT|PIN": [
+      "shar",
+      "BALL"
+    ],
+    "KEY|NOTE": [
+      "comp",
+      "KEYNOTE"
+    ],
+    "HOLE|NOTE": [
+      "shar",
+      "KEY"
+    ],
+    "HOLE|KEY": [
+      "comp",
+      "KEYHOLE"
+    ],
+    "KEY|PIN": [
+      "shar",
+      "HOLE"
+    ],
+    "HOLE|PIN": [
+      "comp",
+      "PINHOLE"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 36
+    "comp": 6,
+    "shar": 0,
+    "score": 47
   }
 }
