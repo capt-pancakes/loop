@@ -1,64 +1,72 @@
 {
-  "number": 29,
-  "date": "2026-08-03",
-  "id": "430ff1731f56",
+  "number": 30,
+  "date": "2026-08-04",
+  "id": "53098114148f",
   "words": [
-    "BALL",
-    "FOOT",
+    "BOOK",
     "NOTE",
+    "PAD",
     "KEY",
-    "HOLE",
-    "PIN"
+    "RING",
+    "WORM"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BALL|FOOT": [
+    "BOOK|NOTE": [
       "comp",
-      "FOOTBALL"
+      "NOTEBOOK"
     ],
-    "BALL|NOTE": [
-      "shar",
-      "FOOT"
-    ],
-    "BALL|HOLE": [
-      "shar",
-      "PIN"
-    ],
-    "BALL|PIN": [
-      "comp",
-      "PINBALL"
-    ],
-    "FOOT|NOTE": [
-      "comp",
-      "FOOTNOTE"
-    ],
-    "FOOT|KEY": [
+    "BOOK|PAD": [
       "shar",
       "NOTE"
     ],
-    "FOOT|PIN": [
+    "BOOK|KEY": [
       "shar",
-      "BALL"
+      "NOTE"
+    ],
+    "BOOK|RING": [
+      "shar",
+      "WORM"
+    ],
+    "BOOK|WORM": [
+      "comp",
+      "BOOKWORM"
+    ],
+    "NOTE|PAD": [
+      "comp",
+      "NOTEPAD"
     ],
     "KEY|NOTE": [
       "comp",
       "KEYNOTE"
     ],
-    "HOLE|NOTE": [
+    "NOTE|RING": [
       "shar",
       "KEY"
     ],
-    "HOLE|KEY": [
-      "comp",
-      "KEYHOLE"
+    "NOTE|WORM": [
+      "shar",
+      "BOOK"
     ],
-    "KEY|PIN": [
+    "KEY|PAD": [
+      "comp",
+      "KEYPAD"
+    ],
+    "PAD|RING": [
+      "shar",
+      "KEY"
+    ],
+    "KEY|RING": [
+      "comp",
+      "KEYRING"
+    ],
+    "KEY|WORM": [
       "shar",
       "HOLE"
     ],
-    "HOLE|PIN": [
+    "RING|WORM": [
       "comp",
-      "PINHOLE"
+      "RINGWORM"
     ]
   },
   "meta": {

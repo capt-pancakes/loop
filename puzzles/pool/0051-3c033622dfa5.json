@@ -1,0 +1,68 @@
+{
+  "id": "3c033622dfa5",
+  "words": [
+    "BOOK",
+    "CHECK",
+    "LIST",
+    "PLAY",
+    "GAME",
+    "END"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOOK|CHECK": [
+      "comp",
+      "CHECKBOOK"
+    ],
+    "BOOK|LIST": [
+      "shar",
+      "CHECK"
+    ],
+    "BOOK|GAME": [
+      "shar",
+      "END"
+    ],
+    "BOOK|END": [
+      "comp",
+      "BOOKEND"
+    ],
+    "CHECK|LIST": [
+      "comp",
+      "CHECKLIST"
+    ],
+    "CHECK|PLAY": [
+      "shar",
+      "MATE"
+    ],
+    "CHECK|END": [
+      "shar",
+      "BOOK"
+    ],
+    "LIST|PLAY": [
+      "comp",
+      "PLAYLIST"
+    ],
+    "GAME|LIST": [
+      "shar",
+      "PLAY"
+    ],
+    "GAME|PLAY": [
+      "comp",
+      "GAMEPLAY"
+    ],
+    "END|PLAY": [
+      "shar",
+      "GAME"
+    ],
+    "END|GAME": [
+      "comp",
+      "ENDGAME"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}
