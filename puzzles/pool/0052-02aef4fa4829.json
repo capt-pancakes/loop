@@ -1,0 +1,60 @@
+{
+  "id": "02aef4fa4829",
+  "words": [
+    "DROP",
+    "GUM",
+    "ROOM",
+    "NEWS",
+    "STAND",
+    "KICK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "DROP|GUM": [
+      "comp",
+      "GUMDROP"
+    ],
+    "DROP|STAND": [
+      "shar",
+      "OUT"
+    ],
+    "DROP|KICK": [
+      "comp",
+      "DROPKICK"
+    ],
+    "GUM|ROOM": [
+      "shar",
+      "BALL"
+    ],
+    "GUM|KICK": [
+      "shar",
+      "DROP"
+    ],
+    "NEWS|ROOM": [
+      "comp",
+      "NEWSROOM"
+    ],
+    "ROOM|STAND": [
+      "shar",
+      "NEWS"
+    ],
+    "NEWS|STAND": [
+      "comp",
+      "NEWSSTAND"
+    ],
+    "KICK|NEWS": [
+      "shar",
+      "STAND"
+    ],
+    "KICK|STAND": [
+      "comp",
+      "KICKSTAND"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

@@ -1,78 +1,62 @@
 {
-  "number": 30,
-  "date": "2026-08-04",
-  "id": "53098114148f",
+  "number": 31,
+  "date": "2026-08-05",
+  "id": "3a862af808ed",
   "words": [
-    "BOOK",
-    "NOTE",
-    "PAD",
-    "KEY",
-    "RING",
-    "WORM"
+    "BOX",
+    "ICE",
+    "CAP",
+    "FALL",
+    "PIT",
+    "SAND"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOOK|NOTE": [
+    "BOX|ICE": [
       "comp",
-      "NOTEBOOK"
+      "ICEBOX"
     ],
-    "BOOK|PAD": [
+    "BOX|CAP": [
       "shar",
-      "NOTE"
+      "ICE"
     ],
-    "BOOK|KEY": [
+    "BOX|PIT": [
       "shar",
-      "NOTE"
+      "SAND"
     ],
-    "BOOK|RING": [
-      "shar",
-      "WORM"
-    ],
-    "BOOK|WORM": [
+    "BOX|SAND": [
       "comp",
-      "BOOKWORM"
+      "SANDBOX"
     ],
-    "NOTE|PAD": [
+    "CAP|ICE": [
       "comp",
-      "NOTEPAD"
+      "ICECAP"
     ],
-    "KEY|NOTE": [
-      "comp",
-      "KEYNOTE"
-    ],
-    "NOTE|RING": [
+    "ICE|SAND": [
       "shar",
-      "KEY"
+      "BOX"
     ],
-    "NOTE|WORM": [
+    "CAP|FALL": [
       "shar",
-      "BOOK"
+      "NIGHT"
     ],
-    "KEY|PAD": [
+    "FALL|PIT": [
       "comp",
-      "KEYPAD"
+      "PITFALL"
     ],
-    "PAD|RING": [
+    "FALL|SAND": [
       "shar",
-      "KEY"
+      "PIT"
     ],
-    "KEY|RING": [
+    "PIT|SAND": [
       "comp",
-      "KEYRING"
-    ],
-    "KEY|WORM": [
-      "shar",
-      "HOLE"
-    ],
-    "RING|WORM": [
-      "comp",
-      "RINGWORM"
+      "SANDPIT"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 47
+    "comp": 5,
+    "shar": 1,
+    "score": 42
   }
 }

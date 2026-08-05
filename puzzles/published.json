@@ -1,5 +1,5 @@
 {
-  "nextNumber": 31,
+  "nextNumber": 32,
   "puzzles": [
     {
       "number": 1,
@@ -389,6 +389,19 @@
         "KEY",
         "RING",
         "WORM"
+      ]
+    },
+    {
+      "number": 31,
+      "date": "2026-08-05",
+      "id": "3a862af808ed",
+      "words": [
+        "BOX",
+        "ICE",
+        "CAP",
+        "FALL",
+        "PIT",
+        "SAND"
       ]
     }
   ]
