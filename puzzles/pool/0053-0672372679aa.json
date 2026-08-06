@@ -1,12 +1,12 @@
 {
-  "id": "58a43a5adf32",
+  "id": "0672372679aa",
   "words": [
     "BOX",
     "CAR",
-    "SIDE",
-    "HILL",
-    "TOP",
-    "MAIL"
+    "PORT",
+    "HOLE",
+    "KEY",
+    "SAND"
   ],
   "anchorIndex": 0,
   "bonds": {
@@ -14,41 +14,41 @@
       "comp",
       "BOXCAR"
     ],
-    "BOX|SIDE": [
+    "BOX|PORT": [
       "shar",
       "CAR"
     ],
-    "BOX|MAIL": [
+    "BOX|SAND": [
       "comp",
-      "MAILBOX"
+      "SANDBOX"
     ],
-    "CAR|SIDE": [
+    "CAR|PORT": [
       "comp",
-      "SIDECAR"
+      "CARPORT"
     ],
-    "CAR|HILL": [
+    "CAR|HOLE": [
       "shar",
-      "SIDE"
+      "PORT"
     ],
-    "CAR|MAIL": [
+    "CAR|SAND": [
       "shar",
       "BOX"
     ],
-    "HILL|SIDE": [
+    "HOLE|PORT": [
       "comp",
-      "HILLSIDE"
+      "PORTHOLE"
     ],
-    "SIDE|TOP": [
+    "KEY|PORT": [
       "shar",
-      "MOUNTAIN"
+      "HOLE"
     ],
-    "HILL|TOP": [
+    "HOLE|KEY": [
       "comp",
-      "HILLTOP"
+      "KEYHOLE"
     ],
-    "MAIL|TOP": [
+    "KEY|SAND": [
       "shar",
-      "BLACK"
+      "STONE"
     ]
   },
   "meta": {

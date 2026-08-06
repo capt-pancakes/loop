@@ -1,5 +1,5 @@
 {
-  "nextNumber": 32,
+  "nextNumber": 33,
   "puzzles": [
     {
       "number": 1,
@@ -402,6 +402,19 @@
         "FALL",
         "PIT",
         "SAND"
+      ]
+    },
+    {
+      "number": 32,
+      "date": "2026-08-06",
+      "id": "58a43a5adf32",
+      "words": [
+        "BOX",
+        "CAR",
+        "SIDE",
+        "HILL",
+        "TOP",
+        "MAIL"
       ]
     }
   ]
