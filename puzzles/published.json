@@ -1,5 +1,5 @@
 {
-  "nextNumber": 33,
+  "nextNumber": 34,
   "puzzles": [
     {
       "number": 1,
@@ -415,6 +415,19 @@
         "HILL",
         "TOP",
         "MAIL"
+      ]
+    },
+    {
+      "number": 33,
+      "date": "2026-08-07",
+      "id": "8cd8c67f2f22",
+      "words": [
+        "DRUM",
+        "EAR",
+        "SHOT",
+        "LOAD",
+        "PAY",
+        "ROLL"
       ]
     }
   ]
