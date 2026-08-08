@@ -1,62 +1,54 @@
 {
-  "number": 33,
-  "date": "2026-08-07",
-  "id": "8cd8c67f2f22",
+  "number": 34,
+  "date": "2026-08-08",
+  "id": "1669b7172a8f",
   "words": [
-    "DRUM",
-    "EAR",
-    "SHOT",
-    "LOAD",
-    "PAY",
-    "ROLL"
+    "CAP",
+    "ICE",
+    "SHOE",
+    "HORSE",
+    "POWER",
+    "NIGHT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "DRUM|EAR": [
+    "CAP|ICE": [
       "comp",
-      "EARDRUM"
+      "ICECAP"
     ],
-    "DRUM|SHOT": [
-      "shar",
-      "EAR"
-    ],
-    "DRUM|PAY": [
-      "shar",
-      "ROLL"
-    ],
-    "DRUM|ROLL": [
+    "CAP|NIGHT": [
       "comp",
-      "DRUMROLL"
+      "NIGHTCAP"
     ],
-    "EAR|SHOT": [
-      "comp",
-      "EARSHOT"
-    ],
-    "EAR|ROLL": [
+    "ICE|SHOE": [
       "shar",
-      "DRUM"
+      "BOX"
     ],
-    "LOAD|SHOT": [
+    "ICE|NIGHT": [
       "shar",
-      "UP"
+      "CAP"
     ],
-    "LOAD|PAY": [
+    "HORSE|SHOE": [
       "comp",
-      "PAYLOAD"
+      "HORSESHOE"
     ],
-    "LOAD|ROLL": [
+    "POWER|SHOE": [
       "shar",
-      "PAY"
+      "HORSE"
     ],
-    "PAY|ROLL": [
+    "HORSE|POWER": [
       "comp",
-      "PAYROLL"
+      "HORSEPOWER"
+    ],
+    "NIGHT|POWER": [
+      "shar",
+      "OVER"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 42
+    "comp": 4,
+    "shar": 2,
+    "score": 36
   }
 }

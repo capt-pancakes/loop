@@ -1,0 +1,60 @@
+{
+  "id": "1a584478ec87",
+  "words": [
+    "BUZZ",
+    "KEY",
+    "PAD",
+    "TOUCH",
+    "MILL",
+    "SAW"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BUZZ|KEY": [
+      "shar",
+      "WORD"
+    ],
+    "BUZZ|MILL": [
+      "shar",
+      "SAW"
+    ],
+    "BUZZ|SAW": [
+      "comp",
+      "BUZZSAW"
+    ],
+    "KEY|PAD": [
+      "comp",
+      "KEYPAD"
+    ],
+    "KEY|TOUCH": [
+      "shar",
+      "STONE"
+    ],
+    "KEY|MILL": [
+      "shar",
+      "STONE"
+    ],
+    "KEY|SAW": [
+      "shar",
+      "CHAIN"
+    ],
+    "PAD|TOUCH": [
+      "comp",
+      "TOUCHPAD"
+    ],
+    "MILL|TOUCH": [
+      "shar",
+      "STONE"
+    ],
+    "MILL|SAW": [
+      "comp",
+      "SAWMILL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

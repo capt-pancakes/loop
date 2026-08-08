@@ -1,5 +1,5 @@
 {
-  "nextNumber": 34,
+  "nextNumber": 35,
   "puzzles": [
     {
       "number": 1,
@@ -428,6 +428,19 @@
         "LOAD",
         "PAY",
         "ROLL"
+      ]
+    },
+    {
+      "number": 34,
+      "date": "2026-08-08",
+      "id": "1669b7172a8f",
+      "words": [
+        "CAP",
+        "ICE",
+        "SHOE",
+        "HORSE",
+        "POWER",
+        "NIGHT"
       ]
     }
   ]
