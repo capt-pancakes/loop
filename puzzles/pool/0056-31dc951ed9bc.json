@@ -1,0 +1,52 @@
+{
+  "id": "31dc951ed9bc",
+  "words": [
+    "COAT",
+    "DROP",
+    "GUM",
+    "FOOT",
+    "HILL",
+    "TOP"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "COAT|DROP": [
+      "shar",
+      "RAIN"
+    ],
+    "COAT|HILL": [
+      "shar",
+      "TOP"
+    ],
+    "COAT|TOP": [
+      "comp",
+      "TOPCOAT"
+    ],
+    "DROP|GUM": [
+      "comp",
+      "GUMDROP"
+    ],
+    "FOOT|GUM": [
+      "shar",
+      "BALL"
+    ],
+    "FOOT|HILL": [
+      "comp",
+      "FOOTHILL"
+    ],
+    "FOOT|TOP": [
+      "shar",
+      "HILL"
+    ],
+    "HILL|TOP": [
+      "comp",
+      "HILLTOP"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

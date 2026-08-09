@@ -1,54 +1,62 @@
 {
-  "number": 34,
-  "date": "2026-08-08",
-  "id": "1669b7172a8f",
+  "number": 35,
+  "date": "2026-08-09",
+  "id": "7bd2e848ea25",
   "words": [
-    "CAP",
-    "ICE",
-    "SHOE",
-    "HORSE",
-    "POWER",
-    "NIGHT"
+    "CRACK",
+    "HILL",
+    "TOP",
+    "ROOF",
+    "SUN",
+    "POT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CAP|ICE": [
-      "comp",
-      "ICECAP"
-    ],
-    "CAP|NIGHT": [
-      "comp",
-      "NIGHTCAP"
-    ],
-    "ICE|SHOE": [
+    "CRACK|HILL": [
       "shar",
-      "BOX"
+      "DOWN"
     ],
-    "ICE|NIGHT": [
+    "CRACK|SUN": [
       "shar",
-      "CAP"
+      "DOWN"
     ],
-    "HORSE|SHOE": [
+    "CRACK|POT": [
       "comp",
-      "HORSESHOE"
+      "CRACKPOT"
     ],
-    "POWER|SHOE": [
-      "shar",
-      "HORSE"
-    ],
-    "HORSE|POWER": [
+    "HILL|TOP": [
       "comp",
-      "HORSEPOWER"
+      "HILLTOP"
     ],
-    "NIGHT|POWER": [
+    "HILL|ROOF": [
       "shar",
-      "OVER"
+      "TOP"
+    ],
+    "HILL|SUN": [
+      "shar",
+      "DOWN"
+    ],
+    "ROOF|TOP": [
+      "comp",
+      "ROOFTOP"
+    ],
+    "SUN|TOP": [
+      "shar",
+      "ROOF"
+    ],
+    "ROOF|SUN": [
+      "comp",
+      "SUNROOF"
+    ],
+    "POT|SUN": [
+      "shar",
+      "FLOWER"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 4,
     "shar": 2,
-    "score": 36
+    "score": 37
   }
 }
