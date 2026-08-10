@@ -1,5 +1,5 @@
 {
-  "nextNumber": 36,
+  "nextNumber": 37,
   "puzzles": [
     {
       "number": 1,
@@ -454,6 +454,19 @@
         "ROOF",
         "SUN",
         "POT"
+      ]
+    },
+    {
+      "number": 36,
+      "date": "2026-08-10",
+      "id": "a5a22b3b460b",
+      "words": [
+        "AIR",
+        "LINE",
+        "PIPE",
+        "TAIL",
+        "GATE",
+        "WAY"
       ]
     }
   ]

@@ -1,62 +1,70 @@
 {
-  "number": 35,
-  "date": "2026-08-09",
-  "id": "7bd2e848ea25",
+  "number": 36,
+  "date": "2026-08-10",
+  "id": "a5a22b3b460b",
   "words": [
-    "CRACK",
-    "HILL",
-    "TOP",
-    "ROOF",
-    "SUN",
-    "POT"
+    "AIR",
+    "LINE",
+    "PIPE",
+    "TAIL",
+    "GATE",
+    "WAY"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CRACK|HILL": [
-      "shar",
-      "DOWN"
-    ],
-    "CRACK|SUN": [
-      "shar",
-      "DOWN"
-    ],
-    "CRACK|POT": [
+    "AIR|LINE": [
       "comp",
-      "CRACKPOT"
+      "AIRLINE"
     ],
-    "HILL|TOP": [
+    "AIR|PIPE": [
+      "shar",
+      "BAG"
+    ],
+    "AIR|GATE": [
+      "shar",
+      "WAY"
+    ],
+    "AIR|WAY": [
       "comp",
-      "HILLTOP"
+      "AIRWAY"
     ],
-    "HILL|ROOF": [
-      "shar",
-      "TOP"
-    ],
-    "HILL|SUN": [
-      "shar",
-      "DOWN"
-    ],
-    "ROOF|TOP": [
+    "LINE|PIPE": [
       "comp",
-      "ROOFTOP"
+      "PIPELINE"
     ],
-    "SUN|TOP": [
+    "LINE|TAIL": [
       "shar",
-      "ROOF"
+      "PIPE"
     ],
-    "ROOF|SUN": [
+    "LINE|WAY": [
+      "shar",
+      "AIR"
+    ],
+    "PIPE|TAIL": [
       "comp",
-      "SUNROOF"
+      "TAILPIPE"
     ],
-    "POT|SUN": [
+    "GATE|PIPE": [
       "shar",
-      "FLOWER"
+      "TAIL"
+    ],
+    "GATE|TAIL": [
+      "comp",
+      "TAILGATE"
+    ],
+    "TAIL|WAY": [
+      "shar",
+      "GATE"
+    ],
+    "GATE|WAY": [
+      "comp",
+      "GATEWAY"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 37
+    "comp": 6,
+    "shar": 0,
+    "score": 47
   }
 }
