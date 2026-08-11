@@ -1,5 +1,5 @@
 {
-  "nextNumber": 37,
+  "nextNumber": 38,
   "puzzles": [
     {
       "number": 1,
@@ -467,6 +467,19 @@
         "TAIL",
         "GATE",
         "WAY"
+      ]
+    },
+    {
+      "number": 37,
+      "date": "2026-08-11",
+      "id": "d6e0d4f49004",
+      "words": [
+        "BED",
+        "ROOM",
+        "LEG",
+        "WORK",
+        "HORSE",
+        "SEA"
       ]
     }
   ]

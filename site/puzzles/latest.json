@@ -1,64 +1,64 @@
 {
-  "number": 36,
-  "date": "2026-08-10",
-  "id": "a5a22b3b460b",
+  "number": 37,
+  "date": "2026-08-11",
+  "id": "d6e0d4f49004",
   "words": [
-    "AIR",
-    "LINE",
-    "PIPE",
-    "TAIL",
-    "GATE",
-    "WAY"
+    "BED",
+    "ROOM",
+    "LEG",
+    "WORK",
+    "HORSE",
+    "SEA"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "AIR|LINE": [
+    "BED|ROOM": [
       "comp",
-      "AIRLINE"
+      "BEDROOM"
     ],
-    "AIR|PIPE": [
+    "BED|LEG": [
       "shar",
-      "BAG"
+      "ROOM"
     ],
-    "AIR|GATE": [
+    "BED|HORSE": [
       "shar",
-      "WAY"
+      "SEA"
     ],
-    "AIR|WAY": [
+    "BED|SEA": [
       "comp",
-      "AIRWAY"
+      "SEABED"
     ],
-    "LINE|PIPE": [
+    "LEG|ROOM": [
       "comp",
-      "PIPELINE"
+      "LEGROOM"
     ],
-    "LINE|TAIL": [
+    "ROOM|WORK": [
       "shar",
-      "PIPE"
+      "LEG"
     ],
-    "LINE|WAY": [
+    "ROOM|SEA": [
       "shar",
-      "AIR"
+      "BED"
     ],
-    "PIPE|TAIL": [
+    "LEG|WORK": [
       "comp",
-      "TAILPIPE"
+      "LEGWORK"
     ],
-    "GATE|PIPE": [
+    "HORSE|LEG": [
       "shar",
-      "TAIL"
+      "WORK"
     ],
-    "GATE|TAIL": [
+    "HORSE|WORK": [
       "comp",
-      "TAILGATE"
+      "WORKHORSE"
     ],
-    "TAIL|WAY": [
+    "SEA|WORK": [
       "shar",
-      "GATE"
+      "HORSE"
     ],
-    "GATE|WAY": [
+    "HORSE|SEA": [
       "comp",
-      "GATEWAY"
+      "SEAHORSE"
     ]
   },
   "meta": {

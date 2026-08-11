@@ -1,0 +1,68 @@
+{
+  "id": "4f84890f1d1e",
+  "words": [
+    "BAR",
+    "HANDLE",
+    "PAN",
+    "CAKE",
+    "WALK",
+    "SIDE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BAR|HANDLE": [
+      "comp",
+      "HANDLEBAR"
+    ],
+    "BAR|PAN": [
+      "shar",
+      "HANDLE"
+    ],
+    "BAR|WALK": [
+      "shar",
+      "SIDE"
+    ],
+    "BAR|SIDE": [
+      "comp",
+      "SIDEBAR"
+    ],
+    "HANDLE|PAN": [
+      "comp",
+      "PANHANDLE"
+    ],
+    "CAKE|HANDLE": [
+      "shar",
+      "PAN"
+    ],
+    "HANDLE|SIDE": [
+      "shar",
+      "BAR"
+    ],
+    "CAKE|PAN": [
+      "comp",
+      "PANCAKE"
+    ],
+    "PAN|WALK": [
+      "shar",
+      "CAKE"
+    ],
+    "CAKE|WALK": [
+      "comp",
+      "CAKEWALK"
+    ],
+    "CAKE|SIDE": [
+      "shar",
+      "WALK"
+    ],
+    "SIDE|WALK": [
+      "comp",
+      "SIDEWALK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}
