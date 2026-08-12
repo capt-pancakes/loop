@@ -1,0 +1,60 @@
+{
+  "id": "00ceba55bc46",
+  "words": [
+    "CARE",
+    "FREE",
+    "WAY",
+    "PATH",
+    "WAR",
+    "TIME"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CARE|FREE": [
+      "comp",
+      "CAREFREE"
+    ],
+    "CARE|WAY": [
+      "shar",
+      "FREE"
+    ],
+    "CARE|TIME": [
+      "shar",
+      "DAY"
+    ],
+    "FREE|WAY": [
+      "comp",
+      "FREEWAY"
+    ],
+    "FREE|PATH": [
+      "shar",
+      "WAY"
+    ],
+    "PATH|WAY": [
+      "comp",
+      "PATHWAY"
+    ],
+    "WAR|WAY": [
+      "shar",
+      "PATH"
+    ],
+    "PATH|WAR": [
+      "comp",
+      "WARPATH"
+    ],
+    "PATH|TIME": [
+      "shar",
+      "WAR"
+    ],
+    "TIME|WAR": [
+      "comp",
+      "WARTIME"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

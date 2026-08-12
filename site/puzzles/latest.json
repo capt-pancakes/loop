@@ -1,70 +1,62 @@
 {
-  "number": 37,
-  "date": "2026-08-11",
-  "id": "d6e0d4f49004",
+  "number": 38,
+  "date": "2026-08-12",
+  "id": "86b64617ce84",
   "words": [
-    "BED",
-    "ROOM",
-    "LEG",
-    "WORK",
-    "HORSE",
-    "SEA"
+    "FREE",
+    "HAND",
+    "GUN",
+    "SHOT",
+    "MOON",
+    "WAY"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BED|ROOM": [
+    "FREE|HAND": [
       "comp",
-      "BEDROOM"
+      "FREEHAND"
     ],
-    "BED|LEG": [
+    "FREE|GUN": [
       "shar",
-      "ROOM"
+      "HAND"
     ],
-    "BED|HORSE": [
-      "shar",
-      "SEA"
-    ],
-    "BED|SEA": [
+    "FREE|WAY": [
       "comp",
-      "SEABED"
+      "FREEWAY"
     ],
-    "LEG|ROOM": [
+    "GUN|HAND": [
       "comp",
-      "LEGROOM"
+      "HANDGUN"
     ],
-    "ROOM|WORK": [
+    "HAND|SHOT": [
       "shar",
-      "LEG"
+      "GUN"
     ],
-    "ROOM|SEA": [
+    "HAND|WAY": [
       "shar",
-      "BED"
+      "RAIL"
     ],
-    "LEG|WORK": [
+    "GUN|SHOT": [
       "comp",
-      "LEGWORK"
+      "GUNSHOT"
     ],
-    "HORSE|LEG": [
+    "GUN|MOON": [
       "shar",
-      "WORK"
+      "SHOT"
     ],
-    "HORSE|WORK": [
+    "MOON|SHOT": [
       "comp",
-      "WORKHORSE"
+      "MOONSHOT"
     ],
-    "SEA|WORK": [
+    "MOON|WAY": [
       "shar",
-      "HORSE"
-    ],
-    "HORSE|SEA": [
-      "comp",
-      "SEAHORSE"
+      "WALK"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 47
+    "comp": 5,
+    "shar": 1,
+    "score": 42
   }
 }

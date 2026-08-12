@@ -1,5 +1,5 @@
 {
-  "nextNumber": 38,
+  "nextNumber": 39,
   "puzzles": [
     {
       "number": 1,
@@ -480,6 +480,19 @@
         "WORK",
         "HORSE",
         "SEA"
+      ]
+    },
+    {
+      "number": 38,
+      "date": "2026-08-12",
+      "id": "86b64617ce84",
+      "words": [
+        "FREE",
+        "HAND",
+        "GUN",
+        "SHOT",
+        "MOON",
+        "WAY"
       ]
     }
   ]
