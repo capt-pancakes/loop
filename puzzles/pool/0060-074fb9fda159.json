@@ -1,0 +1,64 @@
+{
+  "id": "074fb9fda159",
+  "words": [
+    "BENCH",
+    "MARK",
+    "CHECK",
+    "PAY",
+    "LOAD",
+    "WORK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BENCH|MARK": [
+      "comp",
+      "BENCHMARK"
+    ],
+    "BENCH|LOAD": [
+      "shar",
+      "WORK"
+    ],
+    "BENCH|WORK": [
+      "comp",
+      "WORKBENCH"
+    ],
+    "CHECK|MARK": [
+      "shar",
+      "BOOK"
+    ],
+    "MARK|WORK": [
+      "shar",
+      "BENCH"
+    ],
+    "CHECK|PAY": [
+      "comp",
+      "PAYCHECK"
+    ],
+    "CHECK|LOAD": [
+      "shar",
+      "UP"
+    ],
+    "CHECK|WORK": [
+      "shar",
+      "OUT"
+    ],
+    "LOAD|PAY": [
+      "comp",
+      "PAYLOAD"
+    ],
+    "PAY|WORK": [
+      "shar",
+      "LOAD"
+    ],
+    "LOAD|WORK": [
+      "comp",
+      "WORKLOAD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

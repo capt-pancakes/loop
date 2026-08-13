@@ -1,56 +1,56 @@
 {
-  "number": 38,
-  "date": "2026-08-12",
-  "id": "86b64617ce84",
+  "number": 39,
+  "date": "2026-08-13",
+  "id": "786873852788",
   "words": [
-    "FREE",
-    "HAND",
-    "GUN",
-    "SHOT",
-    "MOON",
-    "WAY"
+    "CAT",
+    "FISH",
+    "NET",
+    "LINE",
+    "SIDE",
+    "WALK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "FREE|HAND": [
+    "CAT|FISH": [
       "comp",
-      "FREEHAND"
+      "CATFISH"
     ],
-    "FREE|GUN": [
+    "CAT|NET": [
       "shar",
-      "HAND"
+      "FISH"
     ],
-    "FREE|WAY": [
-      "comp",
-      "FREEWAY"
-    ],
-    "GUN|HAND": [
-      "comp",
-      "HANDGUN"
-    ],
-    "HAND|SHOT": [
-      "shar",
-      "GUN"
-    ],
-    "HAND|WAY": [
-      "shar",
-      "RAIL"
-    ],
-    "GUN|SHOT": [
-      "comp",
-      "GUNSHOT"
-    ],
-    "GUN|MOON": [
-      "shar",
-      "SHOT"
-    ],
-    "MOON|SHOT": [
-      "comp",
-      "MOONSHOT"
-    ],
-    "MOON|WAY": [
+    "CAT|SIDE": [
       "shar",
       "WALK"
+    ],
+    "CAT|WALK": [
+      "comp",
+      "CATWALK"
+    ],
+    "FISH|NET": [
+      "comp",
+      "FISHNET"
+    ],
+    "FISH|WALK": [
+      "shar",
+      "CAT"
+    ],
+    "LINE|NET": [
+      "shar",
+      "HAIR"
+    ],
+    "LINE|SIDE": [
+      "comp",
+      "SIDELINE"
+    ],
+    "LINE|WALK": [
+      "shar",
+      "SIDE"
+    ],
+    "SIDE|WALK": [
+      "comp",
+      "SIDEWALK"
     ]
   },
   "meta": {

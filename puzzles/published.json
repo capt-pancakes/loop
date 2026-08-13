@@ -1,5 +1,5 @@
 {
-  "nextNumber": 39,
+  "nextNumber": 40,
   "puzzles": [
     {
       "number": 1,
@@ -493,6 +493,19 @@
         "SHOT",
         "MOON",
         "WAY"
+      ]
+    },
+    {
+      "number": 39,
+      "date": "2026-08-13",
+      "id": "786873852788",
+      "words": [
+        "CAT",
+        "FISH",
+        "NET",
+        "LINE",
+        "SIDE",
+        "WALK"
       ]
     }
   ]
