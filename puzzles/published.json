@@ -1,5 +1,5 @@
 {
-  "nextNumber": 40,
+  "nextNumber": 41,
   "puzzles": [
     {
       "number": 1,
@@ -506,6 +506,19 @@
         "LINE",
         "SIDE",
         "WALK"
+      ]
+    },
+    {
+      "number": 40,
+      "date": "2026-08-14",
+      "id": "6cfad81f5ab4",
+      "words": [
+        "ACHE",
+        "FIRE",
+        "BALL",
+        "EYE",
+        "RED",
+        "HEAD"
       ]
     }
   ]

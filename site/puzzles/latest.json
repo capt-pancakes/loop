@@ -1,56 +1,60 @@
 {
-  "number": 39,
-  "date": "2026-08-13",
-  "id": "786873852788",
+  "number": 40,
+  "date": "2026-08-14",
+  "id": "6cfad81f5ab4",
   "words": [
-    "CAT",
-    "FISH",
-    "NET",
-    "LINE",
-    "SIDE",
-    "WALK"
+    "ACHE",
+    "FIRE",
+    "BALL",
+    "EYE",
+    "RED",
+    "HEAD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CAT|FISH": [
-      "comp",
-      "CATFISH"
-    ],
-    "CAT|NET": [
+    "ACHE|FIRE": [
       "shar",
-      "FISH"
+      "BACK"
     ],
-    "CAT|SIDE": [
+    "ACHE|RED": [
       "shar",
-      "WALK"
+      "HEAD"
     ],
-    "CAT|WALK": [
+    "ACHE|HEAD": [
       "comp",
-      "CATWALK"
+      "HEADACHE"
     ],
-    "FISH|NET": [
+    "BALL|FIRE": [
       "comp",
-      "FISHNET"
+      "FIREBALL"
     ],
-    "FISH|WALK": [
+    "EYE|FIRE": [
       "shar",
-      "CAT"
+      "BALL"
     ],
-    "LINE|NET": [
+    "FIRE|RED": [
       "shar",
-      "HAIR"
+      "WOOD"
     ],
-    "LINE|SIDE": [
+    "BALL|EYE": [
       "comp",
-      "SIDELINE"
+      "EYEBALL"
     ],
-    "LINE|WALK": [
+    "BALL|RED": [
       "shar",
-      "SIDE"
+      "EYE"
     ],
-    "SIDE|WALK": [
+    "EYE|RED": [
       "comp",
-      "SIDEWALK"
+      "REDEYE"
+    ],
+    "EYE|HEAD": [
+      "shar",
+      "RED"
+    ],
+    "HEAD|RED": [
+      "comp",
+      "REDHEAD"
     ]
   },
   "meta": {

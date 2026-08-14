@@ -1,0 +1,60 @@
+{
+  "id": "c58b04941a8d",
+  "words": [
+    "ACHE",
+    "EAR",
+    "SHOT",
+    "GUN",
+    "LOCK",
+    "HEAD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "ACHE|EAR": [
+      "comp",
+      "EARACHE"
+    ],
+    "ACHE|SHOT": [
+      "shar",
+      "EAR"
+    ],
+    "ACHE|LOCK": [
+      "shar",
+      "HEAD"
+    ],
+    "ACHE|HEAD": [
+      "comp",
+      "HEADACHE"
+    ],
+    "EAR|SHOT": [
+      "comp",
+      "EARSHOT"
+    ],
+    "EAR|GUN": [
+      "shar",
+      "SHOT"
+    ],
+    "EAR|HEAD": [
+      "shar",
+      "PHONE"
+    ],
+    "GUN|SHOT": [
+      "comp",
+      "GUNSHOT"
+    ],
+    "GUN|LOCK": [
+      "shar",
+      "SMITH"
+    ],
+    "HEAD|LOCK": [
+      "comp",
+      "HEADLOCK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}
