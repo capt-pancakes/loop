@@ -1,5 +1,5 @@
 {
-  "nextNumber": 41,
+  "nextNumber": 42,
   "puzzles": [
     {
       "number": 1,
@@ -519,6 +519,19 @@
         "EYE",
         "RED",
         "HEAD"
+      ]
+    },
+    {
+      "number": 41,
+      "date": "2026-08-15",
+      "id": "11250f866982",
+      "words": [
+        "CAR",
+        "HOLE",
+        "PIN",
+        "WHEEL",
+        "FLY",
+        "RACE"
       ]
     }
   ]

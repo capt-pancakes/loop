@@ -1,0 +1,60 @@
+{
+  "id": "80814a4971e7",
+  "words": [
+    "CUP",
+    "FLY",
+    "HORSE",
+    "SEA",
+    "WEED",
+    "MILK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CUP|FLY": [
+      "shar",
+      "BUTTER"
+    ],
+    "CUP|MILK": [
+      "shar",
+      "BUTTER"
+    ],
+    "FLY|HORSE": [
+      "comp",
+      "HORSEFLY"
+    ],
+    "FLY|SEA": [
+      "shar",
+      "HORSE"
+    ],
+    "FLY|MILK": [
+      "shar",
+      "BUTTER"
+    ],
+    "HORSE|SEA": [
+      "comp",
+      "SEAHORSE"
+    ],
+    "HORSE|WEED": [
+      "shar",
+      "SEA"
+    ],
+    "SEA|WEED": [
+      "comp",
+      "SEAWEED"
+    ],
+    "MILK|SEA": [
+      "shar",
+      "WEED"
+    ],
+    "MILK|WEED": [
+      "comp",
+      "MILKWEED"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

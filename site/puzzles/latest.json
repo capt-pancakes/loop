@@ -1,66 +1,54 @@
 {
-  "number": 40,
-  "date": "2026-08-14",
-  "id": "6cfad81f5ab4",
+  "number": 41,
+  "date": "2026-08-15",
+  "id": "11250f866982",
   "words": [
-    "ACHE",
-    "FIRE",
-    "BALL",
-    "EYE",
-    "RED",
-    "HEAD"
+    "CAR",
+    "HOLE",
+    "PIN",
+    "WHEEL",
+    "FLY",
+    "RACE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "ACHE|FIRE": [
+    "CAR|HOLE": [
       "shar",
-      "BACK"
+      "PORT"
     ],
-    "ACHE|RED": [
-      "shar",
-      "HEAD"
-    ],
-    "ACHE|HEAD": [
+    "CAR|RACE": [
       "comp",
-      "HEADACHE"
+      "RACECAR"
     ],
-    "BALL|FIRE": [
+    "HOLE|PIN": [
       "comp",
-      "FIREBALL"
+      "PINHOLE"
     ],
-    "EYE|FIRE": [
+    "HOLE|WHEEL": [
       "shar",
-      "BALL"
+      "PIN"
     ],
-    "FIRE|RED": [
-      "shar",
-      "WOOD"
-    ],
-    "BALL|EYE": [
+    "PIN|WHEEL": [
       "comp",
-      "EYEBALL"
+      "PINWHEEL"
     ],
-    "BALL|RED": [
+    "FLY|PIN": [
       "shar",
-      "EYE"
+      "WHEEL"
     ],
-    "EYE|RED": [
+    "FLY|WHEEL": [
       "comp",
-      "REDEYE"
+      "FLYWHEEL"
     ],
-    "EYE|HEAD": [
+    "FLY|RACE": [
       "shar",
-      "RED"
-    ],
-    "HEAD|RED": [
-      "comp",
-      "REDHEAD"
+      "HORSE"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 42
+    "comp": 4,
+    "shar": 2,
+    "score": 37
   }
 }
