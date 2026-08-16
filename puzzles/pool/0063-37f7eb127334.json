@@ -1,0 +1,56 @@
+{
+  "id": "37f7eb127334",
+  "words": [
+    "BASE",
+    "EYE",
+    "RED",
+    "WAR",
+    "TIME",
+    "LINE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BASE|EYE": [
+      "shar",
+      "BALL"
+    ],
+    "BASE|TIME": [
+      "shar",
+      "LINE"
+    ],
+    "BASE|LINE": [
+      "comp",
+      "BASELINE"
+    ],
+    "EYE|RED": [
+      "comp",
+      "REDEYE"
+    ],
+    "RED|WAR": [
+      "shar",
+      "HEAD"
+    ],
+    "LINE|RED": [
+      "shar",
+      "HEAD"
+    ],
+    "TIME|WAR": [
+      "comp",
+      "WARTIME"
+    ],
+    "LINE|WAR": [
+      "shar",
+      "HEAD"
+    ],
+    "LINE|TIME": [
+      "comp",
+      "TIMELINE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

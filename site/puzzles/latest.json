@@ -1,48 +1,60 @@
 {
-  "number": 41,
-  "date": "2026-08-15",
-  "id": "11250f866982",
+  "number": 42,
+  "date": "2026-08-16",
+  "id": "276e0c1e527d",
   "words": [
-    "CAR",
-    "HOLE",
-    "PIN",
-    "WHEEL",
-    "FLY",
-    "RACE"
+    "ART",
+    "FRAME",
+    "TIME",
+    "DAY",
+    "PAY",
+    "LOAD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CAR|HOLE": [
+    "ART|FRAME": [
       "shar",
-      "PORT"
+      "WORK"
     ],
-    "CAR|RACE": [
-      "comp",
-      "RACECAR"
-    ],
-    "HOLE|PIN": [
-      "comp",
-      "PINHOLE"
-    ],
-    "HOLE|WHEEL": [
+    "ART|LOAD": [
       "shar",
-      "PIN"
+      "WORK"
     ],
-    "PIN|WHEEL": [
+    "FRAME|TIME": [
       "comp",
-      "PINWHEEL"
+      "TIMEFRAME"
     ],
-    "FLY|PIN": [
+    "DAY|FRAME": [
       "shar",
-      "WHEEL"
+      "TIME"
     ],
-    "FLY|WHEEL": [
+    "FRAME|LOAD": [
+      "shar",
+      "WORK"
+    ],
+    "DAY|TIME": [
       "comp",
-      "FLYWHEEL"
+      "DAYTIME"
     ],
-    "FLY|RACE": [
+    "PAY|TIME": [
       "shar",
-      "HORSE"
+      "DAY"
+    ],
+    "LOAD|TIME": [
+      "shar",
+      "OVER"
+    ],
+    "DAY|PAY": [
+      "comp",
+      "PAYDAY"
+    ],
+    "DAY|LOAD": [
+      "shar",
+      "PAY"
+    ],
+    "LOAD|PAY": [
+      "comp",
+      "PAYLOAD"
     ]
   },
   "meta": {

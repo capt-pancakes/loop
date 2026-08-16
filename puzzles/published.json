@@ -1,5 +1,5 @@
 {
-  "nextNumber": 42,
+  "nextNumber": 43,
   "puzzles": [
     {
       "number": 1,
@@ -532,6 +532,19 @@
         "WHEEL",
         "FLY",
         "RACE"
+      ]
+    },
+    {
+      "number": 42,
+      "date": "2026-08-16",
+      "id": "276e0c1e527d",
+      "words": [
+        "ART",
+        "FRAME",
+        "TIME",
+        "DAY",
+        "PAY",
+        "LOAD"
       ]
     }
   ]
