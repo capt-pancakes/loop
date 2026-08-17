@@ -1,0 +1,72 @@
+{
+  "id": "017a89ebc14a",
+  "words": [
+    "BOAT",
+    "LIFE",
+    "NIGHT",
+    "WATCH",
+    "MAN",
+    "SHOW"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOAT|LIFE": [
+      "comp",
+      "LIFEBOAT"
+    ],
+    "BOAT|NIGHT": [
+      "shar",
+      "LIFE"
+    ],
+    "BOAT|MAN": [
+      "shar",
+      "SHOW"
+    ],
+    "BOAT|SHOW": [
+      "comp",
+      "SHOWBOAT"
+    ],
+    "LIFE|NIGHT": [
+      "comp",
+      "NIGHTLIFE"
+    ],
+    "LIFE|WATCH": [
+      "shar",
+      "NIGHT"
+    ],
+    "LIFE|SHOW": [
+      "shar",
+      "TIME"
+    ],
+    "NIGHT|WATCH": [
+      "comp",
+      "NIGHTWATCH"
+    ],
+    "MAN|NIGHT": [
+      "shar",
+      "WATCH"
+    ],
+    "NIGHT|SHOW": [
+      "shar",
+      "TIME"
+    ],
+    "MAN|WATCH": [
+      "comp",
+      "WATCHMAN"
+    ],
+    "SHOW|WATCH": [
+      "shar",
+      "MAN"
+    ],
+    "MAN|SHOW": [
+      "comp",
+      "SHOWMAN"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}

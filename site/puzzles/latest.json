@@ -1,66 +1,78 @@
 {
-  "number": 42,
-  "date": "2026-08-16",
-  "id": "276e0c1e527d",
+  "number": 43,
+  "date": "2026-08-17",
+  "id": "010dfc4bdfab",
   "words": [
-    "ART",
-    "FRAME",
-    "TIME",
-    "DAY",
-    "PAY",
-    "LOAD"
+    "DRIFT",
+    "SNOW",
+    "MAN",
+    "POWER",
+    "FIRE",
+    "WOOD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "ART|FRAME": [
-      "shar",
-      "WORK"
-    ],
-    "ART|LOAD": [
-      "shar",
-      "WORK"
-    ],
-    "FRAME|TIME": [
+    "DRIFT|SNOW": [
       "comp",
-      "TIMEFRAME"
+      "SNOWDRIFT"
     ],
-    "DAY|FRAME": [
+    "DRIFT|MAN": [
       "shar",
-      "TIME"
+      "SNOW"
     ],
-    "FRAME|LOAD": [
+    "DRIFT|FIRE": [
       "shar",
-      "WORK"
+      "WOOD"
     ],
-    "DAY|TIME": [
+    "DRIFT|WOOD": [
       "comp",
-      "DAYTIME"
+      "DRIFTWOOD"
     ],
-    "PAY|TIME": [
-      "shar",
-      "DAY"
-    ],
-    "LOAD|TIME": [
-      "shar",
-      "OVER"
-    ],
-    "DAY|PAY": [
+    "MAN|SNOW": [
       "comp",
-      "PAYDAY"
+      "SNOWMAN"
     ],
-    "DAY|LOAD": [
+    "POWER|SNOW": [
       "shar",
-      "PAY"
+      "MAN"
     ],
-    "LOAD|PAY": [
+    "FIRE|SNOW": [
+      "shar",
+      "BALL"
+    ],
+    "SNOW|WOOD": [
+      "shar",
+      "DRIFT"
+    ],
+    "MAN|POWER": [
       "comp",
-      "PAYLOAD"
+      "MANPOWER"
+    ],
+    "FIRE|MAN": [
+      "comp",
+      "FIREMAN"
+    ],
+    "MAN|WOOD": [
+      "shar",
+      "FIRE"
+    ],
+    "FIRE|POWER": [
+      "comp",
+      "FIREPOWER"
+    ],
+    "POWER|WOOD": [
+      "shar",
+      "FIRE"
+    ],
+    "FIRE|WOOD": [
+      "comp",
+      "FIREWOOD"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 37
+    "comp": 6,
+    "shar": 0,
+    "score": 46
   }
 }
