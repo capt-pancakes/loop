@@ -1,0 +1,72 @@
+{
+  "id": "98ae52a3fe79",
+  "words": [
+    "BALL",
+    "FIRE",
+    "CROSS",
+    "WORD",
+    "PLAY",
+    "GAME"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BALL|FIRE": [
+      "comp",
+      "FIREBALL"
+    ],
+    "BALL|CROSS": [
+      "shar",
+      "FIRE"
+    ],
+    "BALL|PLAY": [
+      "shar",
+      "GAME"
+    ],
+    "BALL|GAME": [
+      "comp",
+      "BALLGAME"
+    ],
+    "CROSS|FIRE": [
+      "comp",
+      "CROSSFIRE"
+    ],
+    "FIRE|WORD": [
+      "shar",
+      "CROSS"
+    ],
+    "FIRE|PLAY": [
+      "shar",
+      "HOUSE"
+    ],
+    "FIRE|GAME": [
+      "shar",
+      "BALL"
+    ],
+    "CROSS|WORD": [
+      "comp",
+      "CROSSWORD"
+    ],
+    "CROSS|PLAY": [
+      "shar",
+      "WORD"
+    ],
+    "PLAY|WORD": [
+      "comp",
+      "WORDPLAY"
+    ],
+    "GAME|WORD": [
+      "shar",
+      "PLAY"
+    ],
+    "GAME|PLAY": [
+      "comp",
+      "GAMEPLAY"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}

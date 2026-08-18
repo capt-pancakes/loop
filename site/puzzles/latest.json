@@ -1,72 +1,64 @@
 {
-  "number": 43,
-  "date": "2026-08-17",
-  "id": "010dfc4bdfab",
+  "number": 44,
+  "date": "2026-08-18",
+  "id": "2d8459456296",
   "words": [
-    "DRIFT",
-    "SNOW",
-    "MAN",
-    "POWER",
-    "FIRE",
-    "WOOD"
+    "BOOK",
+    "MATCH",
+    "STICK",
+    "DRUM",
+    "EAR",
+    "WORM"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "DRIFT|SNOW": [
+    "BOOK|MATCH": [
       "comp",
-      "SNOWDRIFT"
+      "MATCHBOOK"
     ],
-    "DRIFT|MAN": [
+    "BOOK|STICK": [
       "shar",
-      "SNOW"
+      "MATCH"
     ],
-    "DRIFT|FIRE": [
+    "BOOK|EAR": [
       "shar",
-      "WOOD"
+      "WORM"
     ],
-    "DRIFT|WOOD": [
+    "BOOK|WORM": [
       "comp",
-      "DRIFTWOOD"
+      "BOOKWORM"
     ],
-    "MAN|SNOW": [
+    "MATCH|STICK": [
       "comp",
-      "SNOWMAN"
+      "MATCHSTICK"
     ],
-    "POWER|SNOW": [
+    "DRUM|MATCH": [
       "shar",
-      "MAN"
+      "STICK"
     ],
-    "FIRE|SNOW": [
+    "MATCH|WORM": [
       "shar",
-      "BALL"
+      "BOOK"
     ],
-    "SNOW|WOOD": [
-      "shar",
-      "DRIFT"
-    ],
-    "MAN|POWER": [
+    "DRUM|STICK": [
       "comp",
-      "MANPOWER"
+      "DRUMSTICK"
     ],
-    "FIRE|MAN": [
-      "comp",
-      "FIREMAN"
-    ],
-    "MAN|WOOD": [
+    "EAR|STICK": [
       "shar",
-      "FIRE"
+      "DRUM"
     ],
-    "FIRE|POWER": [
+    "DRUM|EAR": [
       "comp",
-      "FIREPOWER"
+      "EARDRUM"
     ],
-    "POWER|WOOD": [
+    "DRUM|WORM": [
       "shar",
-      "FIRE"
+      "EAR"
     ],
-    "FIRE|WOOD": [
+    "EAR|WORM": [
       "comp",
-      "FIREWOOD"
+      "EARWORM"
     ]
   },
   "meta": {
