@@ -1,5 +1,5 @@
 {
-  "nextNumber": 45,
+  "nextNumber": 46,
   "puzzles": [
     {
       "number": 1,
@@ -571,6 +571,19 @@
         "DRUM",
         "EAR",
         "WORM"
+      ]
+    },
+    {
+      "number": 45,
+      "date": "2026-08-19",
+      "id": "4159e74fcd1e",
+      "words": [
+        "BED",
+        "FLOWER",
+        "POT",
+        "TEA",
+        "CAKE",
+        "HOT"
       ]
     }
   ]

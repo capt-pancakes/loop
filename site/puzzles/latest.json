@@ -1,70 +1,66 @@
 {
-  "number": 44,
-  "date": "2026-08-18",
-  "id": "2d8459456296",
+  "number": 45,
+  "date": "2026-08-19",
+  "id": "4159e74fcd1e",
   "words": [
-    "BOOK",
-    "MATCH",
-    "STICK",
-    "DRUM",
-    "EAR",
-    "WORM"
+    "BED",
+    "FLOWER",
+    "POT",
+    "TEA",
+    "CAKE",
+    "HOT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOOK|MATCH": [
+    "BED|FLOWER": [
       "comp",
-      "MATCHBOOK"
+      "FLOWERBED"
     ],
-    "BOOK|STICK": [
+    "BED|POT": [
       "shar",
-      "MATCH"
+      "FLOWER"
     ],
-    "BOOK|EAR": [
+    "BED|TEA": [
       "shar",
-      "WORM"
+      "TIME"
     ],
-    "BOOK|WORM": [
+    "BED|CAKE": [
+      "shar",
+      "HOT"
+    ],
+    "BED|HOT": [
       "comp",
-      "BOOKWORM"
+      "HOTBED"
     ],
-    "MATCH|STICK": [
+    "FLOWER|POT": [
       "comp",
-      "MATCHSTICK"
+      "FLOWERPOT"
     ],
-    "DRUM|MATCH": [
+    "FLOWER|TEA": [
       "shar",
-      "STICK"
+      "POT"
     ],
-    "MATCH|WORM": [
+    "FLOWER|HOT": [
       "shar",
-      "BOOK"
+      "BED"
     ],
-    "DRUM|STICK": [
+    "POT|TEA": [
       "comp",
-      "DRUMSTICK"
+      "TEAPOT"
     ],
-    "EAR|STICK": [
+    "CAKE|TEA": [
       "shar",
-      "DRUM"
+      "CUP"
     ],
-    "DRUM|EAR": [
+    "CAKE|HOT": [
       "comp",
-      "EARDRUM"
-    ],
-    "DRUM|WORM": [
-      "shar",
-      "EAR"
-    ],
-    "EAR|WORM": [
-      "comp",
-      "EARWORM"
+      "HOTCAKE"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 46
+    "comp": 5,
+    "shar": 1,
+    "score": 42
   }
 }

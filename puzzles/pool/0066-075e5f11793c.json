@@ -1,0 +1,60 @@
+{
+  "id": "075e5f11793c",
+  "words": [
+    "BOX",
+    "CORN",
+    "FIELD",
+    "WORK",
+    "HORSE",
+    "SHOE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOX|CORN": [
+      "shar",
+      "BREAD"
+    ],
+    "BOX|HORSE": [
+      "shar",
+      "SHOE"
+    ],
+    "BOX|SHOE": [
+      "comp",
+      "SHOEBOX"
+    ],
+    "CORN|FIELD": [
+      "comp",
+      "CORNFIELD"
+    ],
+    "CORN|WORK": [
+      "shar",
+      "FIELD"
+    ],
+    "FIELD|WORK": [
+      "comp",
+      "FIELDWORK"
+    ],
+    "FIELD|HORSE": [
+      "shar",
+      "WORK"
+    ],
+    "HORSE|WORK": [
+      "comp",
+      "WORKHORSE"
+    ],
+    "SHOE|WORK": [
+      "shar",
+      "HORSE"
+    ],
+    "HORSE|SHOE": [
+      "comp",
+      "HORSESHOE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
