@@ -1,0 +1,64 @@
+{
+  "id": "0c1184baa877",
+  "words": [
+    "FOOT",
+    "NOTE",
+    "PAD",
+    "TOUCH",
+    "STONE",
+    "REST"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "FOOT|NOTE": [
+      "comp",
+      "FOOTNOTE"
+    ],
+    "FOOT|PAD": [
+      "shar",
+      "NOTE"
+    ],
+    "FOOT|REST": [
+      "comp",
+      "FOOTREST"
+    ],
+    "NOTE|PAD": [
+      "comp",
+      "NOTEPAD"
+    ],
+    "NOTE|TOUCH": [
+      "shar",
+      "PAD"
+    ],
+    "NOTE|STONE": [
+      "shar",
+      "KEY"
+    ],
+    "NOTE|REST": [
+      "shar",
+      "FOOT"
+    ],
+    "PAD|TOUCH": [
+      "comp",
+      "TOUCHPAD"
+    ],
+    "PAD|STONE": [
+      "shar",
+      "KEY"
+    ],
+    "STONE|TOUCH": [
+      "comp",
+      "TOUCHSTONE"
+    ],
+    "REST|STONE": [
+      "shar",
+      "HEAD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

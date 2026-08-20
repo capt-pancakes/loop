@@ -1,60 +1,56 @@
 {
-  "number": 45,
-  "date": "2026-08-19",
-  "id": "4159e74fcd1e",
+  "number": 46,
+  "date": "2026-08-20",
+  "id": "9258d1e67bed",
   "words": [
-    "BED",
-    "FLOWER",
-    "POT",
-    "TEA",
-    "CAKE",
-    "HOT"
+    "ARM",
+    "CHAIR",
+    "DECK",
+    "BAG",
+    "SAND",
+    "PIT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BED|FLOWER": [
+    "ARM|CHAIR": [
       "comp",
-      "FLOWERBED"
+      "ARMCHAIR"
     ],
-    "BED|POT": [
+    "ARM|DECK": [
       "shar",
-      "FLOWER"
+      "CHAIR"
     ],
-    "BED|TEA": [
+    "ARM|SAND": [
       "shar",
-      "TIME"
+      "PIT"
     ],
-    "BED|CAKE": [
-      "shar",
-      "HOT"
-    ],
-    "BED|HOT": [
+    "ARM|PIT": [
       "comp",
-      "HOTBED"
+      "ARMPIT"
     ],
-    "FLOWER|POT": [
+    "CHAIR|DECK": [
       "comp",
-      "FLOWERPOT"
+      "DECKCHAIR"
     ],
-    "FLOWER|TEA": [
+    "CHAIR|PIT": [
       "shar",
-      "POT"
+      "ARM"
     ],
-    "FLOWER|HOT": [
+    "BAG|DECK": [
       "shar",
-      "BED"
+      "HAND"
     ],
-    "POT|TEA": [
+    "BAG|SAND": [
       "comp",
-      "TEAPOT"
+      "SANDBAG"
     ],
-    "CAKE|TEA": [
+    "BAG|PIT": [
       "shar",
-      "CUP"
+      "SAND"
     ],
-    "CAKE|HOT": [
+    "PIT|SAND": [
       "comp",
-      "HOTCAKE"
+      "SANDPIT"
     ]
   },
   "meta": {

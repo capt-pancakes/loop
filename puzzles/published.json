@@ -1,5 +1,5 @@
 {
-  "nextNumber": 46,
+  "nextNumber": 47,
   "puzzles": [
     {
       "number": 1,
@@ -584,6 +584,19 @@
         "TEA",
         "CAKE",
         "HOT"
+      ]
+    },
+    {
+      "number": 46,
+      "date": "2026-08-20",
+      "id": "9258d1e67bed",
+      "words": [
+        "ARM",
+        "CHAIR",
+        "DECK",
+        "BAG",
+        "SAND",
+        "PIT"
       ]
     }
   ]
