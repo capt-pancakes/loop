@@ -1,5 +1,5 @@
 {
-  "nextNumber": 47,
+  "nextNumber": 48,
   "puzzles": [
     {
       "number": 1,
@@ -597,6 +597,19 @@
         "BAG",
         "SAND",
         "PIT"
+      ]
+    },
+    {
+      "number": 47,
+      "date": "2026-08-21",
+      "id": "88e015a2876d",
+      "words": [
+        "AIR",
+        "BAG",
+        "HAND",
+        "FARM",
+        "LAND",
+        "MINE"
       ]
     }
   ]

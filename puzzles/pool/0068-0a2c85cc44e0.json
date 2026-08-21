@@ -1,0 +1,60 @@
+{
+  "id": "0a2c85cc44e0",
+  "words": [
+    "BEAT",
+    "DRUM",
+    "STICK",
+    "YARD",
+    "FARM",
+    "LAND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BEAT|DRUM": [
+      "comp",
+      "DRUMBEAT"
+    ],
+    "BEAT|STICK": [
+      "shar",
+      "DRUM"
+    ],
+    "BEAT|LAND": [
+      "shar",
+      "HEART"
+    ],
+    "DRUM|STICK": [
+      "comp",
+      "DRUMSTICK"
+    ],
+    "DRUM|YARD": [
+      "shar",
+      "STICK"
+    ],
+    "STICK|YARD": [
+      "comp",
+      "YARDSTICK"
+    ],
+    "FARM|STICK": [
+      "shar",
+      "YARD"
+    ],
+    "FARM|YARD": [
+      "comp",
+      "FARMYARD"
+    ],
+    "LAND|YARD": [
+      "shar",
+      "FARM"
+    ],
+    "FARM|LAND": [
+      "comp",
+      "FARMLAND"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

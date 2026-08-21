@@ -1,56 +1,56 @@
 {
-  "number": 46,
-  "date": "2026-08-20",
-  "id": "9258d1e67bed",
+  "number": 47,
+  "date": "2026-08-21",
+  "id": "88e015a2876d",
   "words": [
-    "ARM",
-    "CHAIR",
-    "DECK",
+    "AIR",
     "BAG",
-    "SAND",
-    "PIT"
+    "HAND",
+    "FARM",
+    "LAND",
+    "MINE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "ARM|CHAIR": [
+    "AIR|BAG": [
       "comp",
-      "ARMCHAIR"
+      "AIRBAG"
     ],
-    "ARM|DECK": [
+    "AIR|HAND": [
       "shar",
-      "CHAIR"
+      "BAG"
     ],
-    "ARM|SAND": [
+    "AIR|MINE": [
       "shar",
-      "PIT"
+      "FIELD"
     ],
-    "ARM|PIT": [
+    "BAG|HAND": [
       "comp",
-      "ARMPIT"
+      "HANDBAG"
     ],
-    "CHAIR|DECK": [
-      "comp",
-      "DECKCHAIR"
-    ],
-    "CHAIR|PIT": [
-      "shar",
-      "ARM"
-    ],
-    "BAG|DECK": [
+    "BAG|FARM": [
       "shar",
       "HAND"
     ],
-    "BAG|SAND": [
+    "FARM|HAND": [
       "comp",
-      "SANDBAG"
+      "FARMHAND"
     ],
-    "BAG|PIT": [
+    "HAND|LAND": [
       "shar",
-      "SAND"
+      "FARM"
     ],
-    "PIT|SAND": [
+    "FARM|LAND": [
       "comp",
-      "SANDPIT"
+      "FARMLAND"
+    ],
+    "FARM|MINE": [
+      "shar",
+      "LAND"
+    ],
+    "LAND|MINE": [
+      "comp",
+      "LANDMINE"
     ]
   },
   "meta": {
