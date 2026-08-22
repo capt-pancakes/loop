@@ -1,0 +1,52 @@
+{
+  "id": "62466bb73ae8",
+  "words": [
+    "DRUM",
+    "EAR",
+    "RING",
+    "TONE",
+    "KILL",
+    "JOY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "DRUM|EAR": [
+      "comp",
+      "EARDRUM"
+    ],
+    "DRUM|RING": [
+      "shar",
+      "EAR"
+    ],
+    "DRUM|JOY": [
+      "shar",
+      "STICK"
+    ],
+    "EAR|RING": [
+      "comp",
+      "EARRING"
+    ],
+    "EAR|TONE": [
+      "shar",
+      "RING"
+    ],
+    "RING|TONE": [
+      "comp",
+      "RINGTONE"
+    ],
+    "KILL|TONE": [
+      "shar",
+      "OVER"
+    ],
+    "JOY|KILL": [
+      "comp",
+      "KILLJOY"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

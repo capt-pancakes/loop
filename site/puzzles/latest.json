@@ -1,62 +1,54 @@
 {
-  "number": 47,
-  "date": "2026-08-21",
-  "id": "88e015a2876d",
+  "number": 48,
+  "date": "2026-08-22",
+  "id": "001711c6cc09",
   "words": [
-    "AIR",
-    "BAG",
-    "HAND",
-    "FARM",
-    "LAND",
-    "MINE"
+    "DUST",
+    "PAN",
+    "LOCK",
+    "HEAD",
+    "MILL",
+    "SAW"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "AIR|BAG": [
+    "DUST|PAN": [
       "comp",
-      "AIRBAG"
+      "DUSTPAN"
     ],
-    "AIR|HAND": [
+    "DUST|MILL": [
       "shar",
-      "BAG"
+      "SAW"
     ],
-    "AIR|MINE": [
-      "shar",
-      "FIELD"
-    ],
-    "BAG|HAND": [
+    "DUST|SAW": [
       "comp",
-      "HANDBAG"
+      "SAWDUST"
     ],
-    "BAG|FARM": [
+    "LOCK|PAN": [
       "shar",
-      "HAND"
+      "DEAD"
     ],
-    "FARM|HAND": [
-      "comp",
-      "FARMHAND"
-    ],
-    "HAND|LAND": [
+    "PAN|SAW": [
       "shar",
-      "FARM"
+      "DUST"
     ],
-    "FARM|LAND": [
+    "HEAD|LOCK": [
       "comp",
-      "FARMLAND"
+      "HEADLOCK"
     ],
-    "FARM|MINE": [
+    "HEAD|MILL": [
       "shar",
-      "LAND"
+      "STONE"
     ],
-    "LAND|MINE": [
+    "MILL|SAW": [
       "comp",
-      "LANDMINE"
+      "SAWMILL"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 42
+    "comp": 4,
+    "shar": 2,
+    "score": 37
   }
 }
