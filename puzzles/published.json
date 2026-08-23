@@ -1,5 +1,5 @@
 {
-  "nextNumber": 49,
+  "nextNumber": 50,
   "puzzles": [
     {
       "number": 1,
@@ -623,6 +623,19 @@
         "HEAD",
         "MILL",
         "SAW"
+      ]
+    },
+    {
+      "number": 49,
+      "date": "2026-08-23",
+      "id": "1cd6687b8418",
+      "words": [
+        "CUP",
+        "FLY",
+        "HOUSE",
+        "LIGHT",
+        "DAY",
+        "TEA"
       ]
     }
   ]

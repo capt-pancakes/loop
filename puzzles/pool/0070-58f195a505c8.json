@@ -1,46 +1,46 @@
 {
-  "id": "1cd6687b8418",
+  "id": "58f195a505c8",
   "words": [
     "CUP",
-    "FLY",
-    "HOUSE",
-    "LIGHT",
-    "DAY",
+    "HEAD",
+    "STONE",
+    "WALL",
+    "POT",
     "TEA"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CUP|FLY": [
+    "CUP|HEAD": [
       "shar",
-      "BUTTER"
+      "BOARD"
+    ],
+    "CUP|POT": [
+      "shar",
+      "TEA"
     ],
     "CUP|TEA": [
       "comp",
       "TEACUP"
     ],
-    "FLY|HOUSE": [
+    "HEAD|STONE": [
       "comp",
-      "HOUSEFLY"
+      "HEADSTONE"
     ],
-    "FLY|LIGHT": [
+    "HEAD|WALL": [
       "shar",
-      "HOUSE"
+      "STONE"
     ],
-    "HOUSE|LIGHT": [
+    "STONE|WALL": [
       "comp",
-      "LIGHTHOUSE"
+      "STONEWALL"
     ],
-    "DAY|HOUSE": [
+    "POT|WALL": [
       "shar",
-      "LIGHT"
+      "FLOWER"
     ],
-    "DAY|LIGHT": [
+    "POT|TEA": [
       "comp",
-      "DAYLIGHT"
-    ],
-    "DAY|TEA": [
-      "shar",
-      "TIME"
+      "TEAPOT"
     ]
   },
   "meta": {
