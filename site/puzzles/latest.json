@@ -1,54 +1,70 @@
 {
-  "number": 49,
-  "date": "2026-08-23",
-  "id": "1cd6687b8418",
+  "number": 50,
+  "date": "2026-08-24",
+  "id": "0147c0dd93a6",
   "words": [
-    "CUP",
-    "FLY",
-    "HOUSE",
-    "LIGHT",
-    "DAY",
-    "TEA"
+    "CHAIR",
+    "HIGH",
+    "LAND",
+    "FALL",
+    "SNOW",
+    "MAN"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CUP|FLY": [
-      "shar",
-      "BUTTER"
-    ],
-    "CUP|TEA": [
+    "CHAIR|HIGH": [
       "comp",
-      "TEACUP"
+      "HIGHCHAIR"
     ],
-    "FLY|HOUSE": [
-      "comp",
-      "HOUSEFLY"
-    ],
-    "FLY|LIGHT": [
+    "CHAIR|LAND": [
       "shar",
-      "HOUSE"
+      "HIGH"
     ],
-    "HOUSE|LIGHT": [
-      "comp",
-      "LIGHTHOUSE"
-    ],
-    "DAY|HOUSE": [
+    "CHAIR|SNOW": [
       "shar",
-      "LIGHT"
+      "MAN"
     ],
-    "DAY|LIGHT": [
+    "CHAIR|MAN": [
       "comp",
-      "DAYLIGHT"
+      "CHAIRMAN"
     ],
-    "DAY|TEA": [
+    "HIGH|LAND": [
+      "comp",
+      "HIGHLAND"
+    ],
+    "FALL|HIGH": [
       "shar",
-      "TIME"
+      "LAND"
+    ],
+    "HIGH|MAN": [
+      "shar",
+      "CHAIR"
+    ],
+    "FALL|LAND": [
+      "comp",
+      "LANDFALL"
+    ],
+    "LAND|SNOW": [
+      "shar",
+      "FALL"
+    ],
+    "FALL|SNOW": [
+      "comp",
+      "SNOWFALL"
+    ],
+    "FALL|MAN": [
+      "shar",
+      "SNOW"
+    ],
+    "MAN|SNOW": [
+      "comp",
+      "SNOWMAN"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 37
+    "comp": 6,
+    "shar": 0,
+    "score": 46
   }
 }

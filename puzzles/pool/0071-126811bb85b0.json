@@ -1,0 +1,72 @@
+{
+  "id": "126811bb85b0",
+  "words": [
+    "AIR",
+    "BRUSH",
+    "FIRE",
+    "MAN",
+    "HOLE",
+    "PORT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AIR|BRUSH": [
+      "comp",
+      "AIRBRUSH"
+    ],
+    "AIR|FIRE": [
+      "shar",
+      "BRUSH"
+    ],
+    "AIR|MAN": [
+      "shar",
+      "MAIL"
+    ],
+    "AIR|HOLE": [
+      "shar",
+      "PORT"
+    ],
+    "AIR|PORT": [
+      "comp",
+      "AIRPORT"
+    ],
+    "BRUSH|FIRE": [
+      "comp",
+      "BRUSHFIRE"
+    ],
+    "BRUSH|MAN": [
+      "shar",
+      "FIRE"
+    ],
+    "BRUSH|PORT": [
+      "shar",
+      "AIR"
+    ],
+    "FIRE|MAN": [
+      "comp",
+      "FIREMAN"
+    ],
+    "FIRE|HOLE": [
+      "shar",
+      "MAN"
+    ],
+    "HOLE|MAN": [
+      "comp",
+      "MANHOLE"
+    ],
+    "MAN|PORT": [
+      "shar",
+      "HOLE"
+    ],
+    "HOLE|PORT": [
+      "comp",
+      "PORTHOLE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}

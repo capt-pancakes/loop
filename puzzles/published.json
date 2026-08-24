@@ -1,5 +1,5 @@
 {
-  "nextNumber": 50,
+  "nextNumber": 51,
   "puzzles": [
     {
       "number": 1,
@@ -636,6 +636,19 @@
         "LIGHT",
         "DAY",
         "TEA"
+      ]
+    },
+    {
+      "number": 50,
+      "date": "2026-08-24",
+      "id": "0147c0dd93a6",
+      "words": [
+        "CHAIR",
+        "HIGH",
+        "LAND",
+        "FALL",
+        "SNOW",
+        "MAN"
       ]
     }
   ]
