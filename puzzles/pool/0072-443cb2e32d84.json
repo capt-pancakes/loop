@@ -1,0 +1,68 @@
+{
+  "id": "443cb2e32d84",
+  "words": [
+    "FARM",
+    "HOUSE",
+    "PLAY",
+    "MATE",
+    "SHIP",
+    "YARD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "FARM|HOUSE": [
+      "comp",
+      "FARMHOUSE"
+    ],
+    "FARM|PLAY": [
+      "shar",
+      "HOUSE"
+    ],
+    "FARM|SHIP": [
+      "shar",
+      "YARD"
+    ],
+    "FARM|YARD": [
+      "comp",
+      "FARMYARD"
+    ],
+    "HOUSE|PLAY": [
+      "comp",
+      "PLAYHOUSE"
+    ],
+    "HOUSE|MATE": [
+      "shar",
+      "PLAY"
+    ],
+    "HOUSE|YARD": [
+      "shar",
+      "COURT"
+    ],
+    "MATE|PLAY": [
+      "comp",
+      "PLAYMATE"
+    ],
+    "PLAY|SHIP": [
+      "shar",
+      "MATE"
+    ],
+    "MATE|SHIP": [
+      "comp",
+      "SHIPMATE"
+    ],
+    "MATE|YARD": [
+      "shar",
+      "SHIP"
+    ],
+    "SHIP|YARD": [
+      "comp",
+      "SHIPYARD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}

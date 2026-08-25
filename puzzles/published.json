@@ -1,5 +1,5 @@
 {
-  "nextNumber": 51,
+  "nextNumber": 52,
   "puzzles": [
     {
       "number": 1,
@@ -649,6 +649,19 @@
         "FALL",
         "SNOW",
         "MAN"
+      ]
+    },
+    {
+      "number": 51,
+      "date": "2026-08-25",
+      "id": "3c033622dfa5",
+      "words": [
+        "BOOK",
+        "CHECK",
+        "LIST",
+        "PLAY",
+        "GAME",
+        "END"
       ]
     }
   ]
