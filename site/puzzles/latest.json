@@ -1,70 +1,62 @@
 {
-  "number": 51,
-  "date": "2026-08-25",
-  "id": "3c033622dfa5",
+  "number": 52,
+  "date": "2026-08-26",
+  "id": "02aef4fa4829",
   "words": [
-    "BOOK",
-    "CHECK",
-    "LIST",
-    "PLAY",
-    "GAME",
-    "END"
+    "DROP",
+    "GUM",
+    "ROOM",
+    "NEWS",
+    "STAND",
+    "KICK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOOK|CHECK": [
+    "DROP|GUM": [
       "comp",
-      "CHECKBOOK"
+      "GUMDROP"
     ],
-    "BOOK|LIST": [
+    "DROP|STAND": [
       "shar",
-      "CHECK"
+      "OUT"
     ],
-    "BOOK|GAME": [
-      "shar",
-      "END"
-    ],
-    "BOOK|END": [
+    "DROP|KICK": [
       "comp",
-      "BOOKEND"
+      "DROPKICK"
     ],
-    "CHECK|LIST": [
-      "comp",
-      "CHECKLIST"
-    ],
-    "CHECK|PLAY": [
+    "GUM|ROOM": [
       "shar",
-      "MATE"
+      "BALL"
     ],
-    "CHECK|END": [
+    "GUM|KICK": [
       "shar",
-      "BOOK"
+      "DROP"
     ],
-    "LIST|PLAY": [
+    "NEWS|ROOM": [
       "comp",
-      "PLAYLIST"
+      "NEWSROOM"
     ],
-    "GAME|LIST": [
+    "ROOM|STAND": [
       "shar",
-      "PLAY"
+      "NEWS"
     ],
-    "GAME|PLAY": [
+    "NEWS|STAND": [
       "comp",
-      "GAMEPLAY"
+      "NEWSSTAND"
     ],
-    "END|PLAY": [
+    "KICK|NEWS": [
       "shar",
-      "GAME"
+      "STAND"
     ],
-    "END|GAME": [
+    "KICK|STAND": [
       "comp",
-      "ENDGAME"
+      "KICKSTAND"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 46
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }

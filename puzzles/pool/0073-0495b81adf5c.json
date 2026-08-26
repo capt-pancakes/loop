@@ -1,0 +1,60 @@
+{
+  "id": "0495b81adf5c",
+  "words": [
+    "DAY",
+    "LIGHT",
+    "FLASH",
+    "NEWS",
+    "ROOM",
+    "SHOW"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "DAY|LIGHT": [
+      "comp",
+      "DAYLIGHT"
+    ],
+    "DAY|FLASH": [
+      "shar",
+      "LIGHT"
+    ],
+    "DAY|SHOW": [
+      "shar",
+      "TIME"
+    ],
+    "FLASH|LIGHT": [
+      "comp",
+      "FLASHLIGHT"
+    ],
+    "LIGHT|NEWS": [
+      "shar",
+      "FLASH"
+    ],
+    "FLASH|NEWS": [
+      "comp",
+      "NEWSFLASH"
+    ],
+    "FLASH|ROOM": [
+      "shar",
+      "NEWS"
+    ],
+    "NEWS|ROOM": [
+      "comp",
+      "NEWSROOM"
+    ],
+    "NEWS|SHOW": [
+      "shar",
+      "ROOM"
+    ],
+    "ROOM|SHOW": [
+      "comp",
+      "SHOWROOM"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
