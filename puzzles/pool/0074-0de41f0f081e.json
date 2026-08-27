@@ -1,0 +1,60 @@
+{
+  "id": "0de41f0f081e",
+  "words": [
+    "HAIR",
+    "LINE",
+    "SIDE",
+    "RING",
+    "KEY",
+    "PIN"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "HAIR|LINE": [
+      "comp",
+      "HAIRLINE"
+    ],
+    "HAIR|SIDE": [
+      "shar",
+      "LINE"
+    ],
+    "HAIR|PIN": [
+      "comp",
+      "HAIRPIN"
+    ],
+    "LINE|SIDE": [
+      "comp",
+      "SIDELINE"
+    ],
+    "LINE|RING": [
+      "shar",
+      "SIDE"
+    ],
+    "LINE|PIN": [
+      "shar",
+      "CLOTHES"
+    ],
+    "RING|SIDE": [
+      "comp",
+      "RINGSIDE"
+    ],
+    "KEY|SIDE": [
+      "shar",
+      "RING"
+    ],
+    "KEY|RING": [
+      "comp",
+      "KEYRING"
+    ],
+    "KEY|PIN": [
+      "shar",
+      "HOLE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}

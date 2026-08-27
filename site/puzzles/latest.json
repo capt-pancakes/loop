@@ -1,62 +1,62 @@
 {
-  "number": 52,
-  "date": "2026-08-26",
-  "id": "02aef4fa4829",
+  "number": 53,
+  "date": "2026-08-27",
+  "id": "0672372679aa",
   "words": [
-    "DROP",
-    "GUM",
-    "ROOM",
-    "NEWS",
-    "STAND",
-    "KICK"
+    "BOX",
+    "CAR",
+    "PORT",
+    "HOLE",
+    "KEY",
+    "SAND"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "DROP|GUM": [
+    "BOX|CAR": [
       "comp",
-      "GUMDROP"
+      "BOXCAR"
     ],
-    "DROP|STAND": [
+    "BOX|PORT": [
       "shar",
-      "OUT"
+      "CAR"
     ],
-    "DROP|KICK": [
+    "BOX|SAND": [
       "comp",
-      "DROPKICK"
+      "SANDBOX"
     ],
-    "GUM|ROOM": [
-      "shar",
-      "BALL"
-    ],
-    "GUM|KICK": [
-      "shar",
-      "DROP"
-    ],
-    "NEWS|ROOM": [
+    "CAR|PORT": [
       "comp",
-      "NEWSROOM"
+      "CARPORT"
     ],
-    "ROOM|STAND": [
+    "CAR|HOLE": [
       "shar",
-      "NEWS"
+      "PORT"
     ],
-    "NEWS|STAND": [
-      "comp",
-      "NEWSSTAND"
-    ],
-    "KICK|NEWS": [
+    "CAR|SAND": [
       "shar",
-      "STAND"
+      "BOX"
     ],
-    "KICK|STAND": [
+    "HOLE|PORT": [
       "comp",
-      "KICKSTAND"
+      "PORTHOLE"
+    ],
+    "KEY|PORT": [
+      "shar",
+      "HOLE"
+    ],
+    "HOLE|KEY": [
+      "comp",
+      "KEYHOLE"
+    ],
+    "KEY|SAND": [
+      "shar",
+      "STONE"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 5,
     "shar": 1,
-    "score": 41
+    "score": 42
   }
 }
