@@ -1,5 +1,5 @@
 {
-  "nextNumber": 54,
+  "nextNumber": 55,
   "puzzles": [
     {
       "number": 1,
@@ -688,6 +688,19 @@
         "HOLE",
         "KEY",
         "SAND"
+      ]
+    },
+    {
+      "number": 54,
+      "date": "2026-08-28",
+      "id": "00d33d6b15f2",
+      "words": [
+        "DOG",
+        "FIGHT",
+        "GUN",
+        "SHOT",
+        "LIGHT",
+        "HOUSE"
       ]
     }
   ]

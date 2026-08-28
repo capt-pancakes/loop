@@ -1,0 +1,72 @@
+{
+  "id": "0788c7c368bf",
+  "words": [
+    "ARM",
+    "BAND",
+    "STAND",
+    "POINT",
+    "GUN",
+    "HAND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "ARM|BAND": [
+      "comp",
+      "ARMBAND"
+    ],
+    "ARM|STAND": [
+      "shar",
+      "UNDER"
+    ],
+    "ARM|GUN": [
+      "shar",
+      "FIRE"
+    ],
+    "ARM|HAND": [
+      "shar",
+      "FORE"
+    ],
+    "BAND|STAND": [
+      "comp",
+      "BANDSTAND"
+    ],
+    "BAND|POINT": [
+      "shar",
+      "STAND"
+    ],
+    "BAND|HAND": [
+      "shar",
+      "STAND"
+    ],
+    "POINT|STAND": [
+      "comp",
+      "STANDPOINT"
+    ],
+    "GUN|STAND": [
+      "shar",
+      "HAND"
+    ],
+    "HAND|STAND": [
+      "comp",
+      "HANDSTAND"
+    ],
+    "GUN|POINT": [
+      "comp",
+      "GUNPOINT"
+    ],
+    "HAND|POINT": [
+      "shar",
+      "GUN"
+    ],
+    "GUN|HAND": [
+      "comp",
+      "HANDGUN"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

@@ -1,62 +1,66 @@
 {
-  "number": 53,
-  "date": "2026-08-27",
-  "id": "0672372679aa",
+  "number": 54,
+  "date": "2026-08-28",
+  "id": "00d33d6b15f2",
   "words": [
-    "BOX",
-    "CAR",
-    "PORT",
-    "HOLE",
-    "KEY",
-    "SAND"
+    "DOG",
+    "FIGHT",
+    "GUN",
+    "SHOT",
+    "LIGHT",
+    "HOUSE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOX|CAR": [
+    "DOG|FIGHT": [
       "comp",
-      "BOXCAR"
+      "DOGFIGHT"
     ],
-    "BOX|PORT": [
+    "DOG|GUN": [
       "shar",
-      "CAR"
+      "FIGHT"
     ],
-    "BOX|SAND": [
+    "DOG|LIGHT": [
+      "shar",
+      "HOUSE"
+    ],
+    "DOG|HOUSE": [
       "comp",
-      "SANDBOX"
+      "DOGHOUSE"
     ],
-    "CAR|PORT": [
+    "FIGHT|GUN": [
       "comp",
-      "CARPORT"
+      "GUNFIGHT"
     ],
-    "CAR|HOLE": [
+    "FIGHT|SHOT": [
       "shar",
-      "PORT"
+      "GUN"
     ],
-    "CAR|SAND": [
+    "FIGHT|HOUSE": [
       "shar",
-      "BOX"
+      "DOG"
     ],
-    "HOLE|PORT": [
+    "GUN|SHOT": [
       "comp",
-      "PORTHOLE"
+      "GUNSHOT"
     ],
-    "KEY|PORT": [
+    "GUN|HOUSE": [
       "shar",
-      "HOLE"
+      "FIRE"
     ],
-    "HOLE|KEY": [
+    "LIGHT|SHOT": [
+      "shar",
+      "MOON"
+    ],
+    "HOUSE|LIGHT": [
       "comp",
-      "KEYHOLE"
-    ],
-    "KEY|SAND": [
-      "shar",
-      "STONE"
+      "LIGHTHOUSE"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 5,
     "shar": 1,
-    "score": 42
+    "score": 41
   }
 }
