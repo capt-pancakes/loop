@@ -1,0 +1,56 @@
+{
+  "id": "70293dc300eb",
+  "words": [
+    "HOLE",
+    "KEY",
+    "MOON",
+    "LIGHT",
+    "SUN",
+    "POT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "HOLE|KEY": [
+      "comp",
+      "KEYHOLE"
+    ],
+    "HOLE|POT": [
+      "comp",
+      "POTHOLE"
+    ],
+    "KEY|MOON": [
+      "shar",
+      "STONE"
+    ],
+    "KEY|SUN": [
+      "shar",
+      "STROKE"
+    ],
+    "KEY|POT": [
+      "shar",
+      "HOLE"
+    ],
+    "LIGHT|MOON": [
+      "comp",
+      "MOONLIGHT"
+    ],
+    "MOON|SUN": [
+      "shar",
+      "BEAM"
+    ],
+    "LIGHT|SUN": [
+      "comp",
+      "SUNLIGHT"
+    ],
+    "POT|SUN": [
+      "shar",
+      "FLOWER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

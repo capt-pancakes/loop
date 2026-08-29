@@ -1,66 +1,62 @@
 {
-  "number": 54,
-  "date": "2026-08-28",
-  "id": "00d33d6b15f2",
+  "number": 55,
+  "date": "2026-08-29",
+  "id": "1a584478ec87",
   "words": [
-    "DOG",
-    "FIGHT",
-    "GUN",
-    "SHOT",
-    "LIGHT",
-    "HOUSE"
+    "BUZZ",
+    "KEY",
+    "PAD",
+    "TOUCH",
+    "MILL",
+    "SAW"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "DOG|FIGHT": [
+    "BUZZ|KEY": [
+      "shar",
+      "WORD"
+    ],
+    "BUZZ|MILL": [
+      "shar",
+      "SAW"
+    ],
+    "BUZZ|SAW": [
       "comp",
-      "DOGFIGHT"
+      "BUZZSAW"
     ],
-    "DOG|GUN": [
-      "shar",
-      "FIGHT"
-    ],
-    "DOG|LIGHT": [
-      "shar",
-      "HOUSE"
-    ],
-    "DOG|HOUSE": [
+    "KEY|PAD": [
       "comp",
-      "DOGHOUSE"
+      "KEYPAD"
     ],
-    "FIGHT|GUN": [
+    "KEY|TOUCH": [
+      "shar",
+      "STONE"
+    ],
+    "KEY|MILL": [
+      "shar",
+      "STONE"
+    ],
+    "KEY|SAW": [
+      "shar",
+      "CHAIN"
+    ],
+    "PAD|TOUCH": [
       "comp",
-      "GUNFIGHT"
+      "TOUCHPAD"
     ],
-    "FIGHT|SHOT": [
+    "MILL|TOUCH": [
       "shar",
-      "GUN"
+      "STONE"
     ],
-    "FIGHT|HOUSE": [
-      "shar",
-      "DOG"
-    ],
-    "GUN|SHOT": [
+    "MILL|SAW": [
       "comp",
-      "GUNSHOT"
-    ],
-    "GUN|HOUSE": [
-      "shar",
-      "FIRE"
-    ],
-    "LIGHT|SHOT": [
-      "shar",
-      "MOON"
-    ],
-    "HOUSE|LIGHT": [
-      "comp",
-      "LIGHTHOUSE"
+      "SAWMILL"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 41
+    "comp": 4,
+    "shar": 2,
+    "score": 37
   }
 }
