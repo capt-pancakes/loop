@@ -1,0 +1,68 @@
+{
+  "id": "842d92bd8125",
+  "words": [
+    "ART",
+    "BODY",
+    "SUIT",
+    "WET",
+    "LAND",
+    "HOME"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "ART|BODY": [
+      "shar",
+      "WORK"
+    ],
+    "ART|HOME": [
+      "shar",
+      "WORK"
+    ],
+    "BODY|SUIT": [
+      "comp",
+      "BODYSUIT"
+    ],
+    "BODY|WET": [
+      "shar",
+      "SUIT"
+    ],
+    "BODY|LAND": [
+      "shar",
+      "HOME"
+    ],
+    "BODY|HOME": [
+      "comp",
+      "HOMEBODY"
+    ],
+    "SUIT|WET": [
+      "comp",
+      "WETSUIT"
+    ],
+    "LAND|SUIT": [
+      "shar",
+      "WET"
+    ],
+    "HOME|SUIT": [
+      "shar",
+      "BODY"
+    ],
+    "LAND|WET": [
+      "comp",
+      "WETLAND"
+    ],
+    "HOME|WET": [
+      "shar",
+      "LAND"
+    ],
+    "HOME|LAND": [
+      "comp",
+      "HOMELAND"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

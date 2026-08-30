@@ -1,5 +1,5 @@
 {
-  "nextNumber": 56,
+  "nextNumber": 57,
   "puzzles": [
     {
       "number": 1,
@@ -714,6 +714,19 @@
         "TOUCH",
         "MILL",
         "SAW"
+      ]
+    },
+    {
+      "number": 56,
+      "date": "2026-08-30",
+      "id": "31dc951ed9bc",
+      "words": [
+        "COAT",
+        "DROP",
+        "GUM",
+        "FOOT",
+        "HILL",
+        "TOP"
       ]
     }
   ]

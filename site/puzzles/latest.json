@@ -1,56 +1,48 @@
 {
-  "number": 55,
-  "date": "2026-08-29",
-  "id": "1a584478ec87",
+  "number": 56,
+  "date": "2026-08-30",
+  "id": "31dc951ed9bc",
   "words": [
-    "BUZZ",
-    "KEY",
-    "PAD",
-    "TOUCH",
-    "MILL",
-    "SAW"
+    "COAT",
+    "DROP",
+    "GUM",
+    "FOOT",
+    "HILL",
+    "TOP"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BUZZ|KEY": [
+    "COAT|DROP": [
       "shar",
-      "WORD"
+      "RAIN"
     ],
-    "BUZZ|MILL": [
+    "COAT|HILL": [
       "shar",
-      "SAW"
+      "TOP"
     ],
-    "BUZZ|SAW": [
+    "COAT|TOP": [
       "comp",
-      "BUZZSAW"
+      "TOPCOAT"
     ],
-    "KEY|PAD": [
+    "DROP|GUM": [
       "comp",
-      "KEYPAD"
+      "GUMDROP"
     ],
-    "KEY|TOUCH": [
+    "FOOT|GUM": [
       "shar",
-      "STONE"
+      "BALL"
     ],
-    "KEY|MILL": [
-      "shar",
-      "STONE"
-    ],
-    "KEY|SAW": [
-      "shar",
-      "CHAIN"
-    ],
-    "PAD|TOUCH": [
+    "FOOT|HILL": [
       "comp",
-      "TOUCHPAD"
+      "FOOTHILL"
     ],
-    "MILL|TOUCH": [
+    "FOOT|TOP": [
       "shar",
-      "STONE"
+      "HILL"
     ],
-    "MILL|SAW": [
+    "HILL|TOP": [
       "comp",
-      "SAWMILL"
+      "HILLTOP"
     ]
   },
   "meta": {
