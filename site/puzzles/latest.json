@@ -1,54 +1,70 @@
 {
-  "number": 56,
-  "date": "2026-08-30",
-  "id": "31dc951ed9bc",
+  "number": 57,
+  "date": "2026-08-31",
+  "id": "3acea8770473",
   "words": [
-    "COAT",
-    "DROP",
-    "GUM",
-    "FOOT",
-    "HILL",
-    "TOP"
+    "AIR",
+    "BRUSH",
+    "HAIR",
+    "STYLE",
+    "FREE",
+    "WAY"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "COAT|DROP": [
-      "shar",
-      "RAIN"
-    ],
-    "COAT|HILL": [
-      "shar",
-      "TOP"
-    ],
-    "COAT|TOP": [
+    "AIR|BRUSH": [
       "comp",
-      "TOPCOAT"
+      "AIRBRUSH"
     ],
-    "DROP|GUM": [
-      "comp",
-      "GUMDROP"
-    ],
-    "FOOT|GUM": [
+    "AIR|HAIR": [
       "shar",
-      "BALL"
+      "LINE"
     ],
-    "FOOT|HILL": [
-      "comp",
-      "FOOTHILL"
-    ],
-    "FOOT|TOP": [
+    "AIR|FREE": [
       "shar",
-      "HILL"
+      "WAY"
     ],
-    "HILL|TOP": [
+    "AIR|WAY": [
       "comp",
-      "HILLTOP"
+      "AIRWAY"
+    ],
+    "BRUSH|HAIR": [
+      "comp",
+      "HAIRBRUSH"
+    ],
+    "BRUSH|STYLE": [
+      "shar",
+      "HAIR"
+    ],
+    "BRUSH|WAY": [
+      "shar",
+      "AIR"
+    ],
+    "HAIR|STYLE": [
+      "comp",
+      "HAIRSTYLE"
+    ],
+    "FREE|HAIR": [
+      "shar",
+      "STYLE"
+    ],
+    "FREE|STYLE": [
+      "comp",
+      "FREESTYLE"
+    ],
+    "STYLE|WAY": [
+      "shar",
+      "FREE"
+    ],
+    "FREE|WAY": [
+      "comp",
+      "FREEWAY"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 37
+    "comp": 6,
+    "shar": 0,
+    "score": 46
   }
 }

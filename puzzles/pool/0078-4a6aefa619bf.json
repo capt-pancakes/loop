@@ -1,0 +1,68 @@
+{
+  "id": "4a6aefa619bf",
+  "words": [
+    "BOAT",
+    "LIFE",
+    "GUARD",
+    "RAIL",
+    "WAY",
+    "SPEED"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOAT|LIFE": [
+      "comp",
+      "LIFEBOAT"
+    ],
+    "BOAT|GUARD": [
+      "shar",
+      "LIFE"
+    ],
+    "BOAT|WAY": [
+      "shar",
+      "MOTOR"
+    ],
+    "BOAT|SPEED": [
+      "comp",
+      "SPEEDBOAT"
+    ],
+    "GUARD|LIFE": [
+      "comp",
+      "LIFEGUARD"
+    ],
+    "LIFE|RAIL": [
+      "shar",
+      "GUARD"
+    ],
+    "LIFE|SPEED": [
+      "shar",
+      "BOAT"
+    ],
+    "GUARD|RAIL": [
+      "comp",
+      "GUARDRAIL"
+    ],
+    "GUARD|WAY": [
+      "shar",
+      "RAIL"
+    ],
+    "RAIL|WAY": [
+      "comp",
+      "RAILWAY"
+    ],
+    "RAIL|SPEED": [
+      "shar",
+      "WAY"
+    ],
+    "SPEED|WAY": [
+      "comp",
+      "SPEEDWAY"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}
