@@ -1,0 +1,68 @@
+{
+  "id": "12f739962223",
+  "words": [
+    "BED",
+    "FLOWER",
+    "WALL",
+    "PAPER",
+    "NEWS",
+    "ROOM"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BED|FLOWER": [
+      "comp",
+      "FLOWERBED"
+    ],
+    "BED|WALL": [
+      "shar",
+      "FLOWER"
+    ],
+    "BED|NEWS": [
+      "shar",
+      "ROOM"
+    ],
+    "BED|ROOM": [
+      "comp",
+      "BEDROOM"
+    ],
+    "FLOWER|WALL": [
+      "comp",
+      "WALLFLOWER"
+    ],
+    "FLOWER|PAPER": [
+      "shar",
+      "WALL"
+    ],
+    "FLOWER|ROOM": [
+      "shar",
+      "BED"
+    ],
+    "PAPER|WALL": [
+      "comp",
+      "WALLPAPER"
+    ],
+    "NEWS|WALL": [
+      "shar",
+      "PAPER"
+    ],
+    "NEWS|PAPER": [
+      "comp",
+      "NEWSPAPER"
+    ],
+    "PAPER|ROOM": [
+      "shar",
+      "NEWS"
+    ],
+    "NEWS|ROOM": [
+      "comp",
+      "NEWSROOM"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}

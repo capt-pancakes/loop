@@ -1,5 +1,5 @@
 {
-  "nextNumber": 58,
+  "nextNumber": 59,
   "puzzles": [
     {
       "number": 1,
@@ -740,6 +740,19 @@
         "STYLE",
         "FREE",
         "WAY"
+      ]
+    },
+    {
+      "number": 58,
+      "date": "2026-09-01",
+      "id": "4f84890f1d1e",
+      "words": [
+        "BAR",
+        "HANDLE",
+        "PAN",
+        "CAKE",
+        "WALK",
+        "SIDE"
       ]
     }
   ]
