@@ -1,70 +1,62 @@
 {
-  "number": 58,
-  "date": "2026-09-01",
-  "id": "4f84890f1d1e",
+  "number": 59,
+  "date": "2026-09-02",
+  "id": "00ceba55bc46",
   "words": [
-    "BAR",
-    "HANDLE",
-    "PAN",
-    "CAKE",
-    "WALK",
-    "SIDE"
+    "CARE",
+    "FREE",
+    "WAY",
+    "PATH",
+    "WAR",
+    "TIME"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BAR|HANDLE": [
+    "CARE|FREE": [
       "comp",
-      "HANDLEBAR"
+      "CAREFREE"
     ],
-    "BAR|PAN": [
+    "CARE|WAY": [
       "shar",
-      "HANDLE"
+      "FREE"
     ],
-    "BAR|WALK": [
+    "CARE|TIME": [
       "shar",
-      "SIDE"
+      "DAY"
     ],
-    "BAR|SIDE": [
+    "FREE|WAY": [
       "comp",
-      "SIDEBAR"
+      "FREEWAY"
     ],
-    "HANDLE|PAN": [
-      "comp",
-      "PANHANDLE"
-    ],
-    "CAKE|HANDLE": [
+    "FREE|PATH": [
       "shar",
-      "PAN"
+      "WAY"
     ],
-    "HANDLE|SIDE": [
-      "shar",
-      "BAR"
-    ],
-    "CAKE|PAN": [
+    "PATH|WAY": [
       "comp",
-      "PANCAKE"
+      "PATHWAY"
     ],
-    "PAN|WALK": [
+    "WAR|WAY": [
       "shar",
-      "CAKE"
+      "PATH"
     ],
-    "CAKE|WALK": [
+    "PATH|WAR": [
       "comp",
-      "CAKEWALK"
+      "WARPATH"
     ],
-    "CAKE|SIDE": [
+    "PATH|TIME": [
       "shar",
-      "WALK"
+      "WAR"
     ],
-    "SIDE|WALK": [
+    "TIME|WAR": [
       "comp",
-      "SIDEWALK"
+      "WARTIME"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 46
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }

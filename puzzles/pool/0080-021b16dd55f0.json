@@ -1,0 +1,60 @@
+{
+  "id": "021b16dd55f0",
+  "words": [
+    "BOOK",
+    "CASE",
+    "STAIR",
+    "WAY",
+    "PATH",
+    "NOTE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOOK|CASE": [
+      "comp",
+      "BOOKCASE"
+    ],
+    "BOOK|STAIR": [
+      "shar",
+      "CASE"
+    ],
+    "BOOK|NOTE": [
+      "comp",
+      "NOTEBOOK"
+    ],
+    "CASE|STAIR": [
+      "comp",
+      "STAIRCASE"
+    ],
+    "CASE|WAY": [
+      "shar",
+      "STAIR"
+    ],
+    "CASE|NOTE": [
+      "shar",
+      "BOOK"
+    ],
+    "STAIR|WAY": [
+      "comp",
+      "STAIRWAY"
+    ],
+    "PATH|STAIR": [
+      "shar",
+      "WAY"
+    ],
+    "PATH|WAY": [
+      "comp",
+      "PATHWAY"
+    ],
+    "NOTE|PATH": [
+      "shar",
+      "FOOT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
