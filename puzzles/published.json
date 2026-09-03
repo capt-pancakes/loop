@@ -1,5 +1,5 @@
 {
-  "nextNumber": 60,
+  "nextNumber": 61,
   "puzzles": [
     {
       "number": 1,
@@ -766,6 +766,19 @@
         "PATH",
         "WAR",
         "TIME"
+      ]
+    },
+    {
+      "number": 60,
+      "date": "2026-09-03",
+      "id": "074fb9fda159",
+      "words": [
+        "BENCH",
+        "MARK",
+        "CHECK",
+        "PAY",
+        "LOAD",
+        "WORK"
       ]
     }
   ]

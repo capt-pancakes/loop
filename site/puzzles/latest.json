@@ -1,56 +1,60 @@
 {
-  "number": 59,
-  "date": "2026-09-02",
-  "id": "00ceba55bc46",
+  "number": 60,
+  "date": "2026-09-03",
+  "id": "074fb9fda159",
   "words": [
-    "CARE",
-    "FREE",
-    "WAY",
-    "PATH",
-    "WAR",
-    "TIME"
+    "BENCH",
+    "MARK",
+    "CHECK",
+    "PAY",
+    "LOAD",
+    "WORK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CARE|FREE": [
+    "BENCH|MARK": [
       "comp",
-      "CAREFREE"
+      "BENCHMARK"
     ],
-    "CARE|WAY": [
+    "BENCH|LOAD": [
       "shar",
-      "FREE"
+      "WORK"
     ],
-    "CARE|TIME": [
-      "shar",
-      "DAY"
-    ],
-    "FREE|WAY": [
+    "BENCH|WORK": [
       "comp",
-      "FREEWAY"
+      "WORKBENCH"
     ],
-    "FREE|PATH": [
+    "CHECK|MARK": [
       "shar",
-      "WAY"
+      "BOOK"
     ],
-    "PATH|WAY": [
-      "comp",
-      "PATHWAY"
-    ],
-    "WAR|WAY": [
+    "MARK|WORK": [
       "shar",
-      "PATH"
+      "BENCH"
     ],
-    "PATH|WAR": [
+    "CHECK|PAY": [
       "comp",
-      "WARPATH"
+      "PAYCHECK"
     ],
-    "PATH|TIME": [
+    "CHECK|LOAD": [
       "shar",
-      "WAR"
+      "UP"
     ],
-    "TIME|WAR": [
+    "CHECK|WORK": [
+      "shar",
+      "OUT"
+    ],
+    "LOAD|PAY": [
       "comp",
-      "WARTIME"
+      "PAYLOAD"
+    ],
+    "PAY|WORK": [
+      "shar",
+      "LOAD"
+    ],
+    "LOAD|WORK": [
+      "comp",
+      "WORKLOAD"
     ]
   },
   "meta": {

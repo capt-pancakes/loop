@@ -1,0 +1,60 @@
+{
+  "id": "0c94afcf1429",
+  "words": [
+    "END",
+    "GAME",
+    "SNOW",
+    "FALL",
+    "NIGHT",
+    "WEEK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "END|GAME": [
+      "comp",
+      "ENDGAME"
+    ],
+    "END|NIGHT": [
+      "shar",
+      "WEEK"
+    ],
+    "END|WEEK": [
+      "comp",
+      "WEEKEND"
+    ],
+    "GAME|SNOW": [
+      "shar",
+      "BALL"
+    ],
+    "GAME|WEEK": [
+      "shar",
+      "END"
+    ],
+    "FALL|SNOW": [
+      "comp",
+      "SNOWFALL"
+    ],
+    "NIGHT|SNOW": [
+      "shar",
+      "FALL"
+    ],
+    "FALL|NIGHT": [
+      "comp",
+      "NIGHTFALL"
+    ],
+    "FALL|WEEK": [
+      "shar",
+      "NIGHT"
+    ],
+    "NIGHT|WEEK": [
+      "comp",
+      "WEEKNIGHT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
