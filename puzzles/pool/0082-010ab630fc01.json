@@ -1,0 +1,60 @@
+{
+  "id": "010ab630fc01",
+  "words": [
+    "ACHE",
+    "DOOR",
+    "STEP",
+    "FOOT",
+    "REST",
+    "HEAD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "ACHE|DOOR": [
+      "shar",
+      "BACK"
+    ],
+    "ACHE|REST": [
+      "shar",
+      "HEAD"
+    ],
+    "ACHE|HEAD": [
+      "comp",
+      "HEADACHE"
+    ],
+    "DOOR|STEP": [
+      "comp",
+      "DOORSTEP"
+    ],
+    "DOOR|FOOT": [
+      "shar",
+      "STEP"
+    ],
+    "FOOT|STEP": [
+      "comp",
+      "FOOTSTEP"
+    ],
+    "REST|STEP": [
+      "shar",
+      "FOOT"
+    ],
+    "FOOT|REST": [
+      "comp",
+      "FOOTREST"
+    ],
+    "FOOT|HEAD": [
+      "shar",
+      "REST"
+    ],
+    "HEAD|REST": [
+      "comp",
+      "HEADREST"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

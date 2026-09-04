@@ -1,66 +1,62 @@
 {
-  "number": 60,
-  "date": "2026-09-03",
-  "id": "074fb9fda159",
+  "number": 61,
+  "date": "2026-09-04",
+  "id": "c58b04941a8d",
   "words": [
-    "BENCH",
-    "MARK",
-    "CHECK",
-    "PAY",
-    "LOAD",
-    "WORK"
+    "ACHE",
+    "EAR",
+    "SHOT",
+    "GUN",
+    "LOCK",
+    "HEAD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BENCH|MARK": [
+    "ACHE|EAR": [
       "comp",
-      "BENCHMARK"
+      "EARACHE"
     ],
-    "BENCH|LOAD": [
+    "ACHE|SHOT": [
       "shar",
-      "WORK"
+      "EAR"
     ],
-    "BENCH|WORK": [
+    "ACHE|LOCK": [
+      "shar",
+      "HEAD"
+    ],
+    "ACHE|HEAD": [
       "comp",
-      "WORKBENCH"
+      "HEADACHE"
     ],
-    "CHECK|MARK": [
-      "shar",
-      "BOOK"
-    ],
-    "MARK|WORK": [
-      "shar",
-      "BENCH"
-    ],
-    "CHECK|PAY": [
+    "EAR|SHOT": [
       "comp",
-      "PAYCHECK"
+      "EARSHOT"
     ],
-    "CHECK|LOAD": [
+    "EAR|GUN": [
       "shar",
-      "UP"
+      "SHOT"
     ],
-    "CHECK|WORK": [
+    "EAR|HEAD": [
       "shar",
-      "OUT"
+      "PHONE"
     ],
-    "LOAD|PAY": [
+    "GUN|SHOT": [
       "comp",
-      "PAYLOAD"
+      "GUNSHOT"
     ],
-    "PAY|WORK": [
+    "GUN|LOCK": [
       "shar",
-      "LOAD"
+      "SMITH"
     ],
-    "LOAD|WORK": [
+    "HEAD|LOCK": [
       "comp",
-      "WORKLOAD"
+      "HEADLOCK"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 5,
     "shar": 1,
-    "score": 41
+    "score": 42
   }
 }
