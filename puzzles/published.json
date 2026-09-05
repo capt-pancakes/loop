@@ -1,5 +1,5 @@
 {
-  "nextNumber": 62,
+  "nextNumber": 63,
   "puzzles": [
     {
       "number": 1,
@@ -792,6 +792,19 @@
         "GUN",
         "LOCK",
         "HEAD"
+      ]
+    },
+    {
+      "number": 62,
+      "date": "2026-09-05",
+      "id": "80814a4971e7",
+      "words": [
+        "CUP",
+        "FLY",
+        "HORSE",
+        "SEA",
+        "WEED",
+        "MILK"
       ]
     }
   ]

@@ -1,0 +1,56 @@
+{
+  "id": "b560a941676f",
+  "words": [
+    "CAP",
+    "ICE",
+    "LUNCH",
+    "TIME",
+    "DAY",
+    "WEEK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAP|ICE": [
+      "comp",
+      "ICECAP"
+    ],
+    "CAP|TIME": [
+      "shar",
+      "NIGHT"
+    ],
+    "CAP|WEEK": [
+      "shar",
+      "NIGHT"
+    ],
+    "ICE|LUNCH": [
+      "shar",
+      "BOX"
+    ],
+    "LUNCH|TIME": [
+      "comp",
+      "LUNCHTIME"
+    ],
+    "DAY|LUNCH": [
+      "shar",
+      "TIME"
+    ],
+    "DAY|TIME": [
+      "comp",
+      "DAYTIME"
+    ],
+    "TIME|WEEK": [
+      "shar",
+      "NIGHT"
+    ],
+    "DAY|WEEK": [
+      "comp",
+      "WEEKDAY"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

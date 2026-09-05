@@ -1,62 +1,62 @@
 {
-  "number": 61,
-  "date": "2026-09-04",
-  "id": "c58b04941a8d",
+  "number": 62,
+  "date": "2026-09-05",
+  "id": "80814a4971e7",
   "words": [
-    "ACHE",
-    "EAR",
-    "SHOT",
-    "GUN",
-    "LOCK",
-    "HEAD"
+    "CUP",
+    "FLY",
+    "HORSE",
+    "SEA",
+    "WEED",
+    "MILK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "ACHE|EAR": [
-      "comp",
-      "EARACHE"
-    ],
-    "ACHE|SHOT": [
+    "CUP|FLY": [
       "shar",
-      "EAR"
+      "BUTTER"
     ],
-    "ACHE|LOCK": [
+    "CUP|MILK": [
       "shar",
-      "HEAD"
+      "BUTTER"
     ],
-    "ACHE|HEAD": [
+    "FLY|HORSE": [
       "comp",
-      "HEADACHE"
+      "HORSEFLY"
     ],
-    "EAR|SHOT": [
-      "comp",
-      "EARSHOT"
-    ],
-    "EAR|GUN": [
+    "FLY|SEA": [
       "shar",
-      "SHOT"
+      "HORSE"
     ],
-    "EAR|HEAD": [
+    "FLY|MILK": [
       "shar",
-      "PHONE"
+      "BUTTER"
     ],
-    "GUN|SHOT": [
+    "HORSE|SEA": [
       "comp",
-      "GUNSHOT"
+      "SEAHORSE"
     ],
-    "GUN|LOCK": [
+    "HORSE|WEED": [
       "shar",
-      "SMITH"
+      "SEA"
     ],
-    "HEAD|LOCK": [
+    "SEA|WEED": [
       "comp",
-      "HEADLOCK"
+      "SEAWEED"
+    ],
+    "MILK|SEA": [
+      "shar",
+      "WEED"
+    ],
+    "MILK|WEED": [
+      "comp",
+      "MILKWEED"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 42
+    "comp": 4,
+    "shar": 2,
+    "score": 37
   }
 }
