@@ -1,0 +1,60 @@
+{
+  "id": "01bdf388c108",
+  "words": [
+    "BORDER",
+    "HAIR",
+    "NET",
+    "FISH",
+    "TAIL",
+    "PIPE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BORDER|HAIR": [
+      "shar",
+      "LINE"
+    ],
+    "BORDER|PIPE": [
+      "shar",
+      "LINE"
+    ],
+    "HAIR|NET": [
+      "comp",
+      "HAIRNET"
+    ],
+    "FISH|HAIR": [
+      "shar",
+      "NET"
+    ],
+    "HAIR|PIPE": [
+      "shar",
+      "LINE"
+    ],
+    "FISH|NET": [
+      "comp",
+      "FISHNET"
+    ],
+    "NET|TAIL": [
+      "shar",
+      "FISH"
+    ],
+    "FISH|TAIL": [
+      "comp",
+      "FISHTAIL"
+    ],
+    "FISH|PIPE": [
+      "shar",
+      "TAIL"
+    ],
+    "PIPE|TAIL": [
+      "comp",
+      "TAILPIPE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}
