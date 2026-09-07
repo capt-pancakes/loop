@@ -1,58 +1,74 @@
 {
-  "number": 63,
-  "date": "2026-09-06",
-  "id": "37f7eb127334",
+  "number": 64,
+  "date": "2026-09-07",
+  "id": "017a89ebc14a",
   "words": [
-    "BASE",
-    "EYE",
-    "RED",
-    "WAR",
-    "TIME",
-    "LINE"
+    "BOAT",
+    "LIFE",
+    "NIGHT",
+    "WATCH",
+    "MAN",
+    "SHOW"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BASE|EYE": [
-      "shar",
-      "BALL"
-    ],
-    "BASE|TIME": [
-      "shar",
-      "LINE"
-    ],
-    "BASE|LINE": [
+    "BOAT|LIFE": [
       "comp",
-      "BASELINE"
+      "LIFEBOAT"
     ],
-    "EYE|RED": [
-      "comp",
-      "REDEYE"
-    ],
-    "RED|WAR": [
+    "BOAT|NIGHT": [
       "shar",
-      "HEAD"
+      "LIFE"
     ],
-    "LINE|RED": [
+    "BOAT|MAN": [
       "shar",
-      "HEAD"
+      "SHOW"
     ],
-    "TIME|WAR": [
+    "BOAT|SHOW": [
       "comp",
-      "WARTIME"
+      "SHOWBOAT"
     ],
-    "LINE|WAR": [
+    "LIFE|NIGHT": [
+      "comp",
+      "NIGHTLIFE"
+    ],
+    "LIFE|WATCH": [
       "shar",
-      "HEAD"
+      "NIGHT"
     ],
-    "LINE|TIME": [
+    "LIFE|SHOW": [
+      "shar",
+      "TIME"
+    ],
+    "NIGHT|WATCH": [
       "comp",
-      "TIMELINE"
+      "NIGHTWATCH"
+    ],
+    "MAN|NIGHT": [
+      "shar",
+      "WATCH"
+    ],
+    "NIGHT|SHOW": [
+      "shar",
+      "TIME"
+    ],
+    "MAN|WATCH": [
+      "comp",
+      "WATCHMAN"
+    ],
+    "SHOW|WATCH": [
+      "shar",
+      "MAN"
+    ],
+    "MAN|SHOW": [
+      "comp",
+      "SHOWMAN"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 37
+    "comp": 6,
+    "shar": 0,
+    "score": 46
   }
 }

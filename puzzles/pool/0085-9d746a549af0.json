@@ -1,0 +1,68 @@
+{
+  "id": "9d746a549af0",
+  "words": [
+    "BED",
+    "HOT",
+    "DOG",
+    "WATCH",
+    "NIGHT",
+    "TIME"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BED|HOT": [
+      "comp",
+      "HOTBED"
+    ],
+    "BED|DOG": [
+      "shar",
+      "HOT"
+    ],
+    "BED|NIGHT": [
+      "shar",
+      "TIME"
+    ],
+    "BED|TIME": [
+      "comp",
+      "BEDTIME"
+    ],
+    "DOG|HOT": [
+      "comp",
+      "HOTDOG"
+    ],
+    "HOT|WATCH": [
+      "shar",
+      "DOG"
+    ],
+    "HOT|TIME": [
+      "shar",
+      "BED"
+    ],
+    "DOG|WATCH": [
+      "comp",
+      "WATCHDOG"
+    ],
+    "DOG|NIGHT": [
+      "shar",
+      "WATCH"
+    ],
+    "NIGHT|WATCH": [
+      "comp",
+      "NIGHTWATCH"
+    ],
+    "TIME|WATCH": [
+      "shar",
+      "NIGHT"
+    ],
+    "NIGHT|TIME": [
+      "comp",
+      "NIGHTTIME"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}
