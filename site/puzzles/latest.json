@@ -1,68 +1,68 @@
 {
-  "number": 64,
-  "date": "2026-09-07",
-  "id": "017a89ebc14a",
+  "number": 65,
+  "date": "2026-09-08",
+  "id": "98ae52a3fe79",
   "words": [
-    "BOAT",
-    "LIFE",
-    "NIGHT",
-    "WATCH",
-    "MAN",
-    "SHOW"
+    "BALL",
+    "FIRE",
+    "CROSS",
+    "WORD",
+    "PLAY",
+    "GAME"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOAT|LIFE": [
+    "BALL|FIRE": [
       "comp",
-      "LIFEBOAT"
+      "FIREBALL"
     ],
-    "BOAT|NIGHT": [
+    "BALL|CROSS": [
       "shar",
-      "LIFE"
+      "FIRE"
     ],
-    "BOAT|MAN": [
+    "BALL|PLAY": [
       "shar",
-      "SHOW"
+      "GAME"
     ],
-    "BOAT|SHOW": [
+    "BALL|GAME": [
       "comp",
-      "SHOWBOAT"
+      "BALLGAME"
     ],
-    "LIFE|NIGHT": [
+    "CROSS|FIRE": [
       "comp",
-      "NIGHTLIFE"
+      "CROSSFIRE"
     ],
-    "LIFE|WATCH": [
+    "FIRE|WORD": [
       "shar",
-      "NIGHT"
+      "CROSS"
     ],
-    "LIFE|SHOW": [
+    "FIRE|PLAY": [
       "shar",
-      "TIME"
+      "HOUSE"
     ],
-    "NIGHT|WATCH": [
+    "FIRE|GAME": [
+      "shar",
+      "BALL"
+    ],
+    "CROSS|WORD": [
       "comp",
-      "NIGHTWATCH"
+      "CROSSWORD"
     ],
-    "MAN|NIGHT": [
+    "CROSS|PLAY": [
       "shar",
-      "WATCH"
+      "WORD"
     ],
-    "NIGHT|SHOW": [
-      "shar",
-      "TIME"
-    ],
-    "MAN|WATCH": [
+    "PLAY|WORD": [
       "comp",
-      "WATCHMAN"
+      "WORDPLAY"
     ],
-    "SHOW|WATCH": [
+    "GAME|WORD": [
       "shar",
-      "MAN"
+      "PLAY"
     ],
-    "MAN|SHOW": [
+    "GAME|PLAY": [
       "comp",
-      "SHOWMAN"
+      "GAMEPLAY"
     ]
   },
   "meta": {

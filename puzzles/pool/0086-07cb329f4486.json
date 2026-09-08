@@ -1,0 +1,72 @@
+{
+  "id": "07cb329f4486",
+  "words": [
+    "FIRE",
+    "GUN",
+    "POINT",
+    "PIN",
+    "WHEEL",
+    "HOUSE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "FIRE|GUN": [
+      "comp",
+      "GUNFIRE"
+    ],
+    "FIRE|POINT": [
+      "shar",
+      "BALL"
+    ],
+    "FIRE|PIN": [
+      "shar",
+      "BALL"
+    ],
+    "FIRE|WHEEL": [
+      "shar",
+      "FLY"
+    ],
+    "FIRE|HOUSE": [
+      "comp",
+      "FIREHOUSE"
+    ],
+    "GUN|POINT": [
+      "comp",
+      "GUNPOINT"
+    ],
+    "GUN|PIN": [
+      "shar",
+      "POINT"
+    ],
+    "GUN|HOUSE": [
+      "shar",
+      "FIRE"
+    ],
+    "PIN|POINT": [
+      "comp",
+      "PINPOINT"
+    ],
+    "POINT|WHEEL": [
+      "shar",
+      "PIN"
+    ],
+    "PIN|WHEEL": [
+      "comp",
+      "PINWHEEL"
+    ],
+    "HOUSE|PIN": [
+      "shar",
+      "WHEEL"
+    ],
+    "HOUSE|WHEEL": [
+      "comp",
+      "WHEELHOUSE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}
