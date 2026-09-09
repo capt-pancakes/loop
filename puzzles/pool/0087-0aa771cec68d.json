@@ -1,0 +1,60 @@
+{
+  "id": "0aa771cec68d",
+  "words": [
+    "BOW",
+    "CROSS",
+    "MAN",
+    "FRESH",
+    "WATER",
+    "RAIN"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOW|CROSS": [
+      "comp",
+      "CROSSBOW"
+    ],
+    "BOW|WATER": [
+      "shar",
+      "RAIN"
+    ],
+    "BOW|RAIN": [
+      "comp",
+      "RAINBOW"
+    ],
+    "CROSS|MAN": [
+      "shar",
+      "FIRE"
+    ],
+    "CROSS|RAIN": [
+      "shar",
+      "BOW"
+    ],
+    "FRESH|MAN": [
+      "comp",
+      "FRESHMAN"
+    ],
+    "MAN|WATER": [
+      "shar",
+      "FRESH"
+    ],
+    "FRESH|WATER": [
+      "comp",
+      "FRESHWATER"
+    ],
+    "FRESH|RAIN": [
+      "shar",
+      "WATER"
+    ],
+    "RAIN|WATER": [
+      "comp",
+      "RAINWATER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

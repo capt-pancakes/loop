@@ -1,74 +1,62 @@
 {
-  "number": 65,
-  "date": "2026-09-08",
-  "id": "98ae52a3fe79",
+  "number": 66,
+  "date": "2026-09-09",
+  "id": "075e5f11793c",
   "words": [
-    "BALL",
-    "FIRE",
-    "CROSS",
-    "WORD",
-    "PLAY",
-    "GAME"
+    "BOX",
+    "CORN",
+    "FIELD",
+    "WORK",
+    "HORSE",
+    "SHOE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BALL|FIRE": [
+    "BOX|CORN": [
+      "shar",
+      "BREAD"
+    ],
+    "BOX|HORSE": [
+      "shar",
+      "SHOE"
+    ],
+    "BOX|SHOE": [
       "comp",
-      "FIREBALL"
+      "SHOEBOX"
     ],
-    "BALL|CROSS": [
-      "shar",
-      "FIRE"
-    ],
-    "BALL|PLAY": [
-      "shar",
-      "GAME"
-    ],
-    "BALL|GAME": [
+    "CORN|FIELD": [
       "comp",
-      "BALLGAME"
+      "CORNFIELD"
     ],
-    "CROSS|FIRE": [
+    "CORN|WORK": [
+      "shar",
+      "FIELD"
+    ],
+    "FIELD|WORK": [
       "comp",
-      "CROSSFIRE"
+      "FIELDWORK"
     ],
-    "FIRE|WORD": [
+    "FIELD|HORSE": [
       "shar",
-      "CROSS"
+      "WORK"
     ],
-    "FIRE|PLAY": [
-      "shar",
-      "HOUSE"
-    ],
-    "FIRE|GAME": [
-      "shar",
-      "BALL"
-    ],
-    "CROSS|WORD": [
+    "HORSE|WORK": [
       "comp",
-      "CROSSWORD"
+      "WORKHORSE"
     ],
-    "CROSS|PLAY": [
+    "SHOE|WORK": [
       "shar",
-      "WORD"
+      "HORSE"
     ],
-    "PLAY|WORD": [
+    "HORSE|SHOE": [
       "comp",
-      "WORDPLAY"
-    ],
-    "GAME|WORD": [
-      "shar",
-      "PLAY"
-    ],
-    "GAME|PLAY": [
-      "comp",
-      "GAMEPLAY"
+      "HORSESHOE"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 46
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }
