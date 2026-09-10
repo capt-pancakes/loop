@@ -1,0 +1,60 @@
+{
+  "id": "10446d058e6d",
+  "words": [
+    "BOOK",
+    "CASE",
+    "SUIT",
+    "GUARD",
+    "RAIL",
+    "HAND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOOK|CASE": [
+      "comp",
+      "BOOKCASE"
+    ],
+    "BOOK|SUIT": [
+      "shar",
+      "CASE"
+    ],
+    "BOOK|RAIL": [
+      "shar",
+      "HAND"
+    ],
+    "BOOK|HAND": [
+      "comp",
+      "HANDBOOK"
+    ],
+    "CASE|SUIT": [
+      "comp",
+      "SUITCASE"
+    ],
+    "CASE|HAND": [
+      "shar",
+      "BOOK"
+    ],
+    "GUARD|SUIT": [
+      "shar",
+      "BODY"
+    ],
+    "GUARD|RAIL": [
+      "comp",
+      "GUARDRAIL"
+    ],
+    "GUARD|HAND": [
+      "shar",
+      "RAIL"
+    ],
+    "HAND|RAIL": [
+      "comp",
+      "HANDRAIL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

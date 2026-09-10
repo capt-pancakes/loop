@@ -1,56 +1,60 @@
 {
-  "number": 66,
-  "date": "2026-09-09",
-  "id": "075e5f11793c",
+  "number": 67,
+  "date": "2026-09-10",
+  "id": "0c1184baa877",
   "words": [
-    "BOX",
-    "CORN",
-    "FIELD",
-    "WORK",
-    "HORSE",
-    "SHOE"
+    "FOOT",
+    "NOTE",
+    "PAD",
+    "TOUCH",
+    "STONE",
+    "REST"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOX|CORN": [
-      "shar",
-      "BREAD"
-    ],
-    "BOX|HORSE": [
-      "shar",
-      "SHOE"
-    ],
-    "BOX|SHOE": [
+    "FOOT|NOTE": [
       "comp",
-      "SHOEBOX"
+      "FOOTNOTE"
     ],
-    "CORN|FIELD": [
-      "comp",
-      "CORNFIELD"
-    ],
-    "CORN|WORK": [
+    "FOOT|PAD": [
       "shar",
-      "FIELD"
+      "NOTE"
     ],
-    "FIELD|WORK": [
+    "FOOT|REST": [
       "comp",
-      "FIELDWORK"
+      "FOOTREST"
     ],
-    "FIELD|HORSE": [
+    "NOTE|PAD": [
+      "comp",
+      "NOTEPAD"
+    ],
+    "NOTE|TOUCH": [
       "shar",
-      "WORK"
+      "PAD"
     ],
-    "HORSE|WORK": [
-      "comp",
-      "WORKHORSE"
-    ],
-    "SHOE|WORK": [
+    "NOTE|STONE": [
       "shar",
-      "HORSE"
+      "KEY"
     ],
-    "HORSE|SHOE": [
+    "NOTE|REST": [
+      "shar",
+      "FOOT"
+    ],
+    "PAD|TOUCH": [
       "comp",
-      "HORSESHOE"
+      "TOUCHPAD"
+    ],
+    "PAD|STONE": [
+      "shar",
+      "KEY"
+    ],
+    "STONE|TOUCH": [
+      "comp",
+      "TOUCHSTONE"
+    ],
+    "REST|STONE": [
+      "shar",
+      "HEAD"
     ]
   },
   "meta": {
