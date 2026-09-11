@@ -1,0 +1,76 @@
+{
+  "id": "1285af1a64e5",
+  "words": [
+    "CAR",
+    "POOL",
+    "SIDE",
+    "KICK",
+    "TRACK",
+    "RACE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAR|POOL": [
+      "comp",
+      "CARPOOL"
+    ],
+    "CAR|SIDE": [
+      "comp",
+      "SIDECAR"
+    ],
+    "CAR|KICK": [
+      "shar",
+      "SIDE"
+    ],
+    "CAR|TRACK": [
+      "shar",
+      "RACE"
+    ],
+    "CAR|RACE": [
+      "comp",
+      "RACECAR"
+    ],
+    "POOL|SIDE": [
+      "comp",
+      "POOLSIDE"
+    ],
+    "KICK|POOL": [
+      "shar",
+      "SIDE"
+    ],
+    "POOL|TRACK": [
+      "shar",
+      "SIDE"
+    ],
+    "POOL|RACE": [
+      "shar",
+      "CAR"
+    ],
+    "KICK|SIDE": [
+      "comp",
+      "SIDEKICK"
+    ],
+    "SIDE|TRACK": [
+      "comp",
+      "SIDETRACK"
+    ],
+    "RACE|SIDE": [
+      "shar",
+      "CAR"
+    ],
+    "KICK|TRACK": [
+      "shar",
+      "BACK"
+    ],
+    "RACE|TRACK": [
+      "comp",
+      "RACETRACK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

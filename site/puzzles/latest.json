@@ -1,60 +1,56 @@
 {
-  "number": 67,
-  "date": "2026-09-10",
-  "id": "0c1184baa877",
+  "number": 68,
+  "date": "2026-09-11",
+  "id": "0a2c85cc44e0",
   "words": [
-    "FOOT",
-    "NOTE",
-    "PAD",
-    "TOUCH",
-    "STONE",
-    "REST"
+    "BEAT",
+    "DRUM",
+    "STICK",
+    "YARD",
+    "FARM",
+    "LAND"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "FOOT|NOTE": [
+    "BEAT|DRUM": [
       "comp",
-      "FOOTNOTE"
+      "DRUMBEAT"
     ],
-    "FOOT|PAD": [
+    "BEAT|STICK": [
       "shar",
-      "NOTE"
+      "DRUM"
     ],
-    "FOOT|REST": [
+    "BEAT|LAND": [
+      "shar",
+      "HEART"
+    ],
+    "DRUM|STICK": [
       "comp",
-      "FOOTREST"
+      "DRUMSTICK"
     ],
-    "NOTE|PAD": [
+    "DRUM|YARD": [
+      "shar",
+      "STICK"
+    ],
+    "STICK|YARD": [
       "comp",
-      "NOTEPAD"
+      "YARDSTICK"
     ],
-    "NOTE|TOUCH": [
+    "FARM|STICK": [
       "shar",
-      "PAD"
+      "YARD"
     ],
-    "NOTE|STONE": [
-      "shar",
-      "KEY"
-    ],
-    "NOTE|REST": [
-      "shar",
-      "FOOT"
-    ],
-    "PAD|TOUCH": [
+    "FARM|YARD": [
       "comp",
-      "TOUCHPAD"
+      "FARMYARD"
     ],
-    "PAD|STONE": [
+    "LAND|YARD": [
       "shar",
-      "KEY"
+      "FARM"
     ],
-    "STONE|TOUCH": [
+    "FARM|LAND": [
       "comp",
-      "TOUCHSTONE"
-    ],
-    "REST|STONE": [
-      "shar",
-      "HEAD"
+      "FARMLAND"
     ]
   },
   "meta": {
