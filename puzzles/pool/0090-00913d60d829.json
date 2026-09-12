@@ -1,0 +1,68 @@
+{
+  "id": "00913d60d829",
+  "words": [
+    "BUZZ",
+    "PLAY",
+    "WHEEL",
+    "FLY",
+    "HORSE",
+    "SAW"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BUZZ|PLAY": [
+      "shar",
+      "WORD"
+    ],
+    "BUZZ|HORSE": [
+      "shar",
+      "SAW"
+    ],
+    "BUZZ|SAW": [
+      "comp",
+      "BUZZSAW"
+    ],
+    "PLAY|WHEEL": [
+      "shar",
+      "HOUSE"
+    ],
+    "FLY|PLAY": [
+      "shar",
+      "HOUSE"
+    ],
+    "HORSE|PLAY": [
+      "comp",
+      "HORSEPLAY"
+    ],
+    "PLAY|SAW": [
+      "shar",
+      "HORSE"
+    ],
+    "FLY|WHEEL": [
+      "comp",
+      "FLYWHEEL"
+    ],
+    "HORSE|WHEEL": [
+      "shar",
+      "FLY"
+    ],
+    "FLY|HORSE": [
+      "comp",
+      "HORSEFLY"
+    ],
+    "FLY|SAW": [
+      "shar",
+      "HORSE"
+    ],
+    "HORSE|SAW": [
+      "comp",
+      "SAWHORSE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

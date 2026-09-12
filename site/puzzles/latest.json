@@ -1,62 +1,54 @@
 {
-  "number": 68,
-  "date": "2026-09-11",
-  "id": "0a2c85cc44e0",
+  "number": 69,
+  "date": "2026-09-12",
+  "id": "62466bb73ae8",
   "words": [
-    "BEAT",
     "DRUM",
-    "STICK",
-    "YARD",
-    "FARM",
-    "LAND"
+    "EAR",
+    "RING",
+    "TONE",
+    "KILL",
+    "JOY"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BEAT|DRUM": [
+    "DRUM|EAR": [
       "comp",
-      "DRUMBEAT"
+      "EARDRUM"
     ],
-    "BEAT|STICK": [
+    "DRUM|RING": [
       "shar",
-      "DRUM"
+      "EAR"
     ],
-    "BEAT|LAND": [
-      "shar",
-      "HEART"
-    ],
-    "DRUM|STICK": [
-      "comp",
-      "DRUMSTICK"
-    ],
-    "DRUM|YARD": [
+    "DRUM|JOY": [
       "shar",
       "STICK"
     ],
-    "STICK|YARD": [
+    "EAR|RING": [
       "comp",
-      "YARDSTICK"
+      "EARRING"
     ],
-    "FARM|STICK": [
+    "EAR|TONE": [
       "shar",
-      "YARD"
+      "RING"
     ],
-    "FARM|YARD": [
+    "RING|TONE": [
       "comp",
-      "FARMYARD"
+      "RINGTONE"
     ],
-    "LAND|YARD": [
+    "KILL|TONE": [
       "shar",
-      "FARM"
+      "OVER"
     ],
-    "FARM|LAND": [
+    "JOY|KILL": [
       "comp",
-      "FARMLAND"
+      "KILLJOY"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 41
+    "comp": 4,
+    "shar": 2,
+    "score": 37
   }
 }

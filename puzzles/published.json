@@ -1,5 +1,5 @@
 {
-  "nextNumber": 69,
+  "nextNumber": 70,
   "puzzles": [
     {
       "number": 1,
@@ -883,6 +883,19 @@
         "YARD",
         "FARM",
         "LAND"
+      ]
+    },
+    {
+      "number": 69,
+      "date": "2026-09-12",
+      "id": "62466bb73ae8",
+      "words": [
+        "DRUM",
+        "EAR",
+        "RING",
+        "TONE",
+        "KILL",
+        "JOY"
       ]
     }
   ]
