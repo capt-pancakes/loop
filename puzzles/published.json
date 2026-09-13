@@ -1,5 +1,5 @@
 {
-  "nextNumber": 70,
+  "nextNumber": 71,
   "puzzles": [
     {
       "number": 1,
@@ -896,6 +896,19 @@
         "TONE",
         "KILL",
         "JOY"
+      ]
+    },
+    {
+      "number": 70,
+      "date": "2026-09-13",
+      "id": "58f195a505c8",
+      "words": [
+        "CUP",
+        "HEAD",
+        "STONE",
+        "WALL",
+        "POT",
+        "TEA"
       ]
     }
   ]

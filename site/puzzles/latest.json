@@ -1,48 +1,48 @@
 {
-  "number": 69,
-  "date": "2026-09-12",
-  "id": "62466bb73ae8",
+  "number": 70,
+  "date": "2026-09-13",
+  "id": "58f195a505c8",
   "words": [
-    "DRUM",
-    "EAR",
-    "RING",
-    "TONE",
-    "KILL",
-    "JOY"
+    "CUP",
+    "HEAD",
+    "STONE",
+    "WALL",
+    "POT",
+    "TEA"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "DRUM|EAR": [
-      "comp",
-      "EARDRUM"
-    ],
-    "DRUM|RING": [
+    "CUP|HEAD": [
       "shar",
-      "EAR"
+      "BOARD"
     ],
-    "DRUM|JOY": [
+    "CUP|POT": [
       "shar",
-      "STICK"
+      "TEA"
     ],
-    "EAR|RING": [
+    "CUP|TEA": [
       "comp",
-      "EARRING"
+      "TEACUP"
     ],
-    "EAR|TONE": [
+    "HEAD|STONE": [
+      "comp",
+      "HEADSTONE"
+    ],
+    "HEAD|WALL": [
       "shar",
-      "RING"
+      "STONE"
     ],
-    "RING|TONE": [
+    "STONE|WALL": [
       "comp",
-      "RINGTONE"
+      "STONEWALL"
     ],
-    "KILL|TONE": [
+    "POT|WALL": [
       "shar",
-      "OVER"
+      "FLOWER"
     ],
-    "JOY|KILL": [
+    "POT|TEA": [
       "comp",
-      "KILLJOY"
+      "TEAPOT"
     ]
   },
   "meta": {

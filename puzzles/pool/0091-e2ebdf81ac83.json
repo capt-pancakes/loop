@@ -1,0 +1,64 @@
+{
+  "id": "e2ebdf81ac83",
+  "words": [
+    "COVER",
+    "DOG",
+    "WOOD",
+    "RED",
+    "HEAD",
+    "SET"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "COVER|DOG": [
+      "shar",
+      "UNDER"
+    ],
+    "COVER|WOOD": [
+      "shar",
+      "HARD"
+    ],
+    "COVER|SET": [
+      "shar",
+      "UP"
+    ],
+    "DOG|WOOD": [
+      "comp",
+      "DOGWOOD"
+    ],
+    "DOG|RED": [
+      "shar",
+      "WOOD"
+    ],
+    "DOG|HEAD": [
+      "shar",
+      "HOT"
+    ],
+    "RED|WOOD": [
+      "comp",
+      "REDWOOD"
+    ],
+    "HEAD|WOOD": [
+      "shar",
+      "RED"
+    ],
+    "HEAD|RED": [
+      "comp",
+      "REDHEAD"
+    ],
+    "RED|SET": [
+      "shar",
+      "HEAD"
+    ],
+    "HEAD|SET": [
+      "comp",
+      "HEADSET"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}
