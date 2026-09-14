@@ -1,54 +1,74 @@
 {
-  "number": 70,
-  "date": "2026-09-13",
-  "id": "58f195a505c8",
+  "number": 71,
+  "date": "2026-09-14",
+  "id": "126811bb85b0",
   "words": [
-    "CUP",
-    "HEAD",
-    "STONE",
-    "WALL",
-    "POT",
-    "TEA"
+    "AIR",
+    "BRUSH",
+    "FIRE",
+    "MAN",
+    "HOLE",
+    "PORT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CUP|HEAD": [
-      "shar",
-      "BOARD"
-    ],
-    "CUP|POT": [
-      "shar",
-      "TEA"
-    ],
-    "CUP|TEA": [
+    "AIR|BRUSH": [
       "comp",
-      "TEACUP"
+      "AIRBRUSH"
     ],
-    "HEAD|STONE": [
-      "comp",
-      "HEADSTONE"
-    ],
-    "HEAD|WALL": [
+    "AIR|FIRE": [
       "shar",
-      "STONE"
+      "BRUSH"
     ],
-    "STONE|WALL": [
-      "comp",
-      "STONEWALL"
-    ],
-    "POT|WALL": [
+    "AIR|MAN": [
       "shar",
-      "FLOWER"
+      "MAIL"
     ],
-    "POT|TEA": [
+    "AIR|HOLE": [
+      "shar",
+      "PORT"
+    ],
+    "AIR|PORT": [
       "comp",
-      "TEAPOT"
+      "AIRPORT"
+    ],
+    "BRUSH|FIRE": [
+      "comp",
+      "BRUSHFIRE"
+    ],
+    "BRUSH|MAN": [
+      "shar",
+      "FIRE"
+    ],
+    "BRUSH|PORT": [
+      "shar",
+      "AIR"
+    ],
+    "FIRE|MAN": [
+      "comp",
+      "FIREMAN"
+    ],
+    "FIRE|HOLE": [
+      "shar",
+      "MAN"
+    ],
+    "HOLE|MAN": [
+      "comp",
+      "MANHOLE"
+    ],
+    "MAN|PORT": [
+      "shar",
+      "HOLE"
+    ],
+    "HOLE|PORT": [
+      "comp",
+      "PORTHOLE"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 37
+    "comp": 6,
+    "shar": 0,
+    "score": 46
   }
 }

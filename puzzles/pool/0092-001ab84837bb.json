@@ -1,0 +1,68 @@
+{
+  "id": "001ab84837bb",
+  "words": [
+    "FRUIT",
+    "GRAPE",
+    "VINE",
+    "YARD",
+    "LUMBER",
+    "JACK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "FRUIT|GRAPE": [
+      "comp",
+      "GRAPEFRUIT"
+    ],
+    "FRUIT|VINE": [
+      "shar",
+      "GRAPE"
+    ],
+    "FRUIT|LUMBER": [
+      "shar",
+      "JACK"
+    ],
+    "FRUIT|JACK": [
+      "comp",
+      "JACKFRUIT"
+    ],
+    "GRAPE|VINE": [
+      "comp",
+      "GRAPEVINE"
+    ],
+    "GRAPE|YARD": [
+      "shar",
+      "VINE"
+    ],
+    "GRAPE|JACK": [
+      "shar",
+      "FRUIT"
+    ],
+    "VINE|YARD": [
+      "comp",
+      "VINEYARD"
+    ],
+    "LUMBER|VINE": [
+      "shar",
+      "YARD"
+    ],
+    "LUMBER|YARD": [
+      "comp",
+      "LUMBERYARD"
+    ],
+    "JACK|YARD": [
+      "shar",
+      "LUMBER"
+    ],
+    "JACK|LUMBER": [
+      "comp",
+      "LUMBERJACK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}

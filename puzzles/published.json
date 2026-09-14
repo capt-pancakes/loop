@@ -1,5 +1,5 @@
 {
-  "nextNumber": 71,
+  "nextNumber": 72,
   "puzzles": [
     {
       "number": 1,
@@ -909,6 +909,19 @@
         "WALL",
         "POT",
         "TEA"
+      ]
+    },
+    {
+      "number": 71,
+      "date": "2026-09-14",
+      "id": "126811bb85b0",
+      "words": [
+        "AIR",
+        "BRUSH",
+        "FIRE",
+        "MAN",
+        "HOLE",
+        "PORT"
       ]
     }
   ]
