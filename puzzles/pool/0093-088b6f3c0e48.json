@@ -1,0 +1,68 @@
+{
+  "id": "088b6f3c0e48",
+  "words": [
+    "AIR",
+    "FARE",
+    "WAR",
+    "SHIP",
+    "BATTLE",
+    "FIELD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AIR|FARE": [
+      "comp",
+      "AIRFARE"
+    ],
+    "AIR|WAR": [
+      "shar",
+      "FARE"
+    ],
+    "AIR|BATTLE": [
+      "shar",
+      "FIELD"
+    ],
+    "AIR|FIELD": [
+      "comp",
+      "AIRFIELD"
+    ],
+    "FARE|WAR": [
+      "comp",
+      "WARFARE"
+    ],
+    "FARE|SHIP": [
+      "shar",
+      "WAR"
+    ],
+    "FARE|FIELD": [
+      "shar",
+      "AIR"
+    ],
+    "SHIP|WAR": [
+      "comp",
+      "WARSHIP"
+    ],
+    "BATTLE|WAR": [
+      "shar",
+      "SHIP"
+    ],
+    "BATTLE|SHIP": [
+      "comp",
+      "BATTLESHIP"
+    ],
+    "FIELD|SHIP": [
+      "shar",
+      "BATTLE"
+    ],
+    "BATTLE|FIELD": [
+      "comp",
+      "BATTLEFIELD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}

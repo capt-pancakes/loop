@@ -1,68 +1,64 @@
 {
-  "number": 71,
-  "date": "2026-09-14",
-  "id": "126811bb85b0",
+  "number": 72,
+  "date": "2026-09-15",
+  "id": "443cb2e32d84",
   "words": [
-    "AIR",
-    "BRUSH",
-    "FIRE",
-    "MAN",
-    "HOLE",
-    "PORT"
+    "FARM",
+    "HOUSE",
+    "PLAY",
+    "MATE",
+    "SHIP",
+    "YARD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "AIR|BRUSH": [
+    "FARM|HOUSE": [
       "comp",
-      "AIRBRUSH"
+      "FARMHOUSE"
     ],
-    "AIR|FIRE": [
+    "FARM|PLAY": [
       "shar",
-      "BRUSH"
+      "HOUSE"
     ],
-    "AIR|MAN": [
+    "FARM|SHIP": [
       "shar",
-      "MAIL"
+      "YARD"
     ],
-    "AIR|HOLE": [
-      "shar",
-      "PORT"
-    ],
-    "AIR|PORT": [
+    "FARM|YARD": [
       "comp",
-      "AIRPORT"
+      "FARMYARD"
     ],
-    "BRUSH|FIRE": [
+    "HOUSE|PLAY": [
       "comp",
-      "BRUSHFIRE"
+      "PLAYHOUSE"
     ],
-    "BRUSH|MAN": [
+    "HOUSE|MATE": [
       "shar",
-      "FIRE"
+      "PLAY"
     ],
-    "BRUSH|PORT": [
+    "HOUSE|YARD": [
       "shar",
-      "AIR"
+      "COURT"
     ],
-    "FIRE|MAN": [
+    "MATE|PLAY": [
       "comp",
-      "FIREMAN"
+      "PLAYMATE"
     ],
-    "FIRE|HOLE": [
+    "PLAY|SHIP": [
       "shar",
-      "MAN"
+      "MATE"
     ],
-    "HOLE|MAN": [
+    "MATE|SHIP": [
       "comp",
-      "MANHOLE"
+      "SHIPMATE"
     ],
-    "MAN|PORT": [
+    "MATE|YARD": [
       "shar",
-      "HOLE"
+      "SHIP"
     ],
-    "HOLE|PORT": [
+    "SHIP|YARD": [
       "comp",
-      "PORTHOLE"
+      "SHIPYARD"
     ]
   },
   "meta": {

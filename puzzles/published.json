@@ -1,5 +1,5 @@
 {
-  "nextNumber": 72,
+  "nextNumber": 73,
   "puzzles": [
     {
       "number": 1,
@@ -922,6 +922,19 @@
         "MAN",
         "HOLE",
         "PORT"
+      ]
+    },
+    {
+      "number": 72,
+      "date": "2026-09-15",
+      "id": "443cb2e32d84",
+      "words": [
+        "FARM",
+        "HOUSE",
+        "PLAY",
+        "MATE",
+        "SHIP",
+        "YARD"
       ]
     }
   ]
