@@ -1,0 +1,68 @@
+{
+  "id": "05f3f6a4ecbd",
+  "words": [
+    "COURT",
+    "HOUSE",
+    "DOOR",
+    "MAN",
+    "SHOW",
+    "ROOM"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "COURT|HOUSE": [
+      "comp",
+      "COURTHOUSE"
+    ],
+    "COURT|SHOW": [
+      "shar",
+      "ROOM"
+    ],
+    "COURT|ROOM": [
+      "comp",
+      "COURTROOM"
+    ],
+    "DOOR|HOUSE": [
+      "shar",
+      "OUT"
+    ],
+    "HOUSE|MAN": [
+      "shar",
+      "FIRE"
+    ],
+    "HOUSE|SHOW": [
+      "shar",
+      "BOAT"
+    ],
+    "HOUSE|ROOM": [
+      "shar",
+      "COURT"
+    ],
+    "DOOR|MAN": [
+      "comp",
+      "DOORMAN"
+    ],
+    "DOOR|SHOW": [
+      "shar",
+      "MAN"
+    ],
+    "MAN|SHOW": [
+      "comp",
+      "SHOWMAN"
+    ],
+    "MAN|ROOM": [
+      "shar",
+      "SHOW"
+    ],
+    "ROOM|SHOW": [
+      "comp",
+      "SHOWROOM"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

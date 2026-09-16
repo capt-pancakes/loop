@@ -1,70 +1,62 @@
 {
-  "number": 72,
-  "date": "2026-09-15",
-  "id": "443cb2e32d84",
+  "number": 73,
+  "date": "2026-09-16",
+  "id": "0495b81adf5c",
   "words": [
-    "FARM",
-    "HOUSE",
-    "PLAY",
-    "MATE",
-    "SHIP",
-    "YARD"
+    "DAY",
+    "LIGHT",
+    "FLASH",
+    "NEWS",
+    "ROOM",
+    "SHOW"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "FARM|HOUSE": [
+    "DAY|LIGHT": [
       "comp",
-      "FARMHOUSE"
+      "DAYLIGHT"
     ],
-    "FARM|PLAY": [
+    "DAY|FLASH": [
       "shar",
-      "HOUSE"
+      "LIGHT"
     ],
-    "FARM|SHIP": [
+    "DAY|SHOW": [
       "shar",
-      "YARD"
+      "TIME"
     ],
-    "FARM|YARD": [
+    "FLASH|LIGHT": [
       "comp",
-      "FARMYARD"
+      "FLASHLIGHT"
     ],
-    "HOUSE|PLAY": [
-      "comp",
-      "PLAYHOUSE"
-    ],
-    "HOUSE|MATE": [
+    "LIGHT|NEWS": [
       "shar",
-      "PLAY"
+      "FLASH"
     ],
-    "HOUSE|YARD": [
-      "shar",
-      "COURT"
-    ],
-    "MATE|PLAY": [
+    "FLASH|NEWS": [
       "comp",
-      "PLAYMATE"
+      "NEWSFLASH"
     ],
-    "PLAY|SHIP": [
+    "FLASH|ROOM": [
       "shar",
-      "MATE"
+      "NEWS"
     ],
-    "MATE|SHIP": [
+    "NEWS|ROOM": [
       "comp",
-      "SHIPMATE"
+      "NEWSROOM"
     ],
-    "MATE|YARD": [
+    "NEWS|SHOW": [
       "shar",
-      "SHIP"
+      "ROOM"
     ],
-    "SHIP|YARD": [
+    "ROOM|SHOW": [
       "comp",
-      "SHIPYARD"
+      "SHOWROOM"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 46
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }
