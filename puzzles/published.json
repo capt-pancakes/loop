@@ -1,5 +1,5 @@
 {
-  "nextNumber": 74,
+  "nextNumber": 75,
   "puzzles": [
     {
       "number": 1,
@@ -948,6 +948,19 @@
         "NEWS",
         "ROOM",
         "SHOW"
+      ]
+    },
+    {
+      "number": 74,
+      "date": "2026-09-17",
+      "id": "0de41f0f081e",
+      "words": [
+        "HAIR",
+        "LINE",
+        "SIDE",
+        "RING",
+        "KEY",
+        "PIN"
       ]
     }
   ]

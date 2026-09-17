@@ -1,0 +1,60 @@
+{
+  "id": "0b505a9a704d",
+  "words": [
+    "BURN",
+    "SUN",
+    "LIGHT",
+    "PEN",
+    "TAIL",
+    "WIND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BURN|SUN": [
+      "comp",
+      "SUNBURN"
+    ],
+    "BURN|LIGHT": [
+      "shar",
+      "SUN"
+    ],
+    "BURN|TAIL": [
+      "shar",
+      "WIND"
+    ],
+    "BURN|WIND": [
+      "comp",
+      "WINDBURN"
+    ],
+    "LIGHT|SUN": [
+      "comp",
+      "SUNLIGHT"
+    ],
+    "PEN|SUN": [
+      "shar",
+      "LIGHT"
+    ],
+    "SUN|WIND": [
+      "shar",
+      "DOWN"
+    ],
+    "LIGHT|PEN": [
+      "comp",
+      "PENLIGHT"
+    ],
+    "PEN|TAIL": [
+      "shar",
+      "PIG"
+    ],
+    "TAIL|WIND": [
+      "comp",
+      "TAILWIND"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

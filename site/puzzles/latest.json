@@ -1,62 +1,62 @@
 {
-  "number": 73,
-  "date": "2026-09-16",
-  "id": "0495b81adf5c",
+  "number": 74,
+  "date": "2026-09-17",
+  "id": "0de41f0f081e",
   "words": [
-    "DAY",
-    "LIGHT",
-    "FLASH",
-    "NEWS",
-    "ROOM",
-    "SHOW"
+    "HAIR",
+    "LINE",
+    "SIDE",
+    "RING",
+    "KEY",
+    "PIN"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "DAY|LIGHT": [
+    "HAIR|LINE": [
       "comp",
-      "DAYLIGHT"
+      "HAIRLINE"
     ],
-    "DAY|FLASH": [
+    "HAIR|SIDE": [
       "shar",
-      "LIGHT"
+      "LINE"
     ],
-    "DAY|SHOW": [
-      "shar",
-      "TIME"
-    ],
-    "FLASH|LIGHT": [
+    "HAIR|PIN": [
       "comp",
-      "FLASHLIGHT"
+      "HAIRPIN"
     ],
-    "LIGHT|NEWS": [
-      "shar",
-      "FLASH"
-    ],
-    "FLASH|NEWS": [
+    "LINE|SIDE": [
       "comp",
-      "NEWSFLASH"
+      "SIDELINE"
     ],
-    "FLASH|ROOM": [
+    "LINE|RING": [
       "shar",
-      "NEWS"
+      "SIDE"
     ],
-    "NEWS|ROOM": [
-      "comp",
-      "NEWSROOM"
-    ],
-    "NEWS|SHOW": [
+    "LINE|PIN": [
       "shar",
-      "ROOM"
+      "CLOTHES"
     ],
-    "ROOM|SHOW": [
+    "RING|SIDE": [
       "comp",
-      "SHOWROOM"
+      "RINGSIDE"
+    ],
+    "KEY|SIDE": [
+      "shar",
+      "RING"
+    ],
+    "KEY|RING": [
+      "comp",
+      "KEYRING"
+    ],
+    "KEY|PIN": [
+      "shar",
+      "HOLE"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 5,
     "shar": 1,
-    "score": 41
+    "score": 42
   }
 }
