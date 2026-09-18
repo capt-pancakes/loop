@@ -1,62 +1,74 @@
 {
-  "number": 74,
-  "date": "2026-09-17",
-  "id": "0de41f0f081e",
+  "number": 75,
+  "date": "2026-09-18",
+  "id": "0788c7c368bf",
   "words": [
-    "HAIR",
-    "LINE",
-    "SIDE",
-    "RING",
-    "KEY",
-    "PIN"
+    "ARM",
+    "BAND",
+    "STAND",
+    "POINT",
+    "GUN",
+    "HAND"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "HAIR|LINE": [
+    "ARM|BAND": [
       "comp",
-      "HAIRLINE"
+      "ARMBAND"
     ],
-    "HAIR|SIDE": [
+    "ARM|STAND": [
       "shar",
-      "LINE"
+      "UNDER"
     ],
-    "HAIR|PIN": [
+    "ARM|GUN": [
+      "shar",
+      "FIRE"
+    ],
+    "ARM|HAND": [
+      "shar",
+      "FORE"
+    ],
+    "BAND|STAND": [
       "comp",
-      "HAIRPIN"
+      "BANDSTAND"
     ],
-    "LINE|SIDE": [
+    "BAND|POINT": [
+      "shar",
+      "STAND"
+    ],
+    "BAND|HAND": [
+      "shar",
+      "STAND"
+    ],
+    "POINT|STAND": [
       "comp",
-      "SIDELINE"
+      "STANDPOINT"
     ],
-    "LINE|RING": [
+    "GUN|STAND": [
       "shar",
-      "SIDE"
+      "HAND"
     ],
-    "LINE|PIN": [
-      "shar",
-      "CLOTHES"
-    ],
-    "RING|SIDE": [
+    "HAND|STAND": [
       "comp",
-      "RINGSIDE"
+      "HANDSTAND"
     ],
-    "KEY|SIDE": [
-      "shar",
-      "RING"
-    ],
-    "KEY|RING": [
+    "GUN|POINT": [
       "comp",
-      "KEYRING"
+      "GUNPOINT"
     ],
-    "KEY|PIN": [
+    "HAND|POINT": [
       "shar",
-      "HOLE"
+      "GUN"
+    ],
+    "GUN|HAND": [
+      "comp",
+      "HANDGUN"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 5,
     "shar": 1,
-    "score": 42
+    "score": 41
   }
 }

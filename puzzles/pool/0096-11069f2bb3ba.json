@@ -1,0 +1,64 @@
+{
+  "id": "11069f2bb3ba",
+  "words": [
+    "BREAK",
+    "FAST",
+    "HAIR",
+    "LINE",
+    "PIPE",
+    "WIND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BREAK|FAST": [
+      "comp",
+      "BREAKFAST"
+    ],
+    "BREAK|LINE": [
+      "shar",
+      "OUT"
+    ],
+    "BREAK|PIPE": [
+      "shar",
+      "WIND"
+    ],
+    "BREAK|WIND": [
+      "comp",
+      "WINDBREAK"
+    ],
+    "FAST|HAIR": [
+      "shar",
+      "BALL"
+    ],
+    "FAST|WIND": [
+      "shar",
+      "BREAK"
+    ],
+    "HAIR|LINE": [
+      "comp",
+      "HAIRLINE"
+    ],
+    "HAIR|PIPE": [
+      "shar",
+      "LINE"
+    ],
+    "LINE|PIPE": [
+      "comp",
+      "PIPELINE"
+    ],
+    "LINE|WIND": [
+      "shar",
+      "PIPE"
+    ],
+    "PIPE|WIND": [
+      "comp",
+      "WINDPIPE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
