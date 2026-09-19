@@ -1,0 +1,52 @@
+{
+  "id": "4ce0ec911cbb",
+  "words": [
+    "FLAG",
+    "KEY",
+    "PAD",
+    "LOCK",
+    "WAR",
+    "SHIP"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "FLAG|KEY": [
+      "shar",
+      "STONE"
+    ],
+    "FLAG|WAR": [
+      "shar",
+      "SHIP"
+    ],
+    "FLAG|SHIP": [
+      "comp",
+      "FLAGSHIP"
+    ],
+    "KEY|PAD": [
+      "comp",
+      "KEYPAD"
+    ],
+    "KEY|LOCK": [
+      "shar",
+      "PAD"
+    ],
+    "LOCK|PAD": [
+      "comp",
+      "PADLOCK"
+    ],
+    "LOCK|WAR": [
+      "shar",
+      "HEAD"
+    ],
+    "SHIP|WAR": [
+      "comp",
+      "WARSHIP"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 37
+  }
+}

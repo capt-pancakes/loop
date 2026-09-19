@@ -1,74 +1,58 @@
 {
-  "number": 75,
-  "date": "2026-09-18",
-  "id": "0788c7c368bf",
+  "number": 76,
+  "date": "2026-09-19",
+  "id": "70293dc300eb",
   "words": [
-    "ARM",
-    "BAND",
-    "STAND",
-    "POINT",
-    "GUN",
-    "HAND"
+    "HOLE",
+    "KEY",
+    "MOON",
+    "LIGHT",
+    "SUN",
+    "POT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "ARM|BAND": [
+    "HOLE|KEY": [
       "comp",
-      "ARMBAND"
+      "KEYHOLE"
     ],
-    "ARM|STAND": [
-      "shar",
-      "UNDER"
-    ],
-    "ARM|GUN": [
-      "shar",
-      "FIRE"
-    ],
-    "ARM|HAND": [
-      "shar",
-      "FORE"
-    ],
-    "BAND|STAND": [
+    "HOLE|POT": [
       "comp",
-      "BANDSTAND"
+      "POTHOLE"
     ],
-    "BAND|POINT": [
+    "KEY|MOON": [
       "shar",
-      "STAND"
+      "STONE"
     ],
-    "BAND|HAND": [
+    "KEY|SUN": [
       "shar",
-      "STAND"
+      "STROKE"
     ],
-    "POINT|STAND": [
-      "comp",
-      "STANDPOINT"
-    ],
-    "GUN|STAND": [
+    "KEY|POT": [
       "shar",
-      "HAND"
+      "HOLE"
     ],
-    "HAND|STAND": [
+    "LIGHT|MOON": [
       "comp",
-      "HANDSTAND"
+      "MOONLIGHT"
     ],
-    "GUN|POINT": [
-      "comp",
-      "GUNPOINT"
-    ],
-    "HAND|POINT": [
+    "MOON|SUN": [
       "shar",
-      "GUN"
+      "BEAM"
     ],
-    "GUN|HAND": [
+    "LIGHT|SUN": [
       "comp",
-      "HANDGUN"
+      "SUNLIGHT"
+    ],
+    "POT|SUN": [
+      "shar",
+      "FLOWER"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 41
+    "comp": 4,
+    "shar": 2,
+    "score": 37
   }
 }
