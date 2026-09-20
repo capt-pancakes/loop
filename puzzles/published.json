@@ -1,5 +1,5 @@
 {
-  "nextNumber": 77,
+  "nextNumber": 78,
   "puzzles": [
     {
       "number": 1,
@@ -987,6 +987,19 @@
         "LIGHT",
         "SUN",
         "POT"
+      ]
+    },
+    {
+      "number": 77,
+      "date": "2026-09-20",
+      "id": "842d92bd8125",
+      "words": [
+        "ART",
+        "BODY",
+        "SUIT",
+        "WET",
+        "LAND",
+        "HOME"
       ]
     }
   ]

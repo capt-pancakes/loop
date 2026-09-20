@@ -1,52 +1,64 @@
 {
-  "number": 76,
-  "date": "2026-09-19",
-  "id": "70293dc300eb",
+  "number": 77,
+  "date": "2026-09-20",
+  "id": "842d92bd8125",
   "words": [
-    "HOLE",
-    "KEY",
-    "MOON",
-    "LIGHT",
-    "SUN",
-    "POT"
+    "ART",
+    "BODY",
+    "SUIT",
+    "WET",
+    "LAND",
+    "HOME"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "HOLE|KEY": [
+    "ART|BODY": [
+      "shar",
+      "WORK"
+    ],
+    "ART|HOME": [
+      "shar",
+      "WORK"
+    ],
+    "BODY|SUIT": [
       "comp",
-      "KEYHOLE"
+      "BODYSUIT"
     ],
-    "HOLE|POT": [
+    "BODY|WET": [
+      "shar",
+      "SUIT"
+    ],
+    "BODY|LAND": [
+      "shar",
+      "HOME"
+    ],
+    "BODY|HOME": [
       "comp",
-      "POTHOLE"
+      "HOMEBODY"
     ],
-    "KEY|MOON": [
-      "shar",
-      "STONE"
-    ],
-    "KEY|SUN": [
-      "shar",
-      "STROKE"
-    ],
-    "KEY|POT": [
-      "shar",
-      "HOLE"
-    ],
-    "LIGHT|MOON": [
+    "SUIT|WET": [
       "comp",
-      "MOONLIGHT"
+      "WETSUIT"
     ],
-    "MOON|SUN": [
+    "LAND|SUIT": [
       "shar",
-      "BEAM"
+      "WET"
     ],
-    "LIGHT|SUN": [
+    "HOME|SUIT": [
+      "shar",
+      "BODY"
+    ],
+    "LAND|WET": [
       "comp",
-      "SUNLIGHT"
+      "WETLAND"
     ],
-    "POT|SUN": [
+    "HOME|WET": [
       "shar",
-      "FLOWER"
+      "LAND"
+    ],
+    "HOME|LAND": [
+      "comp",
+      "HOMELAND"
     ]
   },
   "meta": {

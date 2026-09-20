@@ -1,0 +1,56 @@
+{
+  "id": "047fc61c450d",
+  "words": [
+    "COAT",
+    "DROP",
+    "KICK",
+    "SIDE",
+    "RING",
+    "TONE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "COAT|DROP": [
+      "shar",
+      "RAIN"
+    ],
+    "COAT|TONE": [
+      "shar",
+      "OVER"
+    ],
+    "DROP|KICK": [
+      "comp",
+      "DROPKICK"
+    ],
+    "DROP|SIDE": [
+      "shar",
+      "BACK"
+    ],
+    "KICK|SIDE": [
+      "comp",
+      "SIDEKICK"
+    ],
+    "KICK|RING": [
+      "shar",
+      "SIDE"
+    ],
+    "RING|SIDE": [
+      "comp",
+      "RINGSIDE"
+    ],
+    "SIDE|TONE": [
+      "shar",
+      "RING"
+    ],
+    "RING|TONE": [
+      "comp",
+      "RINGTONE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}
