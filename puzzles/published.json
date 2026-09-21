@@ -1,5 +1,5 @@
 {
-  "nextNumber": 78,
+  "nextNumber": 79,
   "puzzles": [
     {
       "number": 1,
@@ -1000,6 +1000,19 @@
         "WET",
         "LAND",
         "HOME"
+      ]
+    },
+    {
+      "number": 78,
+      "date": "2026-09-21",
+      "id": "4a6aefa619bf",
+      "words": [
+        "BOAT",
+        "LIFE",
+        "GUARD",
+        "RAIL",
+        "WAY",
+        "SPEED"
       ]
     }
   ]
