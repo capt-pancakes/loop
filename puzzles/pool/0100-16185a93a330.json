@@ -1,0 +1,72 @@
+{
+  "id": "16185a93a330",
+  "words": [
+    "BOARD",
+    "CARD",
+    "FLASH",
+    "LIGHT",
+    "MOON",
+    "WALK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOARD|CARD": [
+      "comp",
+      "CARDBOARD"
+    ],
+    "BOARD|FLASH": [
+      "shar",
+      "CARD"
+    ],
+    "BOARD|LIGHT": [
+      "shar",
+      "HEAD"
+    ],
+    "BOARD|MOON": [
+      "shar",
+      "WALK"
+    ],
+    "BOARD|WALK": [
+      "comp",
+      "BOARDWALK"
+    ],
+    "CARD|FLASH": [
+      "comp",
+      "FLASHCARD"
+    ],
+    "CARD|LIGHT": [
+      "shar",
+      "FLASH"
+    ],
+    "CARD|WALK": [
+      "shar",
+      "BOARD"
+    ],
+    "FLASH|LIGHT": [
+      "comp",
+      "FLASHLIGHT"
+    ],
+    "FLASH|MOON": [
+      "shar",
+      "LIGHT"
+    ],
+    "LIGHT|MOON": [
+      "comp",
+      "MOONLIGHT"
+    ],
+    "LIGHT|WALK": [
+      "shar",
+      "MOON"
+    ],
+    "MOON|WALK": [
+      "comp",
+      "MOONWALK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}

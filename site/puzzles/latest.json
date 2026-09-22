@@ -1,70 +1,70 @@
 {
-  "number": 78,
-  "date": "2026-09-21",
-  "id": "4a6aefa619bf",
+  "number": 79,
+  "date": "2026-09-22",
+  "id": "12f739962223",
   "words": [
-    "BOAT",
-    "LIFE",
-    "GUARD",
-    "RAIL",
-    "WAY",
-    "SPEED"
+    "BED",
+    "FLOWER",
+    "WALL",
+    "PAPER",
+    "NEWS",
+    "ROOM"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOAT|LIFE": [
+    "BED|FLOWER": [
       "comp",
-      "LIFEBOAT"
+      "FLOWERBED"
     ],
-    "BOAT|GUARD": [
+    "BED|WALL": [
       "shar",
-      "LIFE"
+      "FLOWER"
     ],
-    "BOAT|WAY": [
+    "BED|NEWS": [
       "shar",
-      "MOTOR"
+      "ROOM"
     ],
-    "BOAT|SPEED": [
+    "BED|ROOM": [
       "comp",
-      "SPEEDBOAT"
+      "BEDROOM"
     ],
-    "GUARD|LIFE": [
+    "FLOWER|WALL": [
       "comp",
-      "LIFEGUARD"
+      "WALLFLOWER"
     ],
-    "LIFE|RAIL": [
+    "FLOWER|PAPER": [
       "shar",
-      "GUARD"
+      "WALL"
     ],
-    "LIFE|SPEED": [
+    "FLOWER|ROOM": [
       "shar",
-      "BOAT"
+      "BED"
     ],
-    "GUARD|RAIL": [
+    "PAPER|WALL": [
       "comp",
-      "GUARDRAIL"
+      "WALLPAPER"
     ],
-    "GUARD|WAY": [
+    "NEWS|WALL": [
       "shar",
-      "RAIL"
+      "PAPER"
     ],
-    "RAIL|WAY": [
+    "NEWS|PAPER": [
       "comp",
-      "RAILWAY"
+      "NEWSPAPER"
     ],
-    "RAIL|SPEED": [
+    "PAPER|ROOM": [
       "shar",
-      "WAY"
+      "NEWS"
     ],
-    "SPEED|WAY": [
+    "NEWS|ROOM": [
       "comp",
-      "SPEEDWAY"
+      "NEWSROOM"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 6,
     "shar": 0,
-    "score": 46
+    "score": 45
   }
 }
