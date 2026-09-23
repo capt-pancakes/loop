@@ -1,0 +1,68 @@
+{
+  "id": "0b7a0a1d3010",
+  "words": [
+    "BODY",
+    "GUARD",
+    "LIFE",
+    "FIRE",
+    "WORK",
+    "HOME"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BODY|GUARD": [
+      "comp",
+      "BODYGUARD"
+    ],
+    "BODY|LIFE": [
+      "shar",
+      "GUARD"
+    ],
+    "BODY|FIRE": [
+      "shar",
+      "WORK"
+    ],
+    "BODY|WORK": [
+      "comp",
+      "BODYWORK"
+    ],
+    "BODY|HOME": [
+      "comp",
+      "HOMEBODY"
+    ],
+    "GUARD|LIFE": [
+      "comp",
+      "LIFEGUARD"
+    ],
+    "GUARD|WORK": [
+      "shar",
+      "BODY"
+    ],
+    "GUARD|HOME": [
+      "shar",
+      "BODY"
+    ],
+    "FIRE|LIFE": [
+      "shar",
+      "WILD"
+    ],
+    "FIRE|WORK": [
+      "comp",
+      "FIREWORK"
+    ],
+    "FIRE|HOME": [
+      "shar",
+      "WORK"
+    ],
+    "HOME|WORK": [
+      "comp",
+      "HOMEWORK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
