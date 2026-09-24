@@ -1,5 +1,5 @@
 {
-  "nextNumber": 81,
+  "nextNumber": 82,
   "puzzles": [
     {
       "number": 1,
@@ -1039,6 +1039,19 @@
         "WAY",
         "PATH",
         "NOTE"
+      ]
+    },
+    {
+      "number": 81,
+      "date": "2026-09-24",
+      "id": "0c94afcf1429",
+      "words": [
+        "END",
+        "GAME",
+        "SNOW",
+        "FALL",
+        "NIGHT",
+        "WEEK"
       ]
     }
   ]

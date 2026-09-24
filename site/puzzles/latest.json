@@ -1,56 +1,56 @@
 {
-  "number": 80,
-  "date": "2026-09-23",
-  "id": "021b16dd55f0",
+  "number": 81,
+  "date": "2026-09-24",
+  "id": "0c94afcf1429",
   "words": [
-    "BOOK",
-    "CASE",
-    "STAIR",
-    "WAY",
-    "PATH",
-    "NOTE"
+    "END",
+    "GAME",
+    "SNOW",
+    "FALL",
+    "NIGHT",
+    "WEEK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOOK|CASE": [
+    "END|GAME": [
       "comp",
-      "BOOKCASE"
+      "ENDGAME"
     ],
-    "BOOK|STAIR": [
+    "END|NIGHT": [
       "shar",
-      "CASE"
+      "WEEK"
     ],
-    "BOOK|NOTE": [
+    "END|WEEK": [
       "comp",
-      "NOTEBOOK"
+      "WEEKEND"
     ],
-    "CASE|STAIR": [
+    "GAME|SNOW": [
+      "shar",
+      "BALL"
+    ],
+    "GAME|WEEK": [
+      "shar",
+      "END"
+    ],
+    "FALL|SNOW": [
       "comp",
-      "STAIRCASE"
+      "SNOWFALL"
     ],
-    "CASE|WAY": [
+    "NIGHT|SNOW": [
       "shar",
-      "STAIR"
+      "FALL"
     ],
-    "CASE|NOTE": [
-      "shar",
-      "BOOK"
-    ],
-    "STAIR|WAY": [
+    "FALL|NIGHT": [
       "comp",
-      "STAIRWAY"
+      "NIGHTFALL"
     ],
-    "PATH|STAIR": [
+    "FALL|WEEK": [
       "shar",
-      "WAY"
+      "NIGHT"
     ],
-    "PATH|WAY": [
+    "NIGHT|WEEK": [
       "comp",
-      "PATHWAY"
-    ],
-    "NOTE|PATH": [
-      "shar",
-      "FOOT"
+      "WEEKNIGHT"
     ]
   },
   "meta": {

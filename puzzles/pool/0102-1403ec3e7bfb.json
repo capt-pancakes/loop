@@ -1,0 +1,64 @@
+{
+  "id": "1403ec3e7bfb",
+  "words": [
+    "ACHE",
+    "DROP",
+    "RAIN",
+    "FALL",
+    "LAND",
+    "HEART"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "ACHE|DROP": [
+      "shar",
+      "BACK"
+    ],
+    "ACHE|FALL": [
+      "shar",
+      "BACK"
+    ],
+    "ACHE|LAND": [
+      "shar",
+      "HEART"
+    ],
+    "ACHE|HEART": [
+      "comp",
+      "HEARTACHE"
+    ],
+    "DROP|RAIN": [
+      "comp",
+      "RAINDROP"
+    ],
+    "DROP|FALL": [
+      "shar",
+      "BACK"
+    ],
+    "FALL|RAIN": [
+      "comp",
+      "RAINFALL"
+    ],
+    "LAND|RAIN": [
+      "shar",
+      "FALL"
+    ],
+    "FALL|LAND": [
+      "comp",
+      "LANDFALL"
+    ],
+    "FALL|HEART": [
+      "shar",
+      "LAND"
+    ],
+    "HEART|LAND": [
+      "comp",
+      "HEARTLAND"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
