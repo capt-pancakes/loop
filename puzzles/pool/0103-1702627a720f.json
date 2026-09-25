@@ -1,0 +1,60 @@
+{
+  "id": "1702627a720f",
+  "words": [
+    "BEAM",
+    "MOON",
+    "WALK",
+    "CAT",
+    "FLOWER",
+    "SUN"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BEAM|MOON": [
+      "comp",
+      "MOONBEAM"
+    ],
+    "BEAM|WALK": [
+      "shar",
+      "MOON"
+    ],
+    "BEAM|FLOWER": [
+      "shar",
+      "SUN"
+    ],
+    "BEAM|SUN": [
+      "comp",
+      "SUNBEAM"
+    ],
+    "MOON|WALK": [
+      "comp",
+      "MOONWALK"
+    ],
+    "CAT|MOON": [
+      "shar",
+      "WALK"
+    ],
+    "MOON|SUN": [
+      "shar",
+      "LIGHT"
+    ],
+    "CAT|WALK": [
+      "comp",
+      "CATWALK"
+    ],
+    "CAT|FLOWER": [
+      "shar",
+      "WILD"
+    ],
+    "FLOWER|SUN": [
+      "comp",
+      "SUNFLOWER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

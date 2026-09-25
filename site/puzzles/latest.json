@@ -1,56 +1,56 @@
 {
-  "number": 81,
-  "date": "2026-09-24",
-  "id": "0c94afcf1429",
+  "number": 82,
+  "date": "2026-09-25",
+  "id": "010ab630fc01",
   "words": [
-    "END",
-    "GAME",
-    "SNOW",
-    "FALL",
-    "NIGHT",
-    "WEEK"
+    "ACHE",
+    "DOOR",
+    "STEP",
+    "FOOT",
+    "REST",
+    "HEAD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "END|GAME": [
-      "comp",
-      "ENDGAME"
-    ],
-    "END|NIGHT": [
+    "ACHE|DOOR": [
       "shar",
-      "WEEK"
+      "BACK"
     ],
-    "END|WEEK": [
-      "comp",
-      "WEEKEND"
-    ],
-    "GAME|SNOW": [
+    "ACHE|REST": [
       "shar",
-      "BALL"
+      "HEAD"
     ],
-    "GAME|WEEK": [
-      "shar",
-      "END"
-    ],
-    "FALL|SNOW": [
+    "ACHE|HEAD": [
       "comp",
-      "SNOWFALL"
+      "HEADACHE"
     ],
-    "NIGHT|SNOW": [
-      "shar",
-      "FALL"
-    ],
-    "FALL|NIGHT": [
+    "DOOR|STEP": [
       "comp",
-      "NIGHTFALL"
+      "DOORSTEP"
     ],
-    "FALL|WEEK": [
+    "DOOR|FOOT": [
       "shar",
-      "NIGHT"
+      "STEP"
     ],
-    "NIGHT|WEEK": [
+    "FOOT|STEP": [
       "comp",
-      "WEEKNIGHT"
+      "FOOTSTEP"
+    ],
+    "REST|STEP": [
+      "shar",
+      "FOOT"
+    ],
+    "FOOT|REST": [
+      "comp",
+      "FOOTREST"
+    ],
+    "FOOT|HEAD": [
+      "shar",
+      "REST"
+    ],
+    "HEAD|REST": [
+      "comp",
+      "HEADREST"
     ]
   },
   "meta": {
