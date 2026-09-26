@@ -1,62 +1,58 @@
 {
-  "number": 82,
-  "date": "2026-09-25",
-  "id": "010ab630fc01",
+  "number": 83,
+  "date": "2026-09-26",
+  "id": "b560a941676f",
   "words": [
-    "ACHE",
-    "DOOR",
-    "STEP",
-    "FOOT",
-    "REST",
-    "HEAD"
+    "CAP",
+    "ICE",
+    "LUNCH",
+    "TIME",
+    "DAY",
+    "WEEK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "ACHE|DOOR": [
-      "shar",
-      "BACK"
-    ],
-    "ACHE|REST": [
-      "shar",
-      "HEAD"
-    ],
-    "ACHE|HEAD": [
+    "CAP|ICE": [
       "comp",
-      "HEADACHE"
+      "ICECAP"
     ],
-    "DOOR|STEP": [
-      "comp",
-      "DOORSTEP"
-    ],
-    "DOOR|FOOT": [
+    "CAP|TIME": [
       "shar",
-      "STEP"
+      "NIGHT"
     ],
-    "FOOT|STEP": [
-      "comp",
-      "FOOTSTEP"
-    ],
-    "REST|STEP": [
+    "CAP|WEEK": [
       "shar",
-      "FOOT"
+      "NIGHT"
     ],
-    "FOOT|REST": [
-      "comp",
-      "FOOTREST"
-    ],
-    "FOOT|HEAD": [
+    "ICE|LUNCH": [
       "shar",
-      "REST"
+      "BOX"
     ],
-    "HEAD|REST": [
+    "LUNCH|TIME": [
       "comp",
-      "HEADREST"
+      "LUNCHTIME"
+    ],
+    "DAY|LUNCH": [
+      "shar",
+      "TIME"
+    ],
+    "DAY|TIME": [
+      "comp",
+      "DAYTIME"
+    ],
+    "TIME|WEEK": [
+      "shar",
+      "NIGHT"
+    ],
+    "DAY|WEEK": [
+      "comp",
+      "WEEKDAY"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 41
+    "comp": 4,
+    "shar": 2,
+    "score": 37
   }
 }

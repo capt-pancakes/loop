@@ -1,0 +1,52 @@
+{
+  "id": "00b2c1d95c2d",
+  "words": [
+    "BUG",
+    "LADY",
+    "FINGER",
+    "TIP",
+    "SHOW",
+    "ROOM"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BUG|LADY": [
+      "comp",
+      "LADYBUG"
+    ],
+    "BUG|FINGER": [
+      "shar",
+      "LADY"
+    ],
+    "BUG|ROOM": [
+      "shar",
+      "BED"
+    ],
+    "FINGER|LADY": [
+      "comp",
+      "LADYFINGER"
+    ],
+    "LADY|TIP": [
+      "shar",
+      "FINGER"
+    ],
+    "FINGER|TIP": [
+      "comp",
+      "FINGERTIP"
+    ],
+    "SHOW|TIP": [
+      "shar",
+      "OFF"
+    ],
+    "ROOM|SHOW": [
+      "comp",
+      "SHOWROOM"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

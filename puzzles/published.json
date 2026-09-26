@@ -1,5 +1,5 @@
 {
-  "nextNumber": 83,
+  "nextNumber": 84,
   "puzzles": [
     {
       "number": 1,
@@ -1065,6 +1065,19 @@
         "FOOT",
         "REST",
         "HEAD"
+      ]
+    },
+    {
+      "number": 83,
+      "date": "2026-09-26",
+      "id": "b560a941676f",
+      "words": [
+        "CAP",
+        "ICE",
+        "LUNCH",
+        "TIME",
+        "DAY",
+        "WEEK"
       ]
     }
   ]
