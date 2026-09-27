@@ -1,5 +1,5 @@
 {
-  "nextNumber": 84,
+  "nextNumber": 85,
   "puzzles": [
     {
       "number": 1,
@@ -1078,6 +1078,19 @@
         "TIME",
         "DAY",
         "WEEK"
+      ]
+    },
+    {
+      "number": 84,
+      "date": "2026-09-27",
+      "id": "01bdf388c108",
+      "words": [
+        "BORDER",
+        "HAIR",
+        "NET",
+        "FISH",
+        "TAIL",
+        "PIPE"
       ]
     }
   ]

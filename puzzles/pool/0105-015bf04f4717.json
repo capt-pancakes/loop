@@ -1,0 +1,60 @@
+{
+  "id": "015bf04f4717",
+  "words": [
+    "CAST",
+    "DOOR",
+    "WAY",
+    "GATE",
+    "KEEPER",
+    "TIME"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAST|DOOR": [
+      "shar",
+      "OUT"
+    ],
+    "CAST|TIME": [
+      "shar",
+      "OUT"
+    ],
+    "DOOR|WAY": [
+      "comp",
+      "DOORWAY"
+    ],
+    "DOOR|GATE": [
+      "shar",
+      "WAY"
+    ],
+    "DOOR|TIME": [
+      "shar",
+      "FRAME"
+    ],
+    "GATE|WAY": [
+      "comp",
+      "GATEWAY"
+    ],
+    "KEEPER|WAY": [
+      "shar",
+      "GATE"
+    ],
+    "GATE|KEEPER": [
+      "comp",
+      "GATEKEEPER"
+    ],
+    "GATE|TIME": [
+      "shar",
+      "KEEPER"
+    ],
+    "KEEPER|TIME": [
+      "comp",
+      "TIMEKEEPER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

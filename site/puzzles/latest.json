@@ -1,58 +1,62 @@
 {
-  "number": 83,
-  "date": "2026-09-26",
-  "id": "b560a941676f",
+  "number": 84,
+  "date": "2026-09-27",
+  "id": "01bdf388c108",
   "words": [
-    "CAP",
-    "ICE",
-    "LUNCH",
-    "TIME",
-    "DAY",
-    "WEEK"
+    "BORDER",
+    "HAIR",
+    "NET",
+    "FISH",
+    "TAIL",
+    "PIPE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CAP|ICE": [
+    "BORDER|HAIR": [
+      "shar",
+      "LINE"
+    ],
+    "BORDER|PIPE": [
+      "shar",
+      "LINE"
+    ],
+    "HAIR|NET": [
       "comp",
-      "ICECAP"
+      "HAIRNET"
     ],
-    "CAP|TIME": [
+    "FISH|HAIR": [
       "shar",
-      "NIGHT"
+      "NET"
     ],
-    "CAP|WEEK": [
+    "HAIR|PIPE": [
       "shar",
-      "NIGHT"
+      "LINE"
     ],
-    "ICE|LUNCH": [
-      "shar",
-      "BOX"
-    ],
-    "LUNCH|TIME": [
+    "FISH|NET": [
       "comp",
-      "LUNCHTIME"
+      "FISHNET"
     ],
-    "DAY|LUNCH": [
+    "NET|TAIL": [
       "shar",
-      "TIME"
+      "FISH"
     ],
-    "DAY|TIME": [
+    "FISH|TAIL": [
       "comp",
-      "DAYTIME"
+      "FISHTAIL"
     ],
-    "TIME|WEEK": [
+    "FISH|PIPE": [
       "shar",
-      "NIGHT"
+      "TAIL"
     ],
-    "DAY|WEEK": [
+    "PIPE|TAIL": [
       "comp",
-      "WEEKDAY"
+      "TAILPIPE"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 4,
     "shar": 2,
-    "score": 37
+    "score": 36
   }
 }
