@@ -1,62 +1,70 @@
 {
-  "number": 84,
-  "date": "2026-09-27",
-  "id": "01bdf388c108",
+  "number": 85,
+  "date": "2026-09-28",
+  "id": "9d746a549af0",
   "words": [
-    "BORDER",
-    "HAIR",
-    "NET",
-    "FISH",
-    "TAIL",
-    "PIPE"
+    "BED",
+    "HOT",
+    "DOG",
+    "WATCH",
+    "NIGHT",
+    "TIME"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BORDER|HAIR": [
-      "shar",
-      "LINE"
-    ],
-    "BORDER|PIPE": [
-      "shar",
-      "LINE"
-    ],
-    "HAIR|NET": [
+    "BED|HOT": [
       "comp",
-      "HAIRNET"
+      "HOTBED"
     ],
-    "FISH|HAIR": [
+    "BED|DOG": [
       "shar",
-      "NET"
+      "HOT"
     ],
-    "HAIR|PIPE": [
+    "BED|NIGHT": [
       "shar",
-      "LINE"
+      "TIME"
     ],
-    "FISH|NET": [
+    "BED|TIME": [
       "comp",
-      "FISHNET"
+      "BEDTIME"
     ],
-    "NET|TAIL": [
-      "shar",
-      "FISH"
-    ],
-    "FISH|TAIL": [
+    "DOG|HOT": [
       "comp",
-      "FISHTAIL"
+      "HOTDOG"
     ],
-    "FISH|PIPE": [
+    "HOT|WATCH": [
       "shar",
-      "TAIL"
+      "DOG"
     ],
-    "PIPE|TAIL": [
+    "HOT|TIME": [
+      "shar",
+      "BED"
+    ],
+    "DOG|WATCH": [
       "comp",
-      "TAILPIPE"
+      "WATCHDOG"
+    ],
+    "DOG|NIGHT": [
+      "shar",
+      "WATCH"
+    ],
+    "NIGHT|WATCH": [
+      "comp",
+      "NIGHTWATCH"
+    ],
+    "TIME|WATCH": [
+      "shar",
+      "NIGHT"
+    ],
+    "NIGHT|TIME": [
+      "comp",
+      "NIGHTTIME"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 36
+    "comp": 6,
+    "shar": 0,
+    "score": 46
   }
 }

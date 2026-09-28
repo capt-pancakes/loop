@@ -1,0 +1,68 @@
+{
+  "id": "5563983137d6",
+  "words": [
+    "CAKE",
+    "HOT",
+    "HEAD",
+    "LINE",
+    "DEAD",
+    "PAN"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAKE|HOT": [
+      "comp",
+      "HOTCAKE"
+    ],
+    "CAKE|HEAD": [
+      "shar",
+      "HOT"
+    ],
+    "CAKE|DEAD": [
+      "shar",
+      "PAN"
+    ],
+    "CAKE|PAN": [
+      "comp",
+      "PANCAKE"
+    ],
+    "HEAD|HOT": [
+      "comp",
+      "HOTHEAD"
+    ],
+    "HOT|LINE": [
+      "shar",
+      "HEAD"
+    ],
+    "HOT|PAN": [
+      "shar",
+      "CAKE"
+    ],
+    "HEAD|LINE": [
+      "comp",
+      "HEADLINE"
+    ],
+    "DEAD|HEAD": [
+      "shar",
+      "LOCK"
+    ],
+    "DEAD|LINE": [
+      "comp",
+      "DEADLINE"
+    ],
+    "LINE|PAN": [
+      "shar",
+      "DEAD"
+    ],
+    "DEAD|PAN": [
+      "comp",
+      "DEADPAN"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}
