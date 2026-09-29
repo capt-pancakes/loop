@@ -1,0 +1,72 @@
+{
+  "id": "c0073616aa7a",
+  "words": [
+    "FIRE",
+    "HOUSE",
+    "PLAY",
+    "TIME",
+    "LIFE",
+    "WILD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "FIRE|HOUSE": [
+      "comp",
+      "FIREHOUSE"
+    ],
+    "FIRE|PLAY": [
+      "shar",
+      "HOUSE"
+    ],
+    "FIRE|LIFE": [
+      "shar",
+      "WILD"
+    ],
+    "FIRE|WILD": [
+      "comp",
+      "WILDFIRE"
+    ],
+    "HOUSE|PLAY": [
+      "comp",
+      "PLAYHOUSE"
+    ],
+    "HOUSE|TIME": [
+      "shar",
+      "KEEPER"
+    ],
+    "HOUSE|LIFE": [
+      "shar",
+      "BOAT"
+    ],
+    "HOUSE|WILD": [
+      "shar",
+      "FIRE"
+    ],
+    "PLAY|TIME": [
+      "comp",
+      "PLAYTIME"
+    ],
+    "LIFE|PLAY": [
+      "shar",
+      "TIME"
+    ],
+    "LIFE|TIME": [
+      "comp",
+      "LIFETIME"
+    ],
+    "TIME|WILD": [
+      "shar",
+      "LIFE"
+    ],
+    "LIFE|WILD": [
+      "comp",
+      "WILDLIFE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}

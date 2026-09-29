@@ -1,5 +1,5 @@
 {
-  "nextNumber": 86,
+  "nextNumber": 87,
   "puzzles": [
     {
       "number": 1,
@@ -1104,6 +1104,19 @@
         "WATCH",
         "NIGHT",
         "TIME"
+      ]
+    },
+    {
+      "number": 86,
+      "date": "2026-09-29",
+      "id": "07cb329f4486",
+      "words": [
+        "FIRE",
+        "GUN",
+        "POINT",
+        "PIN",
+        "WHEEL",
+        "HOUSE"
       ]
     }
   ]

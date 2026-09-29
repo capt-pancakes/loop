@@ -1,70 +1,74 @@
 {
-  "number": 85,
-  "date": "2026-09-28",
-  "id": "9d746a549af0",
+  "number": 86,
+  "date": "2026-09-29",
+  "id": "07cb329f4486",
   "words": [
-    "BED",
-    "HOT",
-    "DOG",
-    "WATCH",
-    "NIGHT",
-    "TIME"
+    "FIRE",
+    "GUN",
+    "POINT",
+    "PIN",
+    "WHEEL",
+    "HOUSE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BED|HOT": [
+    "FIRE|GUN": [
       "comp",
-      "HOTBED"
+      "GUNFIRE"
     ],
-    "BED|DOG": [
+    "FIRE|POINT": [
       "shar",
-      "HOT"
+      "BALL"
     ],
-    "BED|NIGHT": [
+    "FIRE|PIN": [
       "shar",
-      "TIME"
+      "BALL"
     ],
-    "BED|TIME": [
+    "FIRE|WHEEL": [
+      "shar",
+      "FLY"
+    ],
+    "FIRE|HOUSE": [
       "comp",
-      "BEDTIME"
+      "FIREHOUSE"
     ],
-    "DOG|HOT": [
+    "GUN|POINT": [
       "comp",
-      "HOTDOG"
+      "GUNPOINT"
     ],
-    "HOT|WATCH": [
+    "GUN|PIN": [
       "shar",
-      "DOG"
+      "POINT"
     ],
-    "HOT|TIME": [
+    "GUN|HOUSE": [
       "shar",
-      "BED"
+      "FIRE"
     ],
-    "DOG|WATCH": [
+    "PIN|POINT": [
       "comp",
-      "WATCHDOG"
+      "PINPOINT"
     ],
-    "DOG|NIGHT": [
+    "POINT|WHEEL": [
       "shar",
-      "WATCH"
+      "PIN"
     ],
-    "NIGHT|WATCH": [
+    "PIN|WHEEL": [
       "comp",
-      "NIGHTWATCH"
+      "PINWHEEL"
     ],
-    "TIME|WATCH": [
+    "HOUSE|PIN": [
       "shar",
-      "NIGHT"
+      "WHEEL"
     ],
-    "NIGHT|TIME": [
+    "HOUSE|WHEEL": [
       "comp",
-      "NIGHTTIME"
+      "WHEELHOUSE"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 6,
     "shar": 0,
-    "score": 46
+    "score": 45
   }
 }
