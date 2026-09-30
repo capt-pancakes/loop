@@ -1,5 +1,5 @@
 {
-  "nextNumber": 87,
+  "nextNumber": 88,
   "puzzles": [
     {
       "number": 1,
@@ -1117,6 +1117,19 @@
         "PIN",
         "WHEEL",
         "HOUSE"
+      ]
+    },
+    {
+      "number": 87,
+      "date": "2026-09-30",
+      "id": "0aa771cec68d",
+      "words": [
+        "BOW",
+        "CROSS",
+        "MAN",
+        "FRESH",
+        "WATER",
+        "RAIN"
       ]
     }
   ]

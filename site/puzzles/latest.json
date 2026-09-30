@@ -1,74 +1,62 @@
 {
-  "number": 86,
-  "date": "2026-09-29",
-  "id": "07cb329f4486",
+  "number": 87,
+  "date": "2026-09-30",
+  "id": "0aa771cec68d",
   "words": [
-    "FIRE",
-    "GUN",
-    "POINT",
-    "PIN",
-    "WHEEL",
-    "HOUSE"
+    "BOW",
+    "CROSS",
+    "MAN",
+    "FRESH",
+    "WATER",
+    "RAIN"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "FIRE|GUN": [
+    "BOW|CROSS": [
       "comp",
-      "GUNFIRE"
+      "CROSSBOW"
     ],
-    "FIRE|POINT": [
+    "BOW|WATER": [
       "shar",
-      "BALL"
+      "RAIN"
     ],
-    "FIRE|PIN": [
-      "shar",
-      "BALL"
-    ],
-    "FIRE|WHEEL": [
-      "shar",
-      "FLY"
-    ],
-    "FIRE|HOUSE": [
+    "BOW|RAIN": [
       "comp",
-      "FIREHOUSE"
+      "RAINBOW"
     ],
-    "GUN|POINT": [
-      "comp",
-      "GUNPOINT"
-    ],
-    "GUN|PIN": [
-      "shar",
-      "POINT"
-    ],
-    "GUN|HOUSE": [
+    "CROSS|MAN": [
       "shar",
       "FIRE"
     ],
-    "PIN|POINT": [
-      "comp",
-      "PINPOINT"
-    ],
-    "POINT|WHEEL": [
+    "CROSS|RAIN": [
       "shar",
-      "PIN"
+      "BOW"
     ],
-    "PIN|WHEEL": [
+    "FRESH|MAN": [
       "comp",
-      "PINWHEEL"
+      "FRESHMAN"
     ],
-    "HOUSE|PIN": [
+    "MAN|WATER": [
       "shar",
-      "WHEEL"
+      "FRESH"
     ],
-    "HOUSE|WHEEL": [
+    "FRESH|WATER": [
       "comp",
-      "WHEELHOUSE"
+      "FRESHWATER"
+    ],
+    "FRESH|RAIN": [
+      "shar",
+      "WATER"
+    ],
+    "RAIN|WATER": [
+      "comp",
+      "RAINWATER"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 45
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }

@@ -1,0 +1,60 @@
+{
+  "id": "01298efeceda",
+  "words": [
+    "CUT",
+    "HAIR",
+    "PIN",
+    "HOLE",
+    "MAN",
+    "WOOD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CUT|HAIR": [
+      "comp",
+      "HAIRCUT"
+    ],
+    "CUT|PIN": [
+      "shar",
+      "HAIR"
+    ],
+    "CUT|WOOD": [
+      "comp",
+      "WOODCUT"
+    ],
+    "HAIR|PIN": [
+      "comp",
+      "HAIRPIN"
+    ],
+    "HAIR|HOLE": [
+      "shar",
+      "PIN"
+    ],
+    "HAIR|WOOD": [
+      "shar",
+      "CUT"
+    ],
+    "HOLE|PIN": [
+      "comp",
+      "PINHOLE"
+    ],
+    "MAN|PIN": [
+      "shar",
+      "HOLE"
+    ],
+    "HOLE|MAN": [
+      "comp",
+      "MANHOLE"
+    ],
+    "MAN|WOOD": [
+      "shar",
+      "FIRE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
