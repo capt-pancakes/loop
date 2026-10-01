@@ -1,0 +1,64 @@
+{
+  "id": "1a5f688c002a",
+  "words": [
+    "BAG",
+    "HAND",
+    "LAP",
+    "TOP",
+    "BLACK",
+    "MAIL"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BAG|HAND": [
+      "comp",
+      "HANDBAG"
+    ],
+    "BAG|BLACK": [
+      "shar",
+      "MAIL"
+    ],
+    "BAG|MAIL": [
+      "comp",
+      "MAILBAG"
+    ],
+    "HAND|LAP": [
+      "shar",
+      "OVER"
+    ],
+    "BLACK|HAND": [
+      "shar",
+      "OUT"
+    ],
+    "HAND|MAIL": [
+      "shar",
+      "BAG"
+    ],
+    "LAP|TOP": [
+      "comp",
+      "LAPTOP"
+    ],
+    "BLACK|LAP": [
+      "shar",
+      "TOP"
+    ],
+    "BLACK|TOP": [
+      "comp",
+      "BLACKTOP"
+    ],
+    "MAIL|TOP": [
+      "shar",
+      "BLACK"
+    ],
+    "BLACK|MAIL": [
+      "comp",
+      "BLACKMAIL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

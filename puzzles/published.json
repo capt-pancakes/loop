@@ -1,5 +1,5 @@
 {
-  "nextNumber": 88,
+  "nextNumber": 89,
   "puzzles": [
     {
       "number": 1,
@@ -1130,6 +1130,19 @@
         "FRESH",
         "WATER",
         "RAIN"
+      ]
+    },
+    {
+      "number": 88,
+      "date": "2026-10-01",
+      "id": "10446d058e6d",
+      "words": [
+        "BOOK",
+        "CASE",
+        "SUIT",
+        "GUARD",
+        "RAIL",
+        "HAND"
       ]
     }
   ]

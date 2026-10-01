@@ -1,56 +1,56 @@
 {
-  "number": 87,
-  "date": "2026-09-30",
-  "id": "0aa771cec68d",
+  "number": 88,
+  "date": "2026-10-01",
+  "id": "10446d058e6d",
   "words": [
-    "BOW",
-    "CROSS",
-    "MAN",
-    "FRESH",
-    "WATER",
-    "RAIN"
+    "BOOK",
+    "CASE",
+    "SUIT",
+    "GUARD",
+    "RAIL",
+    "HAND"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOW|CROSS": [
+    "BOOK|CASE": [
       "comp",
-      "CROSSBOW"
+      "BOOKCASE"
     ],
-    "BOW|WATER": [
+    "BOOK|SUIT": [
       "shar",
-      "RAIN"
+      "CASE"
     ],
-    "BOW|RAIN": [
+    "BOOK|RAIL": [
+      "shar",
+      "HAND"
+    ],
+    "BOOK|HAND": [
       "comp",
-      "RAINBOW"
+      "HANDBOOK"
     ],
-    "CROSS|MAN": [
-      "shar",
-      "FIRE"
-    ],
-    "CROSS|RAIN": [
-      "shar",
-      "BOW"
-    ],
-    "FRESH|MAN": [
+    "CASE|SUIT": [
       "comp",
-      "FRESHMAN"
+      "SUITCASE"
     ],
-    "MAN|WATER": [
+    "CASE|HAND": [
       "shar",
-      "FRESH"
+      "BOOK"
     ],
-    "FRESH|WATER": [
-      "comp",
-      "FRESHWATER"
-    ],
-    "FRESH|RAIN": [
+    "GUARD|SUIT": [
       "shar",
-      "WATER"
+      "BODY"
     ],
-    "RAIN|WATER": [
+    "GUARD|RAIL": [
       "comp",
-      "RAINWATER"
+      "GUARDRAIL"
+    ],
+    "GUARD|HAND": [
+      "shar",
+      "RAIL"
+    ],
+    "HAND|RAIL": [
+      "comp",
+      "HANDRAIL"
     ]
   },
   "meta": {
