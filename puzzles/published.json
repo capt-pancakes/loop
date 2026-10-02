@@ -1,5 +1,5 @@
 {
-  "nextNumber": 89,
+  "nextNumber": 90,
   "puzzles": [
     {
       "number": 1,
@@ -1143,6 +1143,19 @@
         "GUARD",
         "RAIL",
         "HAND"
+      ]
+    },
+    {
+      "number": 89,
+      "date": "2026-10-02",
+      "id": "1285af1a64e5",
+      "words": [
+        "CAR",
+        "POOL",
+        "SIDE",
+        "KICK",
+        "TRACK",
+        "RACE"
       ]
     }
   ]

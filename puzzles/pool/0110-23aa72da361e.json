@@ -1,0 +1,60 @@
+{
+  "id": "23aa72da361e",
+  "words": [
+    "BUTTER",
+    "FLY",
+    "GUN",
+    "HAND",
+    "SHAKE",
+    "MILK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BUTTER|FLY": [
+      "comp",
+      "BUTTERFLY"
+    ],
+    "BUTTER|SHAKE": [
+      "shar",
+      "MILK"
+    ],
+    "BUTTER|MILK": [
+      "comp",
+      "BUTTERMILK"
+    ],
+    "FLY|GUN": [
+      "shar",
+      "FIRE"
+    ],
+    "FLY|MILK": [
+      "shar",
+      "BUTTER"
+    ],
+    "GUN|HAND": [
+      "comp",
+      "HANDGUN"
+    ],
+    "GUN|SHAKE": [
+      "shar",
+      "HAND"
+    ],
+    "HAND|SHAKE": [
+      "comp",
+      "HANDSHAKE"
+    ],
+    "HAND|MILK": [
+      "shar",
+      "SHAKE"
+    ],
+    "MILK|SHAKE": [
+      "comp",
+      "MILKSHAKE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
