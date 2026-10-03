@@ -1,0 +1,60 @@
+{
+  "id": "05e4cb8588bb",
+  "words": [
+    "BILL",
+    "CLIP",
+    "PAPER",
+    "WALL",
+    "STONE",
+    "KEY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BILL|CLIP": [
+      "shar",
+      "BOARD"
+    ],
+    "BILL|KEY": [
+      "shar",
+      "BOARD"
+    ],
+    "CLIP|PAPER": [
+      "comp",
+      "PAPERCLIP"
+    ],
+    "CLIP|WALL": [
+      "shar",
+      "PAPER"
+    ],
+    "CLIP|KEY": [
+      "shar",
+      "BOARD"
+    ],
+    "PAPER|WALL": [
+      "comp",
+      "WALLPAPER"
+    ],
+    "PAPER|STONE": [
+      "shar",
+      "SAND"
+    ],
+    "STONE|WALL": [
+      "comp",
+      "STONEWALL"
+    ],
+    "KEY|WALL": [
+      "shar",
+      "STONE"
+    ],
+    "KEY|STONE": [
+      "comp",
+      "KEYSTONE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}
