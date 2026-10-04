@@ -1,0 +1,52 @@
+{
+  "id": "0b5d7fbbd546",
+  "words": [
+    "KICK",
+    "RAIN",
+    "WATER",
+    "MARK",
+    "POST",
+    "SIDE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "KICK|RAIN": [
+      "shar",
+      "DROP"
+    ],
+    "KICK|SIDE": [
+      "comp",
+      "SIDEKICK"
+    ],
+    "RAIN|WATER": [
+      "comp",
+      "RAINWATER"
+    ],
+    "MARK|RAIN": [
+      "shar",
+      "WATER"
+    ],
+    "MARK|WATER": [
+      "comp",
+      "WATERMARK"
+    ],
+    "POST|WATER": [
+      "shar",
+      "MARK"
+    ],
+    "MARK|POST": [
+      "comp",
+      "POSTMARK"
+    ],
+    "POST|SIDE": [
+      "shar",
+      "OUT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

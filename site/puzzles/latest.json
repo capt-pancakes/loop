@@ -1,70 +1,66 @@
 {
-  "number": 90,
-  "date": "2026-10-03",
-  "id": "00913d60d829",
+  "number": 91,
+  "date": "2026-10-04",
+  "id": "e2ebdf81ac83",
   "words": [
-    "BUZZ",
-    "PLAY",
-    "WHEEL",
-    "FLY",
-    "HORSE",
-    "SAW"
+    "COVER",
+    "DOG",
+    "WOOD",
+    "RED",
+    "HEAD",
+    "SET"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BUZZ|PLAY": [
+    "COVER|DOG": [
       "shar",
-      "WORD"
+      "UNDER"
     ],
-    "BUZZ|HORSE": [
+    "COVER|WOOD": [
       "shar",
-      "SAW"
+      "HARD"
     ],
-    "BUZZ|SAW": [
+    "COVER|SET": [
+      "shar",
+      "UP"
+    ],
+    "DOG|WOOD": [
       "comp",
-      "BUZZSAW"
+      "DOGWOOD"
     ],
-    "PLAY|WHEEL": [
+    "DOG|RED": [
       "shar",
-      "HOUSE"
+      "WOOD"
     ],
-    "FLY|PLAY": [
+    "DOG|HEAD": [
       "shar",
-      "HOUSE"
+      "HOT"
     ],
-    "HORSE|PLAY": [
+    "RED|WOOD": [
       "comp",
-      "HORSEPLAY"
+      "REDWOOD"
     ],
-    "PLAY|SAW": [
+    "HEAD|WOOD": [
       "shar",
-      "HORSE"
+      "RED"
     ],
-    "FLY|WHEEL": [
+    "HEAD|RED": [
       "comp",
-      "FLYWHEEL"
+      "REDHEAD"
     ],
-    "HORSE|WHEEL": [
+    "RED|SET": [
       "shar",
-      "FLY"
+      "HEAD"
     ],
-    "FLY|HORSE": [
+    "HEAD|SET": [
       "comp",
-      "HORSEFLY"
-    ],
-    "FLY|SAW": [
-      "shar",
-      "HORSE"
-    ],
-    "HORSE|SAW": [
-      "comp",
-      "SAWHORSE"
+      "HEADSET"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 4,
     "shar": 2,
-    "score": 36
+    "score": 37
   }
 }

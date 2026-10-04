@@ -1,5 +1,5 @@
 {
-  "nextNumber": 91,
+  "nextNumber": 92,
   "puzzles": [
     {
       "number": 1,
@@ -1169,6 +1169,19 @@
         "FLY",
         "HORSE",
         "SAW"
+      ]
+    },
+    {
+      "number": 91,
+      "date": "2026-10-04",
+      "id": "e2ebdf81ac83",
+      "words": [
+        "COVER",
+        "DOG",
+        "WOOD",
+        "RED",
+        "HEAD",
+        "SET"
       ]
     }
   ]
