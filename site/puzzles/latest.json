@@ -1,66 +1,70 @@
 {
-  "number": 91,
-  "date": "2026-10-04",
-  "id": "e2ebdf81ac83",
+  "number": 92,
+  "date": "2026-10-05",
+  "id": "001ab84837bb",
   "words": [
-    "COVER",
-    "DOG",
-    "WOOD",
-    "RED",
-    "HEAD",
-    "SET"
+    "FRUIT",
+    "GRAPE",
+    "VINE",
+    "YARD",
+    "LUMBER",
+    "JACK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "COVER|DOG": [
-      "shar",
-      "UNDER"
-    ],
-    "COVER|WOOD": [
-      "shar",
-      "HARD"
-    ],
-    "COVER|SET": [
-      "shar",
-      "UP"
-    ],
-    "DOG|WOOD": [
+    "FRUIT|GRAPE": [
       "comp",
-      "DOGWOOD"
+      "GRAPEFRUIT"
     ],
-    "DOG|RED": [
+    "FRUIT|VINE": [
       "shar",
-      "WOOD"
+      "GRAPE"
     ],
-    "DOG|HEAD": [
+    "FRUIT|LUMBER": [
       "shar",
-      "HOT"
+      "JACK"
     ],
-    "RED|WOOD": [
+    "FRUIT|JACK": [
       "comp",
-      "REDWOOD"
+      "JACKFRUIT"
     ],
-    "HEAD|WOOD": [
-      "shar",
-      "RED"
-    ],
-    "HEAD|RED": [
+    "GRAPE|VINE": [
       "comp",
-      "REDHEAD"
+      "GRAPEVINE"
     ],
-    "RED|SET": [
+    "GRAPE|YARD": [
       "shar",
-      "HEAD"
+      "VINE"
     ],
-    "HEAD|SET": [
+    "GRAPE|JACK": [
+      "shar",
+      "FRUIT"
+    ],
+    "VINE|YARD": [
       "comp",
-      "HEADSET"
+      "VINEYARD"
+    ],
+    "LUMBER|VINE": [
+      "shar",
+      "YARD"
+    ],
+    "LUMBER|YARD": [
+      "comp",
+      "LUMBERYARD"
+    ],
+    "JACK|YARD": [
+      "shar",
+      "LUMBER"
+    ],
+    "JACK|LUMBER": [
+      "comp",
+      "LUMBERJACK"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 37
+    "comp": 6,
+    "shar": 0,
+    "score": 45
   }
 }

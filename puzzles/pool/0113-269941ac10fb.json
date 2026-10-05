@@ -1,0 +1,68 @@
+{
+  "id": "269941ac10fb",
+  "words": [
+    "AIR",
+    "BAG",
+    "SAND",
+    "STONE",
+    "HEAD",
+    "LOCK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AIR|BAG": [
+      "comp",
+      "AIRBAG"
+    ],
+    "AIR|SAND": [
+      "shar",
+      "BAG"
+    ],
+    "AIR|HEAD": [
+      "shar",
+      "LINE"
+    ],
+    "AIR|LOCK": [
+      "comp",
+      "AIRLOCK"
+    ],
+    "BAG|SAND": [
+      "comp",
+      "SANDBAG"
+    ],
+    "BAG|STONE": [
+      "shar",
+      "SAND"
+    ],
+    "BAG|LOCK": [
+      "shar",
+      "AIR"
+    ],
+    "SAND|STONE": [
+      "comp",
+      "SANDSTONE"
+    ],
+    "HEAD|SAND": [
+      "shar",
+      "STONE"
+    ],
+    "HEAD|STONE": [
+      "comp",
+      "HEADSTONE"
+    ],
+    "LOCK|STONE": [
+      "shar",
+      "HEAD"
+    ],
+    "HEAD|LOCK": [
+      "comp",
+      "HEADLOCK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}

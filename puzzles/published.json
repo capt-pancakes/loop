@@ -1,5 +1,5 @@
 {
-  "nextNumber": 92,
+  "nextNumber": 93,
   "puzzles": [
     {
       "number": 1,
@@ -1182,6 +1182,19 @@
         "RED",
         "HEAD",
         "SET"
+      ]
+    },
+    {
+      "number": 92,
+      "date": "2026-10-05",
+      "id": "001ab84837bb",
+      "words": [
+        "FRUIT",
+        "GRAPE",
+        "VINE",
+        "YARD",
+        "LUMBER",
+        "JACK"
       ]
     }
   ]
