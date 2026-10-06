@@ -1,0 +1,68 @@
+{
+  "id": "92b0e75e319d",
+  "words": [
+    "BOOK",
+    "MARK",
+    "WATER",
+    "FALL",
+    "FOOT",
+    "NOTE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOOK|MARK": [
+      "comp",
+      "BOOKMARK"
+    ],
+    "BOOK|WATER": [
+      "shar",
+      "MARK"
+    ],
+    "BOOK|FOOT": [
+      "shar",
+      "NOTE"
+    ],
+    "BOOK|NOTE": [
+      "comp",
+      "NOTEBOOK"
+    ],
+    "MARK|WATER": [
+      "comp",
+      "WATERMARK"
+    ],
+    "FALL|MARK": [
+      "shar",
+      "LAND"
+    ],
+    "MARK|NOTE": [
+      "shar",
+      "BOOK"
+    ],
+    "FALL|WATER": [
+      "comp",
+      "WATERFALL"
+    ],
+    "FOOT|WATER": [
+      "shar",
+      "FALL"
+    ],
+    "FALL|FOOT": [
+      "comp",
+      "FOOTFALL"
+    ],
+    "FALL|NOTE": [
+      "shar",
+      "FOOT"
+    ],
+    "FOOT|NOTE": [
+      "comp",
+      "FOOTNOTE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}

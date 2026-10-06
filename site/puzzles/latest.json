@@ -1,64 +1,64 @@
 {
-  "number": 92,
-  "date": "2026-10-05",
-  "id": "001ab84837bb",
+  "number": 93,
+  "date": "2026-10-06",
+  "id": "088b6f3c0e48",
   "words": [
-    "FRUIT",
-    "GRAPE",
-    "VINE",
-    "YARD",
-    "LUMBER",
-    "JACK"
+    "AIR",
+    "FARE",
+    "WAR",
+    "SHIP",
+    "BATTLE",
+    "FIELD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "FRUIT|GRAPE": [
+    "AIR|FARE": [
       "comp",
-      "GRAPEFRUIT"
+      "AIRFARE"
     ],
-    "FRUIT|VINE": [
+    "AIR|WAR": [
       "shar",
-      "GRAPE"
+      "FARE"
     ],
-    "FRUIT|LUMBER": [
+    "AIR|BATTLE": [
       "shar",
-      "JACK"
+      "FIELD"
     ],
-    "FRUIT|JACK": [
+    "AIR|FIELD": [
       "comp",
-      "JACKFRUIT"
+      "AIRFIELD"
     ],
-    "GRAPE|VINE": [
+    "FARE|WAR": [
       "comp",
-      "GRAPEVINE"
+      "WARFARE"
     ],
-    "GRAPE|YARD": [
+    "FARE|SHIP": [
       "shar",
-      "VINE"
+      "WAR"
     ],
-    "GRAPE|JACK": [
+    "FARE|FIELD": [
       "shar",
-      "FRUIT"
+      "AIR"
     ],
-    "VINE|YARD": [
+    "SHIP|WAR": [
       "comp",
-      "VINEYARD"
+      "WARSHIP"
     ],
-    "LUMBER|VINE": [
+    "BATTLE|WAR": [
       "shar",
-      "YARD"
+      "SHIP"
     ],
-    "LUMBER|YARD": [
+    "BATTLE|SHIP": [
       "comp",
-      "LUMBERYARD"
+      "BATTLESHIP"
     ],
-    "JACK|YARD": [
+    "FIELD|SHIP": [
       "shar",
-      "LUMBER"
+      "BATTLE"
     ],
-    "JACK|LUMBER": [
+    "BATTLE|FIELD": [
       "comp",
-      "LUMBERJACK"
+      "BATTLEFIELD"
     ]
   },
   "meta": {
