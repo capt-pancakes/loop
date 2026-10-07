@@ -1,0 +1,60 @@
+{
+  "id": "1e6eb793e4d6",
+  "words": [
+    "CASE",
+    "SHOW",
+    "MAN",
+    "POST",
+    "LAW",
+    "SUIT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CASE|SHOW": [
+      "comp",
+      "SHOWCASE"
+    ],
+    "CASE|MAN": [
+      "shar",
+      "SHOW"
+    ],
+    "CASE|LAW": [
+      "shar",
+      "SUIT"
+    ],
+    "CASE|SUIT": [
+      "comp",
+      "SUITCASE"
+    ],
+    "MAN|SHOW": [
+      "comp",
+      "SHOWMAN"
+    ],
+    "POST|SHOW": [
+      "shar",
+      "MAN"
+    ],
+    "SHOW|SUIT": [
+      "shar",
+      "CASE"
+    ],
+    "MAN|POST": [
+      "comp",
+      "POSTMAN"
+    ],
+    "LAW|POST": [
+      "shar",
+      "OUT"
+    ],
+    "LAW|SUIT": [
+      "comp",
+      "LAWSUIT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

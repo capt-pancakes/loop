@@ -1,70 +1,70 @@
 {
-  "number": 93,
-  "date": "2026-10-06",
-  "id": "088b6f3c0e48",
+  "number": 94,
+  "date": "2026-10-07",
+  "id": "05f3f6a4ecbd",
   "words": [
-    "AIR",
-    "FARE",
-    "WAR",
-    "SHIP",
-    "BATTLE",
-    "FIELD"
+    "COURT",
+    "HOUSE",
+    "DOOR",
+    "MAN",
+    "SHOW",
+    "ROOM"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "AIR|FARE": [
+    "COURT|HOUSE": [
       "comp",
-      "AIRFARE"
+      "COURTHOUSE"
     ],
-    "AIR|WAR": [
+    "COURT|SHOW": [
       "shar",
-      "FARE"
+      "ROOM"
     ],
-    "AIR|BATTLE": [
-      "shar",
-      "FIELD"
-    ],
-    "AIR|FIELD": [
+    "COURT|ROOM": [
       "comp",
-      "AIRFIELD"
+      "COURTROOM"
     ],
-    "FARE|WAR": [
-      "comp",
-      "WARFARE"
-    ],
-    "FARE|SHIP": [
+    "DOOR|HOUSE": [
       "shar",
-      "WAR"
+      "OUT"
     ],
-    "FARE|FIELD": [
+    "HOUSE|MAN": [
       "shar",
-      "AIR"
+      "FIRE"
     ],
-    "SHIP|WAR": [
-      "comp",
-      "WARSHIP"
-    ],
-    "BATTLE|WAR": [
+    "HOUSE|SHOW": [
       "shar",
-      "SHIP"
+      "BOAT"
     ],
-    "BATTLE|SHIP": [
-      "comp",
-      "BATTLESHIP"
-    ],
-    "FIELD|SHIP": [
+    "HOUSE|ROOM": [
       "shar",
-      "BATTLE"
+      "COURT"
     ],
-    "BATTLE|FIELD": [
+    "DOOR|MAN": [
       "comp",
-      "BATTLEFIELD"
+      "DOORMAN"
+    ],
+    "DOOR|SHOW": [
+      "shar",
+      "MAN"
+    ],
+    "MAN|SHOW": [
+      "comp",
+      "SHOWMAN"
+    ],
+    "MAN|ROOM": [
+      "shar",
+      "SHOW"
+    ],
+    "ROOM|SHOW": [
+      "comp",
+      "SHOWROOM"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 45
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }
