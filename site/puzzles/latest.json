@@ -1,64 +1,56 @@
 {
-  "number": 94,
-  "date": "2026-10-07",
-  "id": "05f3f6a4ecbd",
+  "number": 95,
+  "date": "2026-10-08",
+  "id": "0b505a9a704d",
   "words": [
-    "COURT",
-    "HOUSE",
-    "DOOR",
-    "MAN",
-    "SHOW",
-    "ROOM"
+    "BURN",
+    "SUN",
+    "LIGHT",
+    "PEN",
+    "TAIL",
+    "WIND"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "COURT|HOUSE": [
+    "BURN|SUN": [
       "comp",
-      "COURTHOUSE"
+      "SUNBURN"
     ],
-    "COURT|SHOW": [
+    "BURN|LIGHT": [
       "shar",
-      "ROOM"
+      "SUN"
     ],
-    "COURT|ROOM": [
+    "BURN|TAIL": [
+      "shar",
+      "WIND"
+    ],
+    "BURN|WIND": [
       "comp",
-      "COURTROOM"
+      "WINDBURN"
     ],
-    "DOOR|HOUSE": [
-      "shar",
-      "OUT"
-    ],
-    "HOUSE|MAN": [
-      "shar",
-      "FIRE"
-    ],
-    "HOUSE|SHOW": [
-      "shar",
-      "BOAT"
-    ],
-    "HOUSE|ROOM": [
-      "shar",
-      "COURT"
-    ],
-    "DOOR|MAN": [
+    "LIGHT|SUN": [
       "comp",
-      "DOORMAN"
+      "SUNLIGHT"
     ],
-    "DOOR|SHOW": [
+    "PEN|SUN": [
       "shar",
-      "MAN"
+      "LIGHT"
     ],
-    "MAN|SHOW": [
-      "comp",
-      "SHOWMAN"
-    ],
-    "MAN|ROOM": [
+    "SUN|WIND": [
       "shar",
-      "SHOW"
+      "DOWN"
     ],
-    "ROOM|SHOW": [
+    "LIGHT|PEN": [
       "comp",
-      "SHOWROOM"
+      "PENLIGHT"
+    ],
+    "PEN|TAIL": [
+      "shar",
+      "PIG"
+    ],
+    "TAIL|WIND": [
+      "comp",
+      "TAILWIND"
     ]
   },
   "meta": {

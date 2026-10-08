@@ -1,0 +1,60 @@
+{
+  "id": "30a653b2a534",
+  "words": [
+    "BELL",
+    "COW",
+    "GIRL",
+    "SCHOOL",
+    "YARD",
+    "DOOR"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BELL|COW": [
+      "comp",
+      "COWBELL"
+    ],
+    "BELL|GIRL": [
+      "shar",
+      "COW"
+    ],
+    "BELL|DOOR": [
+      "comp",
+      "DOORBELL"
+    ],
+    "COW|GIRL": [
+      "comp",
+      "COWGIRL"
+    ],
+    "COW|SCHOOL": [
+      "shar",
+      "BOY"
+    ],
+    "COW|DOOR": [
+      "shar",
+      "BELL"
+    ],
+    "GIRL|SCHOOL": [
+      "comp",
+      "SCHOOLGIRL"
+    ],
+    "GIRL|YARD": [
+      "shar",
+      "SCHOOL"
+    ],
+    "SCHOOL|YARD": [
+      "comp",
+      "SCHOOLYARD"
+    ],
+    "DOOR|YARD": [
+      "shar",
+      "BACK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
