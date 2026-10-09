@@ -1,0 +1,60 @@
+{
+  "id": "39ae6150f5f2",
+  "words": [
+    "CAR",
+    "RACE",
+    "HORSE",
+    "WORK",
+    "PAPER",
+    "SAND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAR|RACE": [
+      "comp",
+      "RACECAR"
+    ],
+    "CAR|HORSE": [
+      "shar",
+      "RACE"
+    ],
+    "CAR|SAND": [
+      "shar",
+      "BOX"
+    ],
+    "HORSE|RACE": [
+      "comp",
+      "RACEHORSE"
+    ],
+    "RACE|WORK": [
+      "shar",
+      "HORSE"
+    ],
+    "HORSE|WORK": [
+      "comp",
+      "WORKHORSE"
+    ],
+    "HORSE|PAPER": [
+      "shar",
+      "BACK"
+    ],
+    "PAPER|WORK": [
+      "comp",
+      "PAPERWORK"
+    ],
+    "SAND|WORK": [
+      "shar",
+      "PAPER"
+    ],
+    "PAPER|SAND": [
+      "comp",
+      "SANDPAPER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

@@ -1,56 +1,60 @@
 {
-  "number": 95,
-  "date": "2026-10-08",
-  "id": "0b505a9a704d",
+  "number": 96,
+  "date": "2026-10-09",
+  "id": "11069f2bb3ba",
   "words": [
-    "BURN",
-    "SUN",
-    "LIGHT",
-    "PEN",
-    "TAIL",
+    "BREAK",
+    "FAST",
+    "HAIR",
+    "LINE",
+    "PIPE",
     "WIND"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BURN|SUN": [
+    "BREAK|FAST": [
       "comp",
-      "SUNBURN"
+      "BREAKFAST"
     ],
-    "BURN|LIGHT": [
+    "BREAK|LINE": [
       "shar",
-      "SUN"
+      "OUT"
     ],
-    "BURN|TAIL": [
+    "BREAK|PIPE": [
       "shar",
       "WIND"
     ],
-    "BURN|WIND": [
+    "BREAK|WIND": [
       "comp",
-      "WINDBURN"
+      "WINDBREAK"
     ],
-    "LIGHT|SUN": [
-      "comp",
-      "SUNLIGHT"
-    ],
-    "PEN|SUN": [
+    "FAST|HAIR": [
       "shar",
-      "LIGHT"
+      "BALL"
     ],
-    "SUN|WIND": [
+    "FAST|WIND": [
       "shar",
-      "DOWN"
+      "BREAK"
     ],
-    "LIGHT|PEN": [
+    "HAIR|LINE": [
       "comp",
-      "PENLIGHT"
+      "HAIRLINE"
     ],
-    "PEN|TAIL": [
+    "HAIR|PIPE": [
       "shar",
-      "PIG"
+      "LINE"
     ],
-    "TAIL|WIND": [
+    "LINE|PIPE": [
       "comp",
-      "TAILWIND"
+      "PIPELINE"
+    ],
+    "LINE|WIND": [
+      "shar",
+      "PIPE"
+    ],
+    "PIPE|WIND": [
+      "comp",
+      "WINDPIPE"
     ]
   },
   "meta": {
