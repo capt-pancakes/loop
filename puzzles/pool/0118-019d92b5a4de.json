@@ -1,0 +1,56 @@
+{
+  "id": "019d92b5a4de",
+  "words": [
+    "CLASS",
+    "MATE",
+    "HORSE",
+    "FLY",
+    "NEWS",
+    "ROOM"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CLASS|MATE": [
+      "comp",
+      "CLASSMATE"
+    ],
+    "CLASS|NEWS": [
+      "shar",
+      "ROOM"
+    ],
+    "CLASS|ROOM": [
+      "comp",
+      "CLASSROOM"
+    ],
+    "HORSE|MATE": [
+      "shar",
+      "PLAY"
+    ],
+    "MATE|NEWS": [
+      "shar",
+      "ROOM"
+    ],
+    "MATE|ROOM": [
+      "comp",
+      "ROOMMATE"
+    ],
+    "FLY|HORSE": [
+      "comp",
+      "HORSEFLY"
+    ],
+    "FLY|NEWS": [
+      "shar",
+      "PAPER"
+    ],
+    "NEWS|ROOM": [
+      "comp",
+      "NEWSROOM"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

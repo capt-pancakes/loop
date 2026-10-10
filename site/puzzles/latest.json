@@ -1,66 +1,54 @@
 {
-  "number": 96,
-  "date": "2026-10-09",
-  "id": "11069f2bb3ba",
+  "number": 97,
+  "date": "2026-10-10",
+  "id": "4ce0ec911cbb",
   "words": [
-    "BREAK",
-    "FAST",
-    "HAIR",
-    "LINE",
-    "PIPE",
-    "WIND"
+    "FLAG",
+    "KEY",
+    "PAD",
+    "LOCK",
+    "WAR",
+    "SHIP"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BREAK|FAST": [
+    "FLAG|KEY": [
+      "shar",
+      "STONE"
+    ],
+    "FLAG|WAR": [
+      "shar",
+      "SHIP"
+    ],
+    "FLAG|SHIP": [
       "comp",
-      "BREAKFAST"
+      "FLAGSHIP"
     ],
-    "BREAK|LINE": [
-      "shar",
-      "OUT"
-    ],
-    "BREAK|PIPE": [
-      "shar",
-      "WIND"
-    ],
-    "BREAK|WIND": [
+    "KEY|PAD": [
       "comp",
-      "WINDBREAK"
+      "KEYPAD"
     ],
-    "FAST|HAIR": [
+    "KEY|LOCK": [
       "shar",
-      "BALL"
+      "PAD"
     ],
-    "FAST|WIND": [
-      "shar",
-      "BREAK"
-    ],
-    "HAIR|LINE": [
+    "LOCK|PAD": [
       "comp",
-      "HAIRLINE"
+      "PADLOCK"
     ],
-    "HAIR|PIPE": [
+    "LOCK|WAR": [
       "shar",
-      "LINE"
+      "HEAD"
     ],
-    "LINE|PIPE": [
+    "SHIP|WAR": [
       "comp",
-      "PIPELINE"
-    ],
-    "LINE|WIND": [
-      "shar",
-      "PIPE"
-    ],
-    "PIPE|WIND": [
-      "comp",
-      "WINDPIPE"
+      "WARSHIP"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 41
+    "comp": 4,
+    "shar": 2,
+    "score": 37
   }
 }

@@ -1,5 +1,5 @@
 {
-  "nextNumber": 97,
+  "nextNumber": 98,
   "puzzles": [
     {
       "number": 1,
@@ -1247,6 +1247,19 @@
         "LINE",
         "PIPE",
         "WIND"
+      ]
+    },
+    {
+      "number": 97,
+      "date": "2026-10-10",
+      "id": "4ce0ec911cbb",
+      "words": [
+        "FLAG",
+        "KEY",
+        "PAD",
+        "LOCK",
+        "WAR",
+        "SHIP"
       ]
     }
   ]
