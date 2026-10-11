@@ -1,54 +1,58 @@
 {
-  "number": 97,
-  "date": "2026-10-10",
-  "id": "4ce0ec911cbb",
+  "number": 98,
+  "date": "2026-10-11",
+  "id": "047fc61c450d",
   "words": [
-    "FLAG",
-    "KEY",
-    "PAD",
-    "LOCK",
-    "WAR",
-    "SHIP"
+    "COAT",
+    "DROP",
+    "KICK",
+    "SIDE",
+    "RING",
+    "TONE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "FLAG|KEY": [
+    "COAT|DROP": [
       "shar",
-      "STONE"
+      "RAIN"
     ],
-    "FLAG|WAR": [
+    "COAT|TONE": [
       "shar",
-      "SHIP"
+      "OVER"
     ],
-    "FLAG|SHIP": [
+    "DROP|KICK": [
       "comp",
-      "FLAGSHIP"
+      "DROPKICK"
     ],
-    "KEY|PAD": [
-      "comp",
-      "KEYPAD"
-    ],
-    "KEY|LOCK": [
+    "DROP|SIDE": [
       "shar",
-      "PAD"
+      "BACK"
     ],
-    "LOCK|PAD": [
+    "KICK|SIDE": [
       "comp",
-      "PADLOCK"
+      "SIDEKICK"
     ],
-    "LOCK|WAR": [
+    "KICK|RING": [
       "shar",
-      "HEAD"
+      "SIDE"
     ],
-    "SHIP|WAR": [
+    "RING|SIDE": [
       "comp",
-      "WARSHIP"
+      "RINGSIDE"
+    ],
+    "SIDE|TONE": [
+      "shar",
+      "RING"
+    ],
+    "RING|TONE": [
+      "comp",
+      "RINGTONE"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 4,
     "shar": 2,
-    "score": 37
+    "score": 36
   }
 }

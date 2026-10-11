@@ -1,0 +1,56 @@
+{
+  "id": "02288b70457e",
+  "words": [
+    "BONE",
+    "DROP",
+    "HOUSE",
+    "PLAY",
+    "LIST",
+    "WISH"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BONE|DROP": [
+      "shar",
+      "BACK"
+    ],
+    "BONE|LIST": [
+      "shar",
+      "WISH"
+    ],
+    "BONE|WISH": [
+      "comp",
+      "WISHBONE"
+    ],
+    "DROP|HOUSE": [
+      "shar",
+      "OUT"
+    ],
+    "HOUSE|PLAY": [
+      "comp",
+      "PLAYHOUSE"
+    ],
+    "HOUSE|LIST": [
+      "shar",
+      "PLAY"
+    ],
+    "LIST|PLAY": [
+      "comp",
+      "PLAYLIST"
+    ],
+    "PLAY|WISH": [
+      "shar",
+      "LIST"
+    ],
+    "LIST|WISH": [
+      "comp",
+      "WISHLIST"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}
