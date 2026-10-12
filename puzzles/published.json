@@ -1,5 +1,5 @@
 {
-  "nextNumber": 99,
+  "nextNumber": 100,
   "puzzles": [
     {
       "number": 1,
@@ -1273,6 +1273,19 @@
         "SIDE",
         "RING",
         "TONE"
+      ]
+    },
+    {
+      "number": 99,
+      "date": "2026-10-12",
+      "id": "aeda0d0c2d19",
+      "words": [
+        "BOAT",
+        "DREAM",
+        "LAND",
+        "HIGH",
+        "WAY",
+        "MOTOR"
       ]
     }
   ]

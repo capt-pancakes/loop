@@ -1,58 +1,70 @@
 {
-  "number": 98,
-  "date": "2026-10-11",
-  "id": "047fc61c450d",
+  "number": 99,
+  "date": "2026-10-12",
+  "id": "aeda0d0c2d19",
   "words": [
-    "COAT",
-    "DROP",
-    "KICK",
-    "SIDE",
-    "RING",
-    "TONE"
+    "BOAT",
+    "DREAM",
+    "LAND",
+    "HIGH",
+    "WAY",
+    "MOTOR"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "COAT|DROP": [
-      "shar",
-      "RAIN"
-    ],
-    "COAT|TONE": [
-      "shar",
-      "OVER"
-    ],
-    "DROP|KICK": [
+    "BOAT|DREAM": [
       "comp",
-      "DROPKICK"
+      "DREAMBOAT"
     ],
-    "DROP|SIDE": [
+    "BOAT|LAND": [
       "shar",
-      "BACK"
+      "DREAM"
     ],
-    "KICK|SIDE": [
-      "comp",
-      "SIDEKICK"
-    ],
-    "KICK|RING": [
+    "BOAT|WAY": [
       "shar",
-      "SIDE"
+      "SPEED"
     ],
-    "RING|SIDE": [
+    "BOAT|MOTOR": [
       "comp",
-      "RINGSIDE"
+      "MOTORBOAT"
     ],
-    "SIDE|TONE": [
+    "DREAM|LAND": [
+      "comp",
+      "DREAMLAND"
+    ],
+    "DREAM|HIGH": [
       "shar",
-      "RING"
+      "LAND"
     ],
-    "RING|TONE": [
+    "DREAM|MOTOR": [
+      "shar",
+      "BOAT"
+    ],
+    "HIGH|LAND": [
       "comp",
-      "RINGTONE"
+      "HIGHLAND"
+    ],
+    "LAND|WAY": [
+      "shar",
+      "HIGH"
+    ],
+    "HIGH|WAY": [
+      "comp",
+      "HIGHWAY"
+    ],
+    "HIGH|MOTOR": [
+      "shar",
+      "WAY"
+    ],
+    "MOTOR|WAY": [
+      "comp",
+      "MOTORWAY"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 36
+    "comp": 6,
+    "shar": 0,
+    "score": 46
   }
 }

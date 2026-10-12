@@ -1,0 +1,68 @@
+{
+  "id": "430e2a57532e",
+  "words": [
+    "CANDLE",
+    "LIGHT",
+    "DAY",
+    "WEEK",
+    "NIGHT",
+    "STICK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CANDLE|LIGHT": [
+      "comp",
+      "CANDLELIGHT"
+    ],
+    "CANDLE|DAY": [
+      "shar",
+      "LIGHT"
+    ],
+    "CANDLE|NIGHT": [
+      "shar",
+      "STICK"
+    ],
+    "CANDLE|STICK": [
+      "comp",
+      "CANDLESTICK"
+    ],
+    "DAY|LIGHT": [
+      "comp",
+      "DAYLIGHT"
+    ],
+    "LIGHT|WEEK": [
+      "shar",
+      "DAY"
+    ],
+    "LIGHT|STICK": [
+      "shar",
+      "CANDLE"
+    ],
+    "DAY|WEEK": [
+      "comp",
+      "WEEKDAY"
+    ],
+    "DAY|NIGHT": [
+      "shar",
+      "TIME"
+    ],
+    "NIGHT|WEEK": [
+      "comp",
+      "WEEKNIGHT"
+    ],
+    "STICK|WEEK": [
+      "shar",
+      "NIGHT"
+    ],
+    "NIGHT|STICK": [
+      "comp",
+      "NIGHTSTICK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}
