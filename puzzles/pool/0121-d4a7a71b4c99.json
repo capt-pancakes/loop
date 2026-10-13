@@ -1,0 +1,72 @@
+{
+  "id": "d4a7a71b4c99",
+  "words": [
+    "AIR",
+    "PORT",
+    "CAR",
+    "SIDE",
+    "WALK",
+    "WAY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AIR|PORT": [
+      "comp",
+      "AIRPORT"
+    ],
+    "AIR|CAR": [
+      "shar",
+      "PORT"
+    ],
+    "AIR|SIDE": [
+      "shar",
+      "LINE"
+    ],
+    "AIR|WALK": [
+      "shar",
+      "WAY"
+    ],
+    "AIR|WAY": [
+      "comp",
+      "AIRWAY"
+    ],
+    "CAR|PORT": [
+      "comp",
+      "CARPORT"
+    ],
+    "PORT|SIDE": [
+      "shar",
+      "SEA"
+    ],
+    "PORT|WAY": [
+      "shar",
+      "AIR"
+    ],
+    "CAR|SIDE": [
+      "comp",
+      "SIDECAR"
+    ],
+    "CAR|WALK": [
+      "shar",
+      "SIDE"
+    ],
+    "SIDE|WALK": [
+      "comp",
+      "SIDEWALK"
+    ],
+    "SIDE|WAY": [
+      "shar",
+      "WALK"
+    ],
+    "WALK|WAY": [
+      "comp",
+      "WALKWAY"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 46
+  }
+}
