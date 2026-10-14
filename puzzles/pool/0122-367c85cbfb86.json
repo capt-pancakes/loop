@@ -1,0 +1,64 @@
+{
+  "id": "367c85cbfb86",
+  "words": [
+    "BRUSH",
+    "FIRE",
+    "GUN",
+    "SHOT",
+    "PICK",
+    "TOOTH"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BRUSH|FIRE": [
+      "comp",
+      "BRUSHFIRE"
+    ],
+    "BRUSH|GUN": [
+      "shar",
+      "FIRE"
+    ],
+    "BRUSH|PICK": [
+      "shar",
+      "TOOTH"
+    ],
+    "BRUSH|TOOTH": [
+      "comp",
+      "TOOTHBRUSH"
+    ],
+    "FIRE|GUN": [
+      "comp",
+      "GUNFIRE"
+    ],
+    "FIRE|SHOT": [
+      "shar",
+      "GUN"
+    ],
+    "FIRE|TOOTH": [
+      "shar",
+      "BRUSH"
+    ],
+    "GUN|SHOT": [
+      "comp",
+      "GUNSHOT"
+    ],
+    "GUN|PICK": [
+      "shar",
+      "HAND"
+    ],
+    "PICK|SHOT": [
+      "shar",
+      "UP"
+    ],
+    "PICK|TOOTH": [
+      "comp",
+      "TOOTHPICK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

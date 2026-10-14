@@ -1,74 +1,70 @@
 {
-  "number": 100,
-  "date": "2026-10-13",
-  "id": "16185a93a330",
+  "number": 101,
+  "date": "2026-10-14",
+  "id": "0b7a0a1d3010",
   "words": [
-    "BOARD",
-    "CARD",
-    "FLASH",
-    "LIGHT",
-    "MOON",
-    "WALK"
+    "BODY",
+    "GUARD",
+    "LIFE",
+    "FIRE",
+    "WORK",
+    "HOME"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOARD|CARD": [
+    "BODY|GUARD": [
       "comp",
-      "CARDBOARD"
+      "BODYGUARD"
     ],
-    "BOARD|FLASH": [
+    "BODY|LIFE": [
       "shar",
-      "CARD"
+      "GUARD"
     ],
-    "BOARD|LIGHT": [
+    "BODY|FIRE": [
       "shar",
-      "HEAD"
+      "WORK"
     ],
-    "BOARD|MOON": [
-      "shar",
-      "WALK"
-    ],
-    "BOARD|WALK": [
+    "BODY|WORK": [
       "comp",
-      "BOARDWALK"
+      "BODYWORK"
     ],
-    "CARD|FLASH": [
+    "BODY|HOME": [
       "comp",
-      "FLASHCARD"
+      "HOMEBODY"
     ],
-    "CARD|LIGHT": [
-      "shar",
-      "FLASH"
-    ],
-    "CARD|WALK": [
-      "shar",
-      "BOARD"
-    ],
-    "FLASH|LIGHT": [
+    "GUARD|LIFE": [
       "comp",
-      "FLASHLIGHT"
+      "LIFEGUARD"
     ],
-    "FLASH|MOON": [
+    "GUARD|WORK": [
       "shar",
-      "LIGHT"
+      "BODY"
     ],
-    "LIGHT|MOON": [
-      "comp",
-      "MOONLIGHT"
-    ],
-    "LIGHT|WALK": [
+    "GUARD|HOME": [
       "shar",
-      "MOON"
+      "BODY"
     ],
-    "MOON|WALK": [
+    "FIRE|LIFE": [
+      "shar",
+      "WILD"
+    ],
+    "FIRE|WORK": [
       "comp",
-      "MOONWALK"
+      "FIREWORK"
+    ],
+    "FIRE|HOME": [
+      "shar",
+      "WORK"
+    ],
+    "HOME|WORK": [
+      "comp",
+      "HOMEWORK"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 45
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }

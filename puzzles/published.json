@@ -1,5 +1,5 @@
 {
-  "nextNumber": 101,
+  "nextNumber": 102,
   "puzzles": [
     {
       "number": 1,
@@ -1299,6 +1299,19 @@
         "LIGHT",
         "MOON",
         "WALK"
+      ]
+    },
+    {
+      "number": 101,
+      "date": "2026-10-14",
+      "id": "0b7a0a1d3010",
+      "words": [
+        "BODY",
+        "GUARD",
+        "LIFE",
+        "FIRE",
+        "WORK",
+        "HOME"
       ]
     }
   ]
