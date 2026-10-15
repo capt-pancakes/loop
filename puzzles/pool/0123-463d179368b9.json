@@ -1,0 +1,60 @@
+{
+  "id": "463d179368b9",
+  "words": [
+    "CAT",
+    "FISH",
+    "HAIR",
+    "STYLE",
+    "LIFE",
+    "WILD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAT|FISH": [
+      "comp",
+      "CATFISH"
+    ],
+    "CAT|LIFE": [
+      "shar",
+      "WILD"
+    ],
+    "CAT|WILD": [
+      "comp",
+      "WILDCAT"
+    ],
+    "FISH|HAIR": [
+      "shar",
+      "NET"
+    ],
+    "FISH|WILD": [
+      "shar",
+      "CAT"
+    ],
+    "HAIR|STYLE": [
+      "comp",
+      "HAIRSTYLE"
+    ],
+    "HAIR|LIFE": [
+      "shar",
+      "LINE"
+    ],
+    "LIFE|STYLE": [
+      "comp",
+      "LIFESTYLE"
+    ],
+    "STYLE|WILD": [
+      "shar",
+      "LIFE"
+    ],
+    "LIFE|WILD": [
+      "comp",
+      "WILDLIFE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
