@@ -1,0 +1,60 @@
+{
+  "id": "4dfc321c4714",
+  "words": [
+    "BREAK",
+    "DAY",
+    "LIGHT",
+    "HIGH",
+    "FALL",
+    "WIND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BREAK|DAY": [
+      "comp",
+      "DAYBREAK"
+    ],
+    "BREAK|LIGHT": [
+      "shar",
+      "DAY"
+    ],
+    "BREAK|FALL": [
+      "shar",
+      "DOWN"
+    ],
+    "BREAK|WIND": [
+      "comp",
+      "WINDBREAK"
+    ],
+    "DAY|LIGHT": [
+      "comp",
+      "DAYLIGHT"
+    ],
+    "DAY|HIGH": [
+      "shar",
+      "LIGHT"
+    ],
+    "DAY|WIND": [
+      "shar",
+      "BREAK"
+    ],
+    "HIGH|LIGHT": [
+      "comp",
+      "HIGHLIGHT"
+    ],
+    "FALL|HIGH": [
+      "shar",
+      "LAND"
+    ],
+    "FALL|WIND": [
+      "comp",
+      "WINDFALL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

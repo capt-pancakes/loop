@@ -1,5 +1,5 @@
 {
-  "nextNumber": 103,
+  "nextNumber": 104,
   "puzzles": [
     {
       "number": 1,
@@ -1325,6 +1325,19 @@
         "FALL",
         "LAND",
         "HEART"
+      ]
+    },
+    {
+      "number": 103,
+      "date": "2026-10-16",
+      "id": "1702627a720f",
+      "words": [
+        "BEAM",
+        "MOON",
+        "WALK",
+        "CAT",
+        "FLOWER",
+        "SUN"
       ]
     }
   ]
