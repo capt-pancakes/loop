@@ -1,5 +1,5 @@
 {
-  "nextNumber": 104,
+  "nextNumber": 105,
   "puzzles": [
     {
       "number": 1,
@@ -1338,6 +1338,19 @@
         "CAT",
         "FLOWER",
         "SUN"
+      ]
+    },
+    {
+      "number": 104,
+      "date": "2026-10-17",
+      "id": "00b2c1d95c2d",
+      "words": [
+        "BUG",
+        "LADY",
+        "FINGER",
+        "TIP",
+        "SHOW",
+        "ROOM"
       ]
     }
   ]

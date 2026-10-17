@@ -1,0 +1,60 @@
+{
+  "id": "0f8688d6ac99",
+  "words": [
+    "CURB",
+    "RING",
+    "EAR",
+    "SHOT",
+    "MOON",
+    "WALK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CURB|RING": [
+      "shar",
+      "SIDE"
+    ],
+    "CURB|WALK": [
+      "shar",
+      "SIDE"
+    ],
+    "EAR|RING": [
+      "comp",
+      "EARRING"
+    ],
+    "RING|SHOT": [
+      "shar",
+      "EAR"
+    ],
+    "RING|WALK": [
+      "shar",
+      "SIDE"
+    ],
+    "EAR|SHOT": [
+      "comp",
+      "EARSHOT"
+    ],
+    "EAR|MOON": [
+      "shar",
+      "SHOT"
+    ],
+    "MOON|SHOT": [
+      "comp",
+      "MOONSHOT"
+    ],
+    "SHOT|WALK": [
+      "shar",
+      "MOON"
+    ],
+    "MOON|WALK": [
+      "comp",
+      "MOONWALK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}
