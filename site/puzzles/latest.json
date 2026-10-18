@@ -1,48 +1,56 @@
 {
-  "number": 104,
-  "date": "2026-10-17",
-  "id": "00b2c1d95c2d",
+  "number": 105,
+  "date": "2026-10-18",
+  "id": "015bf04f4717",
   "words": [
-    "BUG",
-    "LADY",
-    "FINGER",
-    "TIP",
-    "SHOW",
-    "ROOM"
+    "CAST",
+    "DOOR",
+    "WAY",
+    "GATE",
+    "KEEPER",
+    "TIME"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BUG|LADY": [
-      "comp",
-      "LADYBUG"
-    ],
-    "BUG|FINGER": [
+    "CAST|DOOR": [
       "shar",
-      "LADY"
+      "OUT"
     ],
-    "BUG|ROOM": [
+    "CAST|TIME": [
       "shar",
-      "BED"
+      "OUT"
     ],
-    "FINGER|LADY": [
+    "DOOR|WAY": [
       "comp",
-      "LADYFINGER"
+      "DOORWAY"
     ],
-    "LADY|TIP": [
+    "DOOR|GATE": [
       "shar",
-      "FINGER"
+      "WAY"
     ],
-    "FINGER|TIP": [
-      "comp",
-      "FINGERTIP"
-    ],
-    "SHOW|TIP": [
+    "DOOR|TIME": [
       "shar",
-      "OFF"
+      "FRAME"
     ],
-    "ROOM|SHOW": [
+    "GATE|WAY": [
       "comp",
-      "SHOWROOM"
+      "GATEWAY"
+    ],
+    "KEEPER|WAY": [
+      "shar",
+      "GATE"
+    ],
+    "GATE|KEEPER": [
+      "comp",
+      "GATEKEEPER"
+    ],
+    "GATE|TIME": [
+      "shar",
+      "KEEPER"
+    ],
+    "KEEPER|TIME": [
+      "comp",
+      "TIMEKEEPER"
     ]
   },
   "meta": {
