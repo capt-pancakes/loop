@@ -1,62 +1,70 @@
 {
-  "number": 105,
-  "date": "2026-10-18",
-  "id": "015bf04f4717",
+  "number": 106,
+  "date": "2026-10-19",
+  "id": "5563983137d6",
   "words": [
-    "CAST",
-    "DOOR",
-    "WAY",
-    "GATE",
-    "KEEPER",
-    "TIME"
+    "CAKE",
+    "HOT",
+    "HEAD",
+    "LINE",
+    "DEAD",
+    "PAN"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CAST|DOOR": [
-      "shar",
-      "OUT"
-    ],
-    "CAST|TIME": [
-      "shar",
-      "OUT"
-    ],
-    "DOOR|WAY": [
+    "CAKE|HOT": [
       "comp",
-      "DOORWAY"
+      "HOTCAKE"
     ],
-    "DOOR|GATE": [
+    "CAKE|HEAD": [
       "shar",
-      "WAY"
+      "HOT"
     ],
-    "DOOR|TIME": [
+    "CAKE|DEAD": [
       "shar",
-      "FRAME"
+      "PAN"
     ],
-    "GATE|WAY": [
+    "CAKE|PAN": [
       "comp",
-      "GATEWAY"
+      "PANCAKE"
     ],
-    "KEEPER|WAY": [
-      "shar",
-      "GATE"
-    ],
-    "GATE|KEEPER": [
+    "HEAD|HOT": [
       "comp",
-      "GATEKEEPER"
+      "HOTHEAD"
     ],
-    "GATE|TIME": [
+    "HOT|LINE": [
       "shar",
-      "KEEPER"
+      "HEAD"
     ],
-    "KEEPER|TIME": [
+    "HOT|PAN": [
+      "shar",
+      "CAKE"
+    ],
+    "HEAD|LINE": [
       "comp",
-      "TIMEKEEPER"
+      "HEADLINE"
+    ],
+    "DEAD|HEAD": [
+      "shar",
+      "LOCK"
+    ],
+    "DEAD|LINE": [
+      "comp",
+      "DEADLINE"
+    ],
+    "LINE|PAN": [
+      "shar",
+      "DEAD"
+    ],
+    "DEAD|PAN": [
+      "comp",
+      "DEADPAN"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 36
+    "comp": 6,
+    "shar": 0,
+    "score": 46
   }
 }

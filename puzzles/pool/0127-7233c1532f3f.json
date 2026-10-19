@@ -1,0 +1,76 @@
+{
+  "id": "7233c1532f3f",
+  "words": [
+    "BALL",
+    "PIN",
+    "POINT",
+    "CHECK",
+    "MATE",
+    "ROOM"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BALL|PIN": [
+      "comp",
+      "PINBALL"
+    ],
+    "BALL|POINT": [
+      "comp",
+      "BALLPOINT"
+    ],
+    "BALL|CHECK": [
+      "shar",
+      "POINT"
+    ],
+    "BALL|MATE": [
+      "shar",
+      "ROOM"
+    ],
+    "BALL|ROOM": [
+      "comp",
+      "BALLROOM"
+    ],
+    "PIN|POINT": [
+      "comp",
+      "PINPOINT"
+    ],
+    "CHECK|PIN": [
+      "shar",
+      "POINT"
+    ],
+    "PIN|ROOM": [
+      "shar",
+      "BALL"
+    ],
+    "CHECK|POINT": [
+      "comp",
+      "CHECKPOINT"
+    ],
+    "MATE|POINT": [
+      "shar",
+      "CHECK"
+    ],
+    "POINT|ROOM": [
+      "shar",
+      "BALL"
+    ],
+    "CHECK|MATE": [
+      "comp",
+      "CHECKMATE"
+    ],
+    "CHECK|ROOM": [
+      "shar",
+      "MATE"
+    ],
+    "MATE|ROOM": [
+      "comp",
+      "ROOMMATE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}

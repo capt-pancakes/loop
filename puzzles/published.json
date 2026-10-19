@@ -1,5 +1,5 @@
 {
-  "nextNumber": 106,
+  "nextNumber": 107,
   "puzzles": [
     {
       "number": 1,
@@ -1364,6 +1364,19 @@
         "GATE",
         "KEEPER",
         "TIME"
+      ]
+    },
+    {
+      "number": 106,
+      "date": "2026-10-19",
+      "id": "5563983137d6",
+      "words": [
+        "CAKE",
+        "HOT",
+        "HEAD",
+        "LINE",
+        "DEAD",
+        "PAN"
       ]
     }
   ]
