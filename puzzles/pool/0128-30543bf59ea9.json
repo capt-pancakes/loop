@@ -1,0 +1,80 @@
+{
+  "id": "30543bf59ea9",
+  "words": [
+    "BOY",
+    "PLAY",
+    "GROUND",
+    "WORK",
+    "HOUSE",
+    "SCHOOL"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOY|PLAY": [
+      "comp",
+      "PLAYBOY"
+    ],
+    "BOY|GROUND": [
+      "shar",
+      "PLAY"
+    ],
+    "BOY|WORK": [
+      "shar",
+      "SCHOOL"
+    ],
+    "BOY|HOUSE": [
+      "shar",
+      "PLAY"
+    ],
+    "BOY|SCHOOL": [
+      "comp",
+      "SCHOOLBOY"
+    ],
+    "GROUND|PLAY": [
+      "comp",
+      "PLAYGROUND"
+    ],
+    "PLAY|WORK": [
+      "shar",
+      "HORSE"
+    ],
+    "HOUSE|PLAY": [
+      "comp",
+      "PLAYHOUSE"
+    ],
+    "PLAY|SCHOOL": [
+      "shar",
+      "BOY"
+    ],
+    "GROUND|WORK": [
+      "comp",
+      "GROUNDWORK"
+    ],
+    "GROUND|HOUSE": [
+      "shar",
+      "PLAY"
+    ],
+    "GROUND|SCHOOL": [
+      "shar",
+      "WORK"
+    ],
+    "HOUSE|WORK": [
+      "comp",
+      "HOUSEWORK"
+    ],
+    "SCHOOL|WORK": [
+      "comp",
+      "SCHOOLWORK"
+    ],
+    "HOUSE|SCHOOL": [
+      "comp",
+      "SCHOOLHOUSE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}

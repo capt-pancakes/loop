@@ -1,5 +1,5 @@
 {
-  "nextNumber": 107,
+  "nextNumber": 108,
   "puzzles": [
     {
       "number": 1,
@@ -1377,6 +1377,19 @@
         "LINE",
         "DEAD",
         "PAN"
+      ]
+    },
+    {
+      "number": 107,
+      "date": "2026-10-20",
+      "id": "c0073616aa7a",
+      "words": [
+        "FIRE",
+        "HOUSE",
+        "PLAY",
+        "TIME",
+        "LIFE",
+        "WILD"
       ]
     }
   ]
