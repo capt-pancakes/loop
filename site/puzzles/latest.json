@@ -1,74 +1,62 @@
 {
-  "number": 107,
-  "date": "2026-10-20",
-  "id": "c0073616aa7a",
+  "number": 108,
+  "date": "2026-10-21",
+  "id": "01298efeceda",
   "words": [
-    "FIRE",
-    "HOUSE",
-    "PLAY",
-    "TIME",
-    "LIFE",
-    "WILD"
+    "CUT",
+    "HAIR",
+    "PIN",
+    "HOLE",
+    "MAN",
+    "WOOD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "FIRE|HOUSE": [
+    "CUT|HAIR": [
       "comp",
-      "FIREHOUSE"
+      "HAIRCUT"
     ],
-    "FIRE|PLAY": [
+    "CUT|PIN": [
       "shar",
-      "HOUSE"
+      "HAIR"
     ],
-    "FIRE|LIFE": [
-      "shar",
-      "WILD"
-    ],
-    "FIRE|WILD": [
+    "CUT|WOOD": [
       "comp",
-      "WILDFIRE"
+      "WOODCUT"
     ],
-    "HOUSE|PLAY": [
+    "HAIR|PIN": [
       "comp",
-      "PLAYHOUSE"
+      "HAIRPIN"
     ],
-    "HOUSE|TIME": [
+    "HAIR|HOLE": [
       "shar",
-      "KEEPER"
+      "PIN"
     ],
-    "HOUSE|LIFE": [
+    "HAIR|WOOD": [
       "shar",
-      "BOAT"
+      "CUT"
     ],
-    "HOUSE|WILD": [
+    "HOLE|PIN": [
+      "comp",
+      "PINHOLE"
+    ],
+    "MAN|PIN": [
+      "shar",
+      "HOLE"
+    ],
+    "HOLE|MAN": [
+      "comp",
+      "MANHOLE"
+    ],
+    "MAN|WOOD": [
       "shar",
       "FIRE"
-    ],
-    "PLAY|TIME": [
-      "comp",
-      "PLAYTIME"
-    ],
-    "LIFE|PLAY": [
-      "shar",
-      "TIME"
-    ],
-    "LIFE|TIME": [
-      "comp",
-      "LIFETIME"
-    ],
-    "TIME|WILD": [
-      "shar",
-      "LIFE"
-    ],
-    "LIFE|WILD": [
-      "comp",
-      "WILDLIFE"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 46
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }

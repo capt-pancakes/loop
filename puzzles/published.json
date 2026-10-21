@@ -1,5 +1,5 @@
 {
-  "nextNumber": 108,
+  "nextNumber": 109,
   "puzzles": [
     {
       "number": 1,
@@ -1390,6 +1390,19 @@
         "TIME",
         "LIFE",
         "WILD"
+      ]
+    },
+    {
+      "number": 108,
+      "date": "2026-10-21",
+      "id": "01298efeceda",
+      "words": [
+        "CUT",
+        "HAIR",
+        "PIN",
+        "HOLE",
+        "MAN",
+        "WOOD"
       ]
     }
   ]

@@ -1,0 +1,60 @@
+{
+  "id": "218bf39f4c14",
+  "words": [
+    "HOLE",
+    "KEY",
+    "WORD",
+    "TIME",
+    "SHOW",
+    "MAN"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "HOLE|KEY": [
+      "comp",
+      "KEYHOLE"
+    ],
+    "HOLE|WORD": [
+      "shar",
+      "KEY"
+    ],
+    "HOLE|SHOW": [
+      "shar",
+      "MAN"
+    ],
+    "HOLE|MAN": [
+      "comp",
+      "MANHOLE"
+    ],
+    "KEY|WORD": [
+      "comp",
+      "KEYWORD"
+    ],
+    "KEY|MAN": [
+      "shar",
+      "HOLE"
+    ],
+    "TIME|WORD": [
+      "shar",
+      "PLAY"
+    ],
+    "SHOW|TIME": [
+      "comp",
+      "SHOWTIME"
+    ],
+    "MAN|TIME": [
+      "shar",
+      "SHOW"
+    ],
+    "MAN|SHOW": [
+      "comp",
+      "SHOWMAN"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}
