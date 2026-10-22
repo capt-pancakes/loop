@@ -1,56 +1,60 @@
 {
-  "number": 108,
-  "date": "2026-10-21",
-  "id": "01298efeceda",
+  "number": 109,
+  "date": "2026-10-22",
+  "id": "1a5f688c002a",
   "words": [
-    "CUT",
-    "HAIR",
-    "PIN",
-    "HOLE",
-    "MAN",
-    "WOOD"
+    "BAG",
+    "HAND",
+    "LAP",
+    "TOP",
+    "BLACK",
+    "MAIL"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CUT|HAIR": [
+    "BAG|HAND": [
       "comp",
-      "HAIRCUT"
+      "HANDBAG"
     ],
-    "CUT|PIN": [
+    "BAG|BLACK": [
       "shar",
-      "HAIR"
+      "MAIL"
     ],
-    "CUT|WOOD": [
+    "BAG|MAIL": [
       "comp",
-      "WOODCUT"
+      "MAILBAG"
     ],
-    "HAIR|PIN": [
+    "HAND|LAP": [
+      "shar",
+      "OVER"
+    ],
+    "BLACK|HAND": [
+      "shar",
+      "OUT"
+    ],
+    "HAND|MAIL": [
+      "shar",
+      "BAG"
+    ],
+    "LAP|TOP": [
       "comp",
-      "HAIRPIN"
+      "LAPTOP"
     ],
-    "HAIR|HOLE": [
+    "BLACK|LAP": [
       "shar",
-      "PIN"
+      "TOP"
     ],
-    "HAIR|WOOD": [
-      "shar",
-      "CUT"
-    ],
-    "HOLE|PIN": [
+    "BLACK|TOP": [
       "comp",
-      "PINHOLE"
+      "BLACKTOP"
     ],
-    "MAN|PIN": [
+    "MAIL|TOP": [
       "shar",
-      "HOLE"
+      "BLACK"
     ],
-    "HOLE|MAN": [
+    "BLACK|MAIL": [
       "comp",
-      "MANHOLE"
-    ],
-    "MAN|WOOD": [
-      "shar",
-      "FIRE"
+      "BLACKMAIL"
     ]
   },
   "meta": {

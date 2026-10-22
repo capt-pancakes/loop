@@ -1,0 +1,64 @@
+{
+  "id": "c17ccee9749a",
+  "words": [
+    "BAG",
+    "FARE",
+    "WAR",
+    "HEAD",
+    "LINE",
+    "PIPE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BAG|FARE": [
+      "shar",
+      "AIR"
+    ],
+    "BAG|LINE": [
+      "shar",
+      "AIR"
+    ],
+    "BAG|PIPE": [
+      "comp",
+      "BAGPIPE"
+    ],
+    "FARE|WAR": [
+      "comp",
+      "WARFARE"
+    ],
+    "FARE|HEAD": [
+      "shar",
+      "WAR"
+    ],
+    "FARE|LINE": [
+      "shar",
+      "AIR"
+    ],
+    "HEAD|WAR": [
+      "comp",
+      "WARHEAD"
+    ],
+    "LINE|WAR": [
+      "shar",
+      "TIME"
+    ],
+    "HEAD|LINE": [
+      "comp",
+      "HEADLINE"
+    ],
+    "HEAD|PIPE": [
+      "shar",
+      "LINE"
+    ],
+    "LINE|PIPE": [
+      "comp",
+      "PIPELINE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 42
+  }
+}
