@@ -1,0 +1,64 @@
+{
+  "id": "2c5b6f7acdee",
+  "words": [
+    "DOOR",
+    "FRAME",
+    "MAIN",
+    "LAND",
+    "HIGH",
+    "STOP"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "DOOR|FRAME": [
+      "comp",
+      "DOORFRAME"
+    ],
+    "DOOR|MAIN": [
+      "shar",
+      "FRAME"
+    ],
+    "DOOR|HIGH": [
+      "shar",
+      "WAY"
+    ],
+    "DOOR|STOP": [
+      "comp",
+      "DOORSTOP"
+    ],
+    "FRAME|MAIN": [
+      "comp",
+      "MAINFRAME"
+    ],
+    "FRAME|LAND": [
+      "shar",
+      "MAIN"
+    ],
+    "FRAME|STOP": [
+      "shar",
+      "DOOR"
+    ],
+    "LAND|MAIN": [
+      "comp",
+      "MAINLAND"
+    ],
+    "HIGH|MAIN": [
+      "shar",
+      "LAND"
+    ],
+    "HIGH|LAND": [
+      "comp",
+      "HIGHLAND"
+    ],
+    "HIGH|STOP": [
+      "shar",
+      "LIGHT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

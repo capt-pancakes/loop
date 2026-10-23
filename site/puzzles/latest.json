@@ -1,60 +1,56 @@
 {
-  "number": 109,
-  "date": "2026-10-22",
-  "id": "1a5f688c002a",
+  "number": 110,
+  "date": "2026-10-23",
+  "id": "23aa72da361e",
   "words": [
-    "BAG",
+    "BUTTER",
+    "FLY",
+    "GUN",
     "HAND",
-    "LAP",
-    "TOP",
-    "BLACK",
-    "MAIL"
+    "SHAKE",
+    "MILK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BAG|HAND": [
+    "BUTTER|FLY": [
       "comp",
-      "HANDBAG"
+      "BUTTERFLY"
     ],
-    "BAG|BLACK": [
+    "BUTTER|SHAKE": [
       "shar",
-      "MAIL"
+      "MILK"
     ],
-    "BAG|MAIL": [
+    "BUTTER|MILK": [
       "comp",
-      "MAILBAG"
+      "BUTTERMILK"
     ],
-    "HAND|LAP": [
+    "FLY|GUN": [
       "shar",
-      "OVER"
+      "FIRE"
     ],
-    "BLACK|HAND": [
+    "FLY|MILK": [
       "shar",
-      "OUT"
+      "BUTTER"
     ],
-    "HAND|MAIL": [
-      "shar",
-      "BAG"
-    ],
-    "LAP|TOP": [
+    "GUN|HAND": [
       "comp",
-      "LAPTOP"
+      "HANDGUN"
     ],
-    "BLACK|LAP": [
+    "GUN|SHAKE": [
       "shar",
-      "TOP"
+      "HAND"
     ],
-    "BLACK|TOP": [
+    "HAND|SHAKE": [
       "comp",
-      "BLACKTOP"
+      "HANDSHAKE"
     ],
-    "MAIL|TOP": [
+    "HAND|MILK": [
       "shar",
-      "BLACK"
+      "SHAKE"
     ],
-    "BLACK|MAIL": [
+    "MILK|SHAKE": [
       "comp",
-      "BLACKMAIL"
+      "MILKSHAKE"
     ]
   },
   "meta": {
