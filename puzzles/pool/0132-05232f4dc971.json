@@ -1,0 +1,52 @@
+{
+  "id": "05232f4dc971",
+  "words": [
+    "DEAD",
+    "HAIR",
+    "PIN",
+    "GUN",
+    "SMITH",
+    "LOCK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "DEAD|HAIR": [
+      "shar",
+      "LINE"
+    ],
+    "DEAD|SMITH": [
+      "shar",
+      "LOCK"
+    ],
+    "DEAD|LOCK": [
+      "comp",
+      "DEADLOCK"
+    ],
+    "HAIR|PIN": [
+      "comp",
+      "HAIRPIN"
+    ],
+    "GUN|PIN": [
+      "shar",
+      "POINT"
+    ],
+    "GUN|SMITH": [
+      "comp",
+      "GUNSMITH"
+    ],
+    "GUN|LOCK": [
+      "shar",
+      "SMITH"
+    ],
+    "LOCK|SMITH": [
+      "comp",
+      "LOCKSMITH"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

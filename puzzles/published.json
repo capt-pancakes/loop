@@ -1,5 +1,5 @@
 {
-  "nextNumber": 111,
+  "nextNumber": 112,
   "puzzles": [
     {
       "number": 1,
@@ -1429,6 +1429,19 @@
         "HAND",
         "SHAKE",
         "MILK"
+      ]
+    },
+    {
+      "number": 111,
+      "date": "2026-10-24",
+      "id": "05e4cb8588bb",
+      "words": [
+        "BILL",
+        "CLIP",
+        "PAPER",
+        "WALL",
+        "STONE",
+        "KEY"
       ]
     }
   ]
