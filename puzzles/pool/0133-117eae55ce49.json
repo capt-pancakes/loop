@@ -1,0 +1,60 @@
+{
+  "id": "117eae55ce49",
+  "words": [
+    "BUZZ",
+    "SAW",
+    "CHAIN",
+    "HOLE",
+    "PORT",
+    "WORD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BUZZ|SAW": [
+      "comp",
+      "BUZZSAW"
+    ],
+    "BUZZ|CHAIN": [
+      "shar",
+      "SAW"
+    ],
+    "BUZZ|WORD": [
+      "comp",
+      "BUZZWORD"
+    ],
+    "CHAIN|SAW": [
+      "comp",
+      "CHAINSAW"
+    ],
+    "SAW|WORD": [
+      "shar",
+      "BUZZ"
+    ],
+    "CHAIN|HOLE": [
+      "shar",
+      "KEY"
+    ],
+    "CHAIN|WORD": [
+      "shar",
+      "KEY"
+    ],
+    "HOLE|PORT": [
+      "comp",
+      "PORTHOLE"
+    ],
+    "HOLE|WORD": [
+      "shar",
+      "KEY"
+    ],
+    "PORT|WORD": [
+      "shar",
+      "PASS"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

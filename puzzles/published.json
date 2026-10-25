@@ -1,5 +1,5 @@
 {
-  "nextNumber": 112,
+  "nextNumber": 113,
   "puzzles": [
     {
       "number": 1,
@@ -1442,6 +1442,19 @@
         "WALL",
         "STONE",
         "KEY"
+      ]
+    },
+    {
+      "number": 112,
+      "date": "2026-10-25",
+      "id": "0b5d7fbbd546",
+      "words": [
+        "KICK",
+        "RAIN",
+        "WATER",
+        "MARK",
+        "POST",
+        "SIDE"
       ]
     }
   ]
