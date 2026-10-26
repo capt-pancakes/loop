@@ -1,0 +1,72 @@
+{
+  "id": "0d0d1e0d2d47",
+  "words": [
+    "BED",
+    "FLOWER",
+    "WILD",
+    "LIFE",
+    "LINE",
+    "SIDE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BED|FLOWER": [
+      "comp",
+      "FLOWERBED"
+    ],
+    "BED|WILD": [
+      "shar",
+      "FLOWER"
+    ],
+    "BED|LIFE": [
+      "shar",
+      "TIME"
+    ],
+    "BED|LINE": [
+      "shar",
+      "TIME"
+    ],
+    "BED|SIDE": [
+      "comp",
+      "BEDSIDE"
+    ],
+    "FLOWER|WILD": [
+      "comp",
+      "WILDFLOWER"
+    ],
+    "FLOWER|LIFE": [
+      "shar",
+      "WILD"
+    ],
+    "FLOWER|SIDE": [
+      "shar",
+      "BED"
+    ],
+    "LIFE|WILD": [
+      "comp",
+      "WILDLIFE"
+    ],
+    "LINE|WILD": [
+      "shar",
+      "LIFE"
+    ],
+    "LIFE|LINE": [
+      "comp",
+      "LIFELINE"
+    ],
+    "LIFE|SIDE": [
+      "shar",
+      "LINE"
+    ],
+    "LINE|SIDE": [
+      "comp",
+      "SIDELINE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}

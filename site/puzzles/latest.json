@@ -1,54 +1,70 @@
 {
-  "number": 112,
-  "date": "2026-10-25",
-  "id": "0b5d7fbbd546",
+  "number": 113,
+  "date": "2026-10-26",
+  "id": "269941ac10fb",
   "words": [
-    "KICK",
-    "RAIN",
-    "WATER",
-    "MARK",
-    "POST",
-    "SIDE"
+    "AIR",
+    "BAG",
+    "SAND",
+    "STONE",
+    "HEAD",
+    "LOCK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "KICK|RAIN": [
-      "shar",
-      "DROP"
-    ],
-    "KICK|SIDE": [
+    "AIR|BAG": [
       "comp",
-      "SIDEKICK"
+      "AIRBAG"
     ],
-    "RAIN|WATER": [
-      "comp",
-      "RAINWATER"
-    ],
-    "MARK|RAIN": [
+    "AIR|SAND": [
       "shar",
-      "WATER"
+      "BAG"
     ],
-    "MARK|WATER": [
-      "comp",
-      "WATERMARK"
-    ],
-    "POST|WATER": [
+    "AIR|HEAD": [
       "shar",
-      "MARK"
+      "LINE"
     ],
-    "MARK|POST": [
+    "AIR|LOCK": [
       "comp",
-      "POSTMARK"
+      "AIRLOCK"
     ],
-    "POST|SIDE": [
+    "BAG|SAND": [
+      "comp",
+      "SANDBAG"
+    ],
+    "BAG|STONE": [
       "shar",
-      "OUT"
+      "SAND"
+    ],
+    "BAG|LOCK": [
+      "shar",
+      "AIR"
+    ],
+    "SAND|STONE": [
+      "comp",
+      "SANDSTONE"
+    ],
+    "HEAD|SAND": [
+      "shar",
+      "STONE"
+    ],
+    "HEAD|STONE": [
+      "comp",
+      "HEADSTONE"
+    ],
+    "LOCK|STONE": [
+      "shar",
+      "HEAD"
+    ],
+    "HEAD|LOCK": [
+      "comp",
+      "HEADLOCK"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 36
+    "comp": 6,
+    "shar": 0,
+    "score": 45
   }
 }
