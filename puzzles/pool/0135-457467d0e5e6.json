@@ -1,0 +1,68 @@
+{
+  "id": "457467d0e5e6",
+  "words": [
+    "BIRTH",
+    "MARK",
+    "LAND",
+    "WOOD",
+    "FIRE",
+    "PLACE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BIRTH|MARK": [
+      "comp",
+      "BIRTHMARK"
+    ],
+    "BIRTH|LAND": [
+      "shar",
+      "MARK"
+    ],
+    "BIRTH|FIRE": [
+      "shar",
+      "PLACE"
+    ],
+    "BIRTH|PLACE": [
+      "comp",
+      "BIRTHPLACE"
+    ],
+    "LAND|MARK": [
+      "comp",
+      "LANDMARK"
+    ],
+    "MARK|WOOD": [
+      "shar",
+      "LAND"
+    ],
+    "MARK|PLACE": [
+      "shar",
+      "BIRTH"
+    ],
+    "LAND|WOOD": [
+      "comp",
+      "WOODLAND"
+    ],
+    "FIRE|LAND": [
+      "shar",
+      "WOOD"
+    ],
+    "FIRE|WOOD": [
+      "comp",
+      "FIREWOOD"
+    ],
+    "PLACE|WOOD": [
+      "shar",
+      "WORK"
+    ],
+    "FIRE|PLACE": [
+      "comp",
+      "FIREPLACE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}
