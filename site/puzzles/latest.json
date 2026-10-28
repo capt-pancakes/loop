@@ -1,70 +1,62 @@
 {
-  "number": 114,
-  "date": "2026-10-27",
-  "id": "92b0e75e319d",
+  "number": 115,
+  "date": "2026-10-28",
+  "id": "1e6eb793e4d6",
   "words": [
-    "BOOK",
-    "MARK",
-    "WATER",
-    "FALL",
-    "FOOT",
-    "NOTE"
+    "CASE",
+    "SHOW",
+    "MAN",
+    "POST",
+    "LAW",
+    "SUIT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOOK|MARK": [
+    "CASE|SHOW": [
       "comp",
-      "BOOKMARK"
+      "SHOWCASE"
     ],
-    "BOOK|WATER": [
+    "CASE|MAN": [
       "shar",
-      "MARK"
+      "SHOW"
     ],
-    "BOOK|FOOT": [
+    "CASE|LAW": [
       "shar",
-      "NOTE"
+      "SUIT"
     ],
-    "BOOK|NOTE": [
+    "CASE|SUIT": [
       "comp",
-      "NOTEBOOK"
+      "SUITCASE"
     ],
-    "MARK|WATER": [
+    "MAN|SHOW": [
       "comp",
-      "WATERMARK"
+      "SHOWMAN"
     ],
-    "FALL|MARK": [
+    "POST|SHOW": [
       "shar",
-      "LAND"
+      "MAN"
     ],
-    "MARK|NOTE": [
+    "SHOW|SUIT": [
       "shar",
-      "BOOK"
+      "CASE"
     ],
-    "FALL|WATER": [
+    "MAN|POST": [
       "comp",
-      "WATERFALL"
+      "POSTMAN"
     ],
-    "FOOT|WATER": [
+    "LAW|POST": [
       "shar",
-      "FALL"
+      "OUT"
     ],
-    "FALL|FOOT": [
+    "LAW|SUIT": [
       "comp",
-      "FOOTFALL"
-    ],
-    "FALL|NOTE": [
-      "shar",
-      "FOOT"
-    ],
-    "FOOT|NOTE": [
-      "comp",
-      "FOOTNOTE"
+      "LAWSUIT"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 45
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }

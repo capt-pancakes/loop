@@ -1,5 +1,5 @@
 {
-  "nextNumber": 115,
+  "nextNumber": 116,
   "puzzles": [
     {
       "number": 1,
@@ -1481,6 +1481,19 @@
         "FALL",
         "FOOT",
         "NOTE"
+      ]
+    },
+    {
+      "number": 115,
+      "date": "2026-10-28",
+      "id": "1e6eb793e4d6",
+      "words": [
+        "CASE",
+        "SHOW",
+        "MAN",
+        "POST",
+        "LAW",
+        "SUIT"
       ]
     }
   ]

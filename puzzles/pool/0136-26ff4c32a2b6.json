@@ -1,0 +1,60 @@
+{
+  "id": "26ff4c32a2b6",
+  "words": [
+    "CARD",
+    "POST",
+    "MAN",
+    "WATCH",
+    "DOG",
+    "SCORE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CARD|POST": [
+      "comp",
+      "POSTCARD"
+    ],
+    "CARD|MAN": [
+      "shar",
+      "POST"
+    ],
+    "CARD|SCORE": [
+      "comp",
+      "SCORECARD"
+    ],
+    "MAN|POST": [
+      "comp",
+      "POSTMAN"
+    ],
+    "POST|WATCH": [
+      "shar",
+      "MAN"
+    ],
+    "POST|SCORE": [
+      "shar",
+      "CARD"
+    ],
+    "MAN|WATCH": [
+      "comp",
+      "WATCHMAN"
+    ],
+    "DOG|MAN": [
+      "shar",
+      "WATCH"
+    ],
+    "DOG|WATCH": [
+      "comp",
+      "WATCHDOG"
+    ],
+    "DOG|SCORE": [
+      "shar",
+      "UNDER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
