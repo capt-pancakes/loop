@@ -1,56 +1,56 @@
 {
-  "number": 115,
-  "date": "2026-10-28",
-  "id": "1e6eb793e4d6",
+  "number": 116,
+  "date": "2026-10-29",
+  "id": "30a653b2a534",
   "words": [
-    "CASE",
-    "SHOW",
-    "MAN",
-    "POST",
-    "LAW",
-    "SUIT"
+    "BELL",
+    "COW",
+    "GIRL",
+    "SCHOOL",
+    "YARD",
+    "DOOR"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CASE|SHOW": [
+    "BELL|COW": [
       "comp",
-      "SHOWCASE"
+      "COWBELL"
     ],
-    "CASE|MAN": [
+    "BELL|GIRL": [
       "shar",
-      "SHOW"
+      "COW"
     ],
-    "CASE|LAW": [
-      "shar",
-      "SUIT"
-    ],
-    "CASE|SUIT": [
+    "BELL|DOOR": [
       "comp",
-      "SUITCASE"
+      "DOORBELL"
     ],
-    "MAN|SHOW": [
+    "COW|GIRL": [
       "comp",
-      "SHOWMAN"
+      "COWGIRL"
     ],
-    "POST|SHOW": [
+    "COW|SCHOOL": [
       "shar",
-      "MAN"
+      "BOY"
     ],
-    "SHOW|SUIT": [
+    "COW|DOOR": [
       "shar",
-      "CASE"
+      "BELL"
     ],
-    "MAN|POST": [
+    "GIRL|SCHOOL": [
       "comp",
-      "POSTMAN"
+      "SCHOOLGIRL"
     ],
-    "LAW|POST": [
+    "GIRL|YARD": [
       "shar",
-      "OUT"
+      "SCHOOL"
     ],
-    "LAW|SUIT": [
+    "SCHOOL|YARD": [
       "comp",
-      "LAWSUIT"
+      "SCHOOLYARD"
+    ],
+    "DOOR|YARD": [
+      "shar",
+      "BACK"
     ]
   },
   "meta": {

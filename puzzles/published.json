@@ -1,5 +1,5 @@
 {
-  "nextNumber": 116,
+  "nextNumber": 117,
   "puzzles": [
     {
       "number": 1,
@@ -1494,6 +1494,19 @@
         "POST",
         "LAW",
         "SUIT"
+      ]
+    },
+    {
+      "number": 116,
+      "date": "2026-10-29",
+      "id": "30a653b2a534",
+      "words": [
+        "BELL",
+        "COW",
+        "GIRL",
+        "SCHOOL",
+        "YARD",
+        "DOOR"
       ]
     }
   ]

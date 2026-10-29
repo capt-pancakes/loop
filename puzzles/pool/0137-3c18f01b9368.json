@@ -1,0 +1,60 @@
+{
+  "id": "3c18f01b9368",
+  "words": [
+    "BOARD",
+    "CARD",
+    "POST",
+    "MARK",
+    "NOTE",
+    "KEY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOARD|CARD": [
+      "comp",
+      "CARDBOARD"
+    ],
+    "BOARD|POST": [
+      "shar",
+      "CARD"
+    ],
+    "BOARD|NOTE": [
+      "shar",
+      "KEY"
+    ],
+    "BOARD|KEY": [
+      "comp",
+      "KEYBOARD"
+    ],
+    "CARD|POST": [
+      "comp",
+      "POSTCARD"
+    ],
+    "CARD|MARK": [
+      "shar",
+      "POST"
+    ],
+    "CARD|KEY": [
+      "shar",
+      "BOARD"
+    ],
+    "MARK|POST": [
+      "comp",
+      "POSTMARK"
+    ],
+    "MARK|NOTE": [
+      "shar",
+      "BOOK"
+    ],
+    "KEY|NOTE": [
+      "comp",
+      "KEYNOTE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
