@@ -1,0 +1,60 @@
+{
+  "id": "50df3c89f5d6",
+  "words": [
+    "AIR",
+    "BAG",
+    "MADE",
+    "HOME",
+    "WORK",
+    "FIELD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AIR|BAG": [
+      "comp",
+      "AIRBAG"
+    ],
+    "AIR|WORK": [
+      "shar",
+      "FIELD"
+    ],
+    "AIR|FIELD": [
+      "comp",
+      "AIRFIELD"
+    ],
+    "BAG|MADE": [
+      "shar",
+      "HAND"
+    ],
+    "BAG|FIELD": [
+      "shar",
+      "AIR"
+    ],
+    "HOME|MADE": [
+      "comp",
+      "HOMEMADE"
+    ],
+    "MADE|WORK": [
+      "shar",
+      "HOME"
+    ],
+    "HOME|WORK": [
+      "comp",
+      "HOMEWORK"
+    ],
+    "FIELD|HOME": [
+      "shar",
+      "WORK"
+    ],
+    "FIELD|WORK": [
+      "comp",
+      "FIELDWORK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

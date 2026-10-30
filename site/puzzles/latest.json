@@ -1,56 +1,56 @@
 {
-  "number": 116,
-  "date": "2026-10-29",
-  "id": "30a653b2a534",
+  "number": 117,
+  "date": "2026-10-30",
+  "id": "39ae6150f5f2",
   "words": [
-    "BELL",
-    "COW",
-    "GIRL",
-    "SCHOOL",
-    "YARD",
-    "DOOR"
+    "CAR",
+    "RACE",
+    "HORSE",
+    "WORK",
+    "PAPER",
+    "SAND"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BELL|COW": [
+    "CAR|RACE": [
       "comp",
-      "COWBELL"
+      "RACECAR"
     ],
-    "BELL|GIRL": [
+    "CAR|HORSE": [
       "shar",
-      "COW"
+      "RACE"
     ],
-    "BELL|DOOR": [
-      "comp",
-      "DOORBELL"
-    ],
-    "COW|GIRL": [
-      "comp",
-      "COWGIRL"
-    ],
-    "COW|SCHOOL": [
+    "CAR|SAND": [
       "shar",
-      "BOY"
+      "BOX"
     ],
-    "COW|DOOR": [
-      "shar",
-      "BELL"
-    ],
-    "GIRL|SCHOOL": [
+    "HORSE|RACE": [
       "comp",
-      "SCHOOLGIRL"
+      "RACEHORSE"
     ],
-    "GIRL|YARD": [
+    "RACE|WORK": [
       "shar",
-      "SCHOOL"
+      "HORSE"
     ],
-    "SCHOOL|YARD": [
+    "HORSE|WORK": [
       "comp",
-      "SCHOOLYARD"
+      "WORKHORSE"
     ],
-    "DOOR|YARD": [
+    "HORSE|PAPER": [
       "shar",
       "BACK"
+    ],
+    "PAPER|WORK": [
+      "comp",
+      "PAPERWORK"
+    ],
+    "SAND|WORK": [
+      "shar",
+      "PAPER"
+    ],
+    "PAPER|SAND": [
+      "comp",
+      "SANDPAPER"
     ]
   },
   "meta": {

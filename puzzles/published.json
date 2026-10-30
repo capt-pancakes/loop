@@ -1,5 +1,5 @@
 {
-  "nextNumber": 117,
+  "nextNumber": 118,
   "puzzles": [
     {
       "number": 1,
@@ -1507,6 +1507,19 @@
         "SCHOOL",
         "YARD",
         "DOOR"
+      ]
+    },
+    {
+      "number": 117,
+      "date": "2026-10-30",
+      "id": "39ae6150f5f2",
+      "words": [
+        "CAR",
+        "RACE",
+        "HORSE",
+        "WORK",
+        "PAPER",
+        "SAND"
       ]
     }
   ]
