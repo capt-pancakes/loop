@@ -1,62 +1,58 @@
 {
-  "number": 117,
-  "date": "2026-10-30",
-  "id": "39ae6150f5f2",
+  "number": 118,
+  "date": "2026-10-31",
+  "id": "019d92b5a4de",
   "words": [
-    "CAR",
-    "RACE",
+    "CLASS",
+    "MATE",
     "HORSE",
-    "WORK",
-    "PAPER",
-    "SAND"
+    "FLY",
+    "NEWS",
+    "ROOM"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CAR|RACE": [
+    "CLASS|MATE": [
       "comp",
-      "RACECAR"
+      "CLASSMATE"
     ],
-    "CAR|HORSE": [
+    "CLASS|NEWS": [
       "shar",
-      "RACE"
+      "ROOM"
     ],
-    "CAR|SAND": [
-      "shar",
-      "BOX"
-    ],
-    "HORSE|RACE": [
+    "CLASS|ROOM": [
       "comp",
-      "RACEHORSE"
+      "CLASSROOM"
     ],
-    "RACE|WORK": [
+    "HORSE|MATE": [
       "shar",
-      "HORSE"
+      "PLAY"
     ],
-    "HORSE|WORK": [
-      "comp",
-      "WORKHORSE"
-    ],
-    "HORSE|PAPER": [
+    "MATE|NEWS": [
       "shar",
-      "BACK"
+      "ROOM"
     ],
-    "PAPER|WORK": [
+    "MATE|ROOM": [
       "comp",
-      "PAPERWORK"
+      "ROOMMATE"
     ],
-    "SAND|WORK": [
+    "FLY|HORSE": [
+      "comp",
+      "HORSEFLY"
+    ],
+    "FLY|NEWS": [
       "shar",
       "PAPER"
     ],
-    "PAPER|SAND": [
+    "NEWS|ROOM": [
       "comp",
-      "SANDPAPER"
+      "NEWSROOM"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 41
+    "comp": 4,
+    "shar": 2,
+    "score": 36
   }
 }

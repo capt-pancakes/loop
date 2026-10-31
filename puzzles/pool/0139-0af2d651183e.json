@@ -1,0 +1,52 @@
+{
+  "id": "0af2d651183e",
+  "words": [
+    "BOOK",
+    "BOX",
+    "CAR",
+    "SICK",
+    "MADE",
+    "HAND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOOK|BOX": [
+      "shar",
+      "MATCH"
+    ],
+    "BOOK|MADE": [
+      "shar",
+      "HAND"
+    ],
+    "BOOK|HAND": [
+      "comp",
+      "HANDBOOK"
+    ],
+    "BOX|CAR": [
+      "comp",
+      "BOXCAR"
+    ],
+    "BOX|SICK": [
+      "shar",
+      "CAR"
+    ],
+    "CAR|SICK": [
+      "comp",
+      "CARSICK"
+    ],
+    "MADE|SICK": [
+      "shar",
+      "HOME"
+    ],
+    "HAND|MADE": [
+      "comp",
+      "HANDMADE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}
