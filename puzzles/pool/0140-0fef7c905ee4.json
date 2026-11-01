@@ -1,0 +1,56 @@
+{
+  "id": "0fef7c905ee4",
+  "words": [
+    "COOK",
+    "DOOR",
+    "TRAP",
+    "MOUSE",
+    "PAD",
+    "NOTE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "COOK|DOOR": [
+      "shar",
+      "OUT"
+    ],
+    "COOK|NOTE": [
+      "shar",
+      "BOOK"
+    ],
+    "DOOR|TRAP": [
+      "comp",
+      "TRAPDOOR"
+    ],
+    "DOOR|MOUSE": [
+      "shar",
+      "TRAP"
+    ],
+    "MOUSE|TRAP": [
+      "comp",
+      "MOUSETRAP"
+    ],
+    "PAD|TRAP": [
+      "shar",
+      "MOUSE"
+    ],
+    "MOUSE|PAD": [
+      "comp",
+      "MOUSEPAD"
+    ],
+    "MOUSE|NOTE": [
+      "shar",
+      "PAD"
+    ],
+    "NOTE|PAD": [
+      "comp",
+      "NOTEPAD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}
