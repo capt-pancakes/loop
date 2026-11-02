@@ -1,58 +1,70 @@
 {
-  "number": 119,
-  "date": "2026-11-01",
-  "id": "02288b70457e",
+  "number": 120,
+  "date": "2026-11-02",
+  "id": "430e2a57532e",
   "words": [
-    "BONE",
-    "DROP",
-    "HOUSE",
-    "PLAY",
-    "LIST",
-    "WISH"
+    "CANDLE",
+    "LIGHT",
+    "DAY",
+    "WEEK",
+    "NIGHT",
+    "STICK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BONE|DROP": [
-      "shar",
-      "BACK"
-    ],
-    "BONE|LIST": [
-      "shar",
-      "WISH"
-    ],
-    "BONE|WISH": [
+    "CANDLE|LIGHT": [
       "comp",
-      "WISHBONE"
+      "CANDLELIGHT"
     ],
-    "DROP|HOUSE": [
+    "CANDLE|DAY": [
       "shar",
-      "OUT"
+      "LIGHT"
     ],
-    "HOUSE|PLAY": [
-      "comp",
-      "PLAYHOUSE"
-    ],
-    "HOUSE|LIST": [
+    "CANDLE|NIGHT": [
       "shar",
-      "PLAY"
+      "STICK"
     ],
-    "LIST|PLAY": [
+    "CANDLE|STICK": [
       "comp",
-      "PLAYLIST"
+      "CANDLESTICK"
     ],
-    "PLAY|WISH": [
+    "DAY|LIGHT": [
+      "comp",
+      "DAYLIGHT"
+    ],
+    "LIGHT|WEEK": [
       "shar",
-      "LIST"
+      "DAY"
     ],
-    "LIST|WISH": [
+    "LIGHT|STICK": [
+      "shar",
+      "CANDLE"
+    ],
+    "DAY|WEEK": [
       "comp",
-      "WISHLIST"
+      "WEEKDAY"
+    ],
+    "DAY|NIGHT": [
+      "shar",
+      "TIME"
+    ],
+    "NIGHT|WEEK": [
+      "comp",
+      "WEEKNIGHT"
+    ],
+    "STICK|WEEK": [
+      "shar",
+      "NIGHT"
+    ],
+    "NIGHT|STICK": [
+      "comp",
+      "NIGHTSTICK"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 36
+    "comp": 6,
+    "shar": 0,
+    "score": 45
   }
 }

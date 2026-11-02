@@ -1,0 +1,68 @@
+{
+  "id": "e640257b6f7a",
+  "words": [
+    "BALL",
+    "GUM",
+    "DROP",
+    "RAIN",
+    "STORM",
+    "SNOW"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BALL|GUM": [
+      "comp",
+      "GUMBALL"
+    ],
+    "BALL|DROP": [
+      "shar",
+      "GUM"
+    ],
+    "BALL|STORM": [
+      "shar",
+      "SNOW"
+    ],
+    "BALL|SNOW": [
+      "comp",
+      "SNOWBALL"
+    ],
+    "DROP|GUM": [
+      "comp",
+      "GUMDROP"
+    ],
+    "GUM|RAIN": [
+      "shar",
+      "DROP"
+    ],
+    "GUM|SNOW": [
+      "shar",
+      "BALL"
+    ],
+    "DROP|RAIN": [
+      "comp",
+      "RAINDROP"
+    ],
+    "DROP|STORM": [
+      "shar",
+      "RAIN"
+    ],
+    "RAIN|STORM": [
+      "comp",
+      "RAINSTORM"
+    ],
+    "RAIN|SNOW": [
+      "shar",
+      "FALL"
+    ],
+    "SNOW|STORM": [
+      "comp",
+      "SNOWSTORM"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}
