@@ -1,70 +1,74 @@
 {
-  "number": 120,
-  "date": "2026-11-02",
-  "id": "430e2a57532e",
+  "number": 121,
+  "date": "2026-11-03",
+  "id": "d4a7a71b4c99",
   "words": [
-    "CANDLE",
-    "LIGHT",
-    "DAY",
-    "WEEK",
-    "NIGHT",
-    "STICK"
+    "AIR",
+    "PORT",
+    "CAR",
+    "SIDE",
+    "WALK",
+    "WAY"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "CANDLE|LIGHT": [
+    "AIR|PORT": [
       "comp",
-      "CANDLELIGHT"
+      "AIRPORT"
     ],
-    "CANDLE|DAY": [
+    "AIR|CAR": [
       "shar",
-      "LIGHT"
+      "PORT"
     ],
-    "CANDLE|NIGHT": [
+    "AIR|SIDE": [
       "shar",
-      "STICK"
+      "LINE"
     ],
-    "CANDLE|STICK": [
+    "AIR|WALK": [
+      "shar",
+      "WAY"
+    ],
+    "AIR|WAY": [
       "comp",
-      "CANDLESTICK"
+      "AIRWAY"
     ],
-    "DAY|LIGHT": [
+    "CAR|PORT": [
       "comp",
-      "DAYLIGHT"
+      "CARPORT"
     ],
-    "LIGHT|WEEK": [
+    "PORT|SIDE": [
       "shar",
-      "DAY"
+      "SEA"
     ],
-    "LIGHT|STICK": [
+    "PORT|WAY": [
       "shar",
-      "CANDLE"
+      "AIR"
     ],
-    "DAY|WEEK": [
+    "CAR|SIDE": [
       "comp",
-      "WEEKDAY"
+      "SIDECAR"
     ],
-    "DAY|NIGHT": [
+    "CAR|WALK": [
       "shar",
-      "TIME"
+      "SIDE"
     ],
-    "NIGHT|WEEK": [
+    "SIDE|WALK": [
       "comp",
-      "WEEKNIGHT"
+      "SIDEWALK"
     ],
-    "STICK|WEEK": [
+    "SIDE|WAY": [
       "shar",
-      "NIGHT"
+      "WALK"
     ],
-    "NIGHT|STICK": [
+    "WALK|WAY": [
       "comp",
-      "NIGHTSTICK"
+      "WALKWAY"
     ]
   },
   "meta": {
     "generator": "v1",
     "comp": 6,
     "shar": 0,
-    "score": 45
+    "score": 46
   }
 }

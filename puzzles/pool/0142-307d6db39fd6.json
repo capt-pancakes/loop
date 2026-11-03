@@ -1,0 +1,68 @@
+{
+  "id": "307d6db39fd6",
+  "words": [
+    "BED",
+    "ROOM",
+    "REST",
+    "FOOT",
+    "HILL",
+    "SIDE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BED|ROOM": [
+      "comp",
+      "BEDROOM"
+    ],
+    "BED|REST": [
+      "shar",
+      "ROOM"
+    ],
+    "BED|HILL": [
+      "shar",
+      "SIDE"
+    ],
+    "BED|SIDE": [
+      "comp",
+      "BEDSIDE"
+    ],
+    "REST|ROOM": [
+      "comp",
+      "RESTROOM"
+    ],
+    "FOOT|ROOM": [
+      "shar",
+      "BALL"
+    ],
+    "ROOM|SIDE": [
+      "shar",
+      "SHOW"
+    ],
+    "FOOT|REST": [
+      "comp",
+      "FOOTREST"
+    ],
+    "HILL|REST": [
+      "shar",
+      "FOOT"
+    ],
+    "FOOT|HILL": [
+      "comp",
+      "FOOTHILL"
+    ],
+    "FOOT|SIDE": [
+      "shar",
+      "STEP"
+    ],
+    "HILL|SIDE": [
+      "comp",
+      "HILLSIDE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 45
+  }
+}

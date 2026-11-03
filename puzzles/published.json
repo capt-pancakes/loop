@@ -1,5 +1,5 @@
 {
-  "nextNumber": 121,
+  "nextNumber": 122,
   "puzzles": [
     {
       "number": 1,
@@ -1559,6 +1559,19 @@
         "WEEK",
         "NIGHT",
         "STICK"
+      ]
+    },
+    {
+      "number": 121,
+      "date": "2026-11-03",
+      "id": "d4a7a71b4c99",
+      "words": [
+        "AIR",
+        "PORT",
+        "CAR",
+        "SIDE",
+        "WALK",
+        "WAY"
       ]
     }
   ]
