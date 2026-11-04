@@ -1,5 +1,5 @@
 {
-  "nextNumber": 122,
+  "nextNumber": 123,
   "puzzles": [
     {
       "number": 1,
@@ -1572,6 +1572,19 @@
         "SIDE",
         "WALK",
         "WAY"
+      ]
+    },
+    {
+      "number": 122,
+      "date": "2026-11-04",
+      "id": "367c85cbfb86",
+      "words": [
+        "BRUSH",
+        "FIRE",
+        "GUN",
+        "SHOT",
+        "PICK",
+        "TOOTH"
       ]
     }
   ]

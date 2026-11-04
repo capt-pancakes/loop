@@ -1,74 +1,66 @@
 {
-  "number": 121,
-  "date": "2026-11-03",
-  "id": "d4a7a71b4c99",
+  "number": 122,
+  "date": "2026-11-04",
+  "id": "367c85cbfb86",
   "words": [
-    "AIR",
-    "PORT",
-    "CAR",
-    "SIDE",
-    "WALK",
-    "WAY"
+    "BRUSH",
+    "FIRE",
+    "GUN",
+    "SHOT",
+    "PICK",
+    "TOOTH"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "AIR|PORT": [
+    "BRUSH|FIRE": [
       "comp",
-      "AIRPORT"
+      "BRUSHFIRE"
     ],
-    "AIR|CAR": [
+    "BRUSH|GUN": [
       "shar",
-      "PORT"
+      "FIRE"
     ],
-    "AIR|SIDE": [
+    "BRUSH|PICK": [
       "shar",
-      "LINE"
+      "TOOTH"
     ],
-    "AIR|WALK": [
-      "shar",
-      "WAY"
-    ],
-    "AIR|WAY": [
+    "BRUSH|TOOTH": [
       "comp",
-      "AIRWAY"
+      "TOOTHBRUSH"
     ],
-    "CAR|PORT": [
+    "FIRE|GUN": [
       "comp",
-      "CARPORT"
+      "GUNFIRE"
     ],
-    "PORT|SIDE": [
+    "FIRE|SHOT": [
       "shar",
-      "SEA"
+      "GUN"
     ],
-    "PORT|WAY": [
+    "FIRE|TOOTH": [
       "shar",
-      "AIR"
+      "BRUSH"
     ],
-    "CAR|SIDE": [
+    "GUN|SHOT": [
       "comp",
-      "SIDECAR"
+      "GUNSHOT"
     ],
-    "CAR|WALK": [
+    "GUN|PICK": [
       "shar",
-      "SIDE"
+      "HAND"
     ],
-    "SIDE|WALK": [
-      "comp",
-      "SIDEWALK"
-    ],
-    "SIDE|WAY": [
+    "PICK|SHOT": [
       "shar",
-      "WALK"
+      "UP"
     ],
-    "WALK|WAY": [
+    "PICK|TOOTH": [
       "comp",
-      "WALKWAY"
+      "TOOTHPICK"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 46
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }

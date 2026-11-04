@@ -1,0 +1,64 @@
+{
+  "id": "07318fd7072a",
+  "words": [
+    "ARM",
+    "BAND",
+    "HOT",
+    "DOG",
+    "HOUSE",
+    "FIRE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "ARM|BAND": [
+      "comp",
+      "ARMBAND"
+    ],
+    "ARM|DOG": [
+      "shar",
+      "UNDER"
+    ],
+    "ARM|HOUSE": [
+      "shar",
+      "FIRE"
+    ],
+    "ARM|FIRE": [
+      "comp",
+      "FIREARM"
+    ],
+    "BAND|HOT": [
+      "shar",
+      "HEAD"
+    ],
+    "BAND|FIRE": [
+      "shar",
+      "ARM"
+    ],
+    "DOG|HOT": [
+      "comp",
+      "HOTDOG"
+    ],
+    "HOT|HOUSE": [
+      "shar",
+      "DOG"
+    ],
+    "DOG|HOUSE": [
+      "comp",
+      "DOGHOUSE"
+    ],
+    "DOG|FIRE": [
+      "shar",
+      "WOOD"
+    ],
+    "FIRE|HOUSE": [
+      "comp",
+      "FIREHOUSE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
