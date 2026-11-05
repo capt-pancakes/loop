@@ -1,60 +1,56 @@
 {
-  "number": 122,
-  "date": "2026-11-04",
-  "id": "367c85cbfb86",
+  "number": 123,
+  "date": "2026-11-05",
+  "id": "463d179368b9",
   "words": [
-    "BRUSH",
-    "FIRE",
-    "GUN",
-    "SHOT",
-    "PICK",
-    "TOOTH"
+    "CAT",
+    "FISH",
+    "HAIR",
+    "STYLE",
+    "LIFE",
+    "WILD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BRUSH|FIRE": [
+    "CAT|FISH": [
       "comp",
-      "BRUSHFIRE"
+      "CATFISH"
     ],
-    "BRUSH|GUN": [
+    "CAT|LIFE": [
       "shar",
-      "FIRE"
+      "WILD"
     ],
-    "BRUSH|PICK": [
-      "shar",
-      "TOOTH"
-    ],
-    "BRUSH|TOOTH": [
+    "CAT|WILD": [
       "comp",
-      "TOOTHBRUSH"
+      "WILDCAT"
     ],
-    "FIRE|GUN": [
+    "FISH|HAIR": [
+      "shar",
+      "NET"
+    ],
+    "FISH|WILD": [
+      "shar",
+      "CAT"
+    ],
+    "HAIR|STYLE": [
       "comp",
-      "GUNFIRE"
+      "HAIRSTYLE"
     ],
-    "FIRE|SHOT": [
+    "HAIR|LIFE": [
       "shar",
-      "GUN"
+      "LINE"
     ],
-    "FIRE|TOOTH": [
-      "shar",
-      "BRUSH"
-    ],
-    "GUN|SHOT": [
+    "LIFE|STYLE": [
       "comp",
-      "GUNSHOT"
+      "LIFESTYLE"
     ],
-    "GUN|PICK": [
+    "STYLE|WILD": [
       "shar",
-      "HAND"
+      "LIFE"
     ],
-    "PICK|SHOT": [
-      "shar",
-      "UP"
-    ],
-    "PICK|TOOTH": [
+    "LIFE|WILD": [
       "comp",
-      "TOOTHPICK"
+      "WILDLIFE"
     ]
   },
   "meta": {

@@ -1,5 +1,5 @@
 {
-  "nextNumber": 123,
+  "nextNumber": 124,
   "puzzles": [
     {
       "number": 1,
@@ -1585,6 +1585,19 @@
         "SHOT",
         "PICK",
         "TOOTH"
+      ]
+    },
+    {
+      "number": 123,
+      "date": "2026-11-05",
+      "id": "463d179368b9",
+      "words": [
+        "CAT",
+        "FISH",
+        "HAIR",
+        "STYLE",
+        "LIFE",
+        "WILD"
       ]
     }
   ]

@@ -1,0 +1,64 @@
+{
+  "id": "3bbafc38e01d",
+  "words": [
+    "BIRTH",
+    "DAY",
+    "LIGHT",
+    "HEAD",
+    "SET",
+    "RIGHT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BIRTH|DAY": [
+      "comp",
+      "BIRTHDAY"
+    ],
+    "BIRTH|LIGHT": [
+      "shar",
+      "DAY"
+    ],
+    "BIRTH|HEAD": [
+      "shar",
+      "STONE"
+    ],
+    "BIRTH|RIGHT": [
+      "comp",
+      "BIRTHRIGHT"
+    ],
+    "DAY|LIGHT": [
+      "comp",
+      "DAYLIGHT"
+    ],
+    "DAY|HEAD": [
+      "shar",
+      "LIGHT"
+    ],
+    "DAY|RIGHT": [
+      "shar",
+      "BIRTH"
+    ],
+    "HEAD|LIGHT": [
+      "comp",
+      "HEADLIGHT"
+    ],
+    "LIGHT|SET": [
+      "shar",
+      "SUN"
+    ],
+    "HEAD|SET": [
+      "comp",
+      "HEADSET"
+    ],
+    "RIGHT|SET": [
+      "shar",
+      "UP"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
