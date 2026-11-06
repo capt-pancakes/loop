@@ -1,0 +1,60 @@
+{
+  "id": "0f6176c3735f",
+  "words": [
+    "CAT",
+    "FISH",
+    "STAR",
+    "LIGHT",
+    "HIGH",
+    "WAY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CAT|FISH": [
+      "comp",
+      "CATFISH"
+    ],
+    "CAT|STAR": [
+      "shar",
+      "FISH"
+    ],
+    "CAT|WAY": [
+      "shar",
+      "WALK"
+    ],
+    "FISH|STAR": [
+      "comp",
+      "STARFISH"
+    ],
+    "FISH|LIGHT": [
+      "shar",
+      "STAR"
+    ],
+    "LIGHT|STAR": [
+      "comp",
+      "STARLIGHT"
+    ],
+    "HIGH|STAR": [
+      "shar",
+      "LIGHT"
+    ],
+    "HIGH|LIGHT": [
+      "comp",
+      "HIGHLIGHT"
+    ],
+    "LIGHT|WAY": [
+      "shar",
+      "HIGH"
+    ],
+    "HIGH|WAY": [
+      "comp",
+      "HIGHWAY"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

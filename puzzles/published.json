@@ -1,5 +1,5 @@
 {
-  "nextNumber": 124,
+  "nextNumber": 125,
   "puzzles": [
     {
       "number": 1,
@@ -1598,6 +1598,19 @@
         "STYLE",
         "LIFE",
         "WILD"
+      ]
+    },
+    {
+      "number": 124,
+      "date": "2026-11-06",
+      "id": "4dfc321c4714",
+      "words": [
+        "BREAK",
+        "DAY",
+        "LIGHT",
+        "HIGH",
+        "FALL",
+        "WIND"
       ]
     }
   ]
