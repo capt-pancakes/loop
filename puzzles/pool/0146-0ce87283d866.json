@@ -1,0 +1,52 @@
+{
+  "id": "0ce87283d866",
+  "words": [
+    "GAME",
+    "HAIR",
+    "NET",
+    "TEAM",
+    "MATE",
+    "PLAY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "GAME|HAIR": [
+      "shar",
+      "BALL"
+    ],
+    "GAME|MATE": [
+      "shar",
+      "PLAY"
+    ],
+    "GAME|PLAY": [
+      "comp",
+      "GAMEPLAY"
+    ],
+    "HAIR|NET": [
+      "comp",
+      "HAIRNET"
+    ],
+    "NET|TEAM": [
+      "shar",
+      "WORK"
+    ],
+    "MATE|TEAM": [
+      "comp",
+      "TEAMMATE"
+    ],
+    "PLAY|TEAM": [
+      "shar",
+      "MATE"
+    ],
+    "MATE|PLAY": [
+      "comp",
+      "PLAYMATE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

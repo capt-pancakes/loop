@@ -1,62 +1,62 @@
 {
-  "number": 124,
-  "date": "2026-11-06",
-  "id": "4dfc321c4714",
+  "number": 125,
+  "date": "2026-11-07",
+  "id": "0f8688d6ac99",
   "words": [
-    "BREAK",
-    "DAY",
-    "LIGHT",
-    "HIGH",
-    "FALL",
-    "WIND"
+    "CURB",
+    "RING",
+    "EAR",
+    "SHOT",
+    "MOON",
+    "WALK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BREAK|DAY": [
-      "comp",
-      "DAYBREAK"
-    ],
-    "BREAK|LIGHT": [
+    "CURB|RING": [
       "shar",
-      "DAY"
+      "SIDE"
     ],
-    "BREAK|FALL": [
+    "CURB|WALK": [
       "shar",
-      "DOWN"
+      "SIDE"
     ],
-    "BREAK|WIND": [
+    "EAR|RING": [
       "comp",
-      "WINDBREAK"
+      "EARRING"
     ],
-    "DAY|LIGHT": [
-      "comp",
-      "DAYLIGHT"
-    ],
-    "DAY|HIGH": [
+    "RING|SHOT": [
       "shar",
-      "LIGHT"
+      "EAR"
     ],
-    "DAY|WIND": [
+    "RING|WALK": [
       "shar",
-      "BREAK"
+      "SIDE"
     ],
-    "HIGH|LIGHT": [
+    "EAR|SHOT": [
       "comp",
-      "HIGHLIGHT"
+      "EARSHOT"
     ],
-    "FALL|HIGH": [
+    "EAR|MOON": [
       "shar",
-      "LAND"
+      "SHOT"
     ],
-    "FALL|WIND": [
+    "MOON|SHOT": [
       "comp",
-      "WINDFALL"
+      "MOONSHOT"
+    ],
+    "SHOT|WALK": [
+      "shar",
+      "MOON"
+    ],
+    "MOON|WALK": [
+      "comp",
+      "MOONWALK"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 41
+    "comp": 4,
+    "shar": 2,
+    "score": 36
   }
 }
