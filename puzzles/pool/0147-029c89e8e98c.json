@@ -1,0 +1,64 @@
+{
+  "id": "029c89e8e98c",
+  "words": [
+    "BURN",
+    "CAST",
+    "TIME",
+    "NIGHT",
+    "FALL",
+    "WIND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BURN|CAST": [
+      "shar",
+      "OUT"
+    ],
+    "BURN|TIME": [
+      "shar",
+      "OUT"
+    ],
+    "BURN|FALL": [
+      "shar",
+      "OUT"
+    ],
+    "BURN|WIND": [
+      "comp",
+      "WINDBURN"
+    ],
+    "CAST|TIME": [
+      "shar",
+      "OUT"
+    ],
+    "CAST|FALL": [
+      "shar",
+      "OUT"
+    ],
+    "NIGHT|TIME": [
+      "comp",
+      "NIGHTTIME"
+    ],
+    "FALL|TIME": [
+      "shar",
+      "OUT"
+    ],
+    "FALL|NIGHT": [
+      "comp",
+      "NIGHTFALL"
+    ],
+    "NIGHT|WIND": [
+      "shar",
+      "FALL"
+    ],
+    "FALL|WIND": [
+      "comp",
+      "WINDFALL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

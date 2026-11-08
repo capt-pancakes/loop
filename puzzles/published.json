@@ -1,5 +1,5 @@
 {
-  "nextNumber": 126,
+  "nextNumber": 127,
   "puzzles": [
     {
       "number": 1,
@@ -1624,6 +1624,19 @@
         "SHOT",
         "MOON",
         "WALK"
+      ]
+    },
+    {
+      "number": 126,
+      "date": "2026-11-08",
+      "id": "0873772473a9",
+      "words": [
+        "DRUM",
+        "EAR",
+        "PHONE",
+        "WAR",
+        "TIME",
+        "NIGHT"
       ]
     }
   ]
