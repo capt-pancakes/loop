@@ -1,0 +1,68 @@
+{
+  "id": "283ba7a3f6d0",
+  "words": [
+    "BOARD",
+    "SPRING",
+    "HAND",
+    "SHORT",
+    "CAKE",
+    "WALK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOARD|SPRING": [
+      "comp",
+      "SPRINGBOARD"
+    ],
+    "BOARD|HAND": [
+      "shar",
+      "OVER"
+    ],
+    "BOARD|CAKE": [
+      "shar",
+      "CUP"
+    ],
+    "BOARD|WALK": [
+      "comp",
+      "BOARDWALK"
+    ],
+    "HAND|SPRING": [
+      "comp",
+      "HANDSPRING"
+    ],
+    "SHORT|SPRING": [
+      "shar",
+      "HAND"
+    ],
+    "SPRING|WALK": [
+      "shar",
+      "BOARD"
+    ],
+    "HAND|SHORT": [
+      "comp",
+      "SHORTHAND"
+    ],
+    "CAKE|HAND": [
+      "shar",
+      "SHORT"
+    ],
+    "CAKE|SHORT": [
+      "comp",
+      "SHORTCAKE"
+    ],
+    "SHORT|WALK": [
+      "shar",
+      "CAKE"
+    ],
+    "CAKE|WALK": [
+      "comp",
+      "CAKEWALK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 44
+  }
+}
