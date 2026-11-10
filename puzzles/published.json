@@ -1,5 +1,5 @@
 {
-  "nextNumber": 128,
+  "nextNumber": 129,
   "puzzles": [
     {
       "number": 1,
@@ -1650,6 +1650,19 @@
         "CHECK",
         "MATE",
         "ROOM"
+      ]
+    },
+    {
+      "number": 128,
+      "date": "2026-11-10",
+      "id": "30543bf59ea9",
+      "words": [
+        "BOY",
+        "PLAY",
+        "GROUND",
+        "WORK",
+        "HOUSE",
+        "SCHOOL"
       ]
     }
   ]

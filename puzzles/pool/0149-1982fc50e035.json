@@ -1,0 +1,68 @@
+{
+  "id": "1982fc50e035",
+  "words": [
+    "BULL",
+    "HORN",
+    "SHOE",
+    "HORSE",
+    "PLAY",
+    "PEN"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BULL|HORN": [
+      "comp",
+      "BULLHORN"
+    ],
+    "BULL|SHOE": [
+      "shar",
+      "HORN"
+    ],
+    "BULL|PLAY": [
+      "shar",
+      "PEN"
+    ],
+    "BULL|PEN": [
+      "comp",
+      "BULLPEN"
+    ],
+    "HORN|SHOE": [
+      "comp",
+      "SHOEHORN"
+    ],
+    "HORN|HORSE": [
+      "shar",
+      "SHOE"
+    ],
+    "HORN|PEN": [
+      "shar",
+      "BULL"
+    ],
+    "HORSE|SHOE": [
+      "comp",
+      "HORSESHOE"
+    ],
+    "PLAY|SHOE": [
+      "shar",
+      "HORSE"
+    ],
+    "HORSE|PLAY": [
+      "comp",
+      "HORSEPLAY"
+    ],
+    "HORSE|PEN": [
+      "shar",
+      "PLAY"
+    ],
+    "PEN|PLAY": [
+      "comp",
+      "PLAYPEN"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 44
+  }
+}
