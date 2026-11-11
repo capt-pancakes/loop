@@ -1,0 +1,64 @@
+{
+  "id": "1582ac2e1224",
+  "words": [
+    "BOX",
+    "CAR",
+    "POOL",
+    "SHOW",
+    "TIME",
+    "LUNCH"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BOX|CAR": [
+      "comp",
+      "BOXCAR"
+    ],
+    "BOX|POOL": [
+      "shar",
+      "CAR"
+    ],
+    "BOX|TIME": [
+      "shar",
+      "LUNCH"
+    ],
+    "BOX|LUNCH": [
+      "comp",
+      "LUNCHBOX"
+    ],
+    "CAR|POOL": [
+      "comp",
+      "CARPOOL"
+    ],
+    "CAR|SHOW": [
+      "shar",
+      "SIDE"
+    ],
+    "CAR|LUNCH": [
+      "shar",
+      "BOX"
+    ],
+    "POOL|SHOW": [
+      "shar",
+      "SIDE"
+    ],
+    "SHOW|TIME": [
+      "comp",
+      "SHOWTIME"
+    ],
+    "LUNCH|SHOW": [
+      "shar",
+      "TIME"
+    ],
+    "LUNCH|TIME": [
+      "comp",
+      "LUNCHTIME"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

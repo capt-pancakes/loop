@@ -1,82 +1,62 @@
 {
-  "number": 128,
-  "date": "2026-11-10",
-  "id": "30543bf59ea9",
+  "number": 129,
+  "date": "2026-11-11",
+  "id": "218bf39f4c14",
   "words": [
-    "BOY",
-    "PLAY",
-    "GROUND",
-    "WORK",
-    "HOUSE",
-    "SCHOOL"
+    "HOLE",
+    "KEY",
+    "WORD",
+    "TIME",
+    "SHOW",
+    "MAN"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOY|PLAY": [
+    "HOLE|KEY": [
       "comp",
-      "PLAYBOY"
+      "KEYHOLE"
     ],
-    "BOY|GROUND": [
+    "HOLE|WORD": [
+      "shar",
+      "KEY"
+    ],
+    "HOLE|SHOW": [
+      "shar",
+      "MAN"
+    ],
+    "HOLE|MAN": [
+      "comp",
+      "MANHOLE"
+    ],
+    "KEY|WORD": [
+      "comp",
+      "KEYWORD"
+    ],
+    "KEY|MAN": [
+      "shar",
+      "HOLE"
+    ],
+    "TIME|WORD": [
       "shar",
       "PLAY"
     ],
-    "BOY|WORK": [
+    "SHOW|TIME": [
+      "comp",
+      "SHOWTIME"
+    ],
+    "MAN|TIME": [
       "shar",
-      "SCHOOL"
+      "SHOW"
     ],
-    "BOY|HOUSE": [
-      "shar",
-      "PLAY"
-    ],
-    "BOY|SCHOOL": [
+    "MAN|SHOW": [
       "comp",
-      "SCHOOLBOY"
-    ],
-    "GROUND|PLAY": [
-      "comp",
-      "PLAYGROUND"
-    ],
-    "PLAY|WORK": [
-      "shar",
-      "HORSE"
-    ],
-    "HOUSE|PLAY": [
-      "comp",
-      "PLAYHOUSE"
-    ],
-    "PLAY|SCHOOL": [
-      "shar",
-      "BOY"
-    ],
-    "GROUND|WORK": [
-      "comp",
-      "GROUNDWORK"
-    ],
-    "GROUND|HOUSE": [
-      "shar",
-      "PLAY"
-    ],
-    "GROUND|SCHOOL": [
-      "shar",
-      "WORK"
-    ],
-    "HOUSE|WORK": [
-      "comp",
-      "HOUSEWORK"
-    ],
-    "SCHOOL|WORK": [
-      "comp",
-      "SCHOOLWORK"
-    ],
-    "HOUSE|SCHOOL": [
-      "comp",
-      "SCHOOLHOUSE"
+      "SHOWMAN"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 45
+    "comp": 5,
+    "shar": 1,
+    "score": 42
   }
 }
