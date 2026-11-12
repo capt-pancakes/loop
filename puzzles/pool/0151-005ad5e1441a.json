@@ -1,0 +1,64 @@
+{
+  "id": "005ad5e1441a",
+  "words": [
+    "BURN",
+    "LINE",
+    "HEAD",
+    "STONE",
+    "MILL",
+    "WIND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BURN|LINE": [
+      "shar",
+      "OUT"
+    ],
+    "BURN|MILL": [
+      "shar",
+      "WIND"
+    ],
+    "BURN|WIND": [
+      "comp",
+      "WINDBURN"
+    ],
+    "HEAD|LINE": [
+      "comp",
+      "HEADLINE"
+    ],
+    "LINE|STONE": [
+      "shar",
+      "HEAD"
+    ],
+    "LINE|WIND": [
+      "shar",
+      "PIPE"
+    ],
+    "HEAD|STONE": [
+      "comp",
+      "HEADSTONE"
+    ],
+    "HEAD|MILL": [
+      "shar",
+      "STONE"
+    ],
+    "MILL|STONE": [
+      "comp",
+      "MILLSTONE"
+    ],
+    "STONE|WIND": [
+      "shar",
+      "MILL"
+    ],
+    "MILL|WIND": [
+      "comp",
+      "WINDMILL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

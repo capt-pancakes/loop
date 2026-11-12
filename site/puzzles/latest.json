@@ -1,56 +1,60 @@
 {
-  "number": 129,
-  "date": "2026-11-11",
-  "id": "218bf39f4c14",
+  "number": 130,
+  "date": "2026-11-12",
+  "id": "c17ccee9749a",
   "words": [
-    "HOLE",
-    "KEY",
-    "WORD",
-    "TIME",
-    "SHOW",
-    "MAN"
+    "BAG",
+    "FARE",
+    "WAR",
+    "HEAD",
+    "LINE",
+    "PIPE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "HOLE|KEY": [
-      "comp",
-      "KEYHOLE"
-    ],
-    "HOLE|WORD": [
+    "BAG|FARE": [
       "shar",
-      "KEY"
+      "AIR"
     ],
-    "HOLE|SHOW": [
+    "BAG|LINE": [
       "shar",
-      "MAN"
+      "AIR"
     ],
-    "HOLE|MAN": [
+    "BAG|PIPE": [
       "comp",
-      "MANHOLE"
+      "BAGPIPE"
     ],
-    "KEY|WORD": [
+    "FARE|WAR": [
       "comp",
-      "KEYWORD"
+      "WARFARE"
     ],
-    "KEY|MAN": [
+    "FARE|HEAD": [
       "shar",
-      "HOLE"
+      "WAR"
     ],
-    "TIME|WORD": [
+    "FARE|LINE": [
       "shar",
-      "PLAY"
+      "AIR"
     ],
-    "SHOW|TIME": [
+    "HEAD|WAR": [
       "comp",
-      "SHOWTIME"
+      "WARHEAD"
     ],
-    "MAN|TIME": [
+    "LINE|WAR": [
       "shar",
-      "SHOW"
+      "TIME"
     ],
-    "MAN|SHOW": [
+    "HEAD|LINE": [
       "comp",
-      "SHOWMAN"
+      "HEADLINE"
+    ],
+    "HEAD|PIPE": [
+      "shar",
+      "LINE"
+    ],
+    "LINE|PIPE": [
+      "comp",
+      "PIPELINE"
     ]
   },
   "meta": {
