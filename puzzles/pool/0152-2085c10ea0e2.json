@@ -1,0 +1,60 @@
+{
+  "id": "2085c10ea0e2",
+  "words": [
+    "CHAIN",
+    "KEY",
+    "MAN",
+    "POWER",
+    "HORSE",
+    "SAW"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CHAIN|KEY": [
+      "comp",
+      "KEYCHAIN"
+    ],
+    "CHAIN|HORSE": [
+      "shar",
+      "SAW"
+    ],
+    "CHAIN|SAW": [
+      "comp",
+      "CHAINSAW"
+    ],
+    "KEY|MAN": [
+      "shar",
+      "HOLE"
+    ],
+    "KEY|SAW": [
+      "shar",
+      "CHAIN"
+    ],
+    "MAN|POWER": [
+      "comp",
+      "MANPOWER"
+    ],
+    "HORSE|MAN": [
+      "shar",
+      "POWER"
+    ],
+    "HORSE|POWER": [
+      "comp",
+      "HORSEPOWER"
+    ],
+    "POWER|SAW": [
+      "shar",
+      "HORSE"
+    ],
+    "HORSE|SAW": [
+      "comp",
+      "SAWHORSE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
