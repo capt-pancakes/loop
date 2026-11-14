@@ -1,66 +1,54 @@
 {
-  "number": 131,
-  "date": "2026-11-13",
-  "id": "2c5b6f7acdee",
+  "number": 132,
+  "date": "2026-11-14",
+  "id": "05232f4dc971",
   "words": [
-    "DOOR",
-    "FRAME",
-    "MAIN",
-    "LAND",
-    "HIGH",
-    "STOP"
+    "DEAD",
+    "HAIR",
+    "PIN",
+    "GUN",
+    "SMITH",
+    "LOCK"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "DOOR|FRAME": [
+    "DEAD|HAIR": [
+      "shar",
+      "LINE"
+    ],
+    "DEAD|SMITH": [
+      "shar",
+      "LOCK"
+    ],
+    "DEAD|LOCK": [
       "comp",
-      "DOORFRAME"
+      "DEADLOCK"
     ],
-    "DOOR|MAIN": [
-      "shar",
-      "FRAME"
-    ],
-    "DOOR|HIGH": [
-      "shar",
-      "WAY"
-    ],
-    "DOOR|STOP": [
+    "HAIR|PIN": [
       "comp",
-      "DOORSTOP"
+      "HAIRPIN"
     ],
-    "FRAME|MAIN": [
+    "GUN|PIN": [
+      "shar",
+      "POINT"
+    ],
+    "GUN|SMITH": [
       "comp",
-      "MAINFRAME"
+      "GUNSMITH"
     ],
-    "FRAME|LAND": [
+    "GUN|LOCK": [
       "shar",
-      "MAIN"
+      "SMITH"
     ],
-    "FRAME|STOP": [
-      "shar",
-      "DOOR"
-    ],
-    "LAND|MAIN": [
+    "LOCK|SMITH": [
       "comp",
-      "MAINLAND"
-    ],
-    "HIGH|MAIN": [
-      "shar",
-      "LAND"
-    ],
-    "HIGH|LAND": [
-      "comp",
-      "HIGHLAND"
-    ],
-    "HIGH|STOP": [
-      "shar",
-      "LIGHT"
+      "LOCKSMITH"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 41
+    "comp": 4,
+    "shar": 2,
+    "score": 36
   }
 }

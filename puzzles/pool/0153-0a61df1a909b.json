@@ -1,0 +1,56 @@
+{
+  "id": "0a61df1a909b",
+  "words": [
+    "CHAIR",
+    "DECK",
+    "FREE",
+    "HAIR",
+    "PIN",
+    "WHEEL"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CHAIR|DECK": [
+      "comp",
+      "DECKCHAIR"
+    ],
+    "CHAIR|PIN": [
+      "shar",
+      "WHEEL"
+    ],
+    "CHAIR|WHEEL": [
+      "comp",
+      "WHEELCHAIR"
+    ],
+    "DECK|FREE": [
+      "shar",
+      "HAND"
+    ],
+    "DECK|WHEEL": [
+      "shar",
+      "CHAIR"
+    ],
+    "FREE|HAIR": [
+      "shar",
+      "STYLE"
+    ],
+    "HAIR|PIN": [
+      "comp",
+      "HAIRPIN"
+    ],
+    "HAIR|WHEEL": [
+      "shar",
+      "PIN"
+    ],
+    "PIN|WHEEL": [
+      "comp",
+      "PINWHEEL"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

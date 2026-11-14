@@ -1,5 +1,5 @@
 {
-  "nextNumber": 132,
+  "nextNumber": 133,
   "puzzles": [
     {
       "number": 1,
@@ -1702,6 +1702,19 @@
         "LAND",
         "HIGH",
         "STOP"
+      ]
+    },
+    {
+      "number": 132,
+      "date": "2026-11-14",
+      "id": "05232f4dc971",
+      "words": [
+        "DEAD",
+        "HAIR",
+        "PIN",
+        "GUN",
+        "SMITH",
+        "LOCK"
       ]
     }
   ]
