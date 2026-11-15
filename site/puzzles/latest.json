@@ -1,48 +1,56 @@
 {
-  "number": 132,
-  "date": "2026-11-14",
-  "id": "05232f4dc971",
+  "number": 133,
+  "date": "2026-11-15",
+  "id": "117eae55ce49",
   "words": [
-    "DEAD",
-    "HAIR",
-    "PIN",
-    "GUN",
-    "SMITH",
-    "LOCK"
+    "BUZZ",
+    "SAW",
+    "CHAIN",
+    "HOLE",
+    "PORT",
+    "WORD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "DEAD|HAIR": [
-      "shar",
-      "LINE"
-    ],
-    "DEAD|SMITH": [
-      "shar",
-      "LOCK"
-    ],
-    "DEAD|LOCK": [
+    "BUZZ|SAW": [
       "comp",
-      "DEADLOCK"
+      "BUZZSAW"
     ],
-    "HAIR|PIN": [
-      "comp",
-      "HAIRPIN"
-    ],
-    "GUN|PIN": [
+    "BUZZ|CHAIN": [
       "shar",
-      "POINT"
+      "SAW"
     ],
-    "GUN|SMITH": [
+    "BUZZ|WORD": [
       "comp",
-      "GUNSMITH"
+      "BUZZWORD"
     ],
-    "GUN|LOCK": [
+    "CHAIN|SAW": [
+      "comp",
+      "CHAINSAW"
+    ],
+    "SAW|WORD": [
       "shar",
-      "SMITH"
+      "BUZZ"
     ],
-    "LOCK|SMITH": [
+    "CHAIN|HOLE": [
+      "shar",
+      "KEY"
+    ],
+    "CHAIN|WORD": [
+      "shar",
+      "KEY"
+    ],
+    "HOLE|PORT": [
       "comp",
-      "LOCKSMITH"
+      "PORTHOLE"
+    ],
+    "HOLE|WORD": [
+      "shar",
+      "KEY"
+    ],
+    "PORT|WORD": [
+      "shar",
+      "PASS"
     ]
   },
   "meta": {
