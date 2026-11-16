@@ -1,0 +1,72 @@
+{
+  "id": "044ad27b1a3c",
+  "words": [
+    "FARM",
+    "HOUSE",
+    "WARE",
+    "HARD",
+    "WOOD",
+    "LAND"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "FARM|HOUSE": [
+      "comp",
+      "FARMHOUSE"
+    ],
+    "FARM|WARE": [
+      "shar",
+      "HOUSE"
+    ],
+    "FARM|WOOD": [
+      "shar",
+      "LAND"
+    ],
+    "FARM|LAND": [
+      "comp",
+      "FARMLAND"
+    ],
+    "HOUSE|WARE": [
+      "comp",
+      "WAREHOUSE"
+    ],
+    "HARD|HOUSE": [
+      "shar",
+      "WARE"
+    ],
+    "HOUSE|WOOD": [
+      "shar",
+      "DOG"
+    ],
+    "HOUSE|LAND": [
+      "shar",
+      "FARM"
+    ],
+    "HARD|WARE": [
+      "comp",
+      "HARDWARE"
+    ],
+    "WARE|WOOD": [
+      "shar",
+      "HARD"
+    ],
+    "HARD|WOOD": [
+      "comp",
+      "HARDWOOD"
+    ],
+    "HARD|LAND": [
+      "shar",
+      "WOOD"
+    ],
+    "LAND|WOOD": [
+      "comp",
+      "WOODLAND"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 44
+  }
+}

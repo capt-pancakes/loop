@@ -1,5 +1,5 @@
 {
-  "nextNumber": 134,
+  "nextNumber": 135,
   "puzzles": [
     {
       "number": 1,
@@ -1728,6 +1728,19 @@
         "HOLE",
         "PORT",
         "WORD"
+      ]
+    },
+    {
+      "number": 134,
+      "date": "2026-11-16",
+      "id": "0d0d1e0d2d47",
+      "words": [
+        "BED",
+        "FLOWER",
+        "WILD",
+        "LIFE",
+        "LINE",
+        "SIDE"
       ]
     }
   ]
