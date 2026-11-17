@@ -1,0 +1,72 @@
+{
+  "id": "505bb02fb12f",
+  "words": [
+    "GROUND",
+    "WATER",
+    "MARK",
+    "LAND",
+    "HOME",
+    "WORK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "GROUND|WATER": [
+      "comp",
+      "GROUNDWATER"
+    ],
+    "GROUND|MARK": [
+      "shar",
+      "WATER"
+    ],
+    "GROUND|HOME": [
+      "shar",
+      "WORK"
+    ],
+    "GROUND|WORK": [
+      "comp",
+      "GROUNDWORK"
+    ],
+    "MARK|WATER": [
+      "comp",
+      "WATERMARK"
+    ],
+    "LAND|WATER": [
+      "shar",
+      "FALL"
+    ],
+    "WATER|WORK": [
+      "shar",
+      "GROUND"
+    ],
+    "LAND|MARK": [
+      "comp",
+      "LANDMARK"
+    ],
+    "HOME|MARK": [
+      "shar",
+      "LAND"
+    ],
+    "MARK|WORK": [
+      "shar",
+      "BENCH"
+    ],
+    "HOME|LAND": [
+      "comp",
+      "HOMELAND"
+    ],
+    "LAND|WORK": [
+      "shar",
+      "WOOD"
+    ],
+    "HOME|WORK": [
+      "comp",
+      "HOMEWORK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 44
+  }
+}
