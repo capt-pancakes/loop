@@ -1,0 +1,68 @@
+{
+  "id": "043ec4f8c600",
+  "words": [
+    "CROSS",
+    "FIRE",
+    "MAN",
+    "POST",
+    "SIDE",
+    "WALK"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CROSS|FIRE": [
+      "comp",
+      "CROSSFIRE"
+    ],
+    "CROSS|MAN": [
+      "shar",
+      "FIRE"
+    ],
+    "CROSS|SIDE": [
+      "shar",
+      "ROAD"
+    ],
+    "CROSS|WALK": [
+      "comp",
+      "CROSSWALK"
+    ],
+    "FIRE|MAN": [
+      "comp",
+      "FIREMAN"
+    ],
+    "FIRE|POST": [
+      "shar",
+      "MAN"
+    ],
+    "FIRE|SIDE": [
+      "shar",
+      "BACK"
+    ],
+    "FIRE|WALK": [
+      "shar",
+      "CROSS"
+    ],
+    "MAN|POST": [
+      "comp",
+      "POSTMAN"
+    ],
+    "MAN|SIDE": [
+      "shar",
+      "SHOW"
+    ],
+    "POST|SIDE": [
+      "shar",
+      "OUT"
+    ],
+    "SIDE|WALK": [
+      "comp",
+      "SIDEWALK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

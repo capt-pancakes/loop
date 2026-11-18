@@ -1,70 +1,62 @@
 {
-  "number": 135,
-  "date": "2026-11-17",
-  "id": "457467d0e5e6",
+  "number": 136,
+  "date": "2026-11-18",
+  "id": "26ff4c32a2b6",
   "words": [
-    "BIRTH",
-    "MARK",
-    "LAND",
-    "WOOD",
-    "FIRE",
-    "PLACE"
+    "CARD",
+    "POST",
+    "MAN",
+    "WATCH",
+    "DOG",
+    "SCORE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BIRTH|MARK": [
+    "CARD|POST": [
       "comp",
-      "BIRTHMARK"
+      "POSTCARD"
     ],
-    "BIRTH|LAND": [
+    "CARD|MAN": [
       "shar",
-      "MARK"
+      "POST"
     ],
-    "BIRTH|FIRE": [
-      "shar",
-      "PLACE"
-    ],
-    "BIRTH|PLACE": [
+    "CARD|SCORE": [
       "comp",
-      "BIRTHPLACE"
+      "SCORECARD"
     ],
-    "LAND|MARK": [
+    "MAN|POST": [
       "comp",
-      "LANDMARK"
+      "POSTMAN"
     ],
-    "MARK|WOOD": [
+    "POST|WATCH": [
       "shar",
-      "LAND"
+      "MAN"
     ],
-    "MARK|PLACE": [
+    "POST|SCORE": [
       "shar",
-      "BIRTH"
+      "CARD"
     ],
-    "LAND|WOOD": [
+    "MAN|WATCH": [
       "comp",
-      "WOODLAND"
+      "WATCHMAN"
     ],
-    "FIRE|LAND": [
+    "DOG|MAN": [
       "shar",
-      "WOOD"
+      "WATCH"
     ],
-    "FIRE|WOOD": [
+    "DOG|WATCH": [
       "comp",
-      "FIREWOOD"
+      "WATCHDOG"
     ],
-    "PLACE|WOOD": [
+    "DOG|SCORE": [
       "shar",
-      "WORK"
-    ],
-    "FIRE|PLACE": [
-      "comp",
-      "FIREPLACE"
+      "UNDER"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 45
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }
