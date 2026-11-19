@@ -1,0 +1,64 @@
+{
+  "id": "849b7b402fe2",
+  "words": [
+    "KEY",
+    "RING",
+    "SEA",
+    "PORT",
+    "PASS",
+    "WORD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "KEY|RING": [
+      "comp",
+      "KEYRING"
+    ],
+    "KEY|PORT": [
+      "shar",
+      "HOLE"
+    ],
+    "KEY|PASS": [
+      "shar",
+      "WORD"
+    ],
+    "KEY|WORD": [
+      "comp",
+      "KEYWORD"
+    ],
+    "RING|SEA": [
+      "shar",
+      "SIDE"
+    ],
+    "RING|WORD": [
+      "shar",
+      "KEY"
+    ],
+    "PORT|SEA": [
+      "comp",
+      "SEAPORT"
+    ],
+    "PASS|SEA": [
+      "shar",
+      "PORT"
+    ],
+    "PASS|PORT": [
+      "comp",
+      "PASSPORT"
+    ],
+    "PORT|WORD": [
+      "shar",
+      "PASS"
+    ],
+    "PASS|WORD": [
+      "comp",
+      "PASSWORD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "nextNumber": 137,
+  "nextNumber": 138,
   "puzzles": [
     {
       "number": 1,
@@ -1767,6 +1767,19 @@
         "WATCH",
         "DOG",
         "SCORE"
+      ]
+    },
+    {
+      "number": 137,
+      "date": "2026-11-19",
+      "id": "3c18f01b9368",
+      "words": [
+        "BOARD",
+        "CARD",
+        "POST",
+        "MARK",
+        "NOTE",
+        "KEY"
       ]
     }
   ]
