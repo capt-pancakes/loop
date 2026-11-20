@@ -1,56 +1,56 @@
 {
-  "number": 137,
-  "date": "2026-11-19",
-  "id": "3c18f01b9368",
+  "number": 138,
+  "date": "2026-11-20",
+  "id": "50df3c89f5d6",
   "words": [
-    "BOARD",
-    "CARD",
-    "POST",
-    "MARK",
-    "NOTE",
-    "KEY"
+    "AIR",
+    "BAG",
+    "MADE",
+    "HOME",
+    "WORK",
+    "FIELD"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOARD|CARD": [
+    "AIR|BAG": [
       "comp",
-      "CARDBOARD"
+      "AIRBAG"
     ],
-    "BOARD|POST": [
+    "AIR|WORK": [
       "shar",
-      "CARD"
+      "FIELD"
     ],
-    "BOARD|NOTE": [
-      "shar",
-      "KEY"
-    ],
-    "BOARD|KEY": [
+    "AIR|FIELD": [
       "comp",
-      "KEYBOARD"
+      "AIRFIELD"
     ],
-    "CARD|POST": [
-      "comp",
-      "POSTCARD"
-    ],
-    "CARD|MARK": [
+    "BAG|MADE": [
       "shar",
-      "POST"
+      "HAND"
     ],
-    "CARD|KEY": [
+    "BAG|FIELD": [
       "shar",
-      "BOARD"
+      "AIR"
     ],
-    "MARK|POST": [
+    "HOME|MADE": [
       "comp",
-      "POSTMARK"
+      "HOMEMADE"
     ],
-    "MARK|NOTE": [
+    "MADE|WORK": [
       "shar",
-      "BOOK"
+      "HOME"
     ],
-    "KEY|NOTE": [
+    "HOME|WORK": [
       "comp",
-      "KEYNOTE"
+      "HOMEWORK"
+    ],
+    "FIELD|HOME": [
+      "shar",
+      "WORK"
+    ],
+    "FIELD|WORK": [
+      "comp",
+      "FIELDWORK"
     ]
   },
   "meta": {

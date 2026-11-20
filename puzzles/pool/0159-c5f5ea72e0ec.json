@@ -1,0 +1,64 @@
+{
+  "id": "c5f5ea72e0ec",
+  "words": [
+    "FISH",
+    "NET",
+    "WORK",
+    "HOME",
+    "SICK",
+    "SEA"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "FISH|NET": [
+      "comp",
+      "FISHNET"
+    ],
+    "FISH|WORK": [
+      "shar",
+      "NET"
+    ],
+    "FISH|SEA": [
+      "shar",
+      "SHELL"
+    ],
+    "NET|WORK": [
+      "comp",
+      "NETWORK"
+    ],
+    "HOME|NET": [
+      "shar",
+      "WORK"
+    ],
+    "HOME|WORK": [
+      "comp",
+      "HOMEWORK"
+    ],
+    "SICK|WORK": [
+      "shar",
+      "HOME"
+    ],
+    "SEA|WORK": [
+      "shar",
+      "HORSE"
+    ],
+    "HOME|SICK": [
+      "comp",
+      "HOMESICK"
+    ],
+    "HOME|SEA": [
+      "shar",
+      "SICK"
+    ],
+    "SEA|SICK": [
+      "comp",
+      "SEASICK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
