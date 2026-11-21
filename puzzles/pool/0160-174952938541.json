@@ -1,0 +1,56 @@
+{
+  "id": "174952938541",
+  "words": [
+    "BLUE",
+    "COW",
+    "HIDE",
+    "STAND",
+    "NEWS",
+    "PRINT"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BLUE|COW": [
+      "shar",
+      "BELL"
+    ],
+    "BLUE|NEWS": [
+      "shar",
+      "PRINT"
+    ],
+    "BLUE|PRINT": [
+      "comp",
+      "BLUEPRINT"
+    ],
+    "COW|HIDE": [
+      "comp",
+      "COWHIDE"
+    ],
+    "HIDE|STAND": [
+      "shar",
+      "OUT"
+    ],
+    "HIDE|PRINT": [
+      "shar",
+      "OUT"
+    ],
+    "NEWS|STAND": [
+      "comp",
+      "NEWSSTAND"
+    ],
+    "PRINT|STAND": [
+      "shar",
+      "OUT"
+    ],
+    "NEWS|PRINT": [
+      "comp",
+      "NEWSPRINT"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

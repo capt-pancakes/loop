@@ -1,5 +1,5 @@
 {
-  "nextNumber": 139,
+  "nextNumber": 140,
   "puzzles": [
     {
       "number": 1,
@@ -1793,6 +1793,19 @@
         "HOME",
         "WORK",
         "FIELD"
+      ]
+    },
+    {
+      "number": 139,
+      "date": "2026-11-21",
+      "id": "0af2d651183e",
+      "words": [
+        "BOOK",
+        "BOX",
+        "CAR",
+        "SICK",
+        "MADE",
+        "HAND"
       ]
     }
   ]

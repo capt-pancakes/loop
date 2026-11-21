@@ -1,62 +1,54 @@
 {
-  "number": 138,
-  "date": "2026-11-20",
-  "id": "50df3c89f5d6",
+  "number": 139,
+  "date": "2026-11-21",
+  "id": "0af2d651183e",
   "words": [
-    "AIR",
-    "BAG",
+    "BOOK",
+    "BOX",
+    "CAR",
+    "SICK",
     "MADE",
-    "HOME",
-    "WORK",
-    "FIELD"
+    "HAND"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "AIR|BAG": [
-      "comp",
-      "AIRBAG"
-    ],
-    "AIR|WORK": [
+    "BOOK|BOX": [
       "shar",
-      "FIELD"
+      "MATCH"
     ],
-    "AIR|FIELD": [
-      "comp",
-      "AIRFIELD"
-    ],
-    "BAG|MADE": [
+    "BOOK|MADE": [
       "shar",
       "HAND"
     ],
-    "BAG|FIELD": [
-      "shar",
-      "AIR"
-    ],
-    "HOME|MADE": [
+    "BOOK|HAND": [
       "comp",
-      "HOMEMADE"
+      "HANDBOOK"
     ],
-    "MADE|WORK": [
+    "BOX|CAR": [
+      "comp",
+      "BOXCAR"
+    ],
+    "BOX|SICK": [
+      "shar",
+      "CAR"
+    ],
+    "CAR|SICK": [
+      "comp",
+      "CARSICK"
+    ],
+    "MADE|SICK": [
       "shar",
       "HOME"
     ],
-    "HOME|WORK": [
+    "HAND|MADE": [
       "comp",
-      "HOMEWORK"
-    ],
-    "FIELD|HOME": [
-      "shar",
-      "WORK"
-    ],
-    "FIELD|WORK": [
-      "comp",
-      "FIELDWORK"
+      "HANDMADE"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 5,
-    "shar": 1,
-    "score": 41
+    "comp": 4,
+    "shar": 2,
+    "score": 36
   }
 }
