@@ -1,0 +1,56 @@
+{
+  "id": "1824b7cfa8f1",
+  "words": [
+    "AFTER",
+    "GLOW",
+    "WORM",
+    "HOLE",
+    "PIN",
+    "STYLE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "AFTER|GLOW": [
+      "comp",
+      "AFTERGLOW"
+    ],
+    "AFTER|WORM": [
+      "shar",
+      "GLOW"
+    ],
+    "AFTER|STYLE": [
+      "shar",
+      "LIFE"
+    ],
+    "GLOW|WORM": [
+      "comp",
+      "GLOWWORM"
+    ],
+    "GLOW|HOLE": [
+      "shar",
+      "WORM"
+    ],
+    "HOLE|WORM": [
+      "comp",
+      "WORMHOLE"
+    ],
+    "PIN|WORM": [
+      "shar",
+      "HOLE"
+    ],
+    "HOLE|PIN": [
+      "comp",
+      "PINHOLE"
+    ],
+    "PIN|STYLE": [
+      "shar",
+      "HAIR"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 4,
+    "shar": 2,
+    "score": 36
+  }
+}

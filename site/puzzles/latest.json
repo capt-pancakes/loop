@@ -1,48 +1,52 @@
 {
-  "number": 139,
-  "date": "2026-11-21",
-  "id": "0af2d651183e",
+  "number": 140,
+  "date": "2026-11-22",
+  "id": "0fef7c905ee4",
   "words": [
-    "BOOK",
-    "BOX",
-    "CAR",
-    "SICK",
-    "MADE",
-    "HAND"
+    "COOK",
+    "DOOR",
+    "TRAP",
+    "MOUSE",
+    "PAD",
+    "NOTE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BOOK|BOX": [
+    "COOK|DOOR": [
       "shar",
-      "MATCH"
+      "OUT"
     ],
-    "BOOK|MADE": [
+    "COOK|NOTE": [
       "shar",
-      "HAND"
+      "BOOK"
     ],
-    "BOOK|HAND": [
+    "DOOR|TRAP": [
       "comp",
-      "HANDBOOK"
+      "TRAPDOOR"
     ],
-    "BOX|CAR": [
-      "comp",
-      "BOXCAR"
-    ],
-    "BOX|SICK": [
+    "DOOR|MOUSE": [
       "shar",
-      "CAR"
+      "TRAP"
     ],
-    "CAR|SICK": [
+    "MOUSE|TRAP": [
       "comp",
-      "CARSICK"
+      "MOUSETRAP"
     ],
-    "MADE|SICK": [
+    "PAD|TRAP": [
       "shar",
-      "HOME"
+      "MOUSE"
     ],
-    "HAND|MADE": [
+    "MOUSE|PAD": [
       "comp",
-      "HANDMADE"
+      "MOUSEPAD"
+    ],
+    "MOUSE|NOTE": [
+      "shar",
+      "PAD"
+    ],
+    "NOTE|PAD": [
+      "comp",
+      "NOTEPAD"
     ]
   },
   "meta": {

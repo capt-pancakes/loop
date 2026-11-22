@@ -1,5 +1,5 @@
 {
-  "nextNumber": 140,
+  "nextNumber": 141,
   "puzzles": [
     {
       "number": 1,
@@ -1806,6 +1806,19 @@
         "SICK",
         "MADE",
         "HAND"
+      ]
+    },
+    {
+      "number": 140,
+      "date": "2026-11-22",
+      "id": "0fef7c905ee4",
+      "words": [
+        "COOK",
+        "DOOR",
+        "TRAP",
+        "MOUSE",
+        "PAD",
+        "NOTE"
       ]
     }
   ]
