@@ -1,0 +1,68 @@
+{
+  "id": "015e7a3e86ef",
+  "words": [
+    "CUT",
+    "SHORT",
+    "STOP",
+    "WATCH",
+    "DOG",
+    "WOOD"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "CUT|SHORT": [
+      "comp",
+      "SHORTCUT"
+    ],
+    "CUT|STOP": [
+      "shar",
+      "BACK"
+    ],
+    "CUT|DOG": [
+      "shar",
+      "UNDER"
+    ],
+    "CUT|WOOD": [
+      "comp",
+      "WOODCUT"
+    ],
+    "SHORT|STOP": [
+      "comp",
+      "SHORTSTOP"
+    ],
+    "SHORT|WATCH": [
+      "shar",
+      "STOP"
+    ],
+    "SHORT|WOOD": [
+      "shar",
+      "CUT"
+    ],
+    "STOP|WATCH": [
+      "comp",
+      "STOPWATCH"
+    ],
+    "DOG|STOP": [
+      "shar",
+      "WATCH"
+    ],
+    "DOG|WATCH": [
+      "comp",
+      "WATCHDOG"
+    ],
+    "WATCH|WOOD": [
+      "shar",
+      "DOG"
+    ],
+    "DOG|WOOD": [
+      "comp",
+      "DOGWOOD"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 44
+  }
+}

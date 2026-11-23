@@ -1,58 +1,70 @@
 {
-  "number": 140,
-  "date": "2026-11-22",
-  "id": "0fef7c905ee4",
+  "number": 141,
+  "date": "2026-11-23",
+  "id": "e640257b6f7a",
   "words": [
-    "COOK",
-    "DOOR",
-    "TRAP",
-    "MOUSE",
-    "PAD",
-    "NOTE"
+    "BALL",
+    "GUM",
+    "DROP",
+    "RAIN",
+    "STORM",
+    "SNOW"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "COOK|DOOR": [
-      "shar",
-      "OUT"
-    ],
-    "COOK|NOTE": [
-      "shar",
-      "BOOK"
-    ],
-    "DOOR|TRAP": [
+    "BALL|GUM": [
       "comp",
-      "TRAPDOOR"
+      "GUMBALL"
     ],
-    "DOOR|MOUSE": [
+    "BALL|DROP": [
       "shar",
-      "TRAP"
+      "GUM"
     ],
-    "MOUSE|TRAP": [
-      "comp",
-      "MOUSETRAP"
-    ],
-    "PAD|TRAP": [
+    "BALL|STORM": [
       "shar",
-      "MOUSE"
+      "SNOW"
     ],
-    "MOUSE|PAD": [
+    "BALL|SNOW": [
       "comp",
-      "MOUSEPAD"
+      "SNOWBALL"
     ],
-    "MOUSE|NOTE": [
+    "DROP|GUM": [
+      "comp",
+      "GUMDROP"
+    ],
+    "GUM|RAIN": [
       "shar",
-      "PAD"
+      "DROP"
     ],
-    "NOTE|PAD": [
+    "GUM|SNOW": [
+      "shar",
+      "BALL"
+    ],
+    "DROP|RAIN": [
       "comp",
-      "NOTEPAD"
+      "RAINDROP"
+    ],
+    "DROP|STORM": [
+      "shar",
+      "RAIN"
+    ],
+    "RAIN|STORM": [
+      "comp",
+      "RAINSTORM"
+    ],
+    "RAIN|SNOW": [
+      "shar",
+      "FALL"
+    ],
+    "SNOW|STORM": [
+      "comp",
+      "SNOWSTORM"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 4,
-    "shar": 2,
-    "score": 36
+    "comp": 6,
+    "shar": 0,
+    "score": 45
   }
 }

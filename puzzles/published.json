@@ -1,5 +1,5 @@
 {
-  "nextNumber": 141,
+  "nextNumber": 142,
   "puzzles": [
     {
       "number": 1,
@@ -1819,6 +1819,19 @@
         "MOUSE",
         "PAD",
         "NOTE"
+      ]
+    },
+    {
+      "number": 141,
+      "date": "2026-11-23",
+      "id": "e640257b6f7a",
+      "words": [
+        "BALL",
+        "GUM",
+        "DROP",
+        "RAIN",
+        "STORM",
+        "SNOW"
       ]
     }
   ]
