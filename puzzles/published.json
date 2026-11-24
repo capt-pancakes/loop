@@ -1,5 +1,5 @@
 {
-  "nextNumber": 142,
+  "nextNumber": 143,
   "puzzles": [
     {
       "number": 1,
@@ -1832,6 +1832,19 @@
         "RAIN",
         "STORM",
         "SNOW"
+      ]
+    },
+    {
+      "number": 142,
+      "date": "2026-11-24",
+      "id": "307d6db39fd6",
+      "words": [
+        "BED",
+        "ROOM",
+        "REST",
+        "FOOT",
+        "HILL",
+        "SIDE"
       ]
     }
   ]

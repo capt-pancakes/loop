@@ -1,64 +1,64 @@
 {
-  "number": 141,
-  "date": "2026-11-23",
-  "id": "e640257b6f7a",
+  "number": 142,
+  "date": "2026-11-24",
+  "id": "307d6db39fd6",
   "words": [
-    "BALL",
-    "GUM",
-    "DROP",
-    "RAIN",
-    "STORM",
-    "SNOW"
+    "BED",
+    "ROOM",
+    "REST",
+    "FOOT",
+    "HILL",
+    "SIDE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BALL|GUM": [
+    "BED|ROOM": [
       "comp",
-      "GUMBALL"
+      "BEDROOM"
     ],
-    "BALL|DROP": [
+    "BED|REST": [
       "shar",
-      "GUM"
+      "ROOM"
     ],
-    "BALL|STORM": [
+    "BED|HILL": [
       "shar",
-      "SNOW"
+      "SIDE"
     ],
-    "BALL|SNOW": [
+    "BED|SIDE": [
       "comp",
-      "SNOWBALL"
+      "BEDSIDE"
     ],
-    "DROP|GUM": [
+    "REST|ROOM": [
       "comp",
-      "GUMDROP"
+      "RESTROOM"
     ],
-    "GUM|RAIN": [
-      "shar",
-      "DROP"
-    ],
-    "GUM|SNOW": [
+    "FOOT|ROOM": [
       "shar",
       "BALL"
     ],
-    "DROP|RAIN": [
-      "comp",
-      "RAINDROP"
-    ],
-    "DROP|STORM": [
+    "ROOM|SIDE": [
       "shar",
-      "RAIN"
+      "SHOW"
     ],
-    "RAIN|STORM": [
+    "FOOT|REST": [
       "comp",
-      "RAINSTORM"
+      "FOOTREST"
     ],
-    "RAIN|SNOW": [
+    "HILL|REST": [
       "shar",
-      "FALL"
+      "FOOT"
     ],
-    "SNOW|STORM": [
+    "FOOT|HILL": [
       "comp",
-      "SNOWSTORM"
+      "FOOTHILL"
+    ],
+    "FOOT|SIDE": [
+      "shar",
+      "STEP"
+    ],
+    "HILL|SIDE": [
+      "comp",
+      "HILLSIDE"
     ]
   },
   "meta": {

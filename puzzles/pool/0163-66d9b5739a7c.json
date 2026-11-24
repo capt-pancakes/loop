@@ -1,0 +1,72 @@
+{
+  "id": "66d9b5739a7c",
+  "words": [
+    "DOOR",
+    "STEP",
+    "SIDE",
+    "ROAD",
+    "RAIL",
+    "WAY"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "DOOR|STEP": [
+      "comp",
+      "DOORSTEP"
+    ],
+    "DOOR|SIDE": [
+      "shar",
+      "BACK"
+    ],
+    "DOOR|RAIL": [
+      "shar",
+      "WAY"
+    ],
+    "DOOR|WAY": [
+      "comp",
+      "DOORWAY"
+    ],
+    "SIDE|STEP": [
+      "comp",
+      "SIDESTEP"
+    ],
+    "ROAD|STEP": [
+      "shar",
+      "SIDE"
+    ],
+    "STEP|WAY": [
+      "shar",
+      "DOOR"
+    ],
+    "ROAD|SIDE": [
+      "comp",
+      "ROADSIDE"
+    ],
+    "RAIL|SIDE": [
+      "shar",
+      "ROAD"
+    ],
+    "SIDE|WAY": [
+      "shar",
+      "WALK"
+    ],
+    "RAIL|ROAD": [
+      "comp",
+      "RAILROAD"
+    ],
+    "ROAD|WAY": [
+      "shar",
+      "RAIL"
+    ],
+    "RAIL|WAY": [
+      "comp",
+      "RAILWAY"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 6,
+    "shar": 0,
+    "score": 44
+  }
+}
