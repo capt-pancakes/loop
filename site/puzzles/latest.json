@@ -1,70 +1,66 @@
 {
-  "number": 142,
-  "date": "2026-11-24",
-  "id": "307d6db39fd6",
+  "number": 143,
+  "date": "2026-11-25",
+  "id": "07318fd7072a",
   "words": [
-    "BED",
-    "ROOM",
-    "REST",
-    "FOOT",
-    "HILL",
-    "SIDE"
+    "ARM",
+    "BAND",
+    "HOT",
+    "DOG",
+    "HOUSE",
+    "FIRE"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BED|ROOM": [
+    "ARM|BAND": [
       "comp",
-      "BEDROOM"
+      "ARMBAND"
     ],
-    "BED|REST": [
+    "ARM|DOG": [
       "shar",
-      "ROOM"
+      "UNDER"
     ],
-    "BED|HILL": [
+    "ARM|HOUSE": [
       "shar",
-      "SIDE"
+      "FIRE"
     ],
-    "BED|SIDE": [
+    "ARM|FIRE": [
       "comp",
-      "BEDSIDE"
+      "FIREARM"
     ],
-    "REST|ROOM": [
-      "comp",
-      "RESTROOM"
-    ],
-    "FOOT|ROOM": [
+    "BAND|HOT": [
       "shar",
-      "BALL"
+      "HEAD"
     ],
-    "ROOM|SIDE": [
+    "BAND|FIRE": [
       "shar",
-      "SHOW"
+      "ARM"
     ],
-    "FOOT|REST": [
+    "DOG|HOT": [
       "comp",
-      "FOOTREST"
+      "HOTDOG"
     ],
-    "HILL|REST": [
+    "HOT|HOUSE": [
       "shar",
-      "FOOT"
+      "DOG"
     ],
-    "FOOT|HILL": [
+    "DOG|HOUSE": [
       "comp",
-      "FOOTHILL"
+      "DOGHOUSE"
     ],
-    "FOOT|SIDE": [
+    "DOG|FIRE": [
       "shar",
-      "STEP"
+      "WOOD"
     ],
-    "HILL|SIDE": [
+    "FIRE|HOUSE": [
       "comp",
-      "HILLSIDE"
+      "FIREHOUSE"
     ]
   },
   "meta": {
     "generator": "v1",
-    "comp": 6,
-    "shar": 0,
-    "score": 45
+    "comp": 5,
+    "shar": 1,
+    "score": 41
   }
 }

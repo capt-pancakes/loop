@@ -1,0 +1,60 @@
+{
+  "id": "38215df71d3d",
+  "words": [
+    "BLOCK",
+    "ROAD",
+    "CROSS",
+    "FIRE",
+    "WILD",
+    "SUN"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BLOCK|ROAD": [
+      "comp",
+      "ROADBLOCK"
+    ],
+    "BLOCK|CROSS": [
+      "shar",
+      "ROAD"
+    ],
+    "BLOCK|SUN": [
+      "comp",
+      "SUNBLOCK"
+    ],
+    "CROSS|ROAD": [
+      "comp",
+      "CROSSROAD"
+    ],
+    "FIRE|ROAD": [
+      "shar",
+      "CROSS"
+    ],
+    "ROAD|SUN": [
+      "shar",
+      "BLOCK"
+    ],
+    "CROSS|FIRE": [
+      "comp",
+      "CROSSFIRE"
+    ],
+    "CROSS|WILD": [
+      "shar",
+      "FIRE"
+    ],
+    "FIRE|WILD": [
+      "comp",
+      "WILDFIRE"
+    ],
+    "SUN|WILD": [
+      "shar",
+      "FLOWER"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}
