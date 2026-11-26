@@ -1,60 +1,60 @@
 {
-  "number": 143,
-  "date": "2026-11-25",
-  "id": "07318fd7072a",
+  "number": 144,
+  "date": "2026-11-26",
+  "id": "3bbafc38e01d",
   "words": [
-    "ARM",
-    "BAND",
-    "HOT",
-    "DOG",
-    "HOUSE",
-    "FIRE"
+    "BIRTH",
+    "DAY",
+    "LIGHT",
+    "HEAD",
+    "SET",
+    "RIGHT"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "ARM|BAND": [
+    "BIRTH|DAY": [
       "comp",
-      "ARMBAND"
+      "BIRTHDAY"
     ],
-    "ARM|DOG": [
+    "BIRTH|LIGHT": [
       "shar",
-      "UNDER"
+      "DAY"
     ],
-    "ARM|HOUSE": [
+    "BIRTH|HEAD": [
       "shar",
-      "FIRE"
+      "STONE"
     ],
-    "ARM|FIRE": [
+    "BIRTH|RIGHT": [
       "comp",
-      "FIREARM"
+      "BIRTHRIGHT"
     ],
-    "BAND|HOT": [
-      "shar",
-      "HEAD"
-    ],
-    "BAND|FIRE": [
-      "shar",
-      "ARM"
-    ],
-    "DOG|HOT": [
+    "DAY|LIGHT": [
       "comp",
-      "HOTDOG"
+      "DAYLIGHT"
     ],
-    "HOT|HOUSE": [
+    "DAY|HEAD": [
       "shar",
-      "DOG"
+      "LIGHT"
     ],
-    "DOG|HOUSE": [
-      "comp",
-      "DOGHOUSE"
-    ],
-    "DOG|FIRE": [
+    "DAY|RIGHT": [
       "shar",
-      "WOOD"
+      "BIRTH"
     ],
-    "FIRE|HOUSE": [
+    "HEAD|LIGHT": [
       "comp",
-      "FIREHOUSE"
+      "HEADLIGHT"
+    ],
+    "LIGHT|SET": [
+      "shar",
+      "SUN"
+    ],
+    "HEAD|SET": [
+      "comp",
+      "HEADSET"
+    ],
+    "RIGHT|SET": [
+      "shar",
+      "UP"
     ]
   },
   "meta": {

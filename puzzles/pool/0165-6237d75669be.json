@@ -1,0 +1,60 @@
+{
+  "id": "6237d75669be",
+  "words": [
+    "EAR",
+    "PHONE",
+    "HEAD",
+    "LINE",
+    "GUIDE",
+    "WORM"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "EAR|PHONE": [
+      "comp",
+      "EARPHONE"
+    ],
+    "EAR|HEAD": [
+      "shar",
+      "ACHE"
+    ],
+    "EAR|WORM": [
+      "comp",
+      "EARWORM"
+    ],
+    "HEAD|PHONE": [
+      "comp",
+      "HEADPHONE"
+    ],
+    "LINE|PHONE": [
+      "shar",
+      "HEAD"
+    ],
+    "PHONE|WORM": [
+      "shar",
+      "EAR"
+    ],
+    "HEAD|LINE": [
+      "comp",
+      "HEADLINE"
+    ],
+    "GUIDE|HEAD": [
+      "shar",
+      "LINE"
+    ],
+    "GUIDE|LINE": [
+      "comp",
+      "GUIDELINE"
+    ],
+    "GUIDE|WORM": [
+      "shar",
+      "BOOK"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

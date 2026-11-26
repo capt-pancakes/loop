@@ -1,5 +1,5 @@
 {
-  "nextNumber": 144,
+  "nextNumber": 145,
   "puzzles": [
     {
       "number": 1,
@@ -1858,6 +1858,19 @@
         "DOG",
         "HOUSE",
         "FIRE"
+      ]
+    },
+    {
+      "number": 144,
+      "date": "2026-11-26",
+      "id": "3bbafc38e01d",
+      "words": [
+        "BIRTH",
+        "DAY",
+        "LIGHT",
+        "HEAD",
+        "SET",
+        "RIGHT"
       ]
     }
   ]
