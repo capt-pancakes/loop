@@ -1,60 +1,56 @@
 {
-  "number": 144,
-  "date": "2026-11-26",
-  "id": "3bbafc38e01d",
+  "number": 145,
+  "date": "2026-11-27",
+  "id": "0f6176c3735f",
   "words": [
-    "BIRTH",
-    "DAY",
+    "CAT",
+    "FISH",
+    "STAR",
     "LIGHT",
-    "HEAD",
-    "SET",
-    "RIGHT"
+    "HIGH",
+    "WAY"
   ],
   "anchorIndex": 0,
   "bonds": {
-    "BIRTH|DAY": [
+    "CAT|FISH": [
       "comp",
-      "BIRTHDAY"
+      "CATFISH"
     ],
-    "BIRTH|LIGHT": [
+    "CAT|STAR": [
       "shar",
-      "DAY"
+      "FISH"
     ],
-    "BIRTH|HEAD": [
+    "CAT|WAY": [
       "shar",
-      "STONE"
+      "WALK"
     ],
-    "BIRTH|RIGHT": [
+    "FISH|STAR": [
       "comp",
-      "BIRTHRIGHT"
+      "STARFISH"
     ],
-    "DAY|LIGHT": [
+    "FISH|LIGHT": [
+      "shar",
+      "STAR"
+    ],
+    "LIGHT|STAR": [
       "comp",
-      "DAYLIGHT"
+      "STARLIGHT"
     ],
-    "DAY|HEAD": [
+    "HIGH|STAR": [
       "shar",
       "LIGHT"
     ],
-    "DAY|RIGHT": [
-      "shar",
-      "BIRTH"
-    ],
-    "HEAD|LIGHT": [
+    "HIGH|LIGHT": [
       "comp",
-      "HEADLIGHT"
+      "HIGHLIGHT"
     ],
-    "LIGHT|SET": [
+    "LIGHT|WAY": [
       "shar",
-      "SUN"
+      "HIGH"
     ],
-    "HEAD|SET": [
+    "HIGH|WAY": [
       "comp",
-      "HEADSET"
-    ],
-    "RIGHT|SET": [
-      "shar",
-      "UP"
+      "HIGHWAY"
     ]
   },
   "meta": {

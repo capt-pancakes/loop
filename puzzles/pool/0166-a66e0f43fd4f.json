@@ -1,0 +1,60 @@
+{
+  "id": "a66e0f43fd4f",
+  "words": [
+    "BAG",
+    "HAND",
+    "FREE",
+    "STYLE",
+    "LIFE",
+    "PIPE"
+  ],
+  "anchorIndex": 0,
+  "bonds": {
+    "BAG|HAND": [
+      "comp",
+      "HANDBAG"
+    ],
+    "BAG|FREE": [
+      "shar",
+      "HAND"
+    ],
+    "BAG|PIPE": [
+      "comp",
+      "BAGPIPE"
+    ],
+    "FREE|HAND": [
+      "comp",
+      "FREEHAND"
+    ],
+    "HAND|STYLE": [
+      "shar",
+      "FREE"
+    ],
+    "HAND|PIPE": [
+      "shar",
+      "BAG"
+    ],
+    "FREE|STYLE": [
+      "comp",
+      "FREESTYLE"
+    ],
+    "FREE|LIFE": [
+      "shar",
+      "STYLE"
+    ],
+    "LIFE|STYLE": [
+      "comp",
+      "LIFESTYLE"
+    ],
+    "LIFE|PIPE": [
+      "shar",
+      "LINE"
+    ]
+  },
+  "meta": {
+    "generator": "v1",
+    "comp": 5,
+    "shar": 1,
+    "score": 41
+  }
+}

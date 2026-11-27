@@ -1,5 +1,5 @@
 {
-  "nextNumber": 145,
+  "nextNumber": 146,
   "puzzles": [
     {
       "number": 1,
@@ -1871,6 +1871,19 @@
         "HEAD",
         "SET",
         "RIGHT"
+      ]
+    },
+    {
+      "number": 145,
+      "date": "2026-11-27",
+      "id": "0f6176c3735f",
+      "words": [
+        "CAT",
+        "FISH",
+        "STAR",
+        "LIGHT",
+        "HIGH",
+        "WAY"
       ]
     }
   ]
